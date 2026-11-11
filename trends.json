@@ -1,89 +1,129 @@
 {
-  "updated_at": "2026-11-11T22:53:51Z",
-  "source": "Google Trends — recherches tendances du jour (geo=FR)",
+  "updated_at": "2026-11-11T23:06:06Z",
+  "sources": [
+    "Google Trends FR",
+    "Google Trends US",
+    "Wikipedia FR (top consultations)"
+  ],
   "words": [
     {
-      "word": "free",
+      "word": "affaire",
+      "count": 3
+    },
+    {
+      "word": "film",
+      "count": 3
+    },
+    {
+      "word": "française",
+      "count": 3
+    },
+    {
+      "word": "jean",
+      "count": 3
+    },
+    {
+      "word": "présidentielle",
+      "count": 3
+    },
+    {
+      "word": "sabalenka",
+      "count": 3
+    },
+    {
+      "word": "élection",
+      "count": 3
+    },
+    {
+      "word": "alexandre",
       "count": 2
+    },
+    {
+      "word": "aryna",
+      "count": 2
+    },
+    {
+      "word": "christine",
+      "count": 2
+    },
+    {
+      "word": "david",
+      "count": 2
+    },
+    {
+      "word": "disparus",
+      "count": 2
+    },
+    {
+      "word": "globe",
+      "count": 2
+    },
+    {
+      "word": "kassovitz",
+      "count": 2
+    },
+    {
+      "word": "marty",
+      "count": 2
+    },
+    {
+      "word": "michel",
+      "count": 2
+    },
+    {
+      "word": "novembre",
+      "count": 2
+    },
+    {
+      "word": "pagis",
+      "count": 2
+    },
+    {
+      "word": "sarah",
+      "count": 2
+    },
+    {
+      "word": "sophie",
+      "count": 2
+    },
+    {
+      "word": "vendée",
+      "count": 2
+    },
+    {
+      "word": "éric",
+      "count": 2
+    },
+    {
+      "word": "adhémar",
+      "count": 1
+    },
+    {
+      "word": "albert",
+      "count": 1
+    },
+    {
+      "word": "alex",
+      "count": 1
+    },
+    {
+      "word": "alexia",
+      "count": 1
     },
     {
       "word": "alexis",
       "count": 1
     },
     {
-      "word": "axel",
+      "word": "all",
       "count": 1
     },
     {
-      "word": "brooklyn",
+      "word": "andreeva",
       "count": 1
     },
     {
-      "word": "cftc",
-      "count": 1
-    },
-    {
-      "word": "corbiere",
-      "count": 1
-    },
-    {
-      "word": "cyclisme",
-      "count": 1
-    },
-    {
-      "word": "fusion",
-      "count": 1
-    },
-    {
-      "word": "kimberly",
-      "count": 1
-    },
-    {
-      "word": "ksi",
-      "count": 1
-    },
-    {
-      "word": "laurent",
-      "count": 1
-    },
-    {
-      "word": "louise",
-      "count": 1
-    },
-    {
-      "word": "mobile",
-      "count": 1
-    },
-    {
-      "word": "montangon",
-      "count": 1
-    },
-    {
-      "word": "ours",
-      "count": 1
-    },
-    {
-      "word": "police",
-      "count": 1
-    },
-    {
-      "word": "powell",
-      "count": 1
-    },
-    {
-      "word": "ronde",
-      "count": 1
-    },
-    {
-      "word": "sabalenka",
-      "count": 1
-    },
-    {
-      "word": "steven",
-      "count": 1
-    },
-    {
-      "word": "vaccin",
+      "word": "ange",
       "count": 1
     }
   ]

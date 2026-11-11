@@ -517,47 +517,32 @@ body::after {
 }
 
 .trend-cloud {
-    margin-top: 1.4rem;
+    margin-top: 1.6rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 0.6rem;
+    align-items: baseline;
+    gap: 0.25rem 0.85rem;
+    line-height: 1.1;
 }
 
 .trend-word {
-    display: inline-flex;
-    align-items: center;
-    font-family: var(--font-body);
+    font-family: var(--font-display);
     font-weight: 600;
-    line-height: 1;
-    color: var(--text);
+    line-height: 1.15;
+    color: rgba(244, 244, 248, 0.5);
     text-decoration: none;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 999px;
-    padding: 0.5em 1em;
-    transition: transform 0.25s var(--ease-out), background 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-.trend-word::after {
-    content: "↗";
-    margin-left: 0.45em;
-    font-size: 0.7em;
-    opacity: 0;
-    transition: opacity 0.2s ease;
+    transition: color 0.2s ease, transform 0.25s var(--ease-out);
 }
 
 .trend-word:hover {
-    transform: translateY(-2px);
-    background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
-    border-color: transparent;
-    color: #0b0b12;
-    box-shadow: 0 6px 18px rgba(124, 108, 250, 0.35);
+    color: var(--accent-2);
+    transform: scale(1.12);
 }
 
-.trend-word:hover::after {
-    opacity: 1;
+.trend-word.trend-top {
+    color: var(--accent-1);
+    font-weight: 700;
 }
 
 .footer {

@@ -2,14 +2,19 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 OUTPUT = "news.json"
 TRENDS_OUTPUT = "trends.json"
 MAX_ITEMS = 3
-MAX_WORDS = 25
+MAX_WORDS = 30
 
-TRENDS_FEED = "https://trends.google.com/trending/rss?geo=FR"
+TRENDS_SOURCES = [
+    ("Google Trends FR", "https://trends.google.com/trending/rss?geo=FR"),
+    ("Google Trends US", "https://trends.google.com/trending/rss?geo=US"),
+]
+
+WIKI_PREFIXES = ("spécial:", "special:", "fichier:", "catégorie:", "category:", "wikipédia:", "portail:", "discussion:", "modèle:", "template:", "aide:", "help:")
 
 MEDIA_NS = "{http://search.yahoo.com/mrss/}"
 CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"
@@ -97,19 +102,59 @@ def fetch_items(feed_url):
     return items
 
 
-def fetch_trend_words():
-    req = urllib.request.Request(TRENDS_FEED, headers={"User-Agent": "Mozilla/5.0"})
+def tokenize(text):
+    tokens = []
+    for token in WORD_RE.findall(text.lower().replace("_", " ")):
+        if len(token) >= 3 and token not in STOPWORDS and not token.isdigit():
+            tokens.append(token)
+    return tokens
+
+
+def trend_words_rss(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = resp.read()
     root = ET.fromstring(data)
-    counts = {}
+    tokens = []
     for item in root.findall("./channel/item"):
-        title = (item.findtext("title") or "").lower()
-        for token in WORD_RE.findall(title):
-            if len(token) >= 3 and token not in STOPWORDS:
+        tokens.extend(tokenize(item.findtext("title") or ""))
+    return tokens
+
+
+def trend_words_wiki():
+    yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y/%m/%d")
+    url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/fr.wikipedia/all-access/{yesterday}"
+    req = urllib.request.Request(url, headers={"User-Agent": "MyFirstSandBox/1.0 (contact: local)"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read())
+    tokens = []
+    for entry in data.get("items", []):
+        for art in entry.get("articles", [])[:100]:
+            name = art.get("article", "")
+            if name.lower().startswith(WIKI_PREFIXES):
+                continue
+            tokens.extend(tokenize(name))
+    return tokens
+
+
+def fetch_trends():
+    counts = {}
+    sources_ok = []
+    for name, url in TRENDS_SOURCES:
+        try:
+            for token in trend_words_rss(url):
                 counts[token] = counts.get(token, 0) + 1
+            sources_ok.append(name)
+        except Exception as exc:
+            print(f"[tendances] {name} indisponible ({exc})")
+    try:
+        for token in trend_words_wiki():
+            counts[token] = counts.get(token, 0) + 1
+        sources_ok.append("Wikipedia FR (top consultations)")
+    except Exception as exc:
+        print(f"[tendances] Wikipédia indisponible ({exc})")
     words = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))[:MAX_WORDS]
-    return [{"word": w, "count": c} for w, c in words]
+    return [{"word": w, "count": c} for w, c in words], sources_ok
 
 
 def main():
@@ -147,18 +192,19 @@ def main():
     print(f"{total} actualites ({with_img} avec image) ecrites dans {OUTPUT} ({len(themes)} themes)")
 
     try:
-        trend_words = fetch_trend_words()
+        trend_words, sources_ok = fetch_trends()
     except Exception as exc:
         trend_words = previous_trends
-        print(f"[tendances] flux indisponible ({exc}), anciennes donnees conservees")
+        sources_ok = []
+        print(f"[tendances] indisponible ({exc}), anciennes donnees conservees")
     trends_payload = {
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": "Google Trends — recherches tendances du jour (geo=FR)",
+        "sources": sources_ok,
         "words": trend_words,
     }
     with open(TRENDS_OUTPUT, "w", encoding="utf-8") as f:
         json.dump(trends_payload, f, ensure_ascii=False, indent=2)
-    print(f"{len(trend_words)} mots de tendance ecrits dans {TRENDS_OUTPUT}")
+    print(f"{len(trend_words)} mots de tendance ecrits dans {TRENDS_OUTPUT} ({len(sources_ok)} sources)")
 
 
 if __name__ == "__main__":

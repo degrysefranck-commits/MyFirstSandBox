@@ -280,7 +280,7 @@
                 }
                 cloud.innerHTML = "";
                 const max = words[0].count || 1;
-                words.forEach((w) => {
+                words.forEach((w, i) => {
                     const a = document.createElement("a");
                     a.className = "trend-word";
                     a.href = "https://www.google.com/search?q=" + encodeURIComponent(w.word);
@@ -288,12 +288,14 @@
                     a.rel = "noopener";
                     a.textContent = w.word;
                     const ratio = w.count / max;
-                    a.style.fontSize = (0.85 + ratio * 1.55).toFixed(2) + "rem";
+                    a.style.fontSize = (0.8 + ratio * 1.8).toFixed(2) + "rem";
+                    if (i < 3) a.classList.add("trend-top");
                     cloud.appendChild(a);
                 });
                 if (data.updated_at) {
+                    const n = (data.sources || []).length;
                     document.getElementById("trends-updated").textContent =
-                        "Source Google Trends · " + new Date(data.updated_at).toLocaleDateString("fr-FR");
+                        (n ? n + " sources · " : "") + new Date(data.updated_at).toLocaleDateString("fr-FR");
                 }
             })
             .catch(() => {
