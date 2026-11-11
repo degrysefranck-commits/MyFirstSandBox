@@ -1,130 +1,133 @@
 {
-  "updated_at": "2026-11-11T23:06:06Z",
+  "updated_at": "2026-11-11T23:24:37Z",
   "sources": [
-    "Google Trends FR",
-    "Google Trends US",
+    "Google Trends FR (recherches)",
+    "Google News FR (une)",
+    "France 24 (une)",
+    "France Info (une)",
+    "Le Monde (une)",
     "Wikipedia FR (top consultations)"
   ],
   "words": [
     {
-      "word": "affaire",
-      "count": 3
+      "word": "après",
+      "count": 10
     },
     {
-      "word": "film",
-      "count": 3
-    },
-    {
-      "word": "française",
-      "count": 3
-    },
-    {
-      "word": "jean",
-      "count": 3
+      "word": "france",
+      "count": 9
     },
     {
       "word": "présidentielle",
-      "count": 3
+      "count": 9
     },
     {
-      "word": "sabalenka",
-      "count": 3
-    },
-    {
-      "word": "élection",
-      "count": 3
-    },
-    {
-      "word": "alexandre",
-      "count": 2
-    },
-    {
-      "word": "aryna",
-      "count": 2
-    },
-    {
-      "word": "christine",
-      "count": 2
-    },
-    {
-      "word": "david",
-      "count": 2
-    },
-    {
-      "word": "disparus",
-      "count": 2
-    },
-    {
-      "word": "globe",
-      "count": 2
-    },
-    {
-      "word": "kassovitz",
-      "count": 2
-    },
-    {
-      "word": "marty",
-      "count": 2
-    },
-    {
-      "word": "michel",
-      "count": 2
+      "word": "français",
+      "count": 6
     },
     {
       "word": "novembre",
-      "count": 2
+      "count": 6
     },
     {
-      "word": "pagis",
-      "count": 2
+      "word": "russie",
+      "count": 6
     },
     {
-      "word": "sarah",
-      "count": 2
+      "word": "ukraine",
+      "count": 6
     },
     {
-      "word": "sophie",
-      "count": 2
+      "word": "affaire",
+      "count": 5
     },
     {
-      "word": "vendée",
-      "count": 2
+      "word": "deux",
+      "count": 5
     },
     {
-      "word": "éric",
-      "count": 2
+      "word": "figaro",
+      "count": 5
     },
     {
-      "word": "adhémar",
-      "count": 1
+      "word": "jean",
+      "count": 5
     },
     {
-      "word": "albert",
-      "count": 1
+      "word": "journalistes",
+      "count": 5
     },
     {
-      "word": "alex",
-      "count": 1
+      "word": "raciste",
+      "count": 5
     },
     {
-      "word": "alexia",
-      "count": 1
+      "word": "écoles",
+      "count": 5
     },
     {
-      "word": "alexis",
-      "count": 1
+      "word": "alertes",
+      "count": 4
     },
     {
-      "word": "all",
-      "count": 1
+      "word": "ans",
+      "count": 4
     },
     {
-      "word": "andreeva",
-      "count": 1
+      "word": "attaques",
+      "count": 4
     },
     {
-      "word": "ange",
-      "count": 1
+      "word": "attentat",
+      "count": 4
+    },
+    {
+      "word": "bombe",
+      "count": 4
+    },
+    {
+      "word": "centaines",
+      "count": 4
+    },
+    {
+      "word": "christophe",
+      "count": 4
+    },
+    {
+      "word": "dhabi",
+      "count": 4
+    },
+    {
+      "word": "députés",
+      "count": 4
+    },
+    {
+      "word": "emmanuel",
+      "count": 4
+    },
+    {
+      "word": "gleizes",
+      "count": 4
+    },
+    {
+      "word": "iran",
+      "count": 4
+    },
+    {
+      "word": "italie",
+      "count": 4
+    },
+    {
+      "word": "lors",
+      "count": 4
+    },
+    {
+      "word": "léon",
+      "count": 4
+    },
+    {
+      "word": "macron",
+      "count": 4
     }
   ]
 }

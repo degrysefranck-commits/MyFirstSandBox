@@ -10,8 +10,11 @@ MAX_ITEMS = 3
 MAX_WORDS = 30
 
 TRENDS_SOURCES = [
-    ("Google Trends FR", "https://trends.google.com/trending/rss?geo=FR"),
-    ("Google Trends US", "https://trends.google.com/trending/rss?geo=US"),
+    ("Google Trends FR (recherches)", "https://trends.google.com/trending/rss?geo=FR"),
+    ("Google News FR (une)", "https://news.google.com/rss?hl=fr-FR&gl=FR&ceid=FR:fr"),
+    ("France 24 (une)", "https://www.france24.com/fr/rss"),
+    ("France Info (une)", "https://www.francetvinfo.fr/titres.rss"),
+    ("Le Monde (une)", "https://www.lemonde.fr/rss/une.xml"),
 ]
 
 WIKI_PREFIXES = ("spécial:", "special:", "fichier:", "catégorie:", "category:", "wikipédia:", "portail:", "discussion:", "modèle:", "template:", "aide:", "help:")
@@ -116,7 +119,7 @@ def trend_words_rss(url):
         data = resp.read()
     root = ET.fromstring(data)
     tokens = []
-    for item in root.findall("./channel/item"):
+    for item in root.findall("./channel/item")[:25]:
         tokens.extend(tokenize(item.findtext("title") or ""))
     return tokens
 

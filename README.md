@@ -29,8 +29,9 @@ Pour mettre à jour manuellement : `python3 scripts/update_news.py`.
 
 ## Tendances de recherche
 
-En bas de page, un nuage de mots affiche les recherches les plus fréquentes
-(Google Trends, geo=FR) : `trends.json` est régénéré chaque jour par le même
-workflow à partir du flux RSS quotidien de Google Trends.
+En bas de page, un nuage de mots affiche les tendances **françaises** de la
+veille, consolidées sur 6 sources : Google Trends FR (recherches), Google News
+FR, France 24, France Info, Le Monde (à la une) et le top des consultations
+Wikipédia FR. `trends.json` est régénéré chaque jour par le même workflow.
 
 Le site est publié sur [https://degrysefranck-commits.github.io/MyFirstSandBox/](https://degrysefranck-commits.github.io/MyFirstSandBox/).
