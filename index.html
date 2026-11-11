@@ -288,7 +288,11 @@
                     a.rel = "noopener";
                     a.textContent = w.word;
                     const ratio = w.count / max;
-                    a.style.fontSize = (0.8 + ratio * 1.8).toFixed(2) + "rem";
+                    a.style.fontSize = (0.75 + ratio * 2.3).toFixed(2) + "rem";
+                    a.style.fontWeight = ratio > 0.66 ? 700 : ratio > 0.33 ? 600 : 500;
+                    a.style.opacity = (0.55 + ratio * 0.45).toFixed(2);
+                    const rot = ((i * 37) % 13) - 6;
+                    if (Math.abs(rot) >= 3) a.style.setProperty("--rot", rot + "deg");
                     if (i < 3) a.classList.add("trend-top");
                     cloud.appendChild(a);
                 });

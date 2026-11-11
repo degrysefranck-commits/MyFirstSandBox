@@ -517,32 +517,34 @@ body::after {
 }
 
 .trend-cloud {
-    margin-top: 1.6rem;
+    margin-top: 1.2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
-    gap: 0.25rem 0.85rem;
-    line-height: 1.1;
+    align-items: center;
+    line-height: 0.95;
 }
 
 .trend-word {
+    display: inline-block;
+    margin: 0.06em 0.16em;
     font-family: var(--font-display);
-    font-weight: 600;
-    line-height: 1.15;
+    line-height: 1;
     color: rgba(244, 244, 248, 0.5);
     text-decoration: none;
+    transform: rotate(var(--rot, 0deg));
     transition: color 0.2s ease, transform 0.25s var(--ease-out);
 }
 
 .trend-word:hover {
+    position: relative;
+    z-index: 2;
     color: var(--accent-2);
-    transform: scale(1.12);
+    transform: rotate(var(--rot, 0deg)) scale(1.18);
 }
 
 .trend-word.trend-top {
     color: var(--accent-1);
-    font-weight: 700;
 }
 
 .footer {
