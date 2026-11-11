@@ -360,8 +360,8 @@ body::after {
 .news-card {
     display: flex;
     align-items: center;
-    gap: 1.15rem;
-    padding: 1.1rem 1.4rem;
+    gap: 1rem;
+    padding: 0.9rem 1.15rem;
     border-radius: 16px;
     border: 1px solid transparent;
     background: rgba(255, 255, 255, 0.03);
@@ -377,26 +377,44 @@ body::after {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
+.news-body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
 .news-num {
     font-family: var(--font-display);
-    font-size: 1.35rem;
+    font-size: 0.75rem;
     font-weight: 700;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--accent-1);
+    color: var(--accent-1);
     font-variant-numeric: tabular-nums;
-    flex-shrink: 0;
+}
+
+.news-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+}
+
+.meta-dot {
+    opacity: 0.6;
 }
 
 .news-thumb {
-    width: 76px;
-    height: 76px;
+    width: 64px;
+    height: 64px;
     flex-shrink: 0;
-    border-radius: 14px;
+    border-radius: 12px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     background: linear-gradient(135deg, rgba(167, 139, 250, 0.25), rgba(96, 165, 250, 0.25));
     border: 1px solid var(--glass-border);
 }
@@ -409,9 +427,14 @@ body::after {
 }
 
 .news-title {
-    font-size: 1.02rem;
+    font-size: 0.98rem;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    overflow-wrap: break-word;
 }
 
 .news-arrow {
@@ -458,8 +481,10 @@ body::after {
     .theme-menu { border-radius: 24px; }
     .news { padding: 1.5rem 1.4rem; }
     .news-header { flex-direction: column; align-items: flex-start; }
-    .news-thumb { width: 58px; height: 58px; border-radius: 11px; font-size: 1.3rem; }
-    .news-num { font-size: 1.1rem; }
+    .news-card { gap: 0.8rem; padding: 0.8rem 0.9rem; }
+    .news-thumb { width: 52px; height: 52px; border-radius: 10px; font-size: 1.25rem; }
+    .news-title { font-size: 0.92rem; }
+    .news-arrow { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
