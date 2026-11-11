@@ -28,3 +28,43 @@ p {
     font-size: 1.25rem;
     opacity: 0.9;
 }
+
+.news {
+    margin-top: 3rem;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    max-width: 640px;
+    text-align: left;
+}
+
+.news h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.news .updated {
+    font-size: 0.85rem;
+    opacity: 0.75;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.news ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.news li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+.news li a:hover {
+    text-decoration: underline;
+}

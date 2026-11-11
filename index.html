@@ -10,6 +10,43 @@
     <main class="container">
         <h1>Hello World 👋</h1>
         <p>Bienvenue sur mon premier site web !</p>
+        <section class="news">
+            <h2>🌍 Les 3 infos mondiales du jour</h2>
+            <p class="updated" id="updated"></p>
+            <ul id="news-list">
+                <li>Chargement des actualités…</li>
+            </ul>
+        </section>
     </main>
+    <script>
+        fetch("news.json")
+            .then((r) => r.json())
+            .then((data) => {
+                const list = document.getElementById("news-list");
+                list.innerHTML = "";
+                if (!data.items || data.items.length === 0) {
+                    list.innerHTML = "<li>Actualités indisponibles pour le moment.</li>";
+                    return;
+                }
+                data.items.forEach((item) => {
+                    const li = document.createElement("li");
+                    const a = document.createElement("a");
+                    a.href = item.link;
+                    a.textContent = item.title;
+                    a.target = "_blank";
+                    a.rel = "noopener";
+                    li.appendChild(a);
+                    list.appendChild(li);
+                });
+                if (data.updated_at) {
+                    document.getElementById("updated").textContent =
+                        "Mis à jour le " + new Date(data.updated_at).toLocaleString("fr-FR");
+                }
+            })
+            .catch(() => {
+                document.getElementById("news-list").innerHTML =
+                    "<li>Actualités indisponibles pour le moment.</li>";
+            });
+    </script>
 </body>
 </html>

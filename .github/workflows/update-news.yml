@@ -1,0 +1,31 @@
+name: Mise a jour quotidienne des actualites
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: true
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Recupere les 3 infos mondiales du jour
+        run: python scripts/update_news.py
+      - name: Commit et push si changement
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet || git commit -m "Mise a jour quotidienne des actualites"
+          git push
