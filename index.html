@@ -269,6 +269,65 @@
                 listEl.innerHTML = '<p class="loading">Actualités indisponibles pour le moment.</p>';
             });
 
+        let lastTrendWords = null;
+        let lastTrendMax = 1;
+
+        function layoutTrendCloud(cloud, words, max) {
+            cloud.innerHTML = "";
+            cloud.style.height = "320px";
+            const width = cloud.clientWidth || 700;
+            const sizeMax = width < 500 ? 2.1 : 3.2;
+            const items = words.map((w, i) => {
+                const a = document.createElement("a");
+                a.className = "trend-word" + (i < 3 ? " trend-top" : "");
+                a.href = "https://www.google.com/search?q=" + encodeURIComponent(w.word);
+                a.target = "_blank";
+                a.rel = "noopener";
+                a.textContent = w.word;
+                const ratio = w.count / max;
+                a.style.fontSize = (0.75 + Math.pow(ratio, 0.85) * (sizeMax - 0.75)).toFixed(2) + "rem";
+                a.style.fontWeight = ratio > 0.66 ? 700 : ratio > 0.33 ? 600 : 500;
+                a.style.opacity = (0.55 + ratio * 0.45).toFixed(2);
+                const rot = ((i * 37) % 11) - 5;
+                if (Math.abs(rot) >= 3) a.style.setProperty("--rot", rot + "deg");
+                cloud.appendChild(a);
+                return { el: a, w: a.offsetWidth, h: a.offsetHeight };
+            });
+            items.sort((a, b) => b.w * b.h - a.w * a.h);
+            const placed = [];
+            const cx = width / 2;
+            const cy = 160;
+            let maxBottom = 0;
+            items.forEach((it) => {
+                let angle = Math.random() * 0.6;
+                let radius = 0;
+                let rect = null;
+                const limit = Math.max(width, 500) + 200;
+                while (radius < limit) {
+                    const x = cx + Math.cos(angle) * radius;
+                    const y = cy + Math.sin(angle) * radius * 0.55;
+                    const candidate = { x: x - it.w / 2, y: y - it.h / 2, w: it.w + 6, h: it.h + 4 };
+                    const ok = placed.every((p) =>
+                        candidate.x > p.x + p.w ||
+                        candidate.x + candidate.w < p.x ||
+                        candidate.y > p.y + p.h ||
+                        candidate.y + candidate.h < p.y
+                    );
+                    if (ok || radius >= limit - 5) {
+                        rect = candidate;
+                        break;
+                    }
+                    angle += 0.3;
+                    radius += 2.5;
+                }
+                it.el.style.left = rect.x + "px";
+                it.el.style.top = rect.y + "px";
+                placed.push(rect);
+                maxBottom = Math.max(maxBottom, rect.y + rect.h);
+            });
+            cloud.style.height = Math.max(240, Math.ceil(maxBottom) + 14) + "px";
+        }
+
         fetch("trends.json")
             .then((r) => r.json())
             .then((data) => {
@@ -278,24 +337,10 @@
                     cloud.innerHTML = '<p class="loading">Tendances indisponibles pour le moment.</p>';
                     return;
                 }
-                cloud.innerHTML = "";
                 const max = words[0].count || 1;
-                words.forEach((w, i) => {
-                    const a = document.createElement("a");
-                    a.className = "trend-word";
-                    a.href = "https://www.google.com/search?q=" + encodeURIComponent(w.word);
-                    a.target = "_blank";
-                    a.rel = "noopener";
-                    a.textContent = w.word;
-                    const ratio = w.count / max;
-                    a.style.fontSize = (0.75 + ratio * 2.3).toFixed(2) + "rem";
-                    a.style.fontWeight = ratio > 0.66 ? 700 : ratio > 0.33 ? 600 : 500;
-                    a.style.opacity = (0.55 + ratio * 0.45).toFixed(2);
-                    const rot = ((i * 37) % 13) - 6;
-                    if (Math.abs(rot) >= 3) a.style.setProperty("--rot", rot + "deg");
-                    if (i < 3) a.classList.add("trend-top");
-                    cloud.appendChild(a);
-                });
+                lastTrendWords = words;
+                lastTrendMax = max;
+                layoutTrendCloud(cloud, words, max);
                 if (data.updated_at) {
                     const n = (data.sources || []).length;
                     document.getElementById("trends-updated").textContent =
@@ -306,6 +351,16 @@
                 document.getElementById("trend-cloud").innerHTML =
                     '<p class="loading">Tendances indisponibles pour le moment.</p>';
             });
+
+        let trendResizeTimer = null;
+        window.addEventListener("resize", () => {
+            clearTimeout(trendResizeTimer);
+            trendResizeTimer = setTimeout(() => {
+                if (lastTrendWords) {
+                    layoutTrendCloud(document.getElementById("trend-cloud"), lastTrendWords, lastTrendMax);
+                }
+            }, 200);
+        });
     </script>
 </body>
 </html>
