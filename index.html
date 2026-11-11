@@ -3,40 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Hello World · MyFirstSandBox</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="blobs" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+
+    <header class="topbar">
+        <div class="brand">MyFirstSandBox</div>
+        <div class="clock glass">
+            <span class="clock-date" id="clock-date"></span>
+            <span class="clock-time"><span id="clock-hm">--:--</span><span class="clock-sec" id="clock-sec">:--</span></span>
+        </div>
+    </header>
+
     <main class="container">
-        <h1>Hello World 👋</h1>
-        <p>Bienvenue sur mon premier site web !</p>
-        <section class="news">
-            <h2>🌍 Les 3 infos mondiales du jour</h2>
-            <p class="updated" id="updated"></p>
-            <ul id="news-list">
-                <li>Chargement des actualités…</li>
-            </ul>
+        <section class="hero">
+            <h1 class="fade-up">Hello <span class="gradient">World</span> 👋</h1>
+            <p class="fade-up delay-1">Bienvenue sur mon premier site web.</p>
+        </section>
+
+        <section class="news glass fade-up delay-2">
+            <div class="news-header">
+                <h2>🌍 Les 3 infos mondiales du jour</h2>
+                <p class="updated" id="updated"></p>
+            </div>
+            <div id="news-list" class="news-list">
+                <p class="loading">Chargement des actualités…</p>
+            </div>
         </section>
     </main>
+
+    <footer class="footer">Actualités mises à jour automatiquement chaque jour · GitHub Pages</footer>
+
     <script>
+        const dateEl = document.getElementById("clock-date");
+        const hmEl = document.getElementById("clock-hm");
+        const secEl = document.getElementById("clock-sec");
+
+        function pad(n) {
+            return String(n).padStart(2, "0");
+        }
+
+        function tick() {
+            const now = new Date();
+            dateEl.textContent = now.toLocaleDateString("fr-FR", {
+                weekday: "long",
+                day: "numeric",
+                month: "long",
+                year: "numeric"
+            });
+            hmEl.textContent = pad(now.getHours()) + ":" + pad(now.getMinutes());
+            secEl.textContent = ":" + pad(now.getSeconds());
+            secEl.classList.remove("tick");
+            void secEl.offsetWidth;
+            secEl.classList.add("tick");
+        }
+        tick();
+        setInterval(tick, 1000);
+
         fetch("news.json")
             .then((r) => r.json())
             .then((data) => {
                 const list = document.getElementById("news-list");
-                list.innerHTML = "";
                 if (!data.items || data.items.length === 0) {
-                    list.innerHTML = "<li>Actualités indisponibles pour le moment.</li>";
+                    list.innerHTML = '<p class="loading">Actualités indisponibles pour le moment.</p>';
                     return;
                 }
-                data.items.forEach((item) => {
-                    const li = document.createElement("li");
-                    const a = document.createElement("a");
-                    a.href = item.link;
-                    a.textContent = item.title;
-                    a.target = "_blank";
-                    a.rel = "noopener";
-                    li.appendChild(a);
-                    list.appendChild(li);
+                list.innerHTML = "";
+                data.items.forEach((item, i) => {
+                    const card = document.createElement("a");
+                    card.className = "news-card";
+                    card.href = item.link;
+                    card.target = "_blank";
+                    card.rel = "noopener";
+                    const num = document.createElement("span");
+                    num.className = "news-num";
+                    num.textContent = pad(i + 1);
+                    const title = document.createElement("span");
+                    title.className = "news-title";
+                    title.textContent = item.title;
+                    card.appendChild(num);
+                    card.appendChild(title);
+                    list.appendChild(card);
                 });
                 if (data.updated_at) {
                     document.getElementById("updated").textContent =
@@ -45,7 +98,7 @@
             })
             .catch(() => {
                 document.getElementById("news-list").innerHTML =
-                    "<li>Actualités indisponibles pour le moment.</li>";
+                    '<p class="loading">Actualités indisponibles pour le moment.</p>';
             });
     </script>
 </body>
