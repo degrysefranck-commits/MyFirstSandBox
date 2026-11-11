@@ -1,21 +1,152 @@
 {
-  "updated_at": "2026-11-11T21:33:24Z",
-  "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-  "items": [
-    {
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 11 Nov 2026 20:52:52 GMT"
+  "updated_at": "2026-11-11T21:50:25Z",
+  "themes": {
+    "monde": {
+      "label": "🌍 Monde",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "items": [
+        {
+          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+          "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 20:52:52 GMT"
+        },
+        {
+          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 18:04:58 GMT"
+        },
+        {
+          "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+          "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 16:45:11 GMT"
+        }
+      ]
     },
-    {
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 11 Nov 2026 18:04:58 GMT"
+    "art": {
+      "label": "🎨 Art",
+      "source": "https://www.theguardian.com/artanddesign/rss",
+      "items": [
+        {
+          "title": "The space rocket I could have been aboard explodes: Rhiannon Adam’s best photograph",
+          "link": "https://www.theguardian.com/artanddesign/2026/nov/11/space-rocket-explodes-rhiannon-adam-best-photograph-spacex-moon",
+          "published": "Wed, 11 Nov 2026 15:53:17 GMT"
+        },
+        {
+          "title": "German knives, English socks: 13 gifts beloved globally that Americans are missing out on",
+          "link": "https://www.theguardian.com/thefilter-us/2026/nov/11/best-international-gifts",
+          "published": "Wed, 11 Nov 2026 15:15:52 GMT"
+        },
+        {
+          "title": "Diners, deserts and donkeys: 100 years of Route 66 – in pictures",
+          "link": "https://www.theguardian.com/artanddesign/gallery/2026/nov/11/100-years-of-route-66-in-pictures",
+          "published": "Wed, 11 Nov 2026 14:00:51 GMT"
+        }
+      ]
     },
-    {
-      "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-      "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 11 Nov 2026 16:45:11 GMT"
+    "culture": {
+      "label": "🎭 Culture",
+      "source": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "items": [
+        {
+          "title": "Author says there were 'real concerns' about David Walliams within publishing industry",
+          "link": "https://www.bbc.co.uk/news/articles/c95y15830k77o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 20:40:47 GMT"
+        },
+        {
+          "title": "Dua Lipa to become first female British headliner at Coachella 2027",
+          "link": "https://www.bbc.co.uk/news/articles/cjr4g0n9d1g5o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 10:53:47 GMT"
+        },
+        {
+          "title": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
+          "link": "https://www.bbc.co.uk/news/articles/cwj3462yz21lo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 10:17:09 GMT"
+        }
+      ]
+    },
+    "high-tech": {
+      "label": "💻 High-tech",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "items": [
+        {
+          "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
+          "link": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 11:33:24 GMT"
+        },
+        {
+          "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+          "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 07:44:24 GMT"
+        },
+        {
+          "title": "Robot vessels take on the dangerous work of mine hunting",
+          "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 00:19:13 GMT"
+        }
+      ]
+    },
+    "nature": {
+      "label": "🌿 Nature",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "items": [
+        {
+          "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+          "link": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 13:24:29 GMT"
+        },
+        {
+          "title": "Duchy tenants may have to buy farms or leave as Prince William plans sell-off",
+          "link": "https://www.bbc.co.uk/news/articles/cwm242plggldo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 00:35:14 GMT"
+        },
+        {
+          "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+          "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 00:18:07 GMT"
+        }
+      ]
+    },
+    "sante": {
+      "label": "🏥 Santé",
+      "source": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "items": [
+        {
+          "title": "Senior doctors call off two-day strike planned this month",
+          "link": "https://www.bbc.co.uk/news/articles/c6174gw2ewpgo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 12:42:05 GMT"
+        },
+        {
+          "title": "Governments 'asleep at the wheel' over social care, says head of review",
+          "link": "https://www.bbc.co.uk/news/articles/c9143zxyyvndo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 09:08:48 GMT"
+        },
+        {
+          "title": "Antidepressant escitalopram more effective at preventing relapse, analysis finds",
+          "link": "https://www.bbc.co.uk/news/articles/cv62yyng00jyo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 00:17:42 GMT"
+        }
+      ]
+    },
+    "sport": {
+      "label": "⚽ Sport",
+      "source": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "items": [
+        {
+          "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 12:58:17 GMT"
+        },
+        {
+          "title": "Pochettino ready to accept Man Utd offer to replace Carrick",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 16:03:02 GMT"
+        },
+        {
+          "title": "Leader, role model, extraordinary - how Kane's 'fairytale' came true",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 16:44:58 GMT"
+        }
+      ]
     }
-  ]
+  }
 }

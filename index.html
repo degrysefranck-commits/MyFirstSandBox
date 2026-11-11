@@ -27,9 +27,11 @@
             <p class="fade-up delay-1">Bienvenue sur mon premier site web.</p>
         </section>
 
-        <section class="news glass fade-up delay-2">
+        <nav class="theme-menu fade-up delay-2" id="theme-menu" aria-label="Choisir un thème"></nav>
+
+        <section class="news glass fade-up delay-3">
             <div class="news-header">
-                <h2>🌍 Les 3 infos mondiales du jour</h2>
+                <h2 id="news-title">Les 3 faits marquants du jour</h2>
                 <p class="updated" id="updated"></p>
             </div>
             <div id="news-list" class="news-list">
@@ -41,9 +43,15 @@
     <footer class="footer">Actualités mises à jour automatiquement chaque jour · GitHub Pages</footer>
 
     <script>
+        const THEME_ORDER = ["monde", "art", "culture", "high-tech", "nature", "sante", "sport"];
+
         const dateEl = document.getElementById("clock-date");
         const hmEl = document.getElementById("clock-hm");
         const secEl = document.getElementById("clock-sec");
+        const menuEl = document.getElementById("theme-menu");
+        const titleEl = document.getElementById("news-title");
+        const listEl = document.getElementById("news-list");
+        const updatedEl = document.getElementById("updated");
 
         function pad(n) {
             return String(n).padStart(2, "0");
@@ -66,39 +74,68 @@
         tick();
         setInterval(tick, 1000);
 
+        let newsData = null;
+        let activeTheme = localStorage.getItem("theme") || "monde";
+
+        function renderTheme(key) {
+            const theme = newsData.themes[key];
+            menuEl.querySelectorAll(".theme-btn").forEach((b) => {
+                b.classList.toggle("active", b.dataset.theme === key);
+            });
+            titleEl.textContent = (theme ? theme.label : "📰") + " — Les 3 faits marquants du jour";
+            listEl.innerHTML = "";
+            const items = theme && theme.items ? theme.items : [];
+            if (items.length === 0) {
+                listEl.innerHTML = '<p class="loading">Actualités indisponibles pour le moment.</p>';
+                return;
+            }
+            items.forEach((item, i) => {
+                const card = document.createElement("a");
+                card.className = "news-card fade-up";
+                card.href = item.link;
+                card.target = "_blank";
+                card.rel = "noopener";
+                card.style.animationDelay = i * 0.08 + "s";
+                const num = document.createElement("span");
+                num.className = "news-num";
+                num.textContent = pad(i + 1);
+                const title = document.createElement("span");
+                title.className = "news-title";
+                title.textContent = item.title;
+                card.appendChild(num);
+                card.appendChild(title);
+                listEl.appendChild(card);
+            });
+        }
+
         fetch("news.json")
             .then((r) => r.json())
             .then((data) => {
-                const list = document.getElementById("news-list");
-                if (!data.items || data.items.length === 0) {
-                    list.innerHTML = '<p class="loading">Actualités indisponibles pour le moment.</p>';
-                    return;
-                }
-                list.innerHTML = "";
-                data.items.forEach((item, i) => {
-                    const card = document.createElement("a");
-                    card.className = "news-card";
-                    card.href = item.link;
-                    card.target = "_blank";
-                    card.rel = "noopener";
-                    const num = document.createElement("span");
-                    num.className = "news-num";
-                    num.textContent = pad(i + 1);
-                    const title = document.createElement("span");
-                    title.className = "news-title";
-                    title.textContent = item.title;
-                    card.appendChild(num);
-                    card.appendChild(title);
-                    list.appendChild(card);
+                newsData = data;
+                THEME_ORDER.forEach((key) => {
+                    const theme = data.themes[key];
+                    if (!theme) return;
+                    const btn = document.createElement("button");
+                    btn.className = "theme-btn";
+                    btn.type = "button";
+                    btn.textContent = theme.label;
+                    btn.dataset.theme = key;
+                    btn.addEventListener("click", () => {
+                        activeTheme = key;
+                        localStorage.setItem("theme", key);
+                        renderTheme(key);
+                    });
+                    menuEl.appendChild(btn);
                 });
+                if (!data.themes[activeTheme]) activeTheme = THEME_ORDER[0];
+                renderTheme(activeTheme);
                 if (data.updated_at) {
-                    document.getElementById("updated").textContent =
+                    updatedEl.textContent =
                         "Mis à jour le " + new Date(data.updated_at).toLocaleString("fr-FR");
                 }
             })
             .catch(() => {
-                document.getElementById("news-list").innerHTML =
-                    '<p class="loading">Actualités indisponibles pour le moment.</p>';
+                listEl.innerHTML = '<p class="loading">Actualités indisponibles pour le moment.</p>';
             });
     </script>
 </body>
