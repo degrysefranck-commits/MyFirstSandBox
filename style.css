@@ -130,12 +130,27 @@ body::after {
     box-shadow: 0 0 12px var(--accent-2);
 }
 
+.topbar-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.55rem;
+}
+
+.topbar-title {
+    font-family: var(--font-display);
+    font-size: 1.65rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1;
+}
+
 .clock {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     line-height: 1.3;
-    padding: 0.65rem 1.2rem;
+    padding: 0.55rem 1.1rem;
     border-radius: 16px;
 }
 
@@ -179,31 +194,11 @@ body::after {
     width: 100%;
     max-width: 840px;
     margin: 0 auto;
-    padding: 3.5rem 1.5rem 4rem;
+    padding: 2rem 1.5rem 3.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.75rem;
-}
-
-.hero {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.4rem;
-}
-
-.hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.55rem;
-    border-radius: 999px;
-    padding: 0.45rem 1.05rem;
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: var(--muted);
-    letter-spacing: 0.02em;
+    gap: 2.25rem;
 }
 
 .pulse-dot {
@@ -229,14 +224,6 @@ body::after {
     100% { transform: scale(1.7); opacity: 0; }
 }
 
-.hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(3rem, 9vw, 5.2rem);
-    font-weight: 700;
-    letter-spacing: -0.04em;
-    line-height: 1.05;
-}
-
 .gradient {
     background: linear-gradient(92deg, var(--accent-1) 0%, var(--accent-2) 45%, var(--accent-3) 100%);
     background-size: 200% auto;
@@ -248,12 +235,6 @@ body::after {
 
 @keyframes shine {
     to { background-position: 200% center; }
-}
-
-.hero p {
-    color: var(--muted);
-    font-size: 1.15rem;
-    max-width: 46ch;
 }
 
 .theme-menu {
@@ -476,8 +457,9 @@ body::after {
 }
 
 @media (max-width: 640px) {
-    .topbar { justify-content: center; padding: 1.2rem 1rem; }
-    .clock { align-items: center; }
+    .topbar { padding: 1.1rem 1rem; }
+    .topbar-title { font-size: 1.3rem; }
+    .clock-time { font-size: 1.25rem; }
     .theme-menu { border-radius: 24px; }
     .news { padding: 1.5rem 1.4rem; }
     .news-header { flex-direction: column; align-items: flex-start; }
