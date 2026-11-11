@@ -105,14 +105,21 @@ body::after {
 
 .topbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.9rem;
     width: 100%;
     max-width: 840px;
     margin: 0 auto;
     padding: 1.4rem 1.5rem;
+}
+
+.topbar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .brand {
@@ -133,13 +140,6 @@ body::after {
     box-shadow: 0 0 12px var(--accent-2);
 }
 
-.topbar-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0.55rem;
-}
-
 .topbar-title {
     font-family: var(--font-display);
     font-size: 1.65rem;
@@ -149,11 +149,14 @@ body::after {
 }
 
 .clock {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
     line-height: 1.3;
-    padding: 0.55rem 1.1rem;
+    padding: 0.7rem 1.2rem;
     border-radius: 16px;
 }
 
@@ -533,6 +536,7 @@ body::after {
 
 @media (max-width: 640px) {
     .topbar { padding: 1.1rem 1.5rem; }
+    .topbar-row { justify-content: center; }
     .topbar-title { font-size: 1.3rem; }
     .clock-time { font-size: 1.25rem; }
     .theme-menu { border-radius: 24px; }
