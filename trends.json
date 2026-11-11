@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T23:24:37Z",
+  "updated_at": "2026-11-11T23:26:50Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,16 +10,16 @@
   ],
   "words": [
     {
-      "word": "après",
-      "count": 10
-    },
-    {
       "word": "france",
       "count": 9
     },
     {
       "word": "présidentielle",
       "count": 9
+    },
+    {
+      "word": "ukraine",
+      "count": 7
     },
     {
       "word": "français",
@@ -30,19 +30,7 @@
       "count": 6
     },
     {
-      "word": "russie",
-      "count": 6
-    },
-    {
-      "word": "ukraine",
-      "count": 6
-    },
-    {
       "word": "affaire",
-      "count": 5
-    },
-    {
-      "word": "deux",
       "count": 5
     },
     {
@@ -54,11 +42,11 @@
       "count": 5
     },
     {
-      "word": "journalistes",
+      "word": "raciste",
       "count": 5
     },
     {
-      "word": "raciste",
+      "word": "russie",
       "count": 5
     },
     {
@@ -67,10 +55,6 @@
     },
     {
       "word": "alertes",
-      "count": 4
-    },
-    {
-      "word": "ans",
       "count": 4
     },
     {
@@ -94,11 +78,11 @@
       "count": 4
     },
     {
-      "word": "dhabi",
+      "word": "deux",
       "count": 4
     },
     {
-      "word": "députés",
+      "word": "dhabi",
       "count": 4
     },
     {
@@ -110,6 +94,10 @@
       "count": 4
     },
     {
+      "word": "guerre",
+      "count": 4
+    },
+    {
       "word": "iran",
       "count": 4
     },
@@ -118,7 +106,7 @@
       "count": 4
     },
     {
-      "word": "lors",
+      "word": "journalistes",
       "count": 4
     },
     {
@@ -127,6 +115,18 @@
     },
     {
       "word": "macron",
+      "count": 4
+    },
+    {
+      "word": "moscou",
+      "count": 4
+    },
+    {
+      "word": "négociations",
+      "count": 4
+    },
+    {
+      "word": "pape",
       "count": 4
     }
   ]

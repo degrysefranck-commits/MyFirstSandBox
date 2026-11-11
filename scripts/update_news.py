@@ -28,8 +28,9 @@ STOPWORDS = set("""
 le la les de des du un une et ou à a au aux en dans par pour sur sous avec sans mais donc or ni car
 que qui quoi dont est sont était été être avoir fait faire plus moins tout tous toute toutes ce cet
 cette ces son sa ses leur leurs mon ma mes ton ta tes notre nos votre vos il elle ils elles on nous
-vous je tu ne pas aussi comme si y en d l the a an and of to in on for with at by from is are was were
-be been it its this that these those
+vous je tu ne pas aussi comme si y en d l après avant depuis selon entre chez vers alors ainsi déjà
+encore lors leur leurs peu chaque autres autre même mêmes jour jours an ans the a an and of to in
+on for with at by from is are was were be been it its this that these those
 """.split())
 
 THEMES = {
