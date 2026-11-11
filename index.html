@@ -52,6 +52,19 @@
                 <p class="loading">Chargement des actualités…</p>
             </div>
         </section>
+
+        <section class="trends glass fade-up delay-5">
+            <div class="news-header">
+                <div class="news-heading">
+                    <p class="kicker"><span class="pulse-dot"></span>Tendances</p>
+                    <h2>🔥 Les recherches les plus fréquentes hier</h2>
+                </div>
+                <p class="updated" id="trends-updated"></p>
+            </div>
+            <div class="trend-cloud" id="trend-cloud">
+                <p class="loading">Chargement des tendances…</p>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">Actualités mises à jour automatiquement chaque jour · GitHub Pages</footer>
@@ -254,6 +267,38 @@
             })
             .catch(() => {
                 listEl.innerHTML = '<p class="loading">Actualités indisponibles pour le moment.</p>';
+            });
+
+        fetch("trends.json")
+            .then((r) => r.json())
+            .then((data) => {
+                const cloud = document.getElementById("trend-cloud");
+                const words = data.words || [];
+                if (words.length === 0) {
+                    cloud.innerHTML = '<p class="loading">Tendances indisponibles pour le moment.</p>';
+                    return;
+                }
+                cloud.innerHTML = "";
+                const max = words[0].count || 1;
+                words.forEach((w) => {
+                    const a = document.createElement("a");
+                    a.className = "trend-word";
+                    a.href = "https://www.google.com/search?q=" + encodeURIComponent(w.word);
+                    a.target = "_blank";
+                    a.rel = "noopener";
+                    a.textContent = w.word;
+                    const ratio = w.count / max;
+                    a.style.fontSize = (0.85 + ratio * 1.55).toFixed(2) + "rem";
+                    cloud.appendChild(a);
+                });
+                if (data.updated_at) {
+                    document.getElementById("trends-updated").textContent =
+                        "Source Google Trends · " + new Date(data.updated_at).toLocaleDateString("fr-FR");
+                }
+            })
+            .catch(() => {
+                document.getElementById("trend-cloud").innerHTML =
+                    '<p class="loading">Tendances indisponibles pour le moment.</p>';
             });
     </script>
 </body>

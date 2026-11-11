@@ -20,12 +20,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Recupere les 3 infos mondiales du jour
+      - name: Recupere les 3 infos par theme et les tendances du jour
         run: python scripts/update_news.py
       - name: Commit et push si changement
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add news.json
-          git diff --cached --quiet || git commit -m "Mise a jour quotidienne des actualites"
+          git add news.json trends.json
+          git diff --cached --quiet || git commit -m "Mise a jour quotidienne des actualites et tendances"
           git push

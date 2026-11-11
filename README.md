@@ -27,4 +27,10 @@ GitHub Pages. Le choix du thème est mémorisé dans le navigateur.
 
 Pour mettre à jour manuellement : `python3 scripts/update_news.py`.
 
+## Tendances de recherche
+
+En bas de page, un nuage de mots affiche les recherches les plus fréquentes
+(Google Trends, geo=FR) : `trends.json` est régénéré chaque jour par le même
+workflow à partir du flux RSS quotidien de Google Trends.
+
 Le site est publié sur [https://degrysefranck-commits.github.io/MyFirstSandBox/](https://degrysefranck-commits.github.io/MyFirstSandBox/).
