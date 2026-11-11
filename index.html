@@ -29,12 +29,12 @@
     </header>
 
     <main class="container">
-        <section class="carousel glass fade-up delay-2" id="carousel" aria-label="Faits marquants en vedette">
-            <div class="carousel-track" id="carousel-track"></div>
-            <button class="carousel-btn prev" id="carousel-prev" type="button" aria-label="Fait précédent">‹</button>
-            <button class="carousel-btn next" id="carousel-next" type="button" aria-label="Fait suivant">›</button>
-            <div class="carousel-dots" id="carousel-dots"></div>
-        </section>
+        <div class="ticker glass fade-up delay-2" id="ticker" aria-label="Fil défilant des faits marquants">
+            <span class="ticker-label"><span class="pulse-dot"></span>En direct</span>
+            <div class="ticker-viewport">
+                <div class="ticker-track" id="ticker-track"></div>
+            </div>
+        </div>
 
         <nav class="theme-menu glass fade-up delay-3" id="theme-menu" aria-label="Choisir un thème">
             <span class="menu-indicator" id="menu-indicator" aria-hidden="true"></span>
@@ -89,104 +89,42 @@
         tick();
         setInterval(tick, 1000);
 
-        const carouselEl = document.getElementById("carousel");
-        const trackEl = document.getElementById("carousel-track");
-        const dotsEl = document.getElementById("carousel-dots");
-        let carouselIndex = 0;
-        let carouselTimer = null;
+        const tickerEl = document.getElementById("ticker");
+        const tickerTrack = document.getElementById("ticker-track");
         let lastUpdatedAt = null;
 
-        function goTo(i) {
-            const count = trackEl.children.length;
-            if (count === 0) return;
-            carouselIndex = (i + count) % count;
-            trackEl.style.transform = "translateX(-" + carouselIndex * 100 + "%)";
-            dotsEl.querySelectorAll(".carousel-dot").forEach((d, di) => {
-                d.classList.toggle("active", di === carouselIndex);
-            });
-        }
-
-        function startAuto() {
-            clearInterval(carouselTimer);
-            carouselTimer = setInterval(() => goTo(carouselIndex + 1), 5500);
-        }
-
-        function buildCarousel(theme) {
+        function buildTicker(theme) {
             const items = theme && theme.items ? theme.items : [];
-            trackEl.innerHTML = "";
-            dotsEl.innerHTML = "";
+            tickerTrack.innerHTML = "";
             if (items.length === 0) {
-                carouselEl.style.display = "none";
+                tickerEl.style.display = "none";
                 return;
             }
-            carouselEl.style.display = "";
+            tickerEl.style.display = "";
             const icon = theme ? [...theme.label][0] : "📰";
-            items.forEach((item, i) => {
-                const slide = document.createElement("a");
-                slide.className = "carousel-slide";
-                slide.href = item.link;
-                slide.target = "_blank";
-                slide.rel = "noopener";
-                if (item.image) {
-                    const img = document.createElement("img");
-                    img.src = item.image;
-                    img.alt = "";
-                    img.loading = i === 0 ? "eager" : "lazy";
-                    slide.appendChild(img);
-                } else {
-                    const ph = document.createElement("span");
-                    ph.className = "carousel-placeholder";
-                    ph.textContent = icon;
-                    slide.appendChild(ph);
-                }
-                const content = document.createElement("span");
-                content.className = "carousel-content";
-                const kicker = document.createElement("span");
-                kicker.className = "carousel-kicker";
-                const dot = document.createElement("span");
-                dot.className = "pulse-dot";
-                kicker.appendChild(dot);
-                kicker.appendChild(document.createTextNode("À la une · " + (theme ? theme.label : "")));
-                const title = document.createElement("span");
-                title.className = "carousel-title";
-                title.textContent = item.title;
-                const meta = document.createElement("span");
-                meta.className = "carousel-meta";
-                const num = document.createElement("span");
-                num.className = "carousel-num";
-                num.textContent = pad(i + 1) + "/" + pad(items.length);
-                meta.appendChild(num);
-                let host = "";
-                try { host = new URL(item.link).hostname.replace(/^www\./, ""); } catch (e) {}
-                if (host) {
+            const makeSeq = () => {
+                const seq = document.createElement("span");
+                seq.className = "ticker-seq";
+                items.forEach((item) => {
+                    const a = document.createElement("a");
+                    a.className = "ticker-item";
+                    a.href = item.link;
+                    a.target = "_blank";
+                    a.rel = "noopener";
+                    a.textContent = icon + " " + item.title;
+                    seq.appendChild(a);
                     const sep = document.createElement("span");
-                    sep.className = "meta-dot";
-                    sep.textContent = "·";
-                    const src = document.createElement("span");
-                    src.textContent = host;
-                    meta.appendChild(sep);
-                    meta.appendChild(src);
-                }
-                content.appendChild(kicker);
-                content.appendChild(title);
-                content.appendChild(meta);
-                slide.appendChild(content);
-                trackEl.appendChild(slide);
-                const dotBtn = document.createElement("button");
-                dotBtn.className = "carousel-dot";
-                dotBtn.type = "button";
-                dotBtn.setAttribute("aria-label", "Aller au fait " + (i + 1));
-                dotBtn.addEventListener("click", () => { goTo(i); startAuto(); });
-                dotsEl.appendChild(dotBtn);
-            });
-            goTo(0);
-            startAuto();
+                    sep.className = "ticker-sep";
+                    sep.textContent = "◆";
+                    seq.appendChild(sep);
+                });
+                return seq;
+            };
+            tickerTrack.appendChild(makeSeq());
+            tickerTrack.appendChild(makeSeq());
+            const halfWidth = tickerTrack.scrollWidth / 2;
+            tickerTrack.style.animationDuration = Math.max(18, Math.round(halfWidth / 65)) + "s";
         }
-
-        document.getElementById("carousel-prev").addEventListener("click", () => { goTo(carouselIndex - 1); startAuto(); });
-        document.getElementById("carousel-next").addEventListener("click", () => { goTo(carouselIndex + 1); startAuto(); });
-        carouselEl.addEventListener("mouseenter", () => clearInterval(carouselTimer));
-        carouselEl.addEventListener("mouseleave", startAuto);
 
         let newsData = null;
         let activeTheme = localStorage.getItem("theme") || "monde";
@@ -208,7 +146,7 @@
                 b.classList.toggle("active", b.dataset.theme === key);
             });
             moveIndicator(activeButton());
-            buildCarousel(theme);
+            buildTicker(theme);
             titleEl.textContent = (theme ? theme.label : "📰") + " — Les 3 faits marquants du jour";
             const icon = theme ? [...theme.label][0] : "📰";
             listEl.innerHTML = "";
