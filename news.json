@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T22:04:05Z",
+  "updated_at": "2026-11-11T22:06:46Z",
   "themes": {
     "monde": {
       "label": "🌍 Monde",
@@ -75,25 +75,25 @@
     },
     "high-tech": {
       "label": "💻 High-tech",
-      "source": "https://www.lemonde.fr/pixels/rss_full.xml",
+      "source": "https://www.numerama.com/feed/",
       "items": [
         {
-          "title": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent »",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/11/yuki-kodama-autrice-du-manga-kids-on-the-slope-aime-faire-en-sorte-que-les-personnages-opposes-s-attirent-et-se-rapprochent_6809019_3246.html",
-          "published": "Wed, 11 Nov 2026 19:30:08 +0100",
-          "image": "https://img.lemde.fr/2026/11/02/1468/0/3071/1535/644/322/60/0/8ad316e_upload-1-1ypocpdro8q5-kidsontheslope-t01-p98.jpg"
+          "title": "Le jeu de cartes de League of Legends en promo : la display Riftbound Armes Spirituelles est bradée",
+          "link": "https://www.numerama.com/pop-culture/2372419-le-jeu-de-cartes-de-league-of-legends-en-promo-la-display-riftbound-armes-spirituelles-est-bradee-chez-philibert.html",
+          "published": "Wed, 11 Nov 2026 16:18:11 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/ae.jpg?resize=1200,675&key=c03d4de9"
         },
         {
-          "title": "En Espagne, une enquête ouverte contre TikTok pour diffusion présumée de contenus pédocriminels",
-          "link": "https://www.lemonde.fr/pixels/article/2026/11/11/en-espagne-une-enquete-ouverte-contre-tiktok-pour-diffusion-presumee-de-contenus-pedocriminels_6809000_4408996.html",
-          "published": "Wed, 11 Nov 2026 17:29:32 +0100",
-          "image": "https://img.lemde.fr/2026/01/29/250/0/3000/1500/644/322/60/0/ff12775_upload-1-wptcnwlgvbhl-fond-3.jpg"
+          "title": "WoW Forever signe le plus gros lancement de l’histoire de World of Warcraft",
+          "link": "https://www.numerama.com/pop-culture/2372279-wow-forever-signe-le-plus-gros-lancement-de-lhistoire-de-world-of-warcraft.html",
+          "published": "Wed, 11 Nov 2026 14:55:36 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/wow-forever-world-of-warcraft.jpg?resize=1200,675&key=720aaec7"
         },
         {
-          "title": "Influenceurs, « interfaces trompeuses », jeux vidéo : l’UE veut mieux protéger les consommateurs en ligne",
-          "link": "https://www.lemonde.fr/economie/article/2026/11/11/influenceurs-interfaces-trompeuses-jeux-video-l-ue-veut-mieux-proteger-les-consommateurs-en-ligne_6808994_3234.html",
-          "published": "Wed, 11 Nov 2026 16:39:21 +0100",
-          "image": "https://img.lemde.fr/2024/01/29/250/0/3000/1500/644/322/60/0/25fcee9_1706537776796-media-appel-ia-7.jpg"
+          "title": "Black Friday 2026 : les meilleures offres de ce 11 novembre, dénichées en direct",
+          "link": "https://www.numerama.com/tech/2363357-black-friday-2026-les-meilleures-offres-de-ce-11-novembre-denichees-en-direct.html",
+          "published": "Wed, 11 Nov 2026 14:55:31 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/black-friday-en-direct-7.jpg?resize=1200,675&key=24ddecba"
         }
       ]
     },
@@ -147,25 +147,25 @@
     },
     "sport": {
       "label": "⚽ Sport",
-      "source": "https://www.france24.com/fr/sport/rss",
+      "source": "https://www.lemonde.fr/sport/rss_full.xml",
       "items": [
         {
-          "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
-          "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
-          "published": "Fri, 16 May 2025 21:21:14 GMT",
-          "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg"
+          "title": "En Egypte, Hossam Hassan, le sélectionneur de l’équipe nationale de football, débarqué à cause de ses déboires conjugaux",
+          "link": "https://www.lemonde.fr/afrique/article/2026/11/11/en-egypte-hossam-hassan-le-selectionneur-de-l-equipe-nationale-de-football-debarque-a-cause-de-ses-deboires-conjugaux_6808992_3212.html",
+          "published": "Wed, 11 Nov 2026 16:30:02 +0100",
+          "image": "https://img.lemde.fr/2026/11/07/250/0/3000/1500/644/322/60/0/eff2968_ftp-1-fwo5aor1hys0-3b8016cc8cc447c5ba1d90a50328e9b0-0-7fa85a2170c74bb48ee8e7c8a9af80ff.jpg"
         },
         {
-          "title": "Euro-2016 : vainqueur des Bleus, le Portugal est sacré champion d'Europe",
-          "link": "https://www.france24.com/fr/20160710-direct-portugal-france-live-finale-euro-2016-football-ronaldo-griezmann-resultat-champions",
-          "published": "Sun, 10 Jul 2016 10:06:30 GMT",
-          "image": "https://s.france24.com/media/display/76821ab8-1340-11e9-ab14-005056a964fe/w:1024/p:16x9/portugal-champion-europe-football-euro-2016.jpg"
+          "title": "Antoine Dupont en numéro 10, la surprise de Fabien Galthié pour affronter l’Afrique du Sud",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/11/antoine-dupont-en-numero-10-la-surprise-de-fabien-galthie-pour-affronter-l-afrique-du-sud_6808964_3242.html",
+          "published": "Wed, 11 Nov 2026 12:32:51 +0100",
+          "image": "https://img.lemde.fr/2026/11/07/151/0/4700/2350/644/322/60/0/526670e_ftp-1-cujyhlpkdy4x-2026-11-07t222121z-581253565-up1emb71q3j37-rtrmadp-3-rugby-union-nationschamp-fra-fji.JPG"
         },
         {
-          "title": "Stan Wawrinka remporte Roland-Garros après sa victoire sur Novak Djokovic",
-          "link": "https://www.france24.com/fr/20150606-tennis-roland-garros-direct-live-finale-novak-djokovic-stan-wawrinka",
-          "published": "Sun, 07 Jun 2015 09:25:07 GMT",
-          "image": "https://s.france24.com/media/display/9da26eb6-1545-11e9-96bb-005056a964fe/w:1024/p:16x9/wawrinka%20victoire2%20main.jpg"
+          "title": "Christophe Gleizes, journaliste détenu en Algérie depuis cinq cents jours : RSF organise un match solidaire pour appeler à sa libération",
+          "link": "https://www.lemonde.fr/actualite-medias/article/2026/11/11/christophe-gleizes-journaliste-detenu-en-algerie-depuis-500-jours-rsf-organise-un-match-solidaire-pour-appeler-a-sa-liberation_6808956_3236.html",
+          "published": "Wed, 11 Nov 2026 11:46:51 +0100",
+          "image": "https://img.lemde.fr/2026/05/05/684/0/8192/4096/644/322/60/0/860f56f_ftp-1-46jgnlpqnqd3-5948965-01-06.jpg"
         }
       ]
     }

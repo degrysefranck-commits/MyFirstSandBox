@@ -26,7 +26,7 @@ THEMES = {
     },
     "high-tech": {
         "label": "💻 High-tech",
-        "feed": "https://www.lemonde.fr/pixels/rss_full.xml",
+        "feed": "https://www.numerama.com/feed/",
     },
     "nature": {
         "label": "🌿 Nature",
@@ -38,7 +38,7 @@ THEMES = {
     },
     "sport": {
         "label": "⚽ Sport",
-        "feed": "https://www.france24.com/fr/sport/rss",
+        "feed": "https://www.lemonde.fr/sport/rss_full.xml",
     },
 }
 
