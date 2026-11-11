@@ -1,4 +1,5 @@
 import json
+import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -6,36 +7,65 @@ from datetime import datetime, timezone
 OUTPUT = "news.json"
 MAX_ITEMS = 3
 
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"
+IMG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
+
 THEMES = {
     "monde": {
         "label": "🌍 Monde",
-        "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feed": "https://www.france24.com/fr/monde/rss",
     },
     "art": {
         "label": "🎨 Art",
-        "feed": "https://www.theguardian.com/artanddesign/rss",
+        "feed": "https://www.beauxarts.com/feed/",
     },
     "culture": {
         "label": "🎭 Culture",
-        "feed": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+        "feed": "https://www.lemonde.fr/culture/rss_full.xml",
     },
     "high-tech": {
         "label": "💻 High-tech",
-        "feed": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "feed": "https://www.lemonde.fr/pixels/rss_full.xml",
     },
     "nature": {
         "label": "🌿 Nature",
-        "feed": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+        "feed": "https://www.futura-sciences.com/rss/actualites.xml",
     },
     "sante": {
         "label": "🏥 Santé",
-        "feed": "https://feeds.bbci.co.uk/news/health/rss.xml",
+        "feed": "https://www.sciencesetavenir.fr/sante/rss.xml",
     },
     "sport": {
         "label": "⚽ Sport",
-        "feed": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "feed": "https://www.france24.com/fr/sport/rss",
     },
 }
+
+
+def extract_image(item):
+    for media in item.findall(MEDIA_NS + "content"):
+        url = (media.get("url") or "").strip()
+        if url.startswith("http") and (
+            (media.get("medium") or "").lower() == "image"
+            or (media.get("type") or "").startswith("image")
+        ):
+            return url
+    for media in item.findall(MEDIA_NS + "content"):
+        url = (media.get("url") or "").strip()
+        if url.startswith("http"):
+            return url
+    thumb = item.find(MEDIA_NS + "thumbnail")
+    if thumb is not None and (thumb.get("url") or "").startswith("http"):
+        return thumb.get("url").strip()
+    for enc in item.findall("enclosure"):
+        if (enc.get("type") or "").startswith("image") and (enc.get("url") or "").startswith("http"):
+            return enc.get("url").strip()
+    html = (item.findtext("description") or "") + (item.findtext(CONTENT_NS + "encoded") or "")
+    match = IMG_RE.search(html)
+    if match and match.group(1).startswith("http"):
+        return match.group(1)
+    return None
 
 
 def fetch_items(feed_url):
@@ -49,6 +79,7 @@ def fetch_items(feed_url):
             "title": (item.findtext("title") or "").strip(),
             "link": (item.findtext("link") or "").strip(),
             "published": (item.findtext("pubDate") or "").strip(),
+            "image": extract_image(item),
         })
     return items
 
@@ -78,7 +109,8 @@ def main():
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
     total = sum(len(t["items"]) for t in themes.values())
-    print(f"{total} actualites ecrites dans {OUTPUT} ({len(themes)} themes)")
+    with_img = sum(1 for t in themes.values() for i in t["items"] if i.get("image"))
+    print(f"{total} actualites ({with_img} avec image) ecrites dans {OUTPUT} ({len(themes)} themes)")
 
 
 if __name__ == "__main__":

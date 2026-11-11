@@ -106,6 +106,7 @@
             });
             moveIndicator(activeButton());
             titleEl.textContent = (theme ? theme.label : "📰") + " — Les 3 faits marquants du jour";
+            const icon = theme ? [...theme.label][0] : "📰";
             listEl.innerHTML = "";
             const items = theme && theme.items ? theme.items : [];
             if (items.length === 0) {
@@ -119,6 +120,18 @@
                 card.target = "_blank";
                 card.rel = "noopener";
                 card.style.animationDelay = i * 0.08 + "s";
+                const thumb = document.createElement("span");
+                thumb.className = "news-thumb";
+                if (item.image) {
+                    const img = document.createElement("img");
+                    img.src = item.image;
+                    img.alt = "";
+                    img.loading = "lazy";
+                    img.onerror = () => { thumb.textContent = icon; };
+                    thumb.appendChild(img);
+                } else {
+                    thumb.textContent = icon;
+                }
                 const num = document.createElement("span");
                 num.className = "news-num";
                 num.textContent = pad(i + 1);
@@ -128,13 +141,13 @@
                 const arrow = document.createElement("span");
                 arrow.className = "news-arrow";
                 arrow.textContent = "↗";
+                card.appendChild(thumb);
                 card.appendChild(num);
                 card.appendChild(title);
                 card.appendChild(arrow);
                 listEl.appendChild(card);
             });
         }
-
         fetch("news.json")
             .then((r) => r.json())
             .then((data) => {

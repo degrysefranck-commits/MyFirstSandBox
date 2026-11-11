@@ -16,7 +16,8 @@ Puis va sur [http://localhost:8000](http://localhost:8000).
 
 La page propose un menu de 7 thèmes — 🌍 Monde, 🎨 Art, 🎭 Culture, 💻 High-tech,
 🌿 Nature, 🏥 Santé, ⚽ Sport — et affiche pour chacun les 3 faits marquants du
-jour (flux RSS BBC + The Guardian).
+jour en français, avec une vignette image (flux RSS France 24, Beaux Arts,
+Le Monde, Futura Sciences, Sciences et Avenir).
 
 Un workflow GitHub Actions (`.github/workflows/update-news.yml`) tourne chaque
 jour à 6h00 UTC : il régénère `news.json` via `scripts/update_news.py` (un flux
