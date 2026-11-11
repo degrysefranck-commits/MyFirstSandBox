@@ -109,7 +109,10 @@ body::after {
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
-    padding: 1.4rem 2.25rem;
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1.4rem 1.5rem;
 }
 
 .brand {
@@ -529,7 +532,7 @@ body::after {
 }
 
 @media (max-width: 640px) {
-    .topbar { padding: 1.1rem 1rem; }
+    .topbar { padding: 1.1rem 1.5rem; }
     .topbar-title { font-size: 1.3rem; }
     .clock-time { font-size: 1.25rem; }
     .theme-menu { border-radius: 24px; }
