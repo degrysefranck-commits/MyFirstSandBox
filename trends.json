@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T23:26:50Z",
+  "updated_at": "2026-11-12T14:06:47Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,124 +10,124 @@
   ],
   "words": [
     {
-      "word": "france",
-      "count": 9
+      "word": "faux",
+      "count": 10
     },
     {
       "word": "présidentielle",
       "count": 9
     },
     {
-      "word": "ukraine",
+      "word": "france",
       "count": 7
     },
     {
-      "word": "français",
+      "word": "huang",
+      "count": 7
+    },
+    {
+      "word": "jensen",
       "count": 6
     },
     {
-      "word": "novembre",
+      "word": "jordan",
       "count": 6
     },
     {
-      "word": "affaire",
+      "word": "nvidia",
+      "count": 6
+    },
+    {
+      "word": "bardella",
       "count": 5
     },
     {
-      "word": "figaro",
+      "word": "direct",
       "count": 5
-    },
-    {
-      "word": "jean",
-      "count": 5
-    },
-    {
-      "word": "raciste",
-      "count": 5
-    },
-    {
-      "word": "russie",
-      "count": 5
-    },
-    {
-      "word": "écoles",
-      "count": 5
-    },
-    {
-      "word": "alertes",
-      "count": 4
-    },
-    {
-      "word": "attaques",
-      "count": 4
-    },
-    {
-      "word": "attentat",
-      "count": 4
-    },
-    {
-      "word": "bombe",
-      "count": 4
-    },
-    {
-      "word": "centaines",
-      "count": 4
-    },
-    {
-      "word": "christophe",
-      "count": 4
-    },
-    {
-      "word": "deux",
-      "count": 4
-    },
-    {
-      "word": "dhabi",
-      "count": 4
-    },
-    {
-      "word": "emmanuel",
-      "count": 4
-    },
-    {
-      "word": "gleizes",
-      "count": 4
     },
     {
       "word": "guerre",
+      "count": 5
+    },
+    {
+      "word": "huit",
+      "count": 5
+    },
+    {
+      "word": "monde",
+      "count": 5
+    },
+    {
+      "word": "novembre",
+      "count": 5
+    },
+    {
+      "word": "plainte",
+      "count": 5
+    },
+    {
+      "word": "politique",
+      "count": 5
+    },
+    {
+      "word": "ukraine",
+      "count": 5
+    },
+    {
+      "word": "usage",
+      "count": 5
+    },
+    {
+      "word": "affaire",
       "count": 4
     },
     {
-      "word": "iran",
+      "word": "jean",
       "count": 4
     },
     {
-      "word": "italie",
+      "word": "minutes",
       "count": 4
     },
     {
-      "word": "journalistes",
+      "word": "mississippi",
       "count": 4
     },
     {
-      "word": "léon",
+      "word": "moulin",
       "count": 4
     },
     {
-      "word": "macron",
+      "word": "patrick",
       "count": 4
     },
     {
-      "word": "moscou",
+      "word": "porte",
       "count": 4
     },
     {
-      "word": "négociations",
+      "word": "poutine",
       "count": 4
     },
     {
-      "word": "pape",
+      "word": "propose",
       "count": 4
+    },
+    {
+      "word": "violences",
+      "count": 4
+    },
+    {
+      "word": "accusations",
+      "count": 3
+    },
+    {
+      "word": "américains",
+      "count": 3
+    },
+    {
+      "word": "antisémitisme",
+      "count": 3
     }
   ]
 }

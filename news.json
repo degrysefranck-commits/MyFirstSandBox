@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-11-11T23:26:49Z",
+  "updated_at": "2026-11-12T14:06:46Z",
   "themes": {
     "monde": {
       "label": "🌍 Monde",
       "source": "https://www.france24.com/fr/monde/rss",
       "items": [
         {
-          "title": "Les proches du journaliste Christophe Gleizes espèrent une grâce présidentielle",
-          "link": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261111-les-proches-du-journaliste-christophe-gleizes-esp%C3%A8rent-une-gr%C3%A2ce-pr%C3%A9sidentielle",
-          "published": "Wed, 11 Nov 2026 21:37:52 GMT",
-          "image": "https://s.france24.com/media/display/6ad85d10-de14-11f1-9cb3-695cb59fade5/w:1024/p:16x9/FRAN261111-2141-Live-01.jpg"
+          "title": "🔴 Jensen Huang quitte la direction générale de Nvidia",
+          "link": "https://www.france24.com/fr/%C3%A9co-tech/20261112-le-pdg-de-nvidia-jensen-huang-quitte-ses-fonctions-%C3%A0-la-t%C3%AAte-de-l-entreprise",
+          "published": "Thu, 12 Nov 2026 14:03:39 GMT",
+          "image": null
         },
         {
-          "title": "Cisjordanie occupée : un responsable des colons israélien refoulé à son arrivée en France",
-          "link": "https://www.france24.com/fr/france/20261111-responsable-colons-isra%C3%A9liens-cisjordanie-occup%C3%A9e-refoul%C3%A9-son-arriv%C3%A9e-france",
-          "published": "Wed, 11 Nov 2026 21:12:37 GMT",
-          "image": "https://s.france24.com/media/display/00bc1290-de10-11f1-ab90-3f371022a770/w:1024/p:16x9/000-A8BM2T9.jpg"
+          "title": "Le PDG de Nvidia Jensen Huang quitte ses fonctions à la tête de l'entreprise",
+          "link": "https://www.france24.com/fr/%C3%A9co-tech/20261112-le-pdg-de-nvidia-jensen-huang-quitte-ses-fonctions-%C3%A0-la-t%C3%AAte-de-l-entreprise",
+          "published": "Thu, 12 Nov 2026 14:01:57 GMT",
+          "image": "https://s.france24.com/media/display/f7e5a9ba-dea0-11f1-b255-29048b396e03/w:1024/p:16x9/2026-11-12T115845Z-1141769569-RC2I6KAPBYZ3-RTRMADP-3-NVIDIA-CEO.jpg"
         },
         {
-          "title": "Une nouvelle génération de munitions russes low cost inquiète l’Ukraine",
-          "link": "https://www.france24.com/fr/europe/20261111-nouvelle-g%C3%A9n%C3%A9ration-munitions-russes-low-cost-inqui%C3%A8te-ukraine",
-          "published": "Wed, 11 Nov 2026 20:48:44 GMT",
-          "image": "https://s.france24.com/media/display/87fb8c48-ddf9-11f1-b48e-3f371022a770/w:1024/p:16x9/cou1.jpg"
+          "title": "Espagne : la colère monte, le modèle espagnol sous pression",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20261112-espagne-la-col%C3%A8re-monte-le-mod%C3%A8le-espagnol-sous-pression",
+          "published": "Thu, 12 Nov 2026 13:38:59 GMT",
+          "image": "https://s.france24.com/media/display/1b03744e-be95-11f1-915a-69fad0a7cb9f/w:1024/p:16x9/2026-10-02T094311Z-1141151925-RC2XUNASA32Q-RTRMADP-3-SPAIN-HOUSING-PARLIAMENT-PROTEST.jpg"
         }
       ]
     },
@@ -30,22 +30,22 @@
       "source": "https://www.beauxarts.com/feed/",
       "items": [
         {
-          "title": "À la rencontre d’un artiste de l’illusion, le peintre en décors Frantz Wehrlé",
-          "link": "https://www.beauxarts.com/reportages/a-la-rencontre-dun-artiste-de-lillusion-le-peintre-en-decors-frantz-wehrle/",
-          "published": "Wed, 11 Nov 2026 12:00:30 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/une9m2a9352-1300x975.jpg"
+          "title": "180 000 m² d’exposition : l’Inde est en train de concevoir le plus grand musée du monde",
+          "link": "https://www.beauxarts.com/grand-format/180-000-m-dexposition-linde-est-en-train-de-concevoir-le-plus-grand-musee-du-monde/",
+          "published": "Thu, 12 Nov 2026 13:54:53 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/uneraisina-hill-hemis_2f8k6th-1300x975.jpg"
         },
         {
-          "title": "Glamour, historiques, familiales… 8 expos de mode et de bijoux qui réchauffent à Paris jusqu’à la fin de l’hiver",
-          "link": "https://www.beauxarts.com/expos/glamour-historiques-familiales-8-expos-de-mode-et-de-bijoux-qui-rechauffent-a-paris-jusqua-la-fin-de-lhiver/",
-          "published": "Wed, 11 Nov 2026 09:00:40 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/unemad_look_009-1300x975.jpg"
+          "title": "Nicéphore Niépce, Stanley Kubrick, Martin Parr… Paris Photo 2026 en 10 stands pleins de surprises",
+          "link": "https://www.beauxarts.com/expos/nicephore-niepce-stanley-kubrick-martin-parr-paris-photo-2026-en-10-stands-pleins-de-surprises/",
+          "published": "Thu, 12 Nov 2026 12:23:42 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/unemaurine_tric-1191-1300x975.jpg"
         },
         {
-          "title": "L’art comme levier d’émancipation : depuis 15 ans, Rubis Mécénat s’engage auprès de la création contemporaine",
-          "link": "https://www.beauxarts.com/grand-format/lart-comme-levier-demancipation-depuis-15-ans-rubis-mecenat-sengage-aupres-de-la-creation-contemporaine/",
-          "published": "Wed, 11 Nov 2026 08:00:39 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/carte-blanche-a-remi-marcel-beaux-arts-de-paris-courtesy-rubis-mecenat-eglise-saint-eustache-2026.-photo-x3a-instant-productions11-1300x1029.jpeg"
+          "title": "Les meilleures expos photo à voir en ce moment à Paris et en région",
+          "link": "https://www.beauxarts.com/selections/les-meilleures-expos-photo-a-voir-en-ce-moment-en-france/",
+          "published": "Thu, 12 Nov 2026 11:23:18 +0000",
+          "image": "https://media.beauxarts.com/uploads/2025/11/une127_hl.phot_.2005.169-1300x975.jpg"
         }
       ]
     },
@@ -54,22 +54,22 @@
       "source": "https://www.lemonde.fr/culture/rss_full.xml",
       "items": [
         {
-          "title": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent »",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/11/yuki-kodama-autrice-du-manga-kids-on-the-slope-aime-faire-en-sorte-que-les-personnages-opposes-s-attirent-et-se-rapprochent_6809019_3246.html",
-          "published": "Wed, 11 Nov 2026 19:30:08 +0100",
-          "image": "https://img.lemde.fr/2026/11/02/1468/0/3071/1535/644/322/60/0/8ad316e_upload-1-1ypocpdro8q5-kidsontheslope-t01-p98.jpg"
+          "title": "Nicole Kidman recevra un César d’honneur lors de la prochaine cérémonie qui se tiendra le 25 février, à Paris",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/12/nicole-kidman-recevra-un-cesar-d-honneur-lors-de-la-prochaine-ceremonie-qui-se-tiendra-le-25-fevrier-a-paris_6809097_3246.html",
+          "published": "Thu, 12 Nov 2026 12:48:36 +0100",
+          "image": "https://img.lemde.fr/2026/11/08/166/0/5500/2750/644/322/60/0/52f0b36_ftp-1-450bk8i0iup6-2026-11-08t231917z-1491913787-rc2fjoa2lmwx-rtrmadp-3-usa-entertainment-lacma.JPG"
         },
         {
-          "title": "« Passer par les émotions, plus que par l’intellect » : le Théâtre de la Cité internationale, à Paris, tente de sensibiliser le public aux urgences écologiques",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/11/passer-par-les-emotions-plus-que-par-l-intellect-le-theatre-de-la-cite-internationale-a-paris-tente-de-sensibiliser-le-public-aux-urgences-ecologiques_6809013_3246.html",
-          "published": "Wed, 11 Nov 2026 19:00:09 +0100",
-          "image": "https://img.lemde.fr/2026/11/04/39/0/2362/1181/644/322/60/0/962344a_upload-1-biegqky5h36y-04-11-26-acces-mi-img-3238-c-mathilde-delahaye.jpg"
+          "title": "« Einstein. Autopsie d’une photogénie », tentative de dissection d’un secret du célèbre physicien",
+          "link": "https://www.lemonde.fr/sciences/article/2026/11/12/einstein-autopsie-d-une-photogenie-tentative-de-dissection-d-un-secret-du-celebre-physicien_6809095_1650684.html",
+          "published": "Thu, 12 Nov 2026 12:30:06 +0100",
+          "image": "https://img.lemde.fr/2026/11/10/166/0/1920/960/644/322/60/0/e59cc98_upload-1-m8anqcde0atp-generated-1794317965298.jpg"
         },
         {
-          "title": "Aurelia Ivan, directrice du Mouffetard : « A Paris, la marionnette doit prendre toute la place qu’elle mérite »",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/11/aurelia-ivan-directrice-du-mouffetard-a-paris-la-marionnette-doit-prendre-toute-la-place-qu-elle-merite_6809008_3246.html",
-          "published": "Wed, 11 Nov 2026 18:30:07 +0100",
-          "image": "https://img.lemde.fr/2026/11/03/116/0/1445/722/644/322/60/0/a19fa55_upload-1-ayd6bjcwzo9h-aurelia-ivan.jpg"
+          "title": "La mort de Stacy Keach, le dur parfait du cinéma hollywoodien des années 1970",
+          "link": "https://www.lemonde.fr/disparitions/article/2026/11/12/la-mort-de-stacy-keach-le-dur-parfait-du-cinema-hollywoodien-des-annees-1970_6809089_3382.html",
+          "published": "Thu, 12 Nov 2026 12:00:08 +0100",
+          "image": "https://img.lemde.fr/2026/11/12/399/0/4300/2150/644/322/60/0/34ad49c_upload-1-vhhkf2vqcreg-20180515lpa7461u2.jpg"
         }
       ]
     },
@@ -78,22 +78,22 @@
       "source": "https://www.numerama.com/feed/",
       "items": [
         {
-          "title": "Le jeu de cartes de League of Legends en promo : la display Riftbound Armes Spirituelles est bradée",
-          "link": "https://www.numerama.com/pop-culture/2372419-le-jeu-de-cartes-de-league-of-legends-en-promo-la-display-riftbound-armes-spirituelles-est-bradee-chez-philibert.html",
-          "published": "Wed, 11 Nov 2026 16:18:11 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/ae.jpg?resize=1200,675&key=c03d4de9"
+          "title": "Rouler reste toujours le moyen le plus rapide de se déplacer dans Zelda Ocarina of Time",
+          "link": "https://www.numerama.com/pop-culture/2372837-rouler-reste-toujours-le-moyen-le-plus-rapide-de-se-deplacer-dans-zelda-ocarina-of-time.html",
+          "published": "Thu, 12 Nov 2026 14:06:18 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/oot-roulade.png?resize=1200,675&key=54fdda3a"
         },
         {
-          "title": "WoW Forever signe le plus gros lancement de l’histoire de World of Warcraft",
-          "link": "https://www.numerama.com/pop-culture/2372279-wow-forever-signe-le-plus-gros-lancement-de-lhistoire-de-world-of-warcraft.html",
-          "published": "Wed, 11 Nov 2026 14:55:36 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/wow-forever-world-of-warcraft.jpg?resize=1200,675&key=720aaec7"
+          "title": "Les meilleurs films d’action à voir sur Netflix en 2026",
+          "link": "https://www.numerama.com/pop-culture/2234141-les-meilleurs-films-daction-a-voir-sur-netflix-en-2026.html",
+          "published": "Thu, 12 Nov 2026 13:40:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/04/tylerrake-2.jpeg?resize=1200,675&key=c81e82b3"
         },
         {
-          "title": "Black Friday 2026 : les meilleures offres de ce 11 novembre, dénichées en direct",
-          "link": "https://www.numerama.com/tech/2363357-black-friday-2026-les-meilleures-offres-de-ce-11-novembre-denichees-en-direct.html",
-          "published": "Wed, 11 Nov 2026 14:55:31 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/black-friday-en-direct-7.jpg?resize=1200,675&key=24ddecba"
+          "title": "Superman : Henry Cavill de retour ? L’acteur fait une déclaration",
+          "link": "https://www.numerama.com/pop-culture/2372845-superman-henry-cavill-de-retour-dans-le-role-lacteur-sexprime.html",
+          "published": "Thu, 12 Nov 2026 13:22:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/henry-cavill-man-of-steel-wallpaper-hd-142654.jpg?resize=1200,675&key=cd6e7606"
         }
       ]
     },
@@ -102,22 +102,22 @@
       "source": "https://www.futura-sciences.com/rss/actualites.xml",
       "items": [
         {
-          "title": "Un immense triangle noir de 20 mètres est apparu au cœur de Madrid : ce qu'il cache est troublant",
-          "link": "https://www.futura-sciences.com/tech/actualites/technologie-immense-triangle-noir-20-metres-apparu-coeur-madrid-ce-quil-cache-troublant-139251/#xtor%3DRSS-8",
-          "published": "Wed, 11 Nov 2026 21:07:39 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/5/9/7/597131ec36_50263165_spy-panoptico-madrid-04-scaled.jpg"
+          "title": "900 millions de galaxies : Euclid ouvre un trésor cosmique qui pourrait bouleverser notre vision de l'Univers",
+          "link": "https://www.futura-sciences.com/sciences/actualites/astronomie-900-millions-galaxies-euclid-ouvre-tresor-cosmique-pourrait-bouleverser-notre-vision-univers-139212/#xtor%3DRSS-8",
+          "published": "Thu, 12 Nov 2026 15:02:55 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/9/b/9/9b9490e554_50263221_abel-3128-euclid-esa.jpg"
         },
         {
-          "title": "Un événement géologique survenu au Japon aurait contribué à façonner le Grand Canyon, à 9 000 kilomètres de là !",
-          "link": "https://www.futura-sciences.com/planete/actualites/terre-evenement-geologique-survenu-japon-aurait-contribue-faconner-grand-canyon-9-000-kilometres-139204/#xtor%3DRSS-8",
-          "published": "Wed, 11 Nov 2026 20:07:47 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/e/7/8e754565aa_50257474_grand-canyon.jpg"
+          "title": "VEVOR casse le prix de cette chambre de culture intérieure avec éclairage LED avant le Black Friday",
+          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-jardin-vevor-casse-prix-cette-chambre-culture-interieure-eclairage-led-avant-black-friday-11833/#xtor%3DRSS-8",
+          "published": "Thu, 12 Nov 2026 14:00:00 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/2/7/7/2778eb801d_50263217_chambre-culture-vevor-img.jpg"
         },
         {
-          "title": "Les soirées rallongent avant même le solstice d'hiver : les astronomes expliquent ce paradoxe du calendrier",
-          "link": "https://www.futura-sciences.com/sciences/actualites/solstice-hiver-soirees-rallongent-avant-meme-solstice-hiver-astronomes-expliquent-ce-paradoxe-calendrier-k2m6-139222/#xtor%3DRSS-8",
-          "published": "Wed, 11 Nov 2026 18:00:00 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/1/6/f/16f3d02c6c_50263124_solstice-hiver-coucher-soleil.jpg"
+          "title": "Voiture, chauffage, factures : ce que les COP ont réellement changé pour les Français",
+          "link": "https://www.futura-sciences.com/planete/actualites/cop31-voiture-chauffage-factures-ce-cop-ont-reellement-change-francais-139258/#xtor%3DRSS-8",
+          "published": "Thu, 12 Nov 2026 13:03:14 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/9/3/893aa2c4b4_50263228_cop31-vie-quotidienne.jpg"
         }
       ]
     },
@@ -125,6 +125,12 @@
       "label": "🏥 Santé",
       "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
       "items": [
+        {
+          "title": "Diabète : Un implant sans médicament contrôle la glycémie électriquement",
+          "link": "https://www.sciencesetavenir.fr/sante/diabete-un-implant-controle-la-glycemie-a-coups-de-courant_196090?xtor=RSS-16",
+          "published": "Thu, 12 Nov 2026 12:57:51 +0000",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/12/cover-r4x3w1200-6af5993254015-afp-20260703-hl-tdurand-3217743-v1-highres-franceillustrationcitygrenobleheatwa.jpg"
+        },
         {
           "title": "Cancer colorectal : l’immunothérapie pour éviter la chirurgie",
           "link": "https://www.sciencesetavenir.fr/sante/cancer-colorectal-l-immunotherapie-pour-eviter-la-chirurgie_195866?xtor=RSS-16",
@@ -136,12 +142,6 @@
           "link": "https://www.sciencesetavenir.fr/sante/quand-les-tumeurs-piratent-le-systeme-nerveux_195872?xtor=RSS-16",
           "published": "Tue, 10 Nov 2026 13:00:00 +0000",
           "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0de53ed-ar-1751851-tf-68438331-1-notext-jpg.jpg"
-        },
-        {
-          "title": "Cancer du sein : mieux suivre la maladie grâce à une prise de sang",
-          "link": "https://www.sciencesetavenir.fr/sante/biopsie-liquide-une-prise-de-sang-pour-mieux-suivre-le-cancer-du-sein_195862?xtor=RSS-16",
-          "published": "Sat, 07 Nov 2026 13:00:00 +0000",
-          "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac08c0a99-ar-1751831-tf-68438305-1-normal-jpg.jpg"
         }
       ]
     },
@@ -150,22 +150,22 @@
       "source": "https://www.lemonde.fr/sport/rss_full.xml",
       "items": [
         {
-          "title": "En Egypte, Hossam Hassan, le sélectionneur de l’équipe nationale de football, débarqué à cause de ses déboires conjugaux",
-          "link": "https://www.lemonde.fr/afrique/article/2026/11/11/en-egypte-hossam-hassan-le-selectionneur-de-l-equipe-nationale-de-football-debarque-a-cause-de-ses-deboires-conjugaux_6808992_3212.html",
-          "published": "Wed, 11 Nov 2026 16:30:02 +0100",
-          "image": "https://img.lemde.fr/2026/11/07/250/0/3000/1500/644/322/60/0/eff2968_ftp-1-fwo5aor1hys0-3b8016cc8cc447c5ba1d90a50328e9b0-0-7fa85a2170c74bb48ee8e7c8a9af80ff.jpg"
+          "title": "Victor Wembanyama, auteur d’un début de saison tonitruant, devient une équation insoluble pour ses rivaux de NBA",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/12/victor-wembanyama-auteur-d-un-debut-de-saison-tonitruant-devient-une-equation-insoluble-pour-ses-rivaux-de-nba_6809087_3242.html",
+          "published": "Thu, 12 Nov 2026 11:27:32 +0100",
+          "image": "https://img.lemde.fr/2026/11/12/27/0/2938/1469/644/322/60/0/fb8d78b_ftp-1-a9fkfdjblatr-2304690863.jpg"
         },
         {
-          "title": "Antoine Dupont en numéro 10, la surprise de Fabien Galthié pour affronter l’Afrique du Sud",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/11/antoine-dupont-en-numero-10-la-surprise-de-fabien-galthie-pour-affronter-l-afrique-du-sud_6808964_3242.html",
-          "published": "Wed, 11 Nov 2026 12:32:51 +0100",
-          "image": "https://img.lemde.fr/2026/11/07/151/0/4700/2350/644/322/60/0/526670e_ftp-1-cujyhlpkdy4x-2026-11-07t222121z-581253565-up1emb71q3j37-rtrmadp-3-rugby-union-nationschamp-fra-fji.JPG"
+          "title": "Le centre de formation du Stade rennais, la nouvelle pépinière de l’équipe de France de football",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/12/le-centre-de-formation-du-stade-rennais-la-nouvelle-pepiniere-de-l-equipe-de-france-de-football_6809063_3242.html",
+          "published": "Thu, 12 Nov 2026 06:43:53 +0100",
+          "image": "https://img.lemde.fr/2026/11/11/223/0/4093/2046/644/322/60/0/7f94e25_upload-1-8qzamy7x1azu-000-d27z4ka.jpg"
         },
         {
-          "title": "Christophe Gleizes, journaliste détenu en Algérie depuis cinq cents jours : RSF organise un match solidaire pour appeler à sa libération",
-          "link": "https://www.lemonde.fr/actualite-medias/article/2026/11/11/christophe-gleizes-journaliste-detenu-en-algerie-depuis-500-jours-rsf-organise-un-match-solidaire-pour-appeler-a-sa-liberation_6808956_3236.html",
-          "published": "Wed, 11 Nov 2026 11:46:51 +0100",
-          "image": "https://img.lemde.fr/2026/05/05/684/0/8192/4096/644/322/60/0/860f56f_ftp-1-46jgnlpqnqd3-5948965-01-06.jpg"
+          "title": "Donation d’argent investie dans une société : quel rapport à la succession ?",
+          "link": "https://www.lemonde.fr/argent/article/2026/11/12/donation-d-argent-investie-dans-une-societe-quel-rapport-a-la-succession_6809054_1657007.html",
+          "published": "Thu, 12 Nov 2026 06:00:28 +0100",
+          "image": "https://img.lemde.fr/2023/05/03/97/0/3000/1500/644/322/60/0/d01e012_1683120111391-lmargent9.jpg"
         }
       ]
     }
