@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T14:06:47Z",
+  "updated_at": "2026-11-13T13:32:02Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,19 +10,27 @@
   ],
   "words": [
     {
-      "word": "faux",
-      "count": 10
+      "word": "france",
+      "count": 8
+    },
+    {
+      "word": "panne",
+      "count": 8
     },
     {
       "word": "présidentielle",
-      "count": 9
-    },
-    {
-      "word": "france",
-      "count": 7
+      "count": 8
     },
     {
       "word": "huang",
+      "count": 7
+    },
+    {
+      "word": "monde",
+      "count": 7
+    },
+    {
+      "word": "novembre",
       "count": 7
     },
     {
@@ -30,7 +38,15 @@
       "count": 6
     },
     {
-      "word": "jordan",
+      "word": "microsoft",
+      "count": 6
+    },
+    {
+      "word": "mois",
+      "count": 6
+    },
+    {
+      "word": "mondiale",
       "count": 6
     },
     {
@@ -38,35 +54,19 @@
       "count": 6
     },
     {
-      "word": "bardella",
+      "word": "outlook",
+      "count": 6
+    },
+    {
+      "word": "américain",
       "count": 5
     },
     {
-      "word": "direct",
+      "word": "comment",
       "count": 5
     },
     {
-      "word": "guerre",
-      "count": 5
-    },
-    {
-      "word": "huit",
-      "count": 5
-    },
-    {
-      "word": "monde",
-      "count": 5
-    },
-    {
-      "word": "novembre",
-      "count": 5
-    },
-    {
-      "word": "plainte",
-      "count": 5
-    },
-    {
-      "word": "politique",
+      "word": "paris",
       "count": 5
     },
     {
@@ -74,43 +74,39 @@
       "count": 5
     },
     {
-      "word": "usage",
-      "count": 5
-    },
-    {
-      "word": "affaire",
+      "word": "attentat",
       "count": 4
     },
     {
-      "word": "jean",
+      "word": "cyberattaque",
       "count": 4
     },
     {
-      "word": "minutes",
+      "word": "guerre",
       "count": 4
     },
     {
-      "word": "mississippi",
+      "word": "lecornu",
       "count": 4
     },
     {
-      "word": "moulin",
+      "word": "ouvre",
       "count": 4
     },
     {
-      "word": "patrick",
+      "word": "raciste",
       "count": 4
     },
     {
-      "word": "porte",
+      "word": "sait",
       "count": 4
     },
     {
-      "word": "poutine",
+      "word": "sébastien",
       "count": 4
     },
     {
-      "word": "propose",
+      "word": "trappes",
       "count": 4
     },
     {
@@ -118,15 +114,19 @@
       "count": 4
     },
     {
-      "word": "accusations",
+      "word": "élection",
+      "count": 4
+    },
+    {
+      "word": "affaire",
       "count": 3
     },
     {
-      "word": "américains",
+      "word": "attentats",
       "count": 3
     },
     {
-      "word": "antisémitisme",
+      "word": "bas",
       "count": 3
     }
   ]

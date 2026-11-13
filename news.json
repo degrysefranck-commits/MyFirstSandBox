@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-11-12T14:06:46Z",
+  "updated_at": "2026-11-13T13:32:01Z",
   "themes": {
     "monde": {
       "label": "🌍 Monde",
       "source": "https://www.france24.com/fr/monde/rss",
       "items": [
         {
-          "title": "🔴 Jensen Huang quitte la direction générale de Nvidia",
-          "link": "https://www.france24.com/fr/%C3%A9co-tech/20261112-le-pdg-de-nvidia-jensen-huang-quitte-ses-fonctions-%C3%A0-la-t%C3%AAte-de-l-entreprise",
-          "published": "Thu, 12 Nov 2026 14:03:39 GMT",
-          "image": null
+          "title": "L'actu en dessin : la COP31 a peu de chances d'aboutir à des résolutions majeures",
+          "link": "https://www.france24.com/fr/plan%C3%A8te/20261113-actu-en-dessin-cop31-climat-peu-de-chances-aboutir-r%C3%A9solutions-majeures-environnement-r%C3%A9chauffement",
+          "published": "Fri, 13 Nov 2026 13:27:16 GMT",
+          "image": "https://s.france24.com/media/display/380c91be-df5c-11f1-ab00-695cb59fade5/w:1024/p:16x9/04-Rodho-France-2.jpg"
         },
         {
-          "title": "Le PDG de Nvidia Jensen Huang quitte ses fonctions à la tête de l'entreprise",
-          "link": "https://www.france24.com/fr/%C3%A9co-tech/20261112-le-pdg-de-nvidia-jensen-huang-quitte-ses-fonctions-%C3%A0-la-t%C3%AAte-de-l-entreprise",
-          "published": "Thu, 12 Nov 2026 14:01:57 GMT",
-          "image": "https://s.france24.com/media/display/f7e5a9ba-dea0-11f1-b255-29048b396e03/w:1024/p:16x9/2026-11-12T115845Z-1141769569-RC2I6KAPBYZ3-RTRMADP-3-NVIDIA-CEO.jpg"
+          "title": "En Haïti, des soldats salvadoriens interviennent dans un stade contrôlé par les gangs",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20261113-en-ha%C3%AFti-des-soldats-salvadoriens-interviennent-dans-un-stade-contr%C3%B4l%C3%A9-par-les-gangs",
+          "published": "Fri, 13 Nov 2026 13:21:40 GMT",
+          "image": "https://s.france24.com/media/display/f08c8e80-df64-11f1-a1f0-5f54d898a954/w:1024/p:16x9/MINIA-SALVADOR-HAITI.jpg"
         },
         {
-          "title": "Espagne : la colère monte, le modèle espagnol sous pression",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261112-espagne-la-col%C3%A8re-monte-le-mod%C3%A8le-espagnol-sous-pression",
-          "published": "Thu, 12 Nov 2026 13:38:59 GMT",
-          "image": "https://s.france24.com/media/display/1b03744e-be95-11f1-915a-69fad0a7cb9f/w:1024/p:16x9/2026-10-02T094311Z-1141151925-RC2XUNASA32Q-RTRMADP-3-SPAIN-HOUSING-PARLIAMENT-PROTEST.jpg"
+          "title": "Traversée de l'Afghanistan le long de la \"route de la mort\"",
+          "link": "https://www.france24.com/fr/%C3%A9missions/billet-retour/20261113-afghanistan-reportage-autoroute-une-taliban",
+          "published": "Fri, 13 Nov 2026 13:01:13 GMT",
+          "image": "https://s.france24.com/media/display/985ffbec-de9d-11f1-861a-f71d22e7fea9/w:1024/p:16x9/billet-retour-FR-Afghanistan.jpg"
         }
       ]
     },
@@ -30,22 +30,22 @@
       "source": "https://www.beauxarts.com/feed/",
       "items": [
         {
-          "title": "180 000 m² d’exposition : l’Inde est en train de concevoir le plus grand musée du monde",
-          "link": "https://www.beauxarts.com/grand-format/180-000-m-dexposition-linde-est-en-train-de-concevoir-le-plus-grand-musee-du-monde/",
-          "published": "Thu, 12 Nov 2026 13:54:53 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/uneraisina-hill-hemis_2f8k6th-1300x975.jpg"
+          "title": "Sans occulter le pillage colonial, le Petit Palais nous plonge dans le bouillonnement créatif de Bruxelles en 1900",
+          "link": "https://www.beauxarts.com/expos/sans-occulter-le-pillage-colonial-le-petit-palais-nous-plonge-dans-le-bouillonnement-creatif-de-bruxelles-en-1900/",
+          "published": "Fri, 13 Nov 2026 12:00:07 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/une11_fernand_khnopff_des_caresses_1896-1300x975.jpg"
         },
         {
-          "title": "Nicéphore Niépce, Stanley Kubrick, Martin Parr… Paris Photo 2026 en 10 stands pleins de surprises",
-          "link": "https://www.beauxarts.com/expos/nicephore-niepce-stanley-kubrick-martin-parr-paris-photo-2026-en-10-stands-pleins-de-surprises/",
-          "published": "Thu, 12 Nov 2026 12:23:42 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/unemaurine_tric-1191-1300x975.jpg"
+          "title": "L’audace tentaculaire des shunga, ces estampes et peintures érotiques japonaises, dans une expo à Paris",
+          "link": "https://www.beauxarts.com/expos/laudace-tentaculaire-des-shunga-ces-estampes-et-peintures-erotiques-japonaises-dans-une-expo-a-paris/",
+          "published": "Fri, 13 Nov 2026 11:00:03 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/unekinoe-no-komatsu-1300x975.jpg"
         },
         {
-          "title": "Les meilleures expos photo à voir en ce moment à Paris et en région",
-          "link": "https://www.beauxarts.com/selections/les-meilleures-expos-photo-a-voir-en-ce-moment-en-france/",
-          "published": "Thu, 12 Nov 2026 11:23:18 +0000",
-          "image": "https://media.beauxarts.com/uploads/2025/11/une127_hl.phot_.2005.169-1300x975.jpg"
+          "title": "À Metz, la première rétrospective internationale de Séraphine Louis révèle la grande peintre derrière la légende",
+          "link": "https://www.beauxarts.com/expos/a-metz-la-premiere-retrospective-internationale-de-seraphine-louis-revele-la-grande-peintre-derriere-la-legende/",
+          "published": "Fri, 13 Nov 2026 09:00:01 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/une15876.raw_-1300x975.jpg"
         }
       ]
     },
@@ -54,22 +54,22 @@
       "source": "https://www.lemonde.fr/culture/rss_full.xml",
       "items": [
         {
-          "title": "Nicole Kidman recevra un César d’honneur lors de la prochaine cérémonie qui se tiendra le 25 février, à Paris",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/12/nicole-kidman-recevra-un-cesar-d-honneur-lors-de-la-prochaine-ceremonie-qui-se-tiendra-le-25-fevrier-a-paris_6809097_3246.html",
-          "published": "Thu, 12 Nov 2026 12:48:36 +0100",
-          "image": "https://img.lemde.fr/2026/11/08/166/0/5500/2750/644/322/60/0/52f0b36_ftp-1-450bk8i0iup6-2026-11-08t231917z-1491913787-rc2fjoa2lmwx-rtrmadp-3-usa-entertainment-lacma.JPG"
+          "title": "Avec « La Mort du môme », Sébastien Kheroufi quitte l’enfance dans un fracas de mots, de musiques et d’images",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/13/avec-la-mort-du-mome-sebastien-kheroufi-quitte-l-enfance-dans-un-fracas-de-mots-de-musiques-et-d-images_6809307_3246.html",
+          "published": "Fri, 13 Nov 2026 11:00:09 +0100",
+          "image": "https://img.lemde.fr/2026/11/11/282/0/3000/1500/644/322/60/0/6be8232_upload-1-8cfvg02nf4gb-261026-rdl-0118.jpg"
         },
         {
-          "title": "« Einstein. Autopsie d’une photogénie », tentative de dissection d’un secret du célèbre physicien",
-          "link": "https://www.lemonde.fr/sciences/article/2026/11/12/einstein-autopsie-d-une-photogenie-tentative-de-dissection-d-un-secret-du-celebre-physicien_6809095_1650684.html",
-          "published": "Thu, 12 Nov 2026 12:30:06 +0100",
-          "image": "https://img.lemde.fr/2026/11/10/166/0/1920/960/644/322/60/0/e59cc98_upload-1-m8anqcde0atp-generated-1794317965298.jpg"
+          "title": "A la foire Paris Photo, la photographie du XIXᵉ siècle en quête d’une nouvelle jeunesse : « Si les premiers collectionneurs ont disparu, une deuxième génération monte en puissance »",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/13/la-photographie-du-xix-siecle-en-quete-d-une-nouvelle-jeunesse-a-la-foire-paris-photo-si-les-premiers-collectionneurs-ont-disparu-une-deuxieme-generation-monte-en-puissance_6809284_3246.html",
+          "published": "Fri, 13 Nov 2026 06:30:07 +0100",
+          "image": "https://img.lemde.fr/2026/11/12/492/0/4000/2000/644/322/60/0/1d6f89f_upload-1-6n5zohbj2kwu-gustave-le-gray-marine-bateau-quittant-le-port.jpg"
         },
         {
-          "title": "La mort de Stacy Keach, le dur parfait du cinéma hollywoodien des années 1970",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/11/12/la-mort-de-stacy-keach-le-dur-parfait-du-cinema-hollywoodien-des-annees-1970_6809089_3382.html",
-          "published": "Thu, 12 Nov 2026 12:00:08 +0100",
-          "image": "https://img.lemde.fr/2026/11/12/399/0/4300/2150/644/322/60/0/34ad49c_upload-1-vhhkf2vqcreg-20180515lpa7461u2.jpg"
+          "title": "En lançant « Le Cri du cirque », les acrobates donnent de la voix pour alerter sur la baisse des subventions",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/13/en-lancant-le-cri-du-cirque-les-acrobates-donnent-de-la-voix-pour-alerter-sur-la-baisse-des-subventions_6809280_3246.html",
+          "published": "Fri, 13 Nov 2026 06:00:38 +0100",
+          "image": "https://img.lemde.fr/2026/11/11/500/0/6000/3000/644/322/60/0/d81fd06_upload-1-ghnexy6s40e5-img-6429-dxo-deepprime-xd3.jpg"
         }
       ]
     },
@@ -78,22 +78,22 @@
       "source": "https://www.numerama.com/feed/",
       "items": [
         {
-          "title": "Rouler reste toujours le moyen le plus rapide de se déplacer dans Zelda Ocarina of Time",
-          "link": "https://www.numerama.com/pop-culture/2372837-rouler-reste-toujours-le-moyen-le-plus-rapide-de-se-deplacer-dans-zelda-ocarina-of-time.html",
-          "published": "Thu, 12 Nov 2026 14:06:18 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/oot-roulade.png?resize=1200,675&key=54fdda3a"
+          "title": "Boulanger retire 350 € au Google Pixel 11 pour le Black Friday, trois mois seulement après sa sortie",
+          "link": "https://www.numerama.com/tech/2373973-boulanger-retire-350-e-au-google-pixel-11-trois-mois-seulement-apres-sa-sortie.html",
+          "published": "Fri, 13 Nov 2026 13:15:22 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/pixel-11-black-friday.jpg?resize=1200,675&key=b8d798f1"
         },
         {
-          "title": "Les meilleurs films d’action à voir sur Netflix en 2026",
-          "link": "https://www.numerama.com/pop-culture/2234141-les-meilleurs-films-daction-a-voir-sur-netflix-en-2026.html",
-          "published": "Thu, 12 Nov 2026 13:40:00 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/04/tylerrake-2.jpeg?resize=1200,675&key=c81e82b3"
+          "title": "Les Anneaux de pouvoir invente une origine aux montures ailées des Nazgûl que Tolkien n’avait jamais vraiment tranchée",
+          "link": "https://www.numerama.com/pop-culture/2373691-les-anneaux-de-pouvoir-la-serie-reecrit-lorigine-des-montures-ailees-des-nazgul.html",
+          "published": "Fri, 13 Nov 2026 12:31:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/creature-nazgul.jpg?resize=1200,675&key=c6bccb70"
         },
         {
-          "title": "Superman : Henry Cavill de retour ? L’acteur fait une déclaration",
-          "link": "https://www.numerama.com/pop-culture/2372845-superman-henry-cavill-de-retour-dans-le-role-lacteur-sexprime.html",
-          "published": "Thu, 12 Nov 2026 13:22:00 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/henry-cavill-man-of-steel-wallpaper-hd-142654.jpg?resize=1200,675&key=cd6e7606"
+          "title": "Vous avez un smartphone Samsung ? Attention avant de migrer votre passe Navigo chez Google",
+          "link": "https://www.numerama.com/vroom/2373763-vous-avez-un-smartphone-samsung-attention-avant-de-migrer-votre-passe-navigo-chez-google.html",
+          "published": "Fri, 13 Nov 2026 11:27:08 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2019/04/samsung-navigo-1.jpg?resize=1200,675&key=f798584b"
         }
       ]
     },
@@ -102,22 +102,22 @@
       "source": "https://www.futura-sciences.com/rss/actualites.xml",
       "items": [
         {
-          "title": "900 millions de galaxies : Euclid ouvre un trésor cosmique qui pourrait bouleverser notre vision de l'Univers",
-          "link": "https://www.futura-sciences.com/sciences/actualites/astronomie-900-millions-galaxies-euclid-ouvre-tresor-cosmique-pourrait-bouleverser-notre-vision-univers-139212/#xtor%3DRSS-8",
-          "published": "Thu, 12 Nov 2026 15:02:55 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/9/b/9/9b9490e554_50263221_abel-3128-euclid-esa.jpg"
+          "title": "Le prix de ce tableau en liège VEVOR s’effondre avant le Black Friday : –38 % de réduction !",
+          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-petit-electromenager-prix-ce-tableau-liege-vevor-effondre-avant-black-friday-38-reduction-11842/#xtor%3DRSS-8",
+          "published": "Fri, 13 Nov 2026 14:00:00 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/f/0/1/f0160923cb_50263296_tableau-d-affichage-mural-liege-blanc-vevor-img.jpg"
         },
         {
-          "title": "VEVOR casse le prix de cette chambre de culture intérieure avec éclairage LED avant le Black Friday",
-          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-jardin-vevor-casse-prix-cette-chambre-culture-interieure-eclairage-led-avant-black-friday-11833/#xtor%3DRSS-8",
-          "published": "Thu, 12 Nov 2026 14:00:00 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/2/7/7/2778eb801d_50263217_chambre-culture-vevor-img.jpg"
+          "title": "CyberGhost VPN : un allié pour sécuriser ses connexions pendant les vacances ?",
+          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-vpn-cyberghost-vpn-allie-securiser-connexions-pendant-vacances-11838/#xtor%3DRSS-8",
+          "published": "Fri, 13 Nov 2026 13:30:00 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/6/3/e/63ede129bc_50263291_voyages-fin-dannee.jpg"
         },
         {
-          "title": "Voiture, chauffage, factures : ce que les COP ont réellement changé pour les Français",
-          "link": "https://www.futura-sciences.com/planete/actualites/cop31-voiture-chauffage-factures-ce-cop-ont-reellement-change-francais-139258/#xtor%3DRSS-8",
-          "published": "Thu, 12 Nov 2026 13:03:14 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/9/3/893aa2c4b4_50263228_cop31-vie-quotidienne.jpg"
+          "title": "Vendues « comme de simples sodas » : ces boissons énergisantes associées à de graves problèmes cardiaques",
+          "link": "https://www.futura-sciences.com/sante/actualites/nutrition-vendues-comme-simples-sodas-ces-boissons-energisantes-associees-graves-problemes-cardiaques-139278/#xtor%3DRSS-8",
+          "published": "Fri, 13 Nov 2026 13:30:00 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/7/9/1/791d9b903d_50263232_2-boisson-energisante.jpg"
         }
       ]
     },
@@ -125,6 +125,12 @@
       "label": "🏥 Santé",
       "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
       "items": [
+        {
+          "title": "Surpoids et obésité : l’IMC montre ses limites, une étude le confirme",
+          "link": "https://www.sciencesetavenir.fr/sante/obesite-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-exces-de-graisse_196082?xtor=RSS-16",
+          "published": "Fri, 13 Nov 2026 12:09:47 +0000",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/11/cover-r4x3w1200-6af49884157f8-7afb3a30c7e10983f7ad43e8ee3ecbdb889d52af-jpg.jpg"
+        },
         {
           "title": "Diabète : Un implant sans médicament contrôle la glycémie électriquement",
           "link": "https://www.sciencesetavenir.fr/sante/diabete-un-implant-controle-la-glycemie-a-coups-de-courant_196090?xtor=RSS-16",
@@ -136,12 +142,6 @@
           "link": "https://www.sciencesetavenir.fr/sante/cancer-colorectal-l-immunotherapie-pour-eviter-la-chirurgie_195866?xtor=RSS-16",
           "published": "Wed, 11 Nov 2026 14:00:00 +0000",
           "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0a46093-ar-1751839-tf-68438311-1-notext-jpg.jpg"
-        },
-        {
-          "title": "Quand les tumeurs piratent le système nerveux",
-          "link": "https://www.sciencesetavenir.fr/sante/quand-les-tumeurs-piratent-le-systeme-nerveux_195872?xtor=RSS-16",
-          "published": "Tue, 10 Nov 2026 13:00:00 +0000",
-          "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0de53ed-ar-1751851-tf-68438331-1-notext-jpg.jpg"
         }
       ]
     },
@@ -150,22 +150,22 @@
       "source": "https://www.lemonde.fr/sport/rss_full.xml",
       "items": [
         {
-          "title": "Victor Wembanyama, auteur d’un début de saison tonitruant, devient une équation insoluble pour ses rivaux de NBA",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/12/victor-wembanyama-auteur-d-un-debut-de-saison-tonitruant-devient-une-equation-insoluble-pour-ses-rivaux-de-nba_6809087_3242.html",
-          "published": "Thu, 12 Nov 2026 11:27:32 +0100",
-          "image": "https://img.lemde.fr/2026/11/12/27/0/2938/1469/644/322/60/0/fb8d78b_ftp-1-a9fkfdjblatr-2304690863.jpg"
+          "title": "L’athlète Auriana Lazraq-Khlass suspendue pour vingt-deux mois en raison de manquements à ses obligations de localisation antidopage",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/13/l-athlete-auriana-lazraq-khlass-suspendue-pour-vingt-deux-mois-en-raison-de-manquements-a-ses-obligations-de-localisation-antidopage_6809317_3242.html",
+          "published": "Fri, 13 Nov 2026 12:02:08 +0100",
+          "image": "https://img.lemde.fr/2024/08/09/119/0/5302/2651/644/322/60/0/ce55e7a_2024-08-09t082742z-1377573070-up1ek890ni45j-rtrmadp-3-olympics-2024-athletics.JPG"
         },
         {
-          "title": "Le centre de formation du Stade rennais, la nouvelle pépinière de l’équipe de France de football",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/12/le-centre-de-formation-du-stade-rennais-la-nouvelle-pepiniere-de-l-equipe-de-france-de-football_6809063_3242.html",
-          "published": "Thu, 12 Nov 2026 06:43:53 +0100",
-          "image": "https://img.lemde.fr/2026/11/11/223/0/4093/2046/644/322/60/0/7f94e25_upload-1-8qzamy7x1azu-000-d27z4ka.jpg"
+          "title": "En crise, le RC Lens évince Yannick Cahuzac, deux mois après avoir déjà changé d’entraîneur",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/13/en-crise-le-rc-lens-evince-yannick-cahuzac-deux-mois-apres-avoir-deja-change-d-entraineur_6809299_3242.html",
+          "published": "Fri, 13 Nov 2026 10:07:13 +0100",
+          "image": "https://img.lemde.fr/2026/10/21/848/0/5235/2617/644/322/60/0/4e12448_ftp-1-rrnqfdcbt21x-2026-10-21t192411z-827826905-up1emal1hw9zb-rtrmadp-3-soccer-champions-clu-rcl.JPG"
         },
         {
-          "title": "Donation d’argent investie dans une société : quel rapport à la succession ?",
-          "link": "https://www.lemonde.fr/argent/article/2026/11/12/donation-d-argent-investie-dans-une-societe-quel-rapport-a-la-succession_6809054_1657007.html",
-          "published": "Thu, 12 Nov 2026 06:00:28 +0100",
-          "image": "https://img.lemde.fr/2023/05/03/97/0/3000/1500/644/322/60/0/d01e012_1683120111391-lmargent9.jpg"
+          "title": "Italie-France : la défaite « fait partie de l’apprentissage », estime Zinédine Zidane",
+          "link": "https://www.lemonde.fr/videos/video/2026/11/13/italie-france-la-defaite-fait-partie-de-l-apprentissage-estime-zinedine-zidane_6809294_1669088.html",
+          "published": "Fri, 13 Nov 2026 09:37:15 +0100",
+          "image": "https://img.lemde.fr/2026/11/12/779/0/7892/3946/644/322/60/0/5eaa198_ftp-1-ikkbvv0wkqy0-afp-d7bz8fd.jpg"
         }
       ]
     }
