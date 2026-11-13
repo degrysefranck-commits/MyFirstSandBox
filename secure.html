@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace s&eacute;curis&eacute; &middot; MyFirstSandBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blobs" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="topbar">
+        <div class="topbar-row">
+            <div class="brand"><span class="brand-dot"></span>MyFirstSandBox</div>
+            <h1 class="topbar-title fade-up">Espace <span class="gradient">s&eacute;curis&eacute;</span> &#128274;</h1>
+            <a class="secure-link fade-up delay-1" href="index.html">&#8592; Accueil</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="glass secure-panel fade-up" id="secure-panel" hidden>
+            <p class="kicker"><span class="pulse-dot"></span>Zone prot&eacute;g&eacute;e</p>
+            <h2>Bienvenue, <span id="user-name">membre</span> &#128075;</h2>
+            <p class="secure-text">Cette page n&rsquo;est accessible qu&rsquo;apr&egrave;s une authentification OAuth&nbsp;2.0 (flux Authorization Code avec PKCE). Votre jeton est conserv&eacute; uniquement dans cette session de navigation.</p>
+            <p class="secure-text" id="user-email" hidden></p>
+            <div class="secure-actions">
+                <a class="secure-link" href="index.html">&#8592; Retour &agrave; l&rsquo;accueil</a>
+                <button class="secure-link danger" id="logout-btn" type="button">Se d&eacute;connecter</button>
+            </div>
+        </section>
+
+        <section class="glass secure-panel" id="auth-status">
+            <p class="loading" id="auth-message">V&eacute;rification de la session&hellip;</p>
+        </section>
+    </main>
+
+    <footer class="footer">Authentification OAuth&nbsp;2.0 &middot; Authorization Code + PKCE</footer>
+
+    <script src="oauth-config.js"></script>
+    <script src="auth.js"></script>
+    <script>
+        (async function () {
+            const panel = document.getElementById("secure-panel");
+            const status = document.getElementById("auth-status");
+            const message = document.getElementById("auth-message");
+
+            if (!window.Auth.isConfigured()) {
+                message.textContent = "OAuth 2.0 n'est pas encore configur\u00e9 : renseignez clientId et les endpoints du fournisseur dans oauth-config.js.";
+                return;
+            }
+
+            const result = await window.Auth.handleCallback();
+            if (result && result.error) {
+                message.textContent = "Connexion refus\u00e9e : " + result.error + ".";
+                const retry = document.createElement("a");
+                retry.className = "secure-link";
+                retry.href = "secure.html";
+                retry.textContent = "R\u00e9essayer";
+                status.appendChild(retry);
+                return;
+            }
+
+            const token = window.Auth.getAccessToken();
+            if (!token) {
+                window.Auth.login();
+                return;
+            }
+
+            const profile = await window.Auth.fetchProfile(token);
+            if (profile) {
+                const name = profile.name || profile.preferred_username || profile.nickname || profile.sub;
+                if (name) document.getElementById("user-name").textContent = name;
+                if (profile.email) {
+                    const emailEl = document.getElementById("user-email");
+                    emailEl.textContent = profile.email;
+                    emailEl.hidden = false;
+                }
+            }
+
+            status.hidden = true;
+            panel.hidden = false;
+            document.getElementById("logout-btn").addEventListener("click", function () {
+                window.Auth.logout();
+                window.location.href = "index.html";
+            });
+        })();
+    </script>
+</body>
+</html>
