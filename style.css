@@ -556,6 +556,68 @@ body::after {
     color: var(--muted);
 }
 
+.secure-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.55rem 1.05rem;
+    border-radius: 999px;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.25s var(--ease-out), border-color 0.25s, background 0.25s;
+}
+
+.secure-link:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-2);
+    background: rgba(96, 165, 250, 0.12);
+}
+
+.secure-link.danger:hover {
+    border-color: #f87171;
+    background: rgba(248, 113, 113, 0.12);
+}
+
+.secure-panel {
+    width: 100%;
+    padding: 2.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
+}
+
+.secure-panel[hidden] {
+    display: none;
+}
+
+.secure-panel h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.secure-text {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 56ch;
+}
+
+.secure-actions {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-top: 0.6rem;
+}
+
 .fade-up {
     animation: fadeUp 0.75s var(--ease-out) both;
 }
@@ -575,6 +637,7 @@ body::after {
     .topbar { padding: 1.1rem 1.5rem; }
     .topbar-row { justify-content: center; }
     .topbar-title { font-size: 1.3rem; }
+    .secure-link { font-size: 0.78rem; padding: 0.45rem 0.85rem; }
     .clock-time { font-size: 1.25rem; }
     .theme-menu { border-radius: 24px; }
     .news { padding: 1.5rem 1.4rem; }

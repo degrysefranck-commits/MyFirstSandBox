@@ -35,3 +35,34 @@ FR, France 24, France Info, Le Monde (à la une) et le top des consultations
 Wikipédia FR. `trends.json` est régénéré chaque jour par le même workflow.
 
 Le site est publié sur [https://degrysefranck-commits.github.io/MyFirstSandBox/](https://degrysefranck-commits.github.io/MyFirstSandBox/).
+
+## Espace sécurisé (OAuth 2.0)
+
+Un lien **Espace sécurisé** dans l'en-tête mène à `secure.html`, une page protégée par une
+authentification OAuth 2.0. Comme le site est 100 % statique (GitHub Pages, aucun serveur),
+l'authentification utilise le flux **Authorization Code + PKCE** (RFC 7636), conçu pour les
+clients publics : aucun secret côté client n'est requis ni exposé. Le jeton d'accès est stocké
+dans `sessionStorage` (effacé à la fermeture de l'onglet) et un paramètre `state` protège le
+retour d'autorisation contre les attaques CSRF.
+
+### Configuration
+
+Renseigner `oauth-config.js` avec les valeurs de votre fournisseur d'identité :
+
+- `clientId` : identifiant client (public) enregistré chez le fournisseur ;
+- `authorizationEndpoint`, `tokenEndpoint`, `userinfoEndpoint` : endpoints du fournisseur ;
+- `redirectUri` : laisser vide pour utiliser automatiquement l'URL absolue de `secure.html`,
+  sinon la fixer explicitement (à enregistrer aussi comme redirect URI chez le fournisseur,
+  ex. `https://degrysefranck-commits.github.io/MyFirstSandBox/secure.html`) ;
+- `scopes` : ex. `openid profile email`.
+
+Le fournisseur doit accepter le flux Authorization Code + PKCE depuis le navigateur, ce qui
+implique que son endpoint de token autorise les requêtes CORS (c'est le cas d'Auth0, Okta,
+Keycloak, Azure AD, etc.). **GitHub OAuth Apps n'est pas utilisable ici** : il exige un
+`client_secret`, qu'aucun site purement statique ne peut garder confidentiel.
+
+### Limite importante
+
+Le contrôle d'accès est effectué côté client : tout le contenu publié dans ce dépôt reste public.
+Pour protéger de vraies données sensibles, il faudrait un backend (API + vérification du jeton
+côté serveur).
