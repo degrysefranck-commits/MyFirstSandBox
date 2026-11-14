@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T13:32:02Z",
+  "updated_at": "2026-11-14T12:36:47Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -11,62 +11,46 @@
   "words": [
     {
       "word": "france",
-      "count": 8
+      "count": 9
+    },
+    {
+      "word": "unis",
+      "count": 9
     },
     {
       "word": "panne",
       "count": 8
     },
     {
-      "word": "présidentielle",
-      "count": 8
-    },
-    {
-      "word": "huang",
+      "word": "jean",
       "count": 7
     },
     {
-      "word": "monde",
+      "word": "ont",
+      "count": 7
+    },
+    {
+      "word": "présidentielle",
       "count": 7
     },
     {
       "word": "novembre",
-      "count": 7
-    },
-    {
-      "word": "jensen",
       "count": 6
     },
     {
-      "word": "microsoft",
-      "count": 6
-    },
-    {
-      "word": "mois",
-      "count": 6
-    },
-    {
-      "word": "mondiale",
-      "count": 6
-    },
-    {
-      "word": "nvidia",
-      "count": 6
-    },
-    {
-      "word": "outlook",
-      "count": 6
-    },
-    {
-      "word": "américain",
+      "word": "affaire",
       "count": 5
     },
     {
-      "word": "comment",
+      "word": "blanche",
       "count": 5
     },
     {
-      "word": "paris",
+      "word": "pouvoir",
+      "count": 5
+    },
+    {
+      "word": "trump",
       "count": 5
     },
     {
@@ -74,11 +58,35 @@
       "count": 5
     },
     {
-      "word": "attentat",
+      "word": "états",
+      "count": 5
+    },
+    {
+      "word": "adhésion",
       "count": 4
     },
     {
-      "word": "cyberattaque",
+      "word": "affirme",
+      "count": 4
+    },
+    {
+      "word": "comment",
+      "count": 4
+    },
+    {
+      "word": "etats",
+      "count": 4
+    },
+    {
+      "word": "figaro",
+      "count": 4
+    },
+    {
+      "word": "française",
+      "count": 4
+    },
+    {
+      "word": "françois",
       "count": 4
     },
     {
@@ -86,48 +94,40 @@
       "count": 4
     },
     {
-      "word": "lecornu",
+      "word": "heures",
       "count": 4
     },
     {
-      "word": "ouvre",
+      "word": "maison",
       "count": 4
     },
     {
-      "word": "raciste",
+      "word": "manifestations",
       "count": 4
     },
     {
-      "word": "sait",
+      "word": "microsoft",
       "count": 4
     },
     {
-      "word": "sébastien",
+      "word": "mondiale",
       "count": 4
     },
     {
-      "word": "trappes",
+      "word": "nations",
       "count": 4
     },
     {
-      "word": "violences",
+      "word": "nvidia",
       "count": 4
     },
     {
-      "word": "élection",
+      "word": "otan",
       "count": 4
     },
     {
-      "word": "affaire",
-      "count": 3
-    },
-    {
-      "word": "attentats",
-      "count": 3
-    },
-    {
-      "word": "bas",
-      "count": 3
+      "word": "rugby",
+      "count": 4
     }
   ]
 }
