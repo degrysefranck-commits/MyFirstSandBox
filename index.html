@@ -26,6 +26,7 @@
             <span class="clock-date" id="clock-date"></span>
             <span class="clock-right">
                 <span class="clock-time"><span id="clock-hm">--:--</span><span class="clock-colon">:</span><span class="clock-sec" id="clock-sec">--</span></span>
+                <button class="archive-btn" id="account-btn" type="button" title="Connexion / créer un compte">👤 <span id="account-label">Connexion</span></button>
                 <button class="archive-btn" id="archive-btn" type="button" title="Consulter les archives" aria-haspopup="dialog">🗄️ <span>Archives</span></button>
             </span>
         </div>
@@ -110,8 +111,29 @@
 
     <footer class="footer">Actualités mises à jour automatiquement chaque jour · GitHub Pages</footer>
 
+    <script src="auth.js"></script>
     <script>
         const THEME_ORDER = ["art", "auto", "culture", "high-tech", "ia", "monde", "nature", "sante", "sport"];
+
+        function prefGet(k) {
+            const u = window.Auth ? window.Auth.currentUser() : null;
+            if (u) {
+                const p = window.Auth.loadPrefs(u);
+                return p[k] !== undefined ? p[k] : null;
+            }
+            return localStorage.getItem(k);
+        }
+
+        function prefSet(k, v) {
+            const u = window.Auth ? window.Auth.currentUser() : null;
+            if (u) {
+                const p = window.Auth.loadPrefs(u);
+                p[k] = v;
+                window.Auth.savePrefs(u, p);
+            } else {
+                localStorage.setItem(k, v);
+            }
+        }
 
         const dateEl = document.getElementById("clock-date");
         const hmEl = document.getElementById("clock-hm");
@@ -181,7 +203,7 @@
         }
 
         let newsData = null;
-        let activeTheme = localStorage.getItem("theme") || "monde";
+        let activeTheme = prefGet("theme") || "monde";
 
         function moveIndicator(btn) {
             if (!btn) return;
@@ -252,19 +274,19 @@
         const manageBtn = document.getElementById("manage-btn");
 
         function loadCustomThemes() {
-            try { return JSON.parse(localStorage.getItem(CUSTOM_KEY)) || []; } catch (e) { return []; }
+            try { return JSON.parse(prefGet(CUSTOM_KEY) || "[]") || []; } catch (e) { return []; }
         }
 
         function saveCustomThemes(list) {
-            localStorage.setItem(CUSTOM_KEY, JSON.stringify(list));
+            prefSet(CUSTOM_KEY, JSON.stringify(list));
         }
 
         function loadHiddenThemes() {
-            try { return JSON.parse(localStorage.getItem(HIDDEN_KEY)) || []; } catch (e) { return []; }
+            try { return JSON.parse(prefGet(HIDDEN_KEY) || "[]") || []; } catch (e) { return []; }
         }
 
         function saveHiddenThemes(list) {
-            localStorage.setItem(HIDDEN_KEY, JSON.stringify(list));
+            prefSet(HIDDEN_KEY, JSON.stringify(list));
         }
 
         function allThemeEntries() {
@@ -290,7 +312,7 @@
                 btn.dataset.theme = entry.key;
                 btn.addEventListener("click", () => {
                     activeTheme = entry.key;
-                    localStorage.setItem("theme", entry.key);
+                    prefSet("theme", entry.key);
                     renderTheme(entry.key);
                 });
                 menuEl.insertBefore(btn, manageBtn);
@@ -712,7 +734,7 @@
             manageLabel.value = "";
             renderManageList();
             activeTheme = key;
-            localStorage.setItem("theme", key);
+            prefSet("theme", key);
             buildMenu();
         });
 
@@ -734,6 +756,34 @@
             document.body.style.overflow = "";
             manageBtn.focus();
         }
+
+        const accountBtn = document.getElementById("account-btn");
+        const accountLabel = document.getElementById("account-label");
+
+        function refreshAccountBtn() {
+            const u = window.Auth ? window.Auth.currentUser() : null;
+            if (u) {
+                accountLabel.textContent = u;
+                accountBtn.title = "Se déconnecter (" + u + ")";
+            } else {
+                accountLabel.textContent = "Connexion";
+                accountBtn.title = "Connexion / créer un compte";
+            }
+        }
+
+        accountBtn.addEventListener("click", () => {
+            const u = window.Auth ? window.Auth.currentUser() : null;
+            if (u) {
+                if (confirm("Se déconnecter du compte « " + u + " » ?")) {
+                    window.Auth.logout();
+                    location.reload();
+                }
+            } else {
+                window.location.href = "login.html";
+            }
+        });
+
+        refreshAccountBtn();
 
         manageBtn.addEventListener("click", openManage);
         manageClose.addEventListener("click", closeManage);
