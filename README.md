@@ -16,8 +16,9 @@ Puis va sur [http://localhost:8000](http://localhost:8000).
 
 La page propose un menu de 9 thèmes, par ordre alphabétique — 🎨 Art, 🚗 Auto, 🎭 Culture,
 💻 High-tech, 🤖 IA, 🌍 Monde, 🌿 Nature, 🏥 Santé, ⚽ Sport — et affiche pour chacun les 3 faits marquants du
-jour en français, avec une vignette image (flux RSS France 24, Beaux Arts,
-Le Monde, Futura Sciences, Sciences et Avenir).
+jour en français, avec une vignette image. **Chaque thème agrège 2 à 3 sources RSS** (ex. High-tech :
+Numerama + 01net + Presse Citron) : les articles sont dédupliqués par titre normalisé et classés par
+récence pour ne garder que les plus pertinents ; le nombre de sources actives est affiché sous le titre.
 
 Un workflow GitHub Actions (`.github/workflows/update-news.yml`) tourne chaque
 jour à 6h00 UTC : il régénère `news.json` via `scripts/update_news.py` (un flux

@@ -38,39 +38,68 @@ on for with at by from is are was were be been it its this that these those
 THEMES = {
     "art": {
         "label": "🎨 Art",
-        "feed": "https://www.beauxarts.com/feed/",
+        "sources": [
+            ("Beaux Arts", "https://www.beauxarts.com/feed/"),
+            ("Connaissance des Arts", "https://www.connaissancedesarts.com/feed/"),
+        ],
     },
     "auto": {
         "label": "🚗 Auto",
-        "feed": "https://www.autoplus.fr/rss",
+        "sources": [
+            ("Auto Plus", "https://www.autoplus.fr/rss"),
+            ("Auto Moto", "https://www.auto-moto.com/feed"),
+        ],
     },
     "culture": {
         "label": "🎭 Culture",
-        "feed": "https://www.lemonde.fr/culture/rss_full.xml",
+        "sources": [
+            ("Le Monde Culture", "https://www.lemonde.fr/culture/rss_full.xml"),
+            ("France 24 Culture", "https://www.france24.com/fr/culture/rss"),
+        ],
     },
     "high-tech": {
         "label": "💻 High-tech",
-        "feed": "https://www.numerama.com/feed/",
+        "sources": [
+            ("Numerama", "https://www.numerama.com/feed/"),
+            ("01net", "https://www.01net.com/feed/"),
+            ("Presse Citron", "https://www.presse-citron.net/feed/"),
+        ],
     },
     "ia": {
         "label": "🤖 IA",
-        "feed": "https://www.actuia.com/feed/",
+        "sources": [
+            ("ActuIA", "https://www.actuia.com/feed/"),
+            ("Numerama IA", "https://www.numerama.com/intelligence-artificielle/feed/"),
+            ("01net IA", "https://www.01net.com/actualites/intelligence-artificielle/feed/"),
+        ],
     },
     "monde": {
         "label": "🌍 Monde",
-        "feed": "https://www.france24.com/fr/monde/rss",
+        "sources": [
+            ("France 24 Monde", "https://www.france24.com/fr/monde/rss"),
+            ("Le Monde International", "https://www.lemonde.fr/international/rss_full.xml"),
+        ],
     },
     "nature": {
         "label": "🌿 Nature",
-        "feed": "https://www.futura-sciences.com/rss/actualites.xml",
+        "sources": [
+            ("Futura Sciences", "https://www.futura-sciences.com/rss/actualites.xml"),
+            ("SciencePost", "https://www.sciencepost.fr/feed/"),
+        ],
     },
     "sante": {
         "label": "🏥 Santé",
-        "feed": "https://www.sciencesetavenir.fr/sante/rss.xml",
+        "sources": [
+            ("Sciences et Avenir", "https://www.sciencesetavenir.fr/sante/rss.xml"),
+            ("Santé Magazine", "https://www.santemagazine.fr/rss"),
+        ],
     },
     "sport": {
         "label": "⚽ Sport",
-        "feed": "https://www.lemonde.fr/sport/rss_full.xml",
+        "sources": [
+            ("Le Monde Sport", "https://www.lemonde.fr/sport/rss_full.xml"),
+            ("France 24 Sport", "https://www.france24.com/fr/sport/rss"),
+        ],
     },
 }
 
@@ -100,13 +129,13 @@ def extract_image(item):
     return None
 
 
-def fetch_items(feed_url):
+def fetch_items(feed_url, limit=8):
     req = urllib.request.Request(feed_url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = resp.read()
     root = ET.fromstring(data)
     items = []
-    for item in root.findall("./channel/item")[:MAX_ITEMS]:
+    for item in root.findall("./channel/item")[:limit]:
         items.append({
             "title": (item.findtext("title") or "").strip(),
             "link": (item.findtext("link") or "").strip(),
@@ -114,6 +143,63 @@ def fetch_items(feed_url):
             "image": extract_image(item),
         })
     return items
+
+
+def normalize_title(title):
+    return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+
+
+def parse_pubdate(value):
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(value)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.timestamp()
+    except Exception:
+        return 0.0
+
+
+def fetch_theme_items(theme):
+    sources_ok = []
+    merged = []
+    for name, feed in theme["sources"]:
+        try:
+            for item in fetch_items(feed):
+                if item["title"] and item["link"]:
+                    merged.append((parse_pubdate(item["published"]), item, name))
+            sources_ok.append(name)
+        except Exception as exc:
+            print(f"  [{name}] indisponible ({exc})")
+    merged.sort(key=lambda t: -t[0])
+    seen = set()
+    deduped = []
+    for score, item, name in merged:
+        key = normalize_title(item["title"])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append((score, item, name))
+    max_per_source = MAX_ITEMS if len(sources_ok) <= 1 else 2
+    count_per_source = {}
+    selected = []
+    for score, item, name in deduped:
+        if len(selected) >= MAX_ITEMS:
+            break
+        if count_per_source.get(name, 0) >= max_per_source:
+            continue
+        count_per_source[name] = count_per_source.get(name, 0) + 1
+        selected.append((score, item, name))
+    items = []
+    for score, item, name in selected:
+        items.append({
+            "title": item["title"],
+            "link": item["link"],
+            "published": item["published"],
+            "image": item["image"],
+            "source": name,
+        })
+    return items, sources_ok
 
 
 def tokenize(text):
@@ -203,12 +289,15 @@ def main():
     previous_themes = previous.get("themes", {})
     themes = {}
     for key, theme in THEMES.items():
-        entry = {"label": theme["label"], "source": theme["feed"], "items": []}
+        entry = {"label": theme["label"], "source": theme["sources"][0][1], "sources": [], "items": []}
         try:
-            entry["items"] = fetch_items(theme["feed"])
+            entry["items"], entry["sources"] = fetch_theme_items(theme)
+            if not entry["items"]:
+                raise ValueError("aucun item exploitable")
         except Exception as exc:
             entry["items"] = previous_themes.get(key, {}).get("items", [])
-            print(f"[{key}] flux indisponible ({exc}), anciennes donnees conservees")
+            entry["sources"] = previous_themes.get(key, {}).get("sources", [s[0] for s in theme["sources"]])
+            print(f"[{key}] sources indisponibles ({exc}), anciennes donnees conservees")
         themes[key] = entry
 
     payload = {

@@ -50,6 +50,7 @@
                 <div class="news-heading">
                     <p class="kicker"><span class="pulse-dot"></span>En direct</p>
                     <h2 id="news-title">Les 3 faits marquants du jour</h2>
+                    <span class="sources-count" id="sources-count"></span>
                 </div>
                 <p class="updated" id="updated"></p>
             </div>
@@ -415,6 +416,8 @@
             moveIndicator(activeButton());
             buildTicker(theme);
             titleEl.textContent = (theme ? theme.label : "📰") + " — Les 3 faits marquants du jour";
+            const sourcesEl = document.getElementById("sources-count");
+            sourcesEl.textContent = theme && theme.sources && theme.sources.length > 1 ? theme.sources.length + " sources" : "";
             const icon = theme ? [...theme.label][0] : "📰";
             listEl.innerHTML = "";
             const items = theme && theme.items ? theme.items : [];
