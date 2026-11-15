@@ -29,7 +29,7 @@
         <section class="glass auth-card fade-up" id="session-card" hidden>
             <p class="kicker"><span class="pulse-dot"></span>Session active</p>
             <h2>Connecté en tant que <span id="session-user"></span> 👋</h2>
-            <p class="auth-note">Vos thèmes personnalisés (ajouts, masquages, thème choisi) sont enregistrés sur ce compte.</p>
+            <p class="auth-note">Vos thèmes personnalisés (ajouts, masquages, thème choisi) sont enregistrés sur ce compte et synchronisés via Supabase.</p>
             <div class="auth-actions">
                 <a class="archive-btn" href="index.html">Voir la page d’accueil</a>
                 <button class="archive-btn danger" id="logout-btn" type="button">Se déconnecter</button>
@@ -41,7 +41,7 @@
                 <p class="kicker"><span class="pulse-dot"></span>Déjà un compte</p>
                 <h2>Connexion</h2>
                 <form id="login-form" class="auth-form">
-                    <input type="text" id="login-user" placeholder="Identifiant" required maxlength="20" autocomplete="username">
+                    <input type="email" id="login-email" placeholder="E-mail" required autocomplete="username">
                     <input type="password" id="login-pass" placeholder="Mot de passe" required autocomplete="current-password">
                     <button type="submit" class="manage-submit">Se connecter</button>
                     <p class="auth-error" id="login-error" hidden></p>
@@ -52,19 +52,23 @@
                 <p class="kicker"><span class="pulse-dot"></span>Nouveau ici</p>
                 <h2>Créer un compte</h2>
                 <form id="register-form" class="auth-form">
-                    <input type="text" id="reg-user" placeholder="Identifiant (3-20 caractères)" required maxlength="20" autocomplete="username">
+                    <input type="text" id="reg-pseudo" placeholder="Pseudo (affiché sur le site)" required maxlength="20" autocomplete="nickname">
+                    <input type="email" id="reg-email" placeholder="E-mail" required autocomplete="email">
                     <input type="password" id="reg-pass" placeholder="Mot de passe (6 caractères min.)" required minlength="6" autocomplete="new-password">
                     <input type="password" id="reg-pass2" placeholder="Confirmer le mot de passe" required minlength="6" autocomplete="new-password">
                     <button type="submit" class="manage-submit">Créer le compte</button>
                     <p class="auth-error" id="reg-error" hidden></p>
                 </form>
-                <p class="auth-note">Démo locale : le compte et vos personnalisations restent dans ce navigateur. Une vraie authentification multi-appareils nécessiterait un backend (ex. Supabase, Firebase Auth).</p>
+                <p class="auth-error" id="backend-note" hidden>Backend non configuré : renseignez la clé anon dans <code>supabase-config.js</code>.</p>
+                <p class="auth-note">Compte Supabase (gratuit) : vos personnalisations (thèmes choisis, masqués ou ajoutés) sont synchronisées sur tous vos appareils.</p>
             </section>
         </div>
     </main>
 
     <footer class="footer">Compte local · MyFirstSandBox</footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
     <script src="auth.js"></script>
     <script>
         const sessionCard = document.getElementById("session-card");
@@ -75,18 +79,25 @@
         const loginError = document.getElementById("login-error");
         const registerForm = document.getElementById("register-form");
         const regError = document.getElementById("reg-error");
+        const backendNote = document.getElementById("backend-note");
 
         function showError(el, msg) {
             el.textContent = msg;
             el.hidden = false;
         }
 
-        const current = window.Auth.currentUser();
-        if (current) {
-            sessionUser.textContent = current;
-            sessionCard.hidden = false;
-            authForms.hidden = true;
+        if (!window.Auth.isConfigured()) {
+            backendNote.hidden = false;
         }
+
+        window.Auth.init().then(() => {
+            const current = window.Auth.currentUser();
+            if (current) {
+                sessionUser.textContent = window.Auth.currentPseudo ? window.Auth.currentPseudo() : current;
+                sessionCard.hidden = false;
+                authForms.hidden = true;
+            }
+        });
 
         logoutBtn.addEventListener("click", () => {
             window.Auth.logout();
@@ -97,7 +108,7 @@
             e.preventDefault();
             loginError.hidden = true;
             const res = await window.Auth.login(
-                document.getElementById("login-user").value,
+                document.getElementById("login-email").value,
                 document.getElementById("login-pass").value
             );
             if (res.ok) {
@@ -117,11 +128,16 @@
                 return;
             }
             const res = await window.Auth.register(
-                document.getElementById("reg-user").value,
-                pass
+                document.getElementById("reg-email").value,
+                pass,
+                document.getElementById("reg-pseudo").value
             );
             if (res.ok) {
-                window.location.href = "index.html";
+                if (res.needsConfirm) {
+                    showError(regError, "Compte créé : confirmez votre e-mail (lien envoyé par Supabase) puis connectez-vous.");
+                } else {
+                    window.location.href = "index.html";
+                }
             } else {
                 showError(regError, res.error);
             }
