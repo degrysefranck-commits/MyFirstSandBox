@@ -1,27 +1,27 @@
 {
   "updated_at": "2026-11-15T13:03:13Z",
   "themes": {
-    "monde": {
-      "label": "🌍 Monde",
-      "source": "https://www.france24.com/fr/monde/rss",
+    "art": {
+      "label": "🎨 Art",
+      "source": "https://www.beauxarts.com/feed/",
       "items": [
         {
-          "title": "New Delhi suffoque sous un nouveau pic de pollution",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-new-delhi-suffoque-sous-un-nouveau-pic-de-pollution",
-          "published": "Sun, 15 Nov 2026 11:33:00 GMT",
-          "image": "https://s.france24.com/media/display/de8bbfb0-e0e7-11f1-a863-3f371022a770/w:1024/p:16x9/FR-20261115-110530-110715-CS-01.jpg"
+          "title": "« Mimi Cracra, c’est moi ! » : la BnF retrace les 60 ans de carrière la dessinatrice féministe Agnès Rosenstiehl",
+          "link": "https://www.beauxarts.com/expos/mimi-cracra-cest-moi-la-bnf-retrace-les-60-ans-de-carriere-la-dessinatrice-feministe-agnes-rosenstiehl/",
+          "published": "Sun, 15 Nov 2026 09:00:31 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/uneagnes-rosenstiehl_mimi-cracra_1ere-de-couverture--agnes-rosenstiehl-1300x975.jpg"
         },
         {
-          "title": "De retour dans les Andes péruviennes, le pape Léon XIV s'inquiète de l'exode rural",
-          "link": "https://www.france24.com/fr/am%C3%A9riques/20261115-perou-retour-andes-pape-l%C3%A9on-xiv-inquiet-exode-rural-pauvret%C3%A9",
-          "published": "Sun, 15 Nov 2026 11:06:47 GMT",
-          "image": "https://s.france24.com/media/display/1e4a9246-e0e0-11f1-a218-29048b396e03/w:1024/p:16x9/000-D7HD3NR.jpg"
+          "title": "La recette d’art d’Alain Passard : un monument de navets",
+          "link": "https://www.beauxarts.com/lifestyle/la-recette-dart-dalain-passard-un-monument-de-navets/",
+          "published": "Sun, 15 Nov 2026 06:00:34 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/10/unereligieuse_3703-1300x975.jpg"
         },
         {
-          "title": "Sommet de la Francophonie : la rivalité RD Congo-Rwanda au cœur des débats",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-sommet-de-la-francophonie-la-rivalit%C3%A9-rd-congo-rwanda-au-c%C5%93ur-des-d%C3%A9bats",
-          "published": "Sun, 15 Nov 2026 11:06:04 GMT",
-          "image": "https://s.france24.com/media/display/ebcfb0f4-e0e3-11f1-b6a3-695cb59fade5/w:1024/p:16x9/capture-06021bec.jpg"
+          "title": "Pionnière méconnue du Bauhaus et de la préservation du patrimoine, la photographe Lucia Moholy mise en lumière à l’UNESCO",
+          "link": "https://www.beauxarts.com/expos/pionniere-meconnue-du-bauhaus-et-de-la-preservation-du-patrimoine-la-photographe-lucia-moholy-mise-en-lumiere-a-lunesco/",
+          "published": "Sat, 14 Nov 2026 19:00:20 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/unelucia-moholy-par-laszlo-moholy-nagy-dessau-1926-credit-fondation-moholy-nagy-2026-1300x975.jpg"
         }
       ]
     },
@@ -46,30 +46,6 @@
           "link": "https://www.autoplus.fr/actualite/insolite/une-sculpture-grandeur-nature-dune-porsche-934-vendue-plus-de-200-000-euros-1477119.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
           "published": "Sun, 15 Nov 2026 18:45:56 +0000",
           "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.00.10.png"
-        }
-      ]
-    },
-    "art": {
-      "label": "🎨 Art",
-      "source": "https://www.beauxarts.com/feed/",
-      "items": [
-        {
-          "title": "« Mimi Cracra, c’est moi ! » : la BnF retrace les 60 ans de carrière la dessinatrice féministe Agnès Rosenstiehl",
-          "link": "https://www.beauxarts.com/expos/mimi-cracra-cest-moi-la-bnf-retrace-les-60-ans-de-carriere-la-dessinatrice-feministe-agnes-rosenstiehl/",
-          "published": "Sun, 15 Nov 2026 09:00:31 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/uneagnes-rosenstiehl_mimi-cracra_1ere-de-couverture--agnes-rosenstiehl-1300x975.jpg"
-        },
-        {
-          "title": "La recette d’art d’Alain Passard : un monument de navets",
-          "link": "https://www.beauxarts.com/lifestyle/la-recette-dart-dalain-passard-un-monument-de-navets/",
-          "published": "Sun, 15 Nov 2026 06:00:34 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/10/unereligieuse_3703-1300x975.jpg"
-        },
-        {
-          "title": "Pionnière méconnue du Bauhaus et de la préservation du patrimoine, la photographe Lucia Moholy mise en lumière à l’UNESCO",
-          "link": "https://www.beauxarts.com/expos/pionniere-meconnue-du-bauhaus-et-de-la-preservation-du-patrimoine-la-photographe-lucia-moholy-mise-en-lumiere-a-lunesco/",
-          "published": "Sat, 14 Nov 2026 19:00:20 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/unelucia-moholy-par-laszlo-moholy-nagy-dessau-1926-credit-fondation-moholy-nagy-2026-1300x975.jpg"
         }
       ]
     },
@@ -118,6 +94,54 @@
           "link": "https://www.numerama.com/pop-culture/2240235-vous-avez-manque-la-derniere-promo-disney-elle-est-deja-de-retour.html",
           "published": "Sun, 15 Nov 2026 10:00:00 +0000",
           "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/04/disney-1.jpg?resize=1200,675&key=dfaa9c11"
+        }
+      ]
+    },
+    "ia": {
+      "label": "🤖 IA",
+      "source": "https://www.actuia.com/feed/",
+      "items": [
+        {
+          "title": "La justice coréenne plaide pour une amende contre les faux arrêts de l'IA",
+          "link": "https://www.actuia.com/actualite/la-justice-coreenne-plaide-pour-une-amende-contre-les-faux-arrets-de-lia/",
+          "published": "Mon, 02 Nov 2026 10:30:26 +0000",
+          "image": "https://www.actuia.com/storage/uploads/generated/11541-9ytyiesw-1200.jpg"
+        },
+        {
+          "title": "Le Canada obtient un siège au conseil des supercalculateurs d'EuroHPC",
+          "link": "https://www.actuia.com/actualite/le-canada-obtient-un-siege-au-conseil-des-supercalculateurs-deurohpc/",
+          "published": "Mon, 02 Nov 2026 09:28:00 +0000",
+          "image": "https://www.actuia.com/storage/uploads/generated/11542-rvk3kqkv-1200.jpg"
+        },
+        {
+          "title": "Abou Dhabi teste OpenAI sur ses contrôles d'importations alimentaires",
+          "link": "https://www.actuia.com/actualite/abou-dhabi-teste-openai-sur-ses-controles-dimportations-alimentaires/",
+          "published": "Mon, 02 Nov 2026 08:27:19 +0000",
+          "image": "https://www.actuia.com/storage/uploads/generated/11543-arlr9bn9-1200.jpg"
+        }
+      ]
+    },
+    "monde": {
+      "label": "🌍 Monde",
+      "source": "https://www.france24.com/fr/monde/rss",
+      "items": [
+        {
+          "title": "New Delhi suffoque sous un nouveau pic de pollution",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-new-delhi-suffoque-sous-un-nouveau-pic-de-pollution",
+          "published": "Sun, 15 Nov 2026 11:33:00 GMT",
+          "image": "https://s.france24.com/media/display/de8bbfb0-e0e7-11f1-a863-3f371022a770/w:1024/p:16x9/FR-20261115-110530-110715-CS-01.jpg"
+        },
+        {
+          "title": "De retour dans les Andes péruviennes, le pape Léon XIV s'inquiète de l'exode rural",
+          "link": "https://www.france24.com/fr/am%C3%A9riques/20261115-perou-retour-andes-pape-l%C3%A9on-xiv-inquiet-exode-rural-pauvret%C3%A9",
+          "published": "Sun, 15 Nov 2026 11:06:47 GMT",
+          "image": "https://s.france24.com/media/display/1e4a9246-e0e0-11f1-a218-29048b396e03/w:1024/p:16x9/000-D7HD3NR.jpg"
+        },
+        {
+          "title": "Sommet de la Francophonie : la rivalité RD Congo-Rwanda au cœur des débats",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-sommet-de-la-francophonie-la-rivalit%C3%A9-rd-congo-rwanda-au-c%C5%93ur-des-d%C3%A9bats",
+          "published": "Sun, 15 Nov 2026 11:06:04 GMT",
+          "image": "https://s.france24.com/media/display/ebcfb0f4-e0e3-11f1-b6a3-695cb59fade5/w:1024/p:16x9/capture-06021bec.jpg"
         }
       ]
     },
