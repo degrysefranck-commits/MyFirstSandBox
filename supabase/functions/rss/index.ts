@@ -1,16 +1,14 @@
-import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
-
 const CORS = { "Access-Control-Allow-Origin": "*", "Content-Type": "application/json" };
 
-serve(async (req: Request) => {
+Deno.serve(async (req: Request) => {
   if (req.method === "OPTIONS") {
     return new Response(null, { headers: CORS });
   }
-  const feed = new URL(req.url).searchParams.get("feed");
-  if (!feed || !feed.startsWith("http")) {
-    return new Response(JSON.stringify({ error: "missing or invalid feed" }), { status: 400, headers: CORS });
-  }
   try {
+    const feed = new URL(req.url).searchParams.get("feed");
+    if (!feed || !feed.startsWith("http")) {
+      return new Response(JSON.stringify({ error: "missing or invalid feed" }), { status: 400, headers: CORS });
+    }
     const resp = await fetch(feed, { headers: { "User-Agent": "Mozilla/5.0" } });
     if (!resp.ok) throw new Error("feed HTTP " + resp.status);
     const xml = await resp.text();
