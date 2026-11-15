@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon compte · MyFirstSandBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blobs" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="topbar">
+        <div class="topbar-row">
+            <div class="brand"><span class="brand-dot"></span>MyFirstSandBox</div>
+            <h1 class="topbar-title fade-up">Mon <span class="gradient">compte</span> 👤</h1>
+            <a class="archive-btn fade-up delay-1" href="index.html">← Accueil</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="glass auth-card fade-up" id="session-card" hidden>
+            <p class="kicker"><span class="pulse-dot"></span>Session active</p>
+            <h2>Connecté en tant que <span id="session-user"></span> 👋</h2>
+            <p class="auth-note">Vos thèmes personnalisés (ajouts, masquages, thème choisi) sont enregistrés sur ce compte.</p>
+            <div class="auth-actions">
+                <a class="archive-btn" href="index.html">Voir la page d’accueil</a>
+                <button class="archive-btn danger" id="logout-btn" type="button">Se déconnecter</button>
+            </div>
+        </section>
+
+        <div id="auth-forms" class="auth-forms">
+            <section class="glass auth-card fade-up">
+                <p class="kicker"><span class="pulse-dot"></span>Déjà un compte</p>
+                <h2>Connexion</h2>
+                <form id="login-form" class="auth-form">
+                    <input type="text" id="login-user" placeholder="Identifiant" required maxlength="20" autocomplete="username">
+                    <input type="password" id="login-pass" placeholder="Mot de passe" required autocomplete="current-password">
+                    <button type="submit" class="manage-submit">Se connecter</button>
+                    <p class="auth-error" id="login-error" hidden></p>
+                </form>
+            </section>
+
+            <section class="glass auth-card fade-up delay-1">
+                <p class="kicker"><span class="pulse-dot"></span>Nouveau ici</p>
+                <h2>Créer un compte</h2>
+                <form id="register-form" class="auth-form">
+                    <input type="text" id="reg-user" placeholder="Identifiant (3-20 caractères)" required maxlength="20" autocomplete="username">
+                    <input type="password" id="reg-pass" placeholder="Mot de passe (6 caractères min.)" required minlength="6" autocomplete="new-password">
+                    <input type="password" id="reg-pass2" placeholder="Confirmer le mot de passe" required minlength="6" autocomplete="new-password">
+                    <button type="submit" class="manage-submit">Créer le compte</button>
+                    <p class="auth-error" id="reg-error" hidden></p>
+                </form>
+                <p class="auth-note">Démo locale : le compte et vos personnalisations restent dans ce navigateur. Une vraie authentification multi-appareils nécessiterait un backend (ex. Supabase, Firebase Auth).</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">Compte local · MyFirstSandBox</footer>
+
+    <script src="auth.js"></script>
+    <script>
+        const sessionCard = document.getElementById("session-card");
+        const authForms = document.getElementById("auth-forms");
+        const sessionUser = document.getElementById("session-user");
+        const logoutBtn = document.getElementById("logout-btn");
+        const loginForm = document.getElementById("login-form");
+        const loginError = document.getElementById("login-error");
+        const registerForm = document.getElementById("register-form");
+        const regError = document.getElementById("reg-error");
+
+        function showError(el, msg) {
+            el.textContent = msg;
+            el.hidden = false;
+        }
+
+        const current = window.Auth.currentUser();
+        if (current) {
+            sessionUser.textContent = current;
+            sessionCard.hidden = false;
+            authForms.hidden = true;
+        }
+
+        logoutBtn.addEventListener("click", () => {
+            window.Auth.logout();
+            window.location.href = "index.html";
+        });
+
+        loginForm.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            loginError.hidden = true;
+            const res = await window.Auth.login(
+                document.getElementById("login-user").value,
+                document.getElementById("login-pass").value
+            );
+            if (res.ok) {
+                window.location.href = "index.html";
+            } else {
+                showError(loginError, res.error);
+            }
+        });
+
+        registerForm.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            regError.hidden = true;
+            const pass = document.getElementById("reg-pass").value;
+            const pass2 = document.getElementById("reg-pass2").value;
+            if (pass !== pass2) {
+                showError(regError, "Les mots de passe ne correspondent pas.");
+                return;
+            }
+            const res = await window.Auth.register(
+                document.getElementById("reg-user").value,
+                pass
+            );
+            if (res.ok) {
+                window.location.href = "index.html";
+            } else {
+                showError(regError, res.error);
+            }
+        });
+    </script>
+</body>
+</html>

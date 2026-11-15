@@ -50,6 +50,18 @@ Les thèmes personnalisés sont locaux à chaque navigateur. Pour un thème visi
 visiteurs, ajoutez-le dans `THEMES` (scripts/update_news.py) : le workflow quotidien l'intégrera
 à `news.json` automatiquement.
 
+## Compte (authentification locale)
+
+Le bouton **👤** dans la barre de l'horloge mène à `login.html` : connexion ou création de compte.
+Les identifiants sont stockés dans le navigateur (`localStorage`) avec un mot de passe haché
+(SHA-256 + sel). Une fois connecté, vos personnalisations (thème choisi, thèmes masqués, thèmes
+ajoutés en un mot) sont enregistrées **sur le compte** et rechargées à chaque visite depuis ce
+navigateur.
+
+> **Limitation** : c'est une démo 100 % côté client — les données restent dans le navigateur et
+> ne sont pas une authentification sécurisée multi-appareils. Pour de vrais comptes synchronisés,
+> il faudrait un backend (Supabase, Firebase Auth…).
+
 ## Archives
 
 Chaque jour, le workflow copie le contenu de `news.json` dans `archives.json` (30 derniers jours
