@@ -34,6 +34,20 @@ veille, consolidées sur 6 sources : Google Trends FR (recherches), Google News
 FR, France 24, France Info, Le Monde (à la une) et le top des consultations
 Wikipédia FR. `trends.json` est régénéré chaque jour par le même workflow.
 
+## Gestion dynamique des thèmes
+
+Le bouton **⚙️** à la fin du menu des thèmes ouvre une modale de gestion :
+
+- **masquer** un thème par défaut (🗑, restaurable via ↺ ou « Réafficher les thèmes par défaut ») ;
+- **ajouter un thème personnalisé** (libellé + URL de flux RSS) : enregistré dans le navigateur
+  (`localStorage`), affiché par ordre alphabétique avec les autres, et chargé en direct côté client
+  via un proxy CORS public (`api.allorigins.win`) ;
+- **supprimer** un thème personnalisé (🗑).
+
+Les thèmes personnalisés sont locaux à chaque navigateur. Pour un thème visible par tous les
+visiteurs, ajoutez-le dans `THEMES` (scripts/update_news.py) : le workflow quotidien l'intégrera
+à `news.json` automatiquement.
+
 ## Archives
 
 Chaque jour, le workflow copie le contenu de `news.json` dans `archives.json` (30 derniers jours

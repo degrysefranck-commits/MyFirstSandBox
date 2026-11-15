@@ -34,6 +34,7 @@
     <main class="container">
         <nav class="theme-menu glass fade-up delay-2" id="theme-menu" aria-label="Choisir un thème">
             <span class="menu-indicator" id="menu-indicator" aria-hidden="true"></span>
+            <button class="theme-btn manage-btn" id="manage-btn" type="button" title="Gérer les thèmes" aria-haspopup="dialog">⚙️</button>
         </nav>
 
         <div class="ticker glass fade-up delay-3" id="ticker" aria-label="Fil défilant des faits marquants">
@@ -82,6 +83,29 @@
             <div class="archive-dates" id="archive-dates"></div>
             <nav class="archive-themes" id="archive-themes" aria-label="Thème archivé"></nav>
             <div class="news-list archive-list" id="archive-list"></div>
+        </div>
+    </div>
+
+    <div class="archive-overlay" id="manage-overlay" hidden>
+        <div class="archive-modal glass" role="dialog" aria-modal="true" aria-labelledby="manage-title">
+            <div class="archive-header">
+                <div>
+                    <p class="kicker"><span class="pulse-dot"></span>Thèmes</p>
+                    <h2 id="manage-title">Gérer les thèmes</h2>
+                </div>
+                <button class="archive-close" id="manage-close" type="button" aria-label="Fermer">✕</button>
+            </div>
+            <div class="manage-list" id="manage-list"></div>
+            <form class="manage-form" id="manage-form">
+                <p class="manage-form-title">Ajouter un thème (flux RSS)</p>
+                <div class="manage-form-row">
+                    <input type="text" id="manage-label" placeholder="Libellé (ex. 🚀 Espace)" required maxlength="30" autocomplete="off">
+                    <input type="url" id="manage-feed" placeholder="https://…/feed.xml" required autocomplete="off">
+                    <button type="submit" class="manage-submit">Ajouter</button>
+                </div>
+            </form>
+            <p class="manage-hint">Les thèmes ajoutés sont enregistrés dans ce navigateur et leurs actualités sont chargées en direct via un proxy CORS public. Pour un thème visible par tous, ajoutez-le dans <code>THEMES</code> (scripts/update_news.py).</p>
+            <button class="manage-reset" id="manage-reset" type="button">↺ Réafficher les thèmes par défaut</button>
         </div>
     </div>
 
@@ -223,8 +247,110 @@
             return card;
         }
 
-        function renderTheme(key) {
-            const theme = newsData.themes[key];
+        const CUSTOM_KEY = "mfsb_custom_themes";
+        const HIDDEN_KEY = "mfsb_hidden_themes";
+        const customCache = {};
+        const manageBtn = document.getElementById("manage-btn");
+
+        function loadCustomThemes() {
+            try { return JSON.parse(localStorage.getItem(CUSTOM_KEY)) || []; } catch (e) { return []; }
+        }
+
+        function saveCustomThemes(list) {
+            localStorage.setItem(CUSTOM_KEY, JSON.stringify(list));
+        }
+
+        function loadHiddenThemes() {
+            try { return JSON.parse(localStorage.getItem(HIDDEN_KEY)) || []; } catch (e) { return []; }
+        }
+
+        function saveHiddenThemes(list) {
+            localStorage.setItem(HIDDEN_KEY, JSON.stringify(list));
+        }
+
+        function allThemeEntries() {
+            const hidden = loadHiddenThemes();
+            const entries = [];
+            THEME_ORDER.forEach((key) => {
+                if (!newsData.themes[key] || hidden.indexOf(key) !== -1) return;
+                entries.push({ key: key, label: newsData.themes[key].label, custom: false });
+            });
+            loadCustomThemes().forEach((t) => entries.push({ key: t.key, label: t.label, custom: true }));
+            entries.sort((a, b) => a.label.localeCompare(b.label, "fr"));
+            return entries;
+        }
+
+        function buildMenu() {
+            menuEl.querySelectorAll(".theme-btn:not(.manage-btn)").forEach((b) => b.remove());
+            const entries = allThemeEntries();
+            entries.forEach((entry) => {
+                const btn = document.createElement("button");
+                btn.className = "theme-btn";
+                btn.type = "button";
+                btn.textContent = entry.label;
+                btn.dataset.theme = entry.key;
+                btn.addEventListener("click", () => {
+                    activeTheme = entry.key;
+                    localStorage.setItem("theme", entry.key);
+                    renderTheme(entry.key);
+                });
+                menuEl.insertBefore(btn, manageBtn);
+            });
+            if (!entries.some((e) => e.key === activeTheme)) {
+                activeTheme = entries.length > 0 ? entries[0].key : "monde";
+            }
+            renderTheme(activeTheme);
+        }
+
+        function extractRssImage(item) {
+            const media = item.getElementsByTagNameNS("http://search.yahoo.com/mrss/", "content");
+            for (let i = 0; i < media.length; i++) {
+                const url = media[i].getAttribute("url") || "";
+                if (url.startsWith("http")) return url;
+            }
+            const encs = item.getElementsByTagName("enclosure");
+            for (let i = 0; i < encs.length; i++) {
+                if ((encs[i].getAttribute("type") || "").startsWith("image")) return encs[i].getAttribute("url");
+            }
+            return null;
+        }
+
+        async function loadCustomTheme(theme) {
+            if (customCache[theme.key]) return customCache[theme.key];
+            const proxy = "https://api.allorigins.win/raw?url=" + encodeURIComponent(theme.feed);
+            const resp = await fetch(proxy);
+            if (!resp.ok) throw new Error("HTTP " + resp.status);
+            const doc = new DOMParser().parseFromString(await resp.text(), "text/xml");
+            const items = Array.from(doc.querySelectorAll("item")).slice(0, 3).map((it) => {
+                const tEl = it.querySelector("title");
+                const lEl = it.querySelector("link");
+                return {
+                    title: tEl ? tEl.textContent.trim() : "",
+                    link: lEl ? lEl.textContent.trim() : "",
+                    published: "",
+                    image: extractRssImage(it)
+                };
+            }).filter((it) => it.title && it.link);
+            const data = { label: theme.label, items: items };
+            customCache[theme.key] = data;
+            return data;
+        }
+
+        async function renderTheme(key) {
+            let theme = newsData.themes[key];
+            if (!theme) {
+                const custom = loadCustomThemes().find((t) => t.key === key);
+                if (!custom) return;
+                titleEl.textContent = custom.label + " — Les 3 faits marquants du jour";
+                buildTicker({ label: custom.label, items: [] });
+                listEl.innerHTML = '<p class="loading">Chargement du flux…</p>';
+                try {
+                    theme = await loadCustomTheme(custom);
+                } catch (e) {
+                    listEl.innerHTML = '<p class="loading">Flux indisponible : vérifiez l’URL du flux RSS.</p>';
+                    return;
+                }
+            }
             menuEl.querySelectorAll(".theme-btn").forEach((b) => {
                 b.classList.toggle("active", b.dataset.theme === key);
             });
@@ -247,23 +373,7 @@
             .then((data) => {
                 newsData = data;
                 lastUpdatedAt = data.updated_at || null;
-                THEME_ORDER.forEach((key) => {
-                    const theme = data.themes[key];
-                    if (!theme) return;
-                    const btn = document.createElement("button");
-                    btn.className = "theme-btn";
-                    btn.type = "button";
-                    btn.textContent = theme.label;
-                    btn.dataset.theme = key;
-                    btn.addEventListener("click", () => {
-                        activeTheme = key;
-                        localStorage.setItem("theme", key);
-                        renderTheme(key);
-                    });
-                    menuEl.appendChild(btn);
-                });
-                if (!data.themes[activeTheme]) activeTheme = THEME_ORDER[0];
-                renderTheme(activeTheme);
+                buildMenu();
                 if (data.updated_at) {
                     updatedEl.textContent =
                         "Mis à jour le " + new Date(data.updated_at).toLocaleString("fr-FR");
@@ -491,6 +601,111 @@
         archiveOverlay.addEventListener("click", (e) => { if (e.target === archiveOverlay) closeArchives(); });
         document.addEventListener("keydown", (e) => {
             if (e.key === "Escape" && !archiveOverlay.hidden) closeArchives();
+        });
+
+        const manageOverlay = document.getElementById("manage-overlay");
+        const manageClose = document.getElementById("manage-close");
+        const manageList = document.getElementById("manage-list");
+        const manageForm = document.getElementById("manage-form");
+        const manageLabel = document.getElementById("manage-label");
+        const manageFeed = document.getElementById("manage-feed");
+        const manageReset = document.getElementById("manage-reset");
+
+        function renderManageList() {
+            manageList.innerHTML = "";
+            const hidden = loadHiddenThemes();
+            THEME_ORDER.forEach((key) => {
+                if (!newsData.themes[key]) return;
+                const isHidden = hidden.indexOf(key) !== -1;
+                const row = document.createElement("div");
+                row.className = "manage-row" + (isHidden ? " muted" : "");
+                const name = document.createElement("span");
+                name.className = "manage-name";
+                name.textContent = newsData.themes[key].label + (isHidden ? " (masqué)" : "");
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "manage-del";
+                btn.textContent = isHidden ? "↺" : "🗑";
+                btn.title = isHidden ? "Réafficher ce thème" : "Masquer ce thème";
+                btn.addEventListener("click", () => {
+                    let h = loadHiddenThemes();
+                    if (isHidden) {
+                        h = h.filter((k) => k !== key);
+                    } else {
+                        if (allThemeEntries().length <= 1) return;
+                        h.push(key);
+                    }
+                    saveHiddenThemes(h);
+                    renderManageList();
+                    buildMenu();
+                });
+                row.appendChild(name);
+                row.appendChild(btn);
+                manageList.appendChild(row);
+            });
+            loadCustomThemes().forEach((t) => {
+                const row = document.createElement("div");
+                row.className = "manage-row";
+                const name = document.createElement("span");
+                name.className = "manage-name";
+                name.textContent = t.label + " (perso)";
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "manage-del";
+                btn.textContent = "🗑";
+                btn.title = "Supprimer ce thème";
+                btn.addEventListener("click", () => {
+                    saveCustomThemes(loadCustomThemes().filter((c) => c.key !== t.key));
+                    delete customCache[t.key];
+                    renderManageList();
+                    buildMenu();
+                });
+                row.appendChild(name);
+                row.appendChild(btn);
+                manageList.appendChild(row);
+            });
+        }
+
+        manageForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const label = manageLabel.value.trim();
+            const feed = manageFeed.value.trim();
+            if (!label || !feed) return;
+            const slug = label.toLowerCase().normalize("NFD").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+            const key = "custom-" + (slug || "theme") + "-" + Math.random().toString(36).slice(2, 7);
+            saveCustomThemes(loadCustomThemes().concat([{ key: key, label: label, feed: feed }]));
+            manageLabel.value = "";
+            manageFeed.value = "";
+            renderManageList();
+            activeTheme = key;
+            localStorage.setItem("theme", key);
+            buildMenu();
+        });
+
+        manageReset.addEventListener("click", () => {
+            saveHiddenThemes([]);
+            renderManageList();
+            buildMenu();
+        });
+
+        function openManage() {
+            manageOverlay.hidden = false;
+            document.body.style.overflow = "hidden";
+            manageClose.focus();
+            renderManageList();
+        }
+
+        function closeManage() {
+            manageOverlay.hidden = true;
+            document.body.style.overflow = "";
+            manageBtn.focus();
+        }
+
+        manageBtn.addEventListener("click", openManage);
+        manageClose.addEventListener("click", closeManage);
+        manageOverlay.addEventListener("click", (e) => { if (e.target === manageOverlay) closeManage(); });
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && !manageOverlay.hidden) closeManage();
         });
     </script>
 </body>
