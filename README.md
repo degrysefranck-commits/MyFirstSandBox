@@ -50,17 +50,23 @@ Les thèmes personnalisés sont locaux à chaque navigateur. Pour un thème visi
 visiteurs, ajoutez-le dans `THEMES` (scripts/update_news.py) : le workflow quotidien l'intégrera
 à `news.json` automatiquement.
 
-## Compte (authentification locale)
+## Compte (Supabase — backend gratuit)
 
-Le bouton **👤** dans la barre de l'horloge mène à `login.html` : connexion ou création de compte.
-Les identifiants sont stockés dans le navigateur (`localStorage`) avec un mot de passe haché
-(SHA-256 + sel). Une fois connecté, vos personnalisations (thème choisi, thèmes masqués, thèmes
-ajoutés en un mot) sont enregistrées **sur le compte** et rechargées à chaque visite depuis ce
-navigateur.
+Le bouton **👤** dans la barre de l'horloge mène à `login.html` : connexion ou création de compte
+(e-mail + pseudo + mot de passe) via **Supabase Auth**. Les personnalisations (thème choisi, thèmes
+masqués, thèmes ajoutés en un mot) sont enregistrées dans la table `user_prefs` et **synchronisées
+sur tous les appareils** du compte (cache local en `localStorage`, synchro serveur différée).
 
-> **Limitation** : c'est une démo 100 % côté client — les données restent dans le navigateur et
-> ne sont pas une authentification sécurisée multi-appareils. Pour de vrais comptes synchronisés,
-> il faudrait un backend (Supabase, Firebase Auth…).
+### Configuration
+
+1. `supabase-config.js` : URL du projet + clé `anon` (publique, commitable sans risque) ;
+2. Exécuter `supabase/schema.sql` dans l'éditeur SQL du projet (table `user_prefs` + RLS) ;
+3. Déployer la Edge Function RSS (appelée côté serveur pour les thèmes personnalisés, donc plus de
+   proxy CORS tiers en première intention) :
+   ```bash
+   supabase functions deploy rss --project-ref <ref-du-projet>
+   ```
+   (code dans `supabase/functions/rss/index.ts` ; repli client sur `rss2json` puis `allorigins`)
 
 ## Archives
 
