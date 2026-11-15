@@ -62,12 +62,20 @@ sur tous les appareils** du compte (cache local en `localStorage`, synchro serve
 
 1. `supabase-config.js` : URL du projet + clé `anon` (publique, commitable sans risque) ;
 2. Exécuter `supabase/schema.sql` dans l'éditeur SQL du projet (table `user_prefs` + RLS) ;
-3. Déployer la Edge Function RSS (appelée côté serveur pour les thèmes personnalisés, donc plus de
-   proxy CORS tiers en première intention) :
+3. Déployer les Edge Functions (appelées côté serveur, donc plus de proxy CORS tiers en première
+   intention) :
    ```bash
    supabase functions deploy rss --project-ref <ref-du-projet>
+   supabase functions deploy theme --project-ref <ref-du-projet>
    ```
-   (code dans `supabase/functions/rss/index.ts` ; repli client sur `rss2json` puis `allorigins`)
+   - `supabase/functions/rss/index.ts` : proxy RSS générique (repli client : `rss2json` puis `allorigins`) ;
+   - `supabase/functions/theme/index.ts` : thème « un mot » — consolide **Google News FR + Bing News FR**,
+     déduplique, sélectionne les 3 faits les plus pertinents (répartition entre sources) et génère une
+     **synthèse IA** via l'API Mistral. La synthèse nécessite une clé API Mistral enregistrée comme secret :
+   ```bash
+   supabase secrets set MISTRAL_API_KEY=<votre-cle-mistral>   # à créer sur console.mistral.ai
+   ```
+   Sans cette clé, le thème fonctionne sans synthèse (la zone « 🤖 Synthèse IA » reste masquée).
 
 ## Archives
 

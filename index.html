@@ -105,7 +105,7 @@
                     <button type="submit" class="manage-submit">Ajouter</button>
                 </div>
             </form>
-            <p class="manage-hint">Un seul mot-clé : l’application interroge automatiquement Google News FR sur ce sujet. Les thèmes ajoutés sont enregistrés dans ce navigateur. Pour un thème visible par tous, ajoutez-le dans <code>THEMES</code> (scripts/update_news.py).</p>
+            <p class="manage-hint">Un seul mot-clé : l’application consolide plusieurs sources (Google News FR, Bing News FR), sélectionne les 3 faits les plus pertinents et génère une synthèse IA (Mistral). Les thèmes ajoutés sont enregistrés dans ce navigateur. Pour un thème visible par tous, ajoutez-le dans <code>THEMES</code> (scripts/update_news.py).</p>
             <button class="manage-reset" id="manage-reset" type="button">↺ Réafficher les thèmes par défaut</button>
         </div>
     </div>
@@ -341,16 +341,35 @@
 
         async function loadCustomTheme(theme) {
             if (customCache[theme.key]) return customCache[theme.key];
-            let items = null;
+            let data = null;
             const sbCfg = window.SUPABASE_CONFIG || {};
-            if (sbCfg.url && sbCfg.anonKey && sbCfg.anonKey !== "VOTRE_CLE_ANON") {
+            if (theme.word && sbCfg.url && sbCfg.anonKey && sbCfg.anonKey !== "VOTRE_CLE_ANON") {
+                try {
+                    const resp = await fetch(sbCfg.url + "/functions/v1/theme?word=" + encodeURIComponent(theme.word), {
+                        headers: { "Authorization": "Bearer " + sbCfg.anonKey }
+                    });
+                    if (resp.ok) {
+                        const d = await resp.json();
+                        if (Array.isArray(d.items) && d.items.length > 0) data = d;
+                    }
+                } catch (e) {}
+            }
+            let items = null;
+            let summary = null;
+            let sources = null;
+            if (data) {
+                items = data.items.slice(0, 3);
+                summary = data.summary || null;
+                sources = Array.isArray(data.sources) ? data.sources : null;
+            }
+            if (!items && sbCfg.url && sbCfg.anonKey && sbCfg.anonKey !== "VOTRE_CLE_ANON") {
                 try {
                     const resp = await fetch(sbCfg.url + "/functions/v1/rss?feed=" + encodeURIComponent(theme.feed), {
                         headers: { "Authorization": "Bearer " + sbCfg.anonKey }
                     });
                     if (resp.ok) {
-                        const data = await resp.json();
-                        if (Array.isArray(data.items)) items = data.items.slice(0, 3);
+                        const d = await resp.json();
+                        if (Array.isArray(d.items)) items = d.items.slice(0, 3);
                     }
                 } catch (e) {}
             }
@@ -390,9 +409,9 @@
                     };
                 }).filter((it) => it.title && it.link);
             }
-            const data = { label: theme.label, items: items };
-            customCache[theme.key] = data;
-            return data;
+            const result = { label: theme.label, items: items, summary: summary, sources: sources };
+            customCache[theme.key] = result;
+            return result;
         }
 
         async function renderTheme(key) {
@@ -418,6 +437,14 @@
             titleEl.textContent = (theme ? theme.label : "📰") + " — Les 3 faits marquants du jour";
             const sourcesEl = document.getElementById("sources-count");
             sourcesEl.textContent = theme && theme.sources && theme.sources.length > 1 ? theme.sources.length + " sources" : "";
+            const summaryEl = document.getElementById("ai-summary");
+            const summaryText = document.getElementById("ai-summary-text");
+            if (theme && theme.summary) {
+                summaryText.textContent = theme.summary;
+                summaryEl.hidden = false;
+            } else {
+                summaryEl.hidden = true;
+            }
             const icon = theme ? [...theme.label][0] : "📰";
             listEl.innerHTML = "";
             const items = theme && theme.items ? theme.items : [];
@@ -740,11 +767,12 @@
             if (existing) {
                 existing.label = label;
                 existing.feed = feed;
+                existing.word = word;
                 key = existing.key;
                 saveCustomThemes(customs);
             } else {
                 key = base + "-" + Math.random().toString(36).slice(2, 7);
-                customs.push({ key: key, label: label, feed: feed });
+                customs.push({ key: key, label: label, feed: feed, word: word });
                 saveCustomThemes(customs);
             }
             delete customCache[key];
