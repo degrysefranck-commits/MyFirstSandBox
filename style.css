@@ -556,6 +556,171 @@ body::after {
     color: var(--muted);
 }
 
+.clock-right {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.archive-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.42rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.07);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.25s var(--ease-out), border-color 0.25s, background 0.25s;
+}
+
+.archive-btn:hover {
+    transform: translateY(-1px);
+    border-color: var(--accent-1);
+    background: rgba(167, 139, 250, 0.16);
+}
+
+.archive-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    background: rgba(7, 7, 13, 0.72);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.archive-overlay[hidden] {
+    display: none;
+}
+
+.archive-modal {
+    width: 100%;
+    max-width: 840px;
+    max-height: 86vh;
+    overflow-y: auto;
+    padding: 1.7rem 1.8rem;
+    border-radius: 24px;
+    animation: popIn 0.35s var(--ease-out) both;
+}
+
+@keyframes popIn {
+    from { opacity: 0; transform: translateY(22px) scale(0.97); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.archive-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.1rem;
+}
+
+.archive-header h2 {
+    font-family: var(--font-display);
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.archive-close {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg);
+    color: var(--text);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.25s var(--ease-out), border-color 0.25s, background 0.25s;
+}
+
+.archive-close:hover {
+    transform: rotate(90deg);
+    border-color: #f87171;
+    background: rgba(248, 113, 113, 0.14);
+}
+
+.archive-dates {
+    display: flex;
+    gap: 0.55rem;
+    overflow-x: auto;
+    padding-bottom: 0.7rem;
+    margin-bottom: 1rem;
+    scrollbar-width: thin;
+}
+
+.archive-date-chip {
+    flex-shrink: 0;
+    padding: 0.45rem 0.95rem;
+    border-radius: 999px;
+    border: 1px solid var(--glass-border);
+    background: transparent;
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.25s var(--ease-out);
+}
+
+.archive-date-chip:hover {
+    color: var(--text);
+    border-color: var(--accent-2);
+}
+
+.archive-date-chip.active {
+    color: var(--text);
+    border-color: transparent;
+    background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+    box-shadow: 0 4px 18px rgba(96, 165, 250, 0.35);
+}
+
+.archive-themes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.archive-theme-btn {
+    padding: 0.4rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--glass-border);
+    background: transparent;
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s var(--ease-out);
+}
+
+.archive-theme-btn:hover {
+    color: var(--text);
+    border-color: var(--accent-2);
+}
+
+.archive-theme-btn.active {
+    color: var(--text);
+    border-color: var(--accent-1);
+    background: rgba(167, 139, 250, 0.16);
+}
+
+.archive-list {
+    width: 100%;
+}
+
 .fade-up {
     animation: fadeUp 0.75s var(--ease-out) both;
 }
@@ -589,10 +754,13 @@ body::after {
     .ticker-label { padding: 0 0.85rem; font-size: 0.65rem; }
     .ticker-item { font-size: 0.82rem; }
     .ticker-sep { margin: 0 0.8rem; }
+    .archive-btn span { display: none; }
+    .archive-modal { padding: 1.3rem 1.2rem; max-height: 90vh; }
+    .archive-header h2 { font-size: 1.2rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .blob, .fade-up, .clock-sec.tick, .gradient, .pulse-dot::after, .ticker-track { animation: none; }
+    .blob, .fade-up, .clock-sec.tick, .gradient, .pulse-dot::after, .ticker-track, .archive-modal { animation: none; }
     .menu-indicator { transition: none; }
     .trend-word { transition: none; }
 }

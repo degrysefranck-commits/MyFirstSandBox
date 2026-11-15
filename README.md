@@ -34,4 +34,12 @@ veille, consolidées sur 6 sources : Google Trends FR (recherches), Google News
 FR, France 24, France Info, Le Monde (à la une) et le top des consultations
 Wikipédia FR. `trends.json` est régénéré chaque jour par le même workflow.
 
+## Archives
+
+Chaque jour, le workflow copie le contenu de `news.json` dans `archives.json` (30 derniers jours
+conservés, clé = date UTC). Un bouton **🗄️ Archives** dans la barre de l'horloge ouvre une modale
+qui permet de revoir les actualités d'un jour précédent, par thème.
+
+## Publication
+
 Le site est publié sur [https://degrysefranck-commits.github.io/MyFirstSandBox/](https://degrysefranck-commits.github.io/MyFirstSandBox/).

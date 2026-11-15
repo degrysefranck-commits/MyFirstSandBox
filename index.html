@@ -24,7 +24,10 @@
         </div>
         <div class="clock glass fade-up delay-1">
             <span class="clock-date" id="clock-date"></span>
-            <span class="clock-time"><span id="clock-hm">--:--</span><span class="clock-colon">:</span><span class="clock-sec" id="clock-sec">--</span></span>
+            <span class="clock-right">
+                <span class="clock-time"><span id="clock-hm">--:--</span><span class="clock-colon">:</span><span class="clock-sec" id="clock-sec">--</span></span>
+                <button class="archive-btn" id="archive-btn" type="button" title="Consulter les archives" aria-haspopup="dialog">🗄️ <span>Archives</span></button>
+            </span>
         </div>
     </header>
 
@@ -66,6 +69,21 @@
             </div>
         </section>
     </main>
+
+    <div class="archive-overlay" id="archive-overlay" hidden>
+        <div class="archive-modal glass" role="dialog" aria-modal="true" aria-labelledby="archive-title">
+            <div class="archive-header">
+                <div>
+                    <p class="kicker"><span class="pulse-dot"></span>Archives</p>
+                    <h2 id="archive-title">Les jours précédents</h2>
+                </div>
+                <button class="archive-close" id="archive-close" type="button" aria-label="Fermer les archives">✕</button>
+            </div>
+            <div class="archive-dates" id="archive-dates"></div>
+            <nav class="archive-themes" id="archive-themes" aria-label="Thème archivé"></nav>
+            <div class="news-list archive-list" id="archive-list"></div>
+        </div>
+    </div>
 
     <footer class="footer">Actualités mises à jour automatiquement chaque jour · GitHub Pages</footer>
 
@@ -153,6 +171,58 @@
             return menuEl.querySelector('.theme-btn[data-theme="' + activeTheme + '"]');
         }
 
+        function createNewsCard(item, icon, i) {
+            const card = document.createElement("a");
+            card.className = "news-card fade-up";
+            card.href = item.link;
+            card.target = "_blank";
+            card.rel = "noopener";
+            card.style.animationDelay = i * 0.08 + "s";
+            const thumb = document.createElement("span");
+            thumb.className = "news-thumb";
+            if (item.image) {
+                const img = document.createElement("img");
+                img.src = item.image;
+                img.alt = "";
+                img.loading = "lazy";
+                img.onerror = () => { thumb.textContent = icon; };
+                thumb.appendChild(img);
+            } else {
+                thumb.textContent = icon;
+            }
+            const body = document.createElement("span");
+            body.className = "news-body";
+            const title = document.createElement("span");
+            title.className = "news-title";
+            title.textContent = item.title;
+            const meta = document.createElement("span");
+            meta.className = "news-meta";
+            const num = document.createElement("span");
+            num.className = "news-num";
+            num.textContent = pad(i + 1);
+            meta.appendChild(num);
+            let host = "";
+            try { host = new URL(item.link).hostname.replace(/^www\./, ""); } catch (e) {}
+            if (host) {
+                const dot = document.createElement("span");
+                dot.className = "meta-dot";
+                dot.textContent = "·";
+                const src = document.createElement("span");
+                src.textContent = host;
+                meta.appendChild(dot);
+                meta.appendChild(src);
+            }
+            body.appendChild(title);
+            body.appendChild(meta);
+            const arrow = document.createElement("span");
+            arrow.className = "news-arrow";
+            arrow.textContent = "↗";
+            card.appendChild(thumb);
+            card.appendChild(body);
+            card.appendChild(arrow);
+            return card;
+        }
+
         function renderTheme(key) {
             const theme = newsData.themes[key];
             menuEl.querySelectorAll(".theme-btn").forEach((b) => {
@@ -169,55 +239,7 @@
                 return;
             }
             items.forEach((item, i) => {
-                const card = document.createElement("a");
-                card.className = "news-card fade-up";
-                card.href = item.link;
-                card.target = "_blank";
-                card.rel = "noopener";
-                card.style.animationDelay = i * 0.08 + "s";
-                const thumb = document.createElement("span");
-                thumb.className = "news-thumb";
-                if (item.image) {
-                    const img = document.createElement("img");
-                    img.src = item.image;
-                    img.alt = "";
-                    img.loading = "lazy";
-                    img.onerror = () => { thumb.textContent = icon; };
-                    thumb.appendChild(img);
-                } else {
-                    thumb.textContent = icon;
-                }
-                const body = document.createElement("span");
-                body.className = "news-body";
-                const title = document.createElement("span");
-                title.className = "news-title";
-                title.textContent = item.title;
-                const meta = document.createElement("span");
-                meta.className = "news-meta";
-                const num = document.createElement("span");
-                num.className = "news-num";
-                num.textContent = pad(i + 1);
-                meta.appendChild(num);
-                let host = "";
-                try { host = new URL(item.link).hostname.replace(/^www\./, ""); } catch (e) {}
-                if (host) {
-                    const dot = document.createElement("span");
-                    dot.className = "meta-dot";
-                    dot.textContent = "·";
-                    const src = document.createElement("span");
-                    src.textContent = host;
-                    meta.appendChild(dot);
-                    meta.appendChild(src);
-                }
-                body.appendChild(title);
-                body.appendChild(meta);
-                const arrow = document.createElement("span");
-                arrow.className = "news-arrow";
-                arrow.textContent = "↗";
-                card.appendChild(thumb);
-                card.appendChild(body);
-                card.appendChild(arrow);
-                listEl.appendChild(card);
+                listEl.appendChild(createNewsCard(item, icon, i));
             });
         }
         fetch("news.json")
@@ -360,6 +382,115 @@
                     layoutTrendCloud(document.getElementById("trend-cloud"), lastTrendWords, lastTrendMax);
                 }
             }, 200);
+        });
+
+        const archiveOverlay = document.getElementById("archive-overlay");
+        const archiveBtn = document.getElementById("archive-btn");
+        const archiveClose = document.getElementById("archive-close");
+        const archiveDatesEl = document.getElementById("archive-dates");
+        const archiveThemesEl = document.getElementById("archive-themes");
+        const archiveListEl = document.getElementById("archive-list");
+        let archivesData = null;
+        const archiveState = { date: null, theme: null };
+
+        function formatArchiveDate(key) {
+            return new Date(key + "T12:00:00").toLocaleDateString("fr-FR", {
+                weekday: "long",
+                day: "numeric",
+                month: "long"
+            });
+        }
+
+        function renderArchiveList() {
+            archiveListEl.innerHTML = "";
+            const day = archivesData.days[archiveState.date];
+            if (!day) {
+                archiveListEl.innerHTML = '<p class="loading">Aucune archive pour ce jour.</p>';
+                return;
+            }
+            const theme = day.themes[archiveState.theme];
+            const icon = theme ? [...theme.label][0] : "📰";
+            const items = theme && theme.items ? theme.items : [];
+            if (items.length === 0) {
+                archiveListEl.innerHTML = '<p class="loading">Aucune actualité archivée pour ce jour et ce thème.</p>';
+                return;
+            }
+            items.forEach((item, i) => archiveListEl.appendChild(createNewsCard(item, icon, i)));
+        }
+
+        function renderArchiveThemes() {
+            archiveThemesEl.innerHTML = "";
+            const day = archivesData.days[archiveState.date];
+            if (!day) return;
+            const keys = THEME_ORDER.filter((k) => day.themes[k])
+                .concat(Object.keys(day.themes).filter((k) => THEME_ORDER.indexOf(k) === -1));
+            if (!archiveState.theme || !day.themes[archiveState.theme]) archiveState.theme = keys[0];
+            keys.forEach((key) => {
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "archive-theme-btn" + (key === archiveState.theme ? " active" : "");
+                btn.textContent = day.themes[key].label;
+                btn.addEventListener("click", () => {
+                    archiveState.theme = key;
+                    renderArchiveThemes();
+                    renderArchiveList();
+                });
+                archiveThemesEl.appendChild(btn);
+            });
+        }
+
+        function renderArchiveDates() {
+            archiveDatesEl.innerHTML = "";
+            const keys = Object.keys(archivesData.days).sort().reverse();
+            if (keys.length === 0) {
+                archiveDatesEl.innerHTML = '<p class="loading">Aucune archive disponible pour le moment.</p>';
+                return;
+            }
+            if (!archiveState.date || !archivesData.days[archiveState.date]) archiveState.date = keys[0];
+            keys.forEach((key) => {
+                const chip = document.createElement("button");
+                chip.type = "button";
+                chip.className = "archive-date-chip" + (key === archiveState.date ? " active" : "");
+                chip.textContent = formatArchiveDate(key);
+                chip.addEventListener("click", () => {
+                    archiveState.date = key;
+                    archiveState.theme = null;
+                    renderArchiveDates();
+                    renderArchiveThemes();
+                    renderArchiveList();
+                });
+                archiveDatesEl.appendChild(chip);
+            });
+        }
+
+        async function openArchives() {
+            archiveOverlay.hidden = false;
+            document.body.style.overflow = "hidden";
+            archiveClose.focus();
+            if (!archivesData) {
+                archiveListEl.innerHTML = '<p class="loading">Chargement des archives…</p>';
+                try {
+                    archivesData = await (await fetch("archives.json")).json();
+                } catch (e) {
+                    archivesData = { days: {} };
+                }
+            }
+            renderArchiveDates();
+            renderArchiveThemes();
+            renderArchiveList();
+        }
+
+        function closeArchives() {
+            archiveOverlay.hidden = true;
+            document.body.style.overflow = "";
+            archiveBtn.focus();
+        }
+
+        archiveBtn.addEventListener("click", openArchives);
+        archiveClose.addEventListener("click", closeArchives);
+        archiveOverlay.addEventListener("click", (e) => { if (e.target === archiveOverlay) closeArchives(); });
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && !archiveOverlay.hidden) closeArchives();
         });
     </script>
 </body>
