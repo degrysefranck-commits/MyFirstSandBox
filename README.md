@@ -39,9 +39,11 @@ Wikipédia FR. `trends.json` est régénéré chaque jour par le même workflow.
 Le bouton **⚙️** à la fin du menu des thèmes ouvre une modale de gestion :
 
 - **masquer** un thème par défaut (🗑, restaurable via ↺ ou « Réafficher les thèmes par défaut ») ;
-- **ajouter un thème personnalisé** (libellé + URL de flux RSS) : enregistré dans le navigateur
-  (`localStorage`), affiché par ordre alphabétique avec les autres, et chargé en direct côté client
-  via un proxy CORS public (`api.allorigins.win`) ;
+- **ajouter un thème personnalisé en un seul mot** (ex. « espace », « cinéma », « bitcoin ») :
+  l’application génère automatiquement le flux Google News FR correspondant
+  (`news.google.com/rss/search?q=<mot>`), enregistré dans le navigateur (`localStorage`), affiché
+  par ordre alphabétique avec les autres, et chargé en direct côté client (via `rss2json`, proxy
+  CORS en secours) ;
 - **supprimer** un thème personnalisé (🗑).
 
 Les thèmes personnalisés sont locaux à chaque navigateur. Pour un thème visible par tous les
