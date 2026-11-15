@@ -1,221 +1,286 @@
 {
   "days": {
     "2026-11-15": {
-      "updated_at": "2026-11-15T13:03:13Z",
+      "updated_at": "2026-11-15T23:18:13Z",
       "themes": {
         "art": {
           "label": "🎨 Art",
           "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
           "items": [
             {
               "title": "« Mimi Cracra, c’est moi ! » : la BnF retrace les 60 ans de carrière la dessinatrice féministe Agnès Rosenstiehl",
               "link": "https://www.beauxarts.com/expos/mimi-cracra-cest-moi-la-bnf-retrace-les-60-ans-de-carriere-la-dessinatrice-feministe-agnes-rosenstiehl/",
               "published": "Sun, 15 Nov 2026 09:00:31 +0000",
-              "image": "https://media.beauxarts.com/uploads/2026/11/uneagnes-rosenstiehl_mimi-cracra_1ere-de-couverture--agnes-rosenstiehl-1300x975.jpg"
+              "image": "https://media.beauxarts.com/uploads/2026/11/uneagnes-rosenstiehl_mimi-cracra_1ere-de-couverture--agnes-rosenstiehl-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Van Eyck, Renoir, Tapisserie de Bayeux : les 12 expositions à ne pas manquer à Londres cet hiver",
+              "link": "https://www.connaissancedesarts.com/arts-expositions/londres/van-eyck-renoir-tapisserie-de-bayeux-les-12-expositions-a-ne-pas-manquer-a-londres-cet-hiver-11218495/",
+              "published": "Sun, 15 Nov 2026 08:55:49 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_selection_expositions_londres_troop-tt-width-653-height-486-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
             },
             {
               "title": "La recette d’art d’Alain Passard : un monument de navets",
               "link": "https://www.beauxarts.com/lifestyle/la-recette-dart-dalain-passard-un-monument-de-navets/",
               "published": "Sun, 15 Nov 2026 06:00:34 +0000",
-              "image": "https://media.beauxarts.com/uploads/2026/10/unereligieuse_3703-1300x975.jpg"
-            },
-            {
-              "title": "Pionnière méconnue du Bauhaus et de la préservation du patrimoine, la photographe Lucia Moholy mise en lumière à l’UNESCO",
-              "link": "https://www.beauxarts.com/expos/pionniere-meconnue-du-bauhaus-et-de-la-preservation-du-patrimoine-la-photographe-lucia-moholy-mise-en-lumiere-a-lunesco/",
-              "published": "Sat, 14 Nov 2026 19:00:20 +0000",
-              "image": "https://media.beauxarts.com/uploads/2026/11/unelucia-moholy-par-laszlo-moholy-nagy-dessau-1926-credit-fondation-moholy-nagy-2026-1300x975.jpg"
+              "image": "https://media.beauxarts.com/uploads/2026/10/unereligieuse_3703-1300x975.jpg",
+              "source": "Beaux Arts"
             }
           ]
         },
         "auto": {
           "label": "🚗 Auto",
           "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Plus",
+            "Auto Moto"
+          ],
           "items": [
+            {
+              "title": "F1 : Hadjar lâche une déclaration forte sur les nouvelles générations de pilotes",
+              "link": "https://sports.auto-moto.com/f1/actualite/f1-hadjar-lache-une-declaration-forte-sur-les-nouvelles-generations-de-pilotes-41765",
+              "published": "Sun, 15 Nov 2026 23:10:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/41765/393285/1200-L-f1-hadjar-lche-une-dclaration-forte-sur-les-nouvelles-gnrations-de-pilotes.jpg",
+              "source": "Auto Moto"
+            },
+            {
+              "title": "F1 : Gasly pousse un coup de gueule et réclame des changements urgents",
+              "link": "https://sports.auto-moto.com/f1/actualite/f1-gasly-pousse-un-coup-de-gueule-et-reclame-des-changements-urgents-41760",
+              "published": "Sun, 15 Nov 2026 22:00:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/41760/393284/1200-L-f1-gasly-pousse-un-coup-de-gueule-et-rclame-des-changements-urgents.jpg",
+              "source": "Auto Moto"
+            },
             {
               "title": "Dans les bouchons, il installe un faux gyrophare de police pour doubler tout le monde",
               "link": "https://www.autoplus.fr/actualite/insolite/dans-les-bouchons-il-installe-un-faux-gyrophare-de-police-pour-doubler-tout-le-monde-1477118.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
               "published": "Sun, 15 Nov 2026 19:58:00 +0000",
-              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.19.50.png"
-            },
-            {
-              "title": "Aux États-Unis, cette entreprise loue de véritables hôtels roulants aménagés sur des camions Mack",
-              "link": "https://www.autoplus.fr/camping-car/aux-etats-unis-cette-entreprise-loue-de-veritables-hotels-roulants-amenages-sur-des-camions-mack-1477120.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-              "published": "Sun, 15 Nov 2026 19:00:58 +0000",
-              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.11.27.png"
-            },
-            {
-              "title": "Une sculpture grandeur nature d’une Porsche 934 vendue plus de 200 000 euros",
-              "link": "https://www.autoplus.fr/actualite/insolite/une-sculpture-grandeur-nature-dune-porsche-934-vendue-plus-de-200-000-euros-1477119.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-              "published": "Sun, 15 Nov 2026 18:45:56 +0000",
-              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.00.10.png"
+              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.19.50.png",
+              "source": "Auto Plus"
             }
           ]
         },
         "culture": {
           "label": "🎭 Culture",
           "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture",
+            "France 24 Culture"
+          ],
           "items": [
             {
-              "title": "Sandra Wollner, réalisatrice d’« Everytime », une redoutable conteuse et artiste touche-à-tout",
-              "link": "https://www.lemonde.fr/culture/article/2026/11/15/sandra-wollner-realisatrice-d-everytime-une-redoutable-conteuse-et-artiste-touche-a-tout_6811011_3246.html",
-              "published": "Sun, 15 Nov 2026 12:00:10 +0100",
-              "image": "https://img.lemde.fr/2026/11/06/125/0/3316/1658/644/322/60/0/1f0b5dd_upload-1-mfcjw73u54ly-063-2297809208.jpg"
+              "title": "« Georges Kars, un peintre du monde d’hier », sur France Culture : un documentaire audio sur les traces d’un artiste méconnu",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/15/georges-kars-un-peintre-du-monde-d-hier-sur-france-culture-un-documentaire-audio-sur-les-traces-d-un-artiste-meconnu_6811035_3246.html",
+              "published": "Sun, 15 Nov 2026 17:30:03 +0100",
+              "image": "https://img.lemde.fr/2026/11/11/44/0/2369/1184/644/322/60/0/fdc0199_upload-1-klf6ypp8snj8-2-autoportrait.jpg",
+              "source": "Le Monde Culture"
             },
             {
-              "title": "A Alfortville, un roi Lear en fin de règne dans « La Fête du vieux »",
-              "link": "https://www.lemonde.fr/culture/article/2026/11/15/a-alfortville-un-roi-lear-en-fin-de-regne-dans-la-fete-du-vieux_6811006_3246.html",
-              "published": "Sun, 15 Nov 2026 11:00:09 +0100",
-              "image": "https://img.lemde.fr/2026/11/12/145/0/2297/1148/644/322/60/0/b1f1ffc_upload-1-rnomnn1u8rhp-la-fe-te-du-vieux-romina-giorgio-1.jpg"
+              "title": "Au cœur du plus vibrant foyer culturel de Pologne, Cracovie, ville à l’honneur du festival parisien Un week-end à l’Est",
+              "link": "https://www.lemonde.fr/livres/article/2026/11/15/au-c-ur-du-plus-vibrant-foyer-culturel-de-pologne-cracovie-ville-a-l-honneur-du-festival-parisien-un-week-end-a-l-est_6811031_3260.html",
+              "published": "Sun, 15 Nov 2026 17:00:15 +0100",
+              "image": "https://img.lemde.fr/2026/11/10/264/0/2500/1250/644/322/60/0/59639a1_upload-1-2ffnvddpkt0s-kofman-double-bind-c-bartek-warzecha-10.jpg",
+              "source": "Le Monde Culture"
             },
             {
-              "title": "A Villeneuve-d’Ascq, le musée LaM expose les œuvres de femmes autodidactes, de l’art brut à l’art tout court",
-              "link": "https://www.lemonde.fr/culture/article/2026/11/15/a-villeneuve-d-ascq-le-musee-lam-expose-les-uvres-de-femmes-autodidactes-de-l-art-brut-a-l-art-tout-court_6810986_3246.html",
-              "published": "Sun, 15 Nov 2026 06:30:05 +0100",
-              "image": "https://img.lemde.fr/2026/11/12/683/0/6000/3000/644/322/60/0/ec5fbd4_upload-1-pnwoybfaxanb-singulie-res-baya-public.jpg"
+              "title": "\"GTA VI devrait décrire une Amérique en déclin tentant d'exister dans un monde qui a changé\"",
+              "link": "https://www.france24.com/fr/culture/20261115-gta-vi-jamais-autant-dire-societe-americaine-vicissitudes-jeux-video",
+              "published": "Sun, 15 Nov 2026 08:19:11 GMT",
+              "image": "https://s.france24.com/media/display/881bba86-dd36-11f1-a402-695cb59fade5/w:1024/p:16x9/Jason-and-Lucia-18.jpg",
+              "source": "France 24 Culture"
             }
           ]
         },
         "high-tech": {
           "label": "💻 High-tech",
           "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
           "items": [
             {
-              "title": "Ils vont monter à bord, mais les astronautes n’ont pas le droit de voir la fusée : le rituel le plus paradoxal des lancements Soyouz",
-              "link": "https://www.numerama.com/sciences/2371751-ils-vont-monter-a-bord-mais-les-astronautes-nont-pas-le-droit-de-la-voir-le-rituel-le-plus-paradoxal-des-lancements-soyouz.html",
-              "published": "Sun, 15 Nov 2026 13:01:00 +0000",
-              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/cosmonaute-aux-yeux-bandes-vers-soyouz.jpg?resize=1200,675&key=b729e26a"
+              "title": "Avant la sortie de GTA 6, les joueurs de GTA 5 organisent une dernière balade à Los Santos",
+              "link": "https://www.numerama.com/pop-culture/2373859-avant-la-sortie-de-gta-6-les-joueurs-de-gta-5-organisent-une-derniere-balade-a-los-santos.html",
+              "published": "Sun, 15 Nov 2026 19:50:00 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/gta-online-2.png?resize=1200,675&key=fb37f524",
+              "source": "Numerama"
             },
             {
-              "title": "Meilleurs mangas shôjo : voici notre top 10 des œuvres incontournables à lire absolument",
-              "link": "https://www.numerama.com/pop-culture/2371755-meilleurs-mangas-shojo-voici-notre-top-10-des-oeuvres-incontournables-a-lire-absolument.html",
-              "published": "Sun, 15 Nov 2026 11:15:00 +0000",
-              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/yona-princesse-de-laube-2.png?resize=1200,675&key=1d23e864"
+              "title": "“Adieu la marge, bonjour les -67 %” : le Xiaomi Mix Flip passe au prix d’un smartphone lambda 😱",
+              "link": "https://www.01net.com/bons-plans/adieu-la-marge-bonjour-les-67-le-xiaomi-mix-flip-passe-au-prix-dun-smartphone-lambda.html",
+              "published": "Sun, 15 Nov 2026 18:17:22 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/Xiaomi-Mix-Flip-1344x896.jpeg",
+              "source": "01net"
             },
             {
-              "title": "Disney+ propose ses abonnements à 30 % de réduction, mais ça ne durera pas",
-              "link": "https://www.numerama.com/pop-culture/2240235-vous-avez-manque-la-derniere-promo-disney-elle-est-deja-de-retour.html",
-              "published": "Sun, 15 Nov 2026 10:00:00 +0000",
-              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/04/disney-1.jpg?resize=1200,675&key=dfaa9c11"
+              "title": "Streaming France Turquie : où regarder le match gratuitement en direct HD ? 🔴",
+              "link": "https://www.01net.com/bons-plans/streaming-france-turquie-ou-regarder-le-match-gratuitement-en-direct-hd.html",
+              "published": "Sun, 15 Nov 2026 18:10:48 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/Streaming-gratuit-France-Turquie-1344x896.jpeg",
+              "source": "01net"
             }
           ]
         },
         "ia": {
           "label": "🤖 IA",
           "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
           "items": [
             {
-              "title": "La justice coréenne plaide pour une amende contre les faux arrêts de l'IA",
-              "link": "https://www.actuia.com/actualite/la-justice-coreenne-plaide-pour-une-amende-contre-les-faux-arrets-de-lia/",
-              "published": "Mon, 02 Nov 2026 10:30:26 +0000",
-              "image": "https://www.actuia.com/storage/uploads/generated/11541-9ytyiesw-1200.jpg"
+              "title": "Un avion que vous n’entendez pas peut révéler où vous avez tourné une vidéo",
+              "link": "https://www.01net.com/actualites/un-avion-que-vous-nentendez-pas-peut-reveler-ou-vous-avez-tourne-une-video.html",
+              "published": "Sun, 15 Nov 2026 15:13:45 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/07/avion-vol-1344x896.jpg",
+              "source": "01net IA"
             },
             {
-              "title": "Le Canada obtient un siège au conseil des supercalculateurs d'EuroHPC",
-              "link": "https://www.actuia.com/actualite/le-canada-obtient-un-siege-au-conseil-des-supercalculateurs-deurohpc/",
-              "published": "Mon, 02 Nov 2026 09:28:00 +0000",
-              "image": "https://www.actuia.com/storage/uploads/generated/11542-rvk3kqkv-1200.jpg"
+              "title": "1 h 30 de plus par jour : l’IA devait vous faire gagner du temps, mais ce n’est finalement pas le cas",
+              "link": "https://www.01net.com/actualites/1-h-30-de-plus-par-jour-lia-devait-vous-faire-gagner-du-temps-mais-ce-nest-finalement-pas-le-cas.html",
+              "published": "Sun, 15 Nov 2026 12:13:41 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/Canva1920_1280-22-1344x896.jpg",
+              "source": "01net IA"
             },
             {
-              "title": "Abou Dhabi teste OpenAI sur ses contrôles d'importations alimentaires",
-              "link": "https://www.actuia.com/actualite/abou-dhabi-teste-openai-sur-ses-controles-dimportations-alimentaires/",
-              "published": "Mon, 02 Nov 2026 08:27:19 +0000",
-              "image": "https://www.actuia.com/storage/uploads/generated/11543-arlr9bn9-1200.jpg"
+              "title": "J’ai laissé Gemini me coacher pour mon premier marathon : il m’a menti avec aplomb",
+              "link": "https://www.numerama.com/tech/2372409-jai-laisse-gemini-me-coacher-pour-mon-premier-marathon-il-ma-menti-avec-aplomb.html",
+              "published": "Sat, 14 Nov 2026 13:03:00 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/sans-titre-4-1.png?resize=1200,675&key=59620fc6",
+              "source": "Numerama IA"
             }
           ]
         },
         "monde": {
           "label": "🌍 Monde",
           "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "France 24 Monde",
+            "Le Monde International"
+          ],
           "items": [
             {
-              "title": "New Delhi suffoque sous un nouveau pic de pollution",
-              "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-new-delhi-suffoque-sous-un-nouveau-pic-de-pollution",
-              "published": "Sun, 15 Nov 2026 11:33:00 GMT",
-              "image": "https://s.france24.com/media/display/de8bbfb0-e0e7-11f1-a863-3f371022a770/w:1024/p:16x9/FR-20261115-110530-110715-CS-01.jpg"
+              "title": "Alpinisme : l'expédition du Jannu Est, \"un tournant\" pour Benjamin Védrines",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-alpinisme-l-exp%C3%A9dition-du-jannu-est-un-tournant-pour-benjamin-v%C3%A9drines",
+              "published": "Sun, 15 Nov 2026 22:58:04 GMT",
+              "image": "https://s.france24.com/media/display/2b3c601c-e147-11f1-bd49-29048b396e03/w:1024/p:16x9/FRA-NEWS-15-11-2026-19-59-ING10-CLEAN-N2.jpg",
+              "source": "France 24 Monde"
             },
             {
-              "title": "De retour dans les Andes péruviennes, le pape Léon XIV s'inquiète de l'exode rural",
-              "link": "https://www.france24.com/fr/am%C3%A9riques/20261115-perou-retour-andes-pape-l%C3%A9on-xiv-inquiet-exode-rural-pauvret%C3%A9",
-              "published": "Sun, 15 Nov 2026 11:06:47 GMT",
-              "image": "https://s.france24.com/media/display/1e4a9246-e0e0-11f1-a218-29048b396e03/w:1024/p:16x9/000-D7HD3NR.jpg"
+              "title": "Le baron de la drogue mexicain Miguel Ángel Félix Gallardo est mort",
+              "link": "https://www.france24.com/fr/am%C3%A9riques/20261115-baron-de-drogue-mexicain-miguel-angel-felix-gallardo-mort-narcotrafic-hopital-prison-guadalajara",
+              "published": "Sun, 15 Nov 2026 22:42:26 GMT",
+              "image": "https://s.france24.com/media/display/a3174496-e145-11f1-ae4a-f71d22e7fea9/w:1024/p:16x9/000-D7JM9ZV.jpg",
+              "source": "France 24 Monde"
             },
             {
-              "title": "Sommet de la Francophonie : la rivalité RD Congo-Rwanda au cœur des débats",
-              "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-sommet-de-la-francophonie-la-rivalit%C3%A9-rd-congo-rwanda-au-c%C5%93ur-des-d%C3%A9bats",
-              "published": "Sun, 15 Nov 2026 11:06:04 GMT",
-              "image": "https://s.france24.com/media/display/ebcfb0f4-e0e3-11f1-b6a3-695cb59fade5/w:1024/p:16x9/capture-06021bec.jpg"
+              "title": "Benyamin Nétanyahou ne peut pas rester « une minute de plus » à la tête du gouvernement israélien, estime Gadi Eisenkot",
+              "link": "https://www.lemonde.fr/international/article/2026/11/15/benyamin-netanyahou-ne-peut-pas-rester-une-minute-de-plus-a-la-tete-du-gouvernement-israelien-estime-gadi-eisenkot_6811061_3210.html",
+              "published": "Sun, 15 Nov 2026 22:27:40 +0100",
+              "image": "https://img.lemde.fr/2026/11/10/468/0/5616/2808/644/322/60/0/eb41617_ftp-1-2jymhlcfl5lg-e1c79908e3ea4a52ab47b64f9ca45251-0-3b0686356fe94c59a189d67e5f4a313f.jpg",
+              "source": "Le Monde International"
             }
           ]
         },
         "nature": {
           "label": "🌿 Nature",
           "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
           "items": [
             {
-              "title": "Pourquoi les IA les plus puissantes échouent encore sur des tâches simples, le chercheur Jean-Claude Heudin répond",
-              "link": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ia-plus-puissantes-echouent-encore-taches-simples-chercheur-jean-claude-heudin-repond-139266/#xtor%3DRSS-8",
-              "published": "Sun, 15 Nov 2026 12:29:57 +0100",
-              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/e/7/a/e7a1d23450_50263330_ia-taches-simples-heudin.jpg"
+              "title": "Alexandre Duval, ou comment l'IA conçoit des molécules pour rendre l’industrie plus propre",
+              "link": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-alexandre-duval-ia-concoit-molecules-rendre-industrie-plus-propre-138273/#xtor%3DRSS-8",
+              "published": "Sun, 15 Nov 2026 20:01:10 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/b/9/8b9bccc6a8_50261630_alexandre-duval-ia.jpg",
+              "source": "Futura Sciences"
             },
             {
-              "title": "La plante de la semaine : ces baies violettes ne sont pas peintes, elles poussent sur l’arbuste le plus étonnant de novembre",
-              "link": "https://www.futura-sciences.com/maison/actualites/jardin-plante-semaine-ces-baies-violettes-ne-sont-pas-peintes-elles-poussent-arbuste-plus-etonnant-novembre-139336/#xtor%3DRSS-8",
-              "published": "Sun, 15 Nov 2026 11:01:54 +0100",
-              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/2/5/c/25c8ac82b9_50263325_plante-semaine-callicarpa.jpg"
+              "title": "Météo de l’hiver : ce flux dominant qui se confirme en France annonce une saison très particulière",
+              "link": "https://www.futura-sciences.com/planete/actualites/meteorologie-meteo-hiver-ce-flux-dominant-confirme-france-annonce-saison-tres-particuliere-139315/#xtor%3DRSS-8",
+              "published": "Sun, 15 Nov 2026 18:29:45 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/a/8/8/a881d7c8b6_50251483_tempete-vent.jpg",
+              "source": "Futura Sciences"
             },
             {
-              "title": "Pourquoi attrape-t-on plus de rhumes quand il fait froid ? La réponse se trouve au bout de votre nez",
-              "link": "https://www.futura-sciences.com/sante/actualites/rhume-attrape-t-on-plus-rhumes-il-fait-froid-reponse-trouve-bout-votre-nez-k2m6-139289/#xtor%3DRSS-8",
-              "published": "Sun, 15 Nov 2026 10:00:00 +0100",
-              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/6/b/a/6ba61f3eb0_50263268_rhume-froid.jpg"
+              "title": "Une théorie de la gravité exclurait les boucles temporelles, mais se révèle instable",
+              "link": "https://sciencepost.fr/une-theorie-de-la-gravite-exclurait-les-boucles-temporelles-mais-se-revele-instable/",
+              "published": "Sun, 15 Nov 2026 15:57:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/theorie-gravite-exclurait-boucles-temporelles-mais-revele-instable.png",
+              "source": "SciencePost"
             }
           ]
         },
         "sante": {
           "label": "🏥 Santé",
           "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
           "items": [
             {
-              "title": "Les écrans nuisent-ils aux enfants ? La science nuance le débat",
-              "link": "https://www.sciencesetavenir.fr/sante/temps-d-ecran-des-enfants-pourquoi-le-compteur-ne-dit-pas-tout_195874?xtor=RSS-16",
-              "published": "Sun, 15 Nov 2026 09:00:00 +0000",
-              "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0ec2961-ar-1751815-tf-68438335-1-notext-jpg.jpg"
+              "title": "La banane plantain est-elle bonne pour la santé ?",
+              "link": "https://www.santemagazine.fr/alimentation/aliments-et-sante/la-banane-plantain-est-elle-bonne-pour-la-sante-1158633",
+              "published": "Sun, 15 Nov 2026 17:00:00 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/10/26/bienfaits-banane-plantain-sante.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
             },
             {
-              "title": "Un nouvel espoir contre le cancer du pancréas",
-              "link": "https://www.sciencesetavenir.fr/sante/cancer-du-pancreas-la-percee-du-daraxonrasib_195859?xtor=RSS-16",
-              "published": "Sat, 14 Nov 2026 09:00:00 +0000",
-              "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0739911-ar-1751825-tf-68438303-1-notext-jpg.jpg"
+              "title": "Sommeil : la lumière bleue empêche-t-elle vraiment de dormir ?",
+              "link": "https://www.santemagazine.fr/sante/bien-dormir/sommeil-la-lumiere-bleue-empeche-t-elle-vraiment-de-dormir-1159522",
+              "published": "Sun, 15 Nov 2026 15:51:56 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/15/lumiere_bleue_sommeil.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
             },
             {
-              "title": "Surpoids et obésité : l’IMC montre ses limites, une étude le confirme",
-              "link": "https://www.sciencesetavenir.fr/sante/obesite-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-exces-de-graisse_196082?xtor=RSS-16",
-              "published": "Fri, 13 Nov 2026 12:09:47 +0000",
-              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/11/cover-r4x3w1200-6af49884157f8-7afb3a30c7e10983f7ad43e8ee3ecbdb889d52af-jpg.jpg"
+              "title": "Cancer de la prostate : une radiothérapie ultraciblée contre les tumeurs agressives",
+              "link": "https://www.sciencesetavenir.fr/sante/une-radiotherapie-ultraciblee-contre-les-tumeurs-agressives_195864?xtor=RSS-16",
+              "published": "Sun, 15 Nov 2026 13:00:00 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac09835c1-ar-1751835-tf-68438309-1-notext-jpg.jpg",
+              "source": "Sciences et Avenir"
             }
           ]
         },
         "sport": {
           "label": "⚽ Sport",
           "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
           "items": [
             {
-              "title": "Paul Seixas remporte le Critérium de Saitama, un succès pour « bien finir » sa belle année 2026",
-              "link": "https://www.lemonde.fr/sport/article/2026/11/15/paul-seixas-remporte-le-criterium-de-saitama-un-succes-pour-bien-finir-sa-belle-annee-2026_6811010_3242.html",
-              "published": "Sun, 15 Nov 2026 11:51:55 +0100",
-              "image": "https://img.lemde.fr/2026/11/15/1141/0/6846/3423/644/322/60/0/ebea3a4_ftp-1-g1cst6mjtxox-afp-d7hm6r3.jpg"
+              "title": "France-Turquie : le résumé de la qualification laborieuse des Bleus en quarts de finale de la Ligue des nations de football",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/15/france-turquie-le-resume-de-la-qualification-laborieuse-des-bleus-en-quarts-de-finale-de-la-ligue-des-nations-de-football_6811064_3242.html",
+              "published": "Sun, 15 Nov 2026 23:24:18 +0100",
+              "image": "https://img.lemde.fr/2026/11/15/114/0/5386/2693/644/322/60/0/ed0a972_ftp-1-ki8iyryynupq-2026-11-15t213015z-1427085689-up1embf1nqewz-rtrmadp-3-soccer-uefanations-fra-tur.JPG",
+              "source": "Le Monde Sport"
             },
             {
-              "title": "Finales ATP : entre les blessures des uns et les progrès des autres, l’élite du tennis se renouvelle",
-              "link": "https://www.lemonde.fr/sport/article/2026/11/15/finales-atp-entre-les-blessures-des-uns-et-les-progres-des-autres-l-elite-du-tennis-se-renouvelle_6810989_3242.html",
-              "published": "Sun, 15 Nov 2026 06:30:21 +0100",
-              "image": "https://img.lemde.fr/2026/11/05/322/0/3865/1932/644/322/60/0/b028b65_ftp-1-mnx3bahy2cwd-afp-d6kk7v7.jpg"
+              "title": "L’Angleterre met un coup d’arrêt à la série de 43 matchs sans défaite de la sélection espagnole",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/15/l-angleterre-met-un-coup-d-arret-a-la-serie-de-43-matchs-sans-defaite-de-la-selection-espagnole_6811063_3242.html",
+              "published": "Sun, 15 Nov 2026 22:54:34 +0100",
+              "image": "https://img.lemde.fr/2026/11/15/0/0/3351/1675/644/322/60/0/0002aad_ftp-1-egsgem0gqxe4-f352d33849904edbb535be72e9c41740-0-69c082be2fa045f9bd3574bccc4ee811.jpg",
+              "source": "Le Monde Sport"
             },
             {
-              "title": "Présidentielle 2027 : Teddy Riner découvre le combat politique, entre popularité et agacement",
-              "link": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/11/15/presidentielle-2027-teddy-riner-decouvre-le-combat-politique-entre-popularite-et-agacement_6810907_6205049.html",
-              "published": "Sun, 15 Nov 2026 05:15:01 +0100",
-              "image": "https://img.lemde.fr/2026/11/14/535/0/5664/2832/644/322/60/0/7b261c6_ftp-1-qgc4l8zcep5f-afp-d7gg2jn.jpg"
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
             }
           ]
         }
