@@ -36,17 +36,13 @@ on for with at by from is are was were be been it its this that these those
 """.split())
 
 THEMES = {
-    "monde": {
-        "label": "🌍 Monde",
-        "feed": "https://www.france24.com/fr/monde/rss",
+    "art": {
+        "label": "🎨 Art",
+        "feed": "https://www.beauxarts.com/feed/",
     },
     "auto": {
         "label": "🚗 Auto",
         "feed": "https://www.autoplus.fr/rss",
-    },
-    "art": {
-        "label": "🎨 Art",
-        "feed": "https://www.beauxarts.com/feed/",
     },
     "culture": {
         "label": "🎭 Culture",
@@ -55,6 +51,14 @@ THEMES = {
     "high-tech": {
         "label": "💻 High-tech",
         "feed": "https://www.numerama.com/feed/",
+    },
+    "ia": {
+        "label": "🤖 IA",
+        "feed": "https://www.actuia.com/feed/",
+    },
+    "monde": {
+        "label": "🌍 Monde",
+        "feed": "https://www.france24.com/fr/monde/rss",
     },
     "nature": {
         "label": "🌿 Nature",
