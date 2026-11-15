@@ -14,7 +14,7 @@ Puis va sur [http://localhost:8000](http://localhost:8000).
 
 ## Actualités quotidiennes par thème
 
-La page propose un menu de 7 thèmes — 🌍 Monde, 🎨 Art, 🎭 Culture, 💻 High-tech,
+La page propose un menu de 8 thèmes — 🌍 Monde, 🚗 Auto, 🎨 Art, 🎭 Culture, 💻 High-tech,
 🌿 Nature, 🏥 Santé, ⚽ Sport — et affiche pour chacun les 3 faits marquants du
 jour en français, avec une vignette image (flux RSS France 24, Beaux Arts,
 Le Monde, Futura Sciences, Sciences et Avenir).

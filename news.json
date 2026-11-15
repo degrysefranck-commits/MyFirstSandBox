@@ -25,6 +25,30 @@
         }
       ]
     },
+    "auto": {
+      "label": "🚗 Auto",
+      "source": "https://www.autoplus.fr/rss",
+      "items": [
+        {
+          "title": "Dans les bouchons, il installe un faux gyrophare de police pour doubler tout le monde",
+          "link": "https://www.autoplus.fr/actualite/insolite/dans-les-bouchons-il-installe-un-faux-gyrophare-de-police-pour-doubler-tout-le-monde-1477118.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+          "published": "Sun, 15 Nov 2026 19:58:00 +0000",
+          "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.19.50.png"
+        },
+        {
+          "title": "Aux États-Unis, cette entreprise loue de véritables hôtels roulants aménagés sur des camions Mack",
+          "link": "https://www.autoplus.fr/camping-car/aux-etats-unis-cette-entreprise-loue-de-veritables-hotels-roulants-amenages-sur-des-camions-mack-1477120.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+          "published": "Sun, 15 Nov 2026 19:00:58 +0000",
+          "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.11.27.png"
+        },
+        {
+          "title": "Une sculpture grandeur nature d’une Porsche 934 vendue plus de 200 000 euros",
+          "link": "https://www.autoplus.fr/actualite/insolite/une-sculpture-grandeur-nature-dune-porsche-934-vendue-plus-de-200-000-euros-1477119.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+          "published": "Sun, 15 Nov 2026 18:45:56 +0000",
+          "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-15-a-las-19.00.10.png"
+        }
+      ]
+    },
     "art": {
       "label": "🎨 Art",
       "source": "https://www.beauxarts.com/feed/",

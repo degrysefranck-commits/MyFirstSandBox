@@ -38,6 +38,10 @@ THEMES = {
         "label": "🌍 Monde",
         "feed": "https://www.france24.com/fr/monde/rss",
     },
+    "auto": {
+        "label": "🚗 Auto",
+        "feed": "https://www.autoplus.fr/rss",
+    },
     "art": {
         "label": "🎨 Art",
         "feed": "https://www.beauxarts.com/feed/",
