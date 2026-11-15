@@ -6,8 +6,10 @@ from datetime import datetime, timedelta, timezone
 
 OUTPUT = "news.json"
 TRENDS_OUTPUT = "trends.json"
+ARCHIVES_OUTPUT = "archives.json"
 MAX_ITEMS = 3
 MAX_WORDS = 30
+MAX_ARCHIVE_DAYS = 30
 
 TRENDS_SOURCES = [
     ("Google Trends FR (recherches)", "https://trends.google.com/trending/rss?geo=FR"),
@@ -165,6 +167,22 @@ def fetch_trends():
     return [{"word": w, "count": c} for w, c in words], sources_ok
 
 
+def update_archives(payload):
+    try:
+        with open(ARCHIVES_OUTPUT, encoding="utf-8") as f:
+            archives = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        archives = {}
+    days = archives.get("days", {})
+    day_key = payload["updated_at"][:10]
+    days[day_key] = {"updated_at": payload["updated_at"], "themes": payload["themes"]}
+    ordered = dict(sorted(days.items(), reverse=True)[:MAX_ARCHIVE_DAYS])
+    with open(ARCHIVES_OUTPUT, "w", encoding="utf-8") as f:
+        json.dump({"days": ordered}, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"{len(ordered)} jour(s) archive(s) dans {ARCHIVES_OUTPUT}")
+
+
 def main():
     try:
         with open(OUTPUT, encoding="utf-8") as f:
@@ -198,6 +216,7 @@ def main():
     total = sum(len(t["items"]) for t in themes.values())
     with_img = sum(1 for t in themes.values() for i in t["items"] if i.get("image"))
     print(f"{total} actualites ({with_img} avec image) ecrites dans {OUTPUT} ({len(themes)} themes)")
+    update_archives(payload)
 
     try:
         trend_words, sources_ok = fetch_trends()
