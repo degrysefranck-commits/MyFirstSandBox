@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-11-14T12:36:47Z",
+  "updated_at": "2026-11-15T13:03:13Z",
   "themes": {
     "monde": {
       "label": "🌍 Monde",
       "source": "https://www.france24.com/fr/monde/rss",
       "items": [
         {
-          "title": "Nvidia sans Jensen Huang, les risques du culte de la personnalité dans la tech",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261114-nvidia-sans-jensen-huang-les-risques-du-culte-de-la-personnalit%C3%A9-dans-la-tech",
-          "published": "Sat, 14 Nov 2026 11:13:08 GMT",
-          "image": "https://s.france24.com/media/display/d4b16a32-e018-11f1-bb3b-3f371022a770/w:1024/p:16x9/FR-20261114-110321-110510-CS-01.jpg"
+          "title": "New Delhi suffoque sous un nouveau pic de pollution",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-new-delhi-suffoque-sous-un-nouveau-pic-de-pollution",
+          "published": "Sun, 15 Nov 2026 11:33:00 GMT",
+          "image": "https://s.france24.com/media/display/de8bbfb0-e0e7-11f1-a863-3f371022a770/w:1024/p:16x9/FR-20261115-110530-110715-CS-01.jpg"
         },
         {
-          "title": "Washington a proposé que Kiev cède le Donbass en échange d'une adhésion à l'Otan, affirme Zelensky",
-          "link": "https://www.france24.com/fr/europe/20261114-washington-propos%C3%A9-kiev-c%C3%A8de-donbass-%C3%A9change-adh%C3%A9sion-otan-affirme-zelensky",
-          "published": "Sat, 14 Nov 2026 10:53:58 GMT",
-          "image": "https://s.france24.com/media/display/70cfdcca-e012-11f1-8f8f-5f54d898a954/w:1024/p:16x9/AP26316802067115.jpg"
+          "title": "De retour dans les Andes péruviennes, le pape Léon XIV s'inquiète de l'exode rural",
+          "link": "https://www.france24.com/fr/am%C3%A9riques/20261115-perou-retour-andes-pape-l%C3%A9on-xiv-inquiet-exode-rural-pauvret%C3%A9",
+          "published": "Sun, 15 Nov 2026 11:06:47 GMT",
+          "image": "https://s.france24.com/media/display/1e4a9246-e0e0-11f1-a218-29048b396e03/w:1024/p:16x9/000-D7HD3NR.jpg"
         },
         {
-          "title": "Les Bleus battent les Springboks à Paris pour la première fois depuis 21 ans",
-          "link": "https://www.france24.com/fr/%C3%A9missions/sports/20261114-bleus-battent-springboks-paris-pour-premi%C3%A8re-fois-depuis-21-ans",
-          "published": "Sat, 14 Nov 2026 10:27:01 GMT",
-          "image": "https://s.france24.com/media/display/0732732e-dfe8-11f1-801a-29048b396e03/w:1024/p:16x9/J24-France-celebrate.jpg"
+          "title": "Sommet de la Francophonie : la rivalité RD Congo-Rwanda au cœur des débats",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-sommet-de-la-francophonie-la-rivalit%C3%A9-rd-congo-rwanda-au-c%C5%93ur-des-d%C3%A9bats",
+          "published": "Sun, 15 Nov 2026 11:06:04 GMT",
+          "image": "https://s.france24.com/media/display/ebcfb0f4-e0e3-11f1-b6a3-695cb59fade5/w:1024/p:16x9/capture-06021bec.jpg"
         }
       ]
     },
@@ -30,22 +30,22 @@
       "source": "https://www.beauxarts.com/feed/",
       "items": [
         {
-          "title": "Comment la photographie raconte les villes au travail : deux expositions à découvrir absolument à Saint-Étienne",
-          "link": "https://www.beauxarts.com/expos/comment-la-photographie-raconte-les-villes-au-travail-deux-expositions-a-decouvrir-absolument-a-saint-etienne/",
-          "published": "Sat, 14 Nov 2026 06:00:54 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/une12-1-1300x975.jpg"
+          "title": "« Mimi Cracra, c’est moi ! » : la BnF retrace les 60 ans de carrière la dessinatrice féministe Agnès Rosenstiehl",
+          "link": "https://www.beauxarts.com/expos/mimi-cracra-cest-moi-la-bnf-retrace-les-60-ans-de-carriere-la-dessinatrice-feministe-agnes-rosenstiehl/",
+          "published": "Sun, 15 Nov 2026 09:00:31 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/uneagnes-rosenstiehl_mimi-cracra_1ere-de-couverture--agnes-rosenstiehl-1300x975.jpg"
         },
         {
-          "title": "Avec son sapin ailé et ses vitrines colorées, Castelbajac secoue les traditionnels décors de Noël des Galeries Lafayette",
-          "link": "https://www.beauxarts.com/grand-format/avec-son-sapin-aile-et-ses-vitrines-colorees-castelbajac-secoue-les-traditionnels-decors-de-noel-des-galeries-lafayette/",
-          "published": "Fri, 13 Nov 2026 16:00:02 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/uneau-coeur-de-noel-par-jean-charles-de-castelbajac-aux-galeries-lafayette-grand-sapin-1300x975.jpg"
+          "title": "La recette d’art d’Alain Passard : un monument de navets",
+          "link": "https://www.beauxarts.com/lifestyle/la-recette-dart-dalain-passard-un-monument-de-navets/",
+          "published": "Sun, 15 Nov 2026 06:00:34 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/10/unereligieuse_3703-1300x975.jpg"
         },
         {
-          "title": "Chapelle Sixtine : une technique inédite et un autoportrait caché de Michel-Ange découverts pendant le nettoyage du Jugement dernier",
-          "link": "https://www.beauxarts.com/grand-format/chapelle-sixtine-une-technique-inedite-et-un-autoportrait-cache-de-michel-ange-decouverts-pendant-le-nettoyage-du-jugement-dernier/",
-          "published": "Fri, 13 Nov 2026 14:04:44 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/web5.jpg"
+          "title": "Pionnière méconnue du Bauhaus et de la préservation du patrimoine, la photographe Lucia Moholy mise en lumière à l’UNESCO",
+          "link": "https://www.beauxarts.com/expos/pionniere-meconnue-du-bauhaus-et-de-la-preservation-du-patrimoine-la-photographe-lucia-moholy-mise-en-lumiere-a-lunesco/",
+          "published": "Sat, 14 Nov 2026 19:00:20 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/unelucia-moholy-par-laszlo-moholy-nagy-dessau-1926-credit-fondation-moholy-nagy-2026-1300x975.jpg"
         }
       ]
     },
@@ -54,22 +54,22 @@
       "source": "https://www.lemonde.fr/culture/rss_full.xml",
       "items": [
         {
-          "title": "Sélection galerie : Amoako Boafo chez Mariane Ibrahim",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/14/selection-galerie-amoako-boafo-chez-mariane-ibrahim_6809954_3246.html",
-          "published": "Sat, 14 Nov 2026 11:00:14 +0100",
-          "image": "https://img.lemde.fr/2026/11/12/780/0/6644/3322/644/322/60/0/236d21d_upload-1-2oc5przhv8uv-amoako-boafo-malachite-and-gold-alhambra-2026-photo-by-aure-lien-mole-courtesy-of-the-artist-and-mariane-ibrahim.jpeg"
+          "title": "Sandra Wollner, réalisatrice d’« Everytime », une redoutable conteuse et artiste touche-à-tout",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/15/sandra-wollner-realisatrice-d-everytime-une-redoutable-conteuse-et-artiste-touche-a-tout_6811011_3246.html",
+          "published": "Sun, 15 Nov 2026 12:00:10 +0100",
+          "image": "https://img.lemde.fr/2026/11/06/125/0/3316/1658/644/322/60/0/1f0b5dd_upload-1-mfcjw73u54ly-063-2297809208.jpg"
         },
         {
-          "title": "Sharif Andoura, l’acteur belge qui impose sur scène et à l’écran son prénom syrien et ses cheveux roux",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/14/sharif-andoura-l-acteur-belge-qui-impose-sur-scene-et-a-l-ecran-son-prenom-syrien-et-ses-cheveux-roux_6809952_3246.html",
-          "published": "Sat, 14 Nov 2026 11:00:09 +0100",
-          "image": "https://img.lemde.fr/2026/11/10/88/0/8256/4128/644/322/60/0/09c0241_upload-1-safygya7nlta-000-c7u87a6.jpg"
+          "title": "A Alfortville, un roi Lear en fin de règne dans « La Fête du vieux »",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/15/a-alfortville-un-roi-lear-en-fin-de-regne-dans-la-fete-du-vieux_6811006_3246.html",
+          "published": "Sun, 15 Nov 2026 11:00:09 +0100",
+          "image": "https://img.lemde.fr/2026/11/12/145/0/2297/1148/644/322/60/0/b1f1ffc_upload-1-rnomnn1u8rhp-la-fe-te-du-vieux-romina-giorgio-1.jpg"
         },
         {
-          "title": "Avec « Everytime », la réalisatrice Sandra Wollner peint le tableau mélancolique de vies désaccordées par le deuil",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/14/avec-everytime-la-realisatrice-sandra-wollner-peint-le-tableau-melancolique-de-vies-desaccordees-par-le-deuil_6808891_3247.html",
-          "published": "Sat, 14 Nov 2026 10:52:58 +0100",
-          "image": "https://img.lemde.fr/2026/11/06/675/0/16650/8325/644/322/60/0/d4044ed_upload-1-pvod5wnpk03u-300dpi-everytime-mainstill.jpg"
+          "title": "A Villeneuve-d’Ascq, le musée LaM expose les œuvres de femmes autodidactes, de l’art brut à l’art tout court",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/15/a-villeneuve-d-ascq-le-musee-lam-expose-les-uvres-de-femmes-autodidactes-de-l-art-brut-a-l-art-tout-court_6810986_3246.html",
+          "published": "Sun, 15 Nov 2026 06:30:05 +0100",
+          "image": "https://img.lemde.fr/2026/11/12/683/0/6000/3000/644/322/60/0/ec5fbd4_upload-1-pnwoybfaxanb-singulie-res-baya-public.jpg"
         }
       ]
     },
@@ -78,22 +78,22 @@
       "source": "https://www.numerama.com/feed/",
       "items": [
         {
-          "title": "Black Friday 2026 : voici la technique la plus rapide pour vérifier si un message provient vraiment d’Amazon",
-          "link": "https://www.numerama.com/cyberguerre/2374317-black-friday-2026-voici-la-technique-la-plus-rapide-pour-verifier-si-un-message-provient-vraiment-damazon.html",
-          "published": "Sat, 14 Nov 2026 12:05:00 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/sans-titre-13.png?resize=1200,675&key=b5f9ef2f"
+          "title": "Ils vont monter à bord, mais les astronautes n’ont pas le droit de voir la fusée : le rituel le plus paradoxal des lancements Soyouz",
+          "link": "https://www.numerama.com/sciences/2371751-ils-vont-monter-a-bord-mais-les-astronautes-nont-pas-le-droit-de-la-voir-le-rituel-le-plus-paradoxal-des-lancements-soyouz.html",
+          "published": "Sun, 15 Nov 2026 13:01:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/cosmonaute-aux-yeux-bandes-vers-soyouz.jpg?resize=1200,675&key=b729e26a"
         },
         {
-          "title": "Númenor dans Les Anneaux de pouvoir : ce qu’il est advenu de l’île de Tolkien dans Le Seigneur des anneaux",
-          "link": "https://www.numerama.com/pop-culture/1107026-numenor-dans-les-anneaux-de-pouvoir-ce-quil-est-advenu-de-lile-de-tolkien-dans-le-seigneur-des-anneaux.html",
-          "published": "Sat, 14 Nov 2026 11:38:54 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2022/09/numenor-carte.jpg?resize=1200,675&key=d7e1d619"
+          "title": "Meilleurs mangas shôjo : voici notre top 10 des œuvres incontournables à lire absolument",
+          "link": "https://www.numerama.com/pop-culture/2371755-meilleurs-mangas-shojo-voici-notre-top-10-des-oeuvres-incontournables-a-lire-absolument.html",
+          "published": "Sun, 15 Nov 2026 11:15:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/yona-princesse-de-laube-2.png?resize=1200,675&key=1d23e864"
         },
         {
-          "title": "Panne géante : Microsoft balaie la théorie d’un agent IA qui aurait dérapé",
-          "link": "https://www.numerama.com/tech/2374527-panne-geante-microsoft-balaie-la-theorie-dun-agent-ia-qui-aurait-derape.html",
-          "published": "Sat, 14 Nov 2026 11:15:33 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2025/07/microsoft.jpg?resize=1200,675&key=9ab16fcb"
+          "title": "Disney+ propose ses abonnements à 30 % de réduction, mais ça ne durera pas",
+          "link": "https://www.numerama.com/pop-culture/2240235-vous-avez-manque-la-derniere-promo-disney-elle-est-deja-de-retour.html",
+          "published": "Sun, 15 Nov 2026 10:00:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/04/disney-1.jpg?resize=1200,675&key=dfaa9c11"
         }
       ]
     },
@@ -102,22 +102,22 @@
       "source": "https://www.futura-sciences.com/rss/actualites.xml",
       "items": [
         {
-          "title": "Fusion nucléaire : des physiciens trouvent un raccourci pour atteindre l'allumage en consommant moins d'énergie",
-          "link": "https://www.futura-sciences.com/sciences/actualites/fusion-nucleaire-fusion-nucleaire-physiciens-trouvent-raccourci-atteindre-allumage-consommant-moins-energie-139134/#xtor%3DRSS-8",
-          "published": "Sat, 14 Nov 2026 13:01:36 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/5/4/5/5455a8fdff_50262997_fusion-nucle-aire.jpg"
+          "title": "Pourquoi les IA les plus puissantes échouent encore sur des tâches simples, le chercheur Jean-Claude Heudin répond",
+          "link": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ia-plus-puissantes-echouent-encore-taches-simples-chercheur-jean-claude-heudin-repond-139266/#xtor%3DRSS-8",
+          "published": "Sun, 15 Nov 2026 12:29:57 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/e/7/a/e7a1d23450_50263330_ia-taches-simples-heudin.jpg"
         },
         {
-          "title": "La fabuleuse découverte de l’insuline : une révolution médicale sur fond de guerre d’ego",
-          "link": "https://www.futura-sciences.com/sante/actualites/diabete-fabuleuse-decouverte-insuline-revolution-medicale-fond-guerre-ego-139273/#xtor%3DRSS-8",
-          "published": "Sat, 14 Nov 2026 11:30:00 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/7/c/0/7c0455e4c9_50263231_frederick-banting-john-macleod.jpg"
+          "title": "La plante de la semaine : ces baies violettes ne sont pas peintes, elles poussent sur l’arbuste le plus étonnant de novembre",
+          "link": "https://www.futura-sciences.com/maison/actualites/jardin-plante-semaine-ces-baies-violettes-ne-sont-pas-peintes-elles-poussent-arbuste-plus-etonnant-novembre-139336/#xtor%3DRSS-8",
+          "published": "Sun, 15 Nov 2026 11:01:54 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/2/5/c/25c8ac82b9_50263325_plante-semaine-callicarpa.jpg"
         },
         {
-          "title": "Moral en berne dès que les jours raccourcissent ? Ce que la science sait vraiment de la dépression saisonnière",
-          "link": "https://www.futura-sciences.com/sante/actualites/depression-moral-berne-jours-raccourcissent-ce-science-sait-vraiment-depression-saisonniere-k2m6-139267/#xtor%3DRSS-8",
-          "published": "Sat, 14 Nov 2026 10:00:00 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/e/9/f/e9f9d1ad2b_50263201_depression-saison-luminotherapie.jpg"
+          "title": "Pourquoi attrape-t-on plus de rhumes quand il fait froid ? La réponse se trouve au bout de votre nez",
+          "link": "https://www.futura-sciences.com/sante/actualites/rhume-attrape-t-on-plus-rhumes-il-fait-froid-reponse-trouve-bout-votre-nez-k2m6-139289/#xtor%3DRSS-8",
+          "published": "Sun, 15 Nov 2026 10:00:00 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/6/b/a/6ba61f3eb0_50263268_rhume-froid.jpg"
         }
       ]
     },
@@ -125,6 +125,12 @@
       "label": "🏥 Santé",
       "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
       "items": [
+        {
+          "title": "Les écrans nuisent-ils aux enfants ? La science nuance le débat",
+          "link": "https://www.sciencesetavenir.fr/sante/temps-d-ecran-des-enfants-pourquoi-le-compteur-ne-dit-pas-tout_195874?xtor=RSS-16",
+          "published": "Sun, 15 Nov 2026 09:00:00 +0000",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0ec2961-ar-1751815-tf-68438335-1-notext-jpg.jpg"
+        },
         {
           "title": "Un nouvel espoir contre le cancer du pancréas",
           "link": "https://www.sciencesetavenir.fr/sante/cancer-du-pancreas-la-percee-du-daraxonrasib_195859?xtor=RSS-16",
@@ -136,12 +142,6 @@
           "link": "https://www.sciencesetavenir.fr/sante/obesite-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-exces-de-graisse_196082?xtor=RSS-16",
           "published": "Fri, 13 Nov 2026 12:09:47 +0000",
           "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/11/cover-r4x3w1200-6af49884157f8-7afb3a30c7e10983f7ad43e8ee3ecbdb889d52af-jpg.jpg"
-        },
-        {
-          "title": "Diabète : Un implant sans médicament contrôle la glycémie électriquement",
-          "link": "https://www.sciencesetavenir.fr/sante/diabete-un-implant-controle-la-glycemie-a-coups-de-courant_196090?xtor=RSS-16",
-          "published": "Thu, 12 Nov 2026 12:57:51 +0000",
-          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/12/cover-r4x3w1200-6af5993254015-afp-20260703-hl-tdurand-3217743-v1-highres-franceillustrationcitygrenobleheatwa.jpg"
         }
       ]
     },
@@ -150,22 +150,22 @@
       "source": "https://www.lemonde.fr/sport/rss_full.xml",
       "items": [
         {
-          "title": "L’US Saint-Malo, un petit club à l’ancienne à l’heure de la professionnalisation du football féminin",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/14/l-us-saint-malo-un-petit-club-a-l-ancienne-a-l-heure-de-la-professionnalisation-du-football-feminin_6810083_3242.html",
-          "published": "Sat, 14 Nov 2026 12:07:56 +0100",
-          "image": "https://img.lemde.fr/2026/11/13/320/0/2997/1498/644/322/60/0/7221447_upload-1-gbujnxqswayv-us-saint-malo-16.jpg"
+          "title": "Paul Seixas remporte le Critérium de Saitama, un succès pour « bien finir » sa belle année 2026",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/15/paul-seixas-remporte-le-criterium-de-saitama-un-succes-pour-bien-finir-sa-belle-annee-2026_6811010_3242.html",
+          "published": "Sun, 15 Nov 2026 11:51:55 +0100",
+          "image": "https://img.lemde.fr/2026/11/15/1141/0/6846/3423/644/322/60/0/ebea3a4_ftp-1-g1cst6mjtxox-afp-d7hm6r3.jpg"
         },
         {
-          "title": "Le RC Lens crée la surprise en nommant Didier Digard au poste d’entraîneur",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/14/le-rc-lens-cree-la-surprise-en-nommant-didier-digard-au-poste-d-entraineur_6810016_3242.html",
-          "published": "Sat, 14 Nov 2026 11:49:17 +0100",
-          "image": "https://img.lemde.fr/2025/10/29/451/0/5411/2705/644/322/60/0/06db2da_ftp-import-images-1-zdsr1eoqdkdf-5302089-01-06.jpg"
+          "title": "Finales ATP : entre les blessures des uns et les progrès des autres, l’élite du tennis se renouvelle",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/15/finales-atp-entre-les-blessures-des-uns-et-les-progres-des-autres-l-elite-du-tennis-se-renouvelle_6810989_3242.html",
+          "published": "Sun, 15 Nov 2026 06:30:21 +0100",
+          "image": "https://img.lemde.fr/2026/11/05/322/0/3865/1932/644/322/60/0/b028b65_ftp-1-mnx3bahy2cwd-afp-d6kk7v7.jpg"
         },
         {
-          "title": "Porté par un Antoine Dupont omniprésent, le XV de France, héroïque, se défait de l’Afrique du Sud",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/14/porte-par-un-antoine-dupont-omnipresent-le-xv-de-france-heroique-se-defait-de-l-afrique-du-sud_6809521_3242.html",
-          "published": "Sat, 14 Nov 2026 03:58:38 +0100",
-          "image": "https://img.lemde.fr/2026/11/13/364/0/5661/2830/644/322/60/0/1f5149e_ftp-1-ihihy2hr560a-76dbbeae7af540c6929013241f31bd34-0-96421635a7ac46a9832d61fcaead9ac4.jpg"
+          "title": "Présidentielle 2027 : Teddy Riner découvre le combat politique, entre popularité et agacement",
+          "link": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/11/15/presidentielle-2027-teddy-riner-decouvre-le-combat-politique-entre-popularite-et-agacement_6810907_6205049.html",
+          "published": "Sun, 15 Nov 2026 05:15:01 +0100",
+          "image": "https://img.lemde.fr/2026/11/14/535/0/5664/2832/644/322/60/0/7b261c6_ftp-1-qgc4l8zcep5f-afp-d7gg2jn.jpg"
         }
       ]
     }
