@@ -1,5 +1,291 @@
 {
   "days": {
+    "2026-11-16": {
+      "updated_at": "2026-11-16T14:08:06Z",
+      "themes": {
+        "art": {
+          "label": "🎨 Art",
+          "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
+          "items": [
+            {
+              "title": "Derniers jours ! Ces expos qui finissent bientôt à Paris (et qui sont à voir)",
+              "link": "https://www.beauxarts.com/selections/dernieres-chances-expos-paris/",
+              "published": "Mon, 16 Nov 2026 12:00:10 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/07/unenouvelle-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Du musée d’Orsay aux Frac, pourquoi de plus en plus de musées prennent la route",
+              "link": "https://www.beauxarts.com/grand-format/du-musee-dorsay-aux-frac-pourquoi-de-plus-en-plus-de-musees-prennent-la-route/",
+              "published": "Mon, 16 Nov 2026 09:00:43 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/unele-mumorsay-collaboration-art-explora-x-musee-dorsay-et-son-exposition-inaugurale-le-grand-bal-photo-musee-dorsay-laetitia-striffling-marcu-4-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Exposition « Louvre Photo » : plus de 300 clichés, dont 80 % jamais montrés, révèlent un musée que l’on ne connaissait pas",
+              "link": "https://www.connaissancedesarts.com/arts-expositions/photographie/exposition-louvre-photo-plus-de-300-cliches-dont-80-jamais-montres-revelent-un-musee-que-lon-ne-connaissait-pas-11218359/",
+              "published": "Mon, 16 Nov 2026 06:00:58 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_louvre_photo_reconstruction_empire-tt-width-653-height-525-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            }
+          ]
+        },
+        "auto": {
+          "label": "🚗 Auto",
+          "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Plus",
+            "Auto Moto"
+          ],
+          "items": [
+            {
+              "title": "« La tradition seule ne suffit plus à vendre des voitures » : le triste constat du patron de la filiale chinoise de Volkswagen",
+              "link": "https://www.autoplus.fr/actualite/la-tradition-seule-ne-suffit-plus-a-vendre-des-voitures-le-triste-constat-du-patron-de-la-filiale-chinoise-de-volkswagen-1477210.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Mon, 16 Nov 2026 13:45:54 +0000",
+              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/09/image-editing-3-1-800x449-1.png",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "Formule 1 : un vote crucial va avoir lieu aujourd'hui et pourrait donner un avantage aux petites équipes",
+              "link": "https://sports.auto-moto.com/f1/actualite/formule-1-un-vote-crucial-va-avoir-lieu-aujourdhui-et-pourrait-donner-un-avantage-aux-petites-equipes-41804",
+              "published": "Mon, 16 Nov 2026 14:05:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/41804/393294/1200-L-formule-1-un-vote-crucial-va-avoir-lieu-aujourd-hui-et-pourrait-donner-un-avantage-aux-petites-quipes.jpg",
+              "source": "Auto Moto"
+            },
+            {
+              "title": "Volkswagen renonce à une technologie qui devait rendre ses futures Golf et T-Roc électriques moins chères",
+              "link": "https://www.autoplus.fr/actualite/volkswagen-renonce-a-une-technologie-qui-devait-rendre-ses-futures-golf-et-t-roc-electriques-moins-cheres-1477187.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Mon, 16 Nov 2026 13:00:11 +0000",
+              "image": "https://sf2.autoplus.fr/wp-content/uploads/autoplus/2026/01/mf_4067382.jpg",
+              "source": "Auto Plus"
+            }
+          ]
+        },
+        "culture": {
+          "label": "🎭 Culture",
+          "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture",
+            "France 24 Culture"
+          ],
+          "items": [
+            {
+              "title": "François Vitrani : « Est-ce qu’Emmanuel Macron va liquider la Maison de l’Amérique latine ? »",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/16/francois-vitrani-est-ce-qu-emmanuel-macron-va-liquider-la-maison-de-l-amerique-latine_6811685_3246.html",
+              "published": "Mon, 16 Nov 2026 11:00:09 +0100",
+              "image": "https://img.lemde.fr/2026/10/26/1423/0/4284/2142/644/322/60/0/0151271_upload-1-04d2upyuf6dz-img-3548.jpeg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Gérard Depardieu renonce à faire appel et « assume » sa condamnation pour agressions sexuelles",
+              "link": "https://www.lemonde.fr/societe/article/2026/11/16/gerard-depardieu-renonce-a-faire-appel-et-assume-sa-condamnation-pour-agressions-sexuelles_6811634_3224.html",
+              "published": "Mon, 16 Nov 2026 09:30:29 +0100",
+              "image": "https://img.lemde.fr/2026/11/13/595/0/5042/2521/644/322/60/0/0c8be8a_ftp-1-fdf44wlj1kxp-afp-d7cx49g.jpg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "\"GTA VI devrait décrire une Amérique en déclin tentant d'exister dans un monde qui a changé\"",
+              "link": "https://www.france24.com/fr/culture/20261115-gta-vi-jamais-autant-dire-societe-americaine-vicissitudes-jeux-video",
+              "published": "Sun, 15 Nov 2026 08:19:11 GMT",
+              "image": "https://s.france24.com/media/display/881bba86-dd36-11f1-a402-695cb59fade5/w:1024/p:16x9/Jason-and-Lucia-18.jpg",
+              "source": "France 24 Culture"
+            }
+          ]
+        },
+        "high-tech": {
+          "label": "💻 High-tech",
+          "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
+          "items": [
+            {
+              "title": "Des employés du support PlayStation revendraient vos comptes à des hackers : des accusations graves à quelques jours de la sortie de GTA 6",
+              "link": "https://www.numerama.com/cyberguerre/2375419-des-employes-du-support-playstation-revendraient-vos-comptes-a-des-hackers-des-accusations-graves-a-quelques-jours-de-la-sortie-de-gta-6.html",
+              "published": "Mon, 16 Nov 2026 14:05:35 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2025/06/design-sans-titre-9.png?resize=1200,675&key=2b777200",
+              "source": "Numerama"
+            },
+            {
+              "title": "Quand 2 Tesla sont face à face sur une route de montagne, le FSD oublie la priorité",
+              "link": "https://www.numerama.com/vroom/2375243-quand-2-tesla-sont-face-a-face-sur-une-route-de-montagne-le-fsd-oublie-la-priorite.html",
+              "published": "Mon, 16 Nov 2026 14:05:00 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/tesla-fsd-test-montagne-slovenie-14.jpg?resize=1200,675&key=3ec42acb",
+              "source": "Numerama"
+            },
+            {
+              "title": "Affaire Nvidia : Elon Musk et 157 000 personnes réclament le retour de  Jensen Huang",
+              "link": "https://www.01net.com/actualites/affaire-nvidia-elon-musk-et-157-000-personnes-reclament-le-retour-de-jensen-huang.html",
+              "published": "Mon, 16 Nov 2026 14:00:27 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/jensen-huang-elon-musk-nvidia-1344x896.jpg",
+              "source": "01net"
+            }
+          ]
+        },
+        "ia": {
+          "label": "🤖 IA",
+          "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
+          "items": [
+            {
+              "title": "NIS 2 : avant le vote du 17 novembre, ce qui est acquis et ce qui peut tomber",
+              "link": "https://www.actuia.com/actualite/nis-2-avant-le-vote-du-17-novembre-ce-qui-est-acquis-et-ce-qui-peut-tomber/",
+              "published": "Mon, 16 Nov 2026 13:30:00 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11560-o4mqmmvc-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "L'introduction en Bourse d'Anthropic à l'épreuve de l'affaire Nvidia",
+              "link": "https://www.actuia.com/actualite/lintroduction-en-bourse-danthropic-a-lepreuve-de-laffaire-nvidia/",
+              "published": "Mon, 16 Nov 2026 11:49:56 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11562-eh0dzolp-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "Pirater pour survivre : des agents IA malveillants ont raconté leurs attaques à Amazon sans le savoir",
+              "link": "https://www.numerama.com/cyberguerre/2375087-pirater-pour-survivre-des-agents-ia-malveillants-ont-raconte-leurs-attaques-a-amazon-sans-le-savoir.html",
+              "published": "Mon, 16 Nov 2026 10:30:00 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/sans-titre-14.png?resize=1200,675&key=95814f60",
+              "source": "Numerama IA"
+            }
+          ]
+        },
+        "monde": {
+          "label": "🌍 Monde",
+          "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "France 24 Monde",
+            "Le Monde International"
+          ],
+          "items": [
+            {
+              "title": "Sarvam, symbole des ambitions indiennes dans la course mondiale à l’IA",
+              "link": "https://www.lemonde.fr/economie/article/2026/11/16/sarvam-symbole-des-ambitions-indiennes-dans-la-course-mondiale-a-l-ia_6811900_3234.html",
+              "published": "Mon, 16 Nov 2026 15:00:03 +0100",
+              "image": "https://img.lemde.fr/2026/11/13/333/0/4000/2000/644/322/60/0/7ededf5_upload-1-y0heqqsom9zn-gettyimages-2294314449.jpg",
+              "source": "Le Monde International"
+            },
+            {
+              "title": "L'Iran refuse tout accès à ses installations nucléaires avant la fin du conflit",
+              "link": "https://www.france24.com/fr/asie-pacifique/20261116-iran-refuse-tout-acc%C3%A8s-installations-nucl%C3%A9aires-avant-fin-guerre",
+              "published": "Mon, 16 Nov 2026 13:54:34 GMT",
+              "image": "https://s.france24.com/media/display/c2a49d46-e1c1-11f1-950b-695cb59fade5/w:1024/p:16x9/AP25324386722873.jpg",
+              "source": "France 24 Monde"
+            },
+            {
+              "title": "Guerre en Ukraine : la France présente dans le pays depuis au moins l'été 2026",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261116-guerre-en-ukraine-la-france-pr%C3%A9sente-dans-le-pays-depuis-au-moins-l-%C3%A9t%C3%A9-2026",
+              "published": "Mon, 16 Nov 2026 13:44:14 GMT",
+              "image": "https://s.france24.com/media/display/5d097bb4-e1b7-11f1-973d-29048b396e03/w:1024/p:16x9/FR-20261116-120925-121424-CS.jpg",
+              "source": "France 24 Monde"
+            }
+          ]
+        },
+        "nature": {
+          "label": "🌿 Nature",
+          "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
+          "items": [
+            {
+              "title": "« Un bond de géant » : la Chine fait voler un avion électrique de 10 tonnes avec des pilotes à bord",
+              "link": "https://www.futura-sciences.com/tech/actualites/avion-electrique-bond-geant-chine-fait-voler-avion-electrique-10-tonnes-pilotes-bord-139367/#xtor%3DRSS-8",
+              "published": "Mon, 16 Nov 2026 15:01:29 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/5/6/d/56dcd26476_50263390_comac.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "C'est Black Friday avant l'heure : ce robot multifonction Cecotec voit son prix chuter de 44 %",
+              "link": "https://www.futura-sciences.com/conso/bons-plans/guides-robots-cuisine-cest-black-friday-avant-heure-ce-robot-multifonction-cecotec-voit-son-prix-chuter-44-11850/#xtor%3DRSS-8",
+              "published": "Mon, 16 Nov 2026 15:00:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/c/9/c/c9ce8fd0bf_50263376_cecotec-mambo.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Un signal radio régulier révèle une naine blanche en orbite autour d’un « Soleil »",
+              "link": "https://sciencepost.fr/signal-radio-regulier-revele-naine-blanche-orbite-autour-soleil/",
+              "published": "Mon, 16 Nov 2026 12:51:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/un-signal-radio-se-repete-toutes-les-8-minutes-les-astronomes-ont-enfin-identifie-ce-qui-lemet-featu-1794562776.png",
+              "source": "SciencePost"
+            }
+          ]
+        },
+        "sante": {
+          "label": "🏥 Santé",
+          "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
+          "items": [
+            {
+              "title": "Fertilité : pourquoi tous les Français de 29 ans reçoivent un mail d’information ?",
+              "link": "https://www.santemagazine.fr/actualites/les-francais-de-29-ans-vont-recevoir-un-courrier-sur-la-sante-reproductive-1159541",
+              "published": "Mon, 16 Nov 2026 14:30:55 +0100",
+              "image": "https://i-sam.unimedias.fr/2022/07/25/booster-fertilite.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Plusieurs yaourts vendus en grande distribution rappelés dans toute la France",
+              "link": "https://www.santemagazine.fr/actualites/actualites-alimentation/rappel-produit-ne-consommez-pas-ces-yaourts-mamie-nova-vendus-chez-carrefour-leclerc-et-auchan-1159539",
+              "published": "Mon, 16 Nov 2026 12:01:00 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/16/yaourts-supermarche.jpeg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Cancer de la prostate : une radiothérapie ultraciblée contre les tumeurs agressives",
+              "link": "https://www.sciencesetavenir.fr/sante/une-radiotherapie-ultraciblee-contre-les-tumeurs-agressives_195864?xtor=RSS-16",
+              "published": "Sun, 15 Nov 2026 13:00:00 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac09835c1-ar-1751835-tf-68438309-1-notext-jpg.jpg",
+              "source": "Sciences et Avenir"
+            }
+          ]
+        },
+        "sport": {
+          "label": "⚽ Sport",
+          "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
+          "items": [
+            {
+              "title": "Pour Jürgen Klopp, le sélectionneur allemand, « un changement aurait du sens » à la tête de la FIFA",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/16/pour-jurgen-klopp-le-selectionneur-allemand-un-changement-aurait-du-sens-a-la-tete-de-la-fifa_6811702_3242.html",
+              "published": "Mon, 16 Nov 2026 12:33:06 +0100",
+              "image": "https://img.lemde.fr/2026/11/15/204/0/4775/2387/644/322/60/0/31f247e_ftp-1-yio5ha4bpjgj-d9f927d4d0df47bbacfb52e1593a600a-1-224ced6581934dc89db7e26cd92bdbfd.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "La Russe Mirra Andreeva, 19 ans, triomphe aux Masters WTA face à l’Ukrainienne Elina Svitolina",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/16/la-russe-mirra-andreeva-19-ans-triomphe-aux-masters-wta-face-a-l-ukrainienne-elina-svitolina_6811468_3242.html",
+              "published": "Mon, 16 Nov 2026 06:38:25 +0100",
+              "image": "https://img.lemde.fr/2026/11/16/191/0/3010/1505/644/322/60/0/50fa19d_ftp-1-6al234uz2ulc-2305306670.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
+            }
+          ]
+        }
+      }
+    },
     "2026-11-15": {
       "updated_at": "2026-11-15T23:18:13Z",
       "themes": {

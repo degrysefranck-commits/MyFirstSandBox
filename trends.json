@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:03:14Z",
+  "updated_at": "2026-11-16T14:08:07Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -11,10 +11,10 @@
   "words": [
     {
       "word": "france",
-      "count": 9
+      "count": 10
     },
     {
-      "word": "contre",
+      "word": "ukraine",
       "count": 8
     },
     {
@@ -22,23 +22,19 @@
       "count": 7
     },
     {
-      "word": "novembre",
+      "word": "présidentielle",
       "count": 7
     },
     {
-      "word": "personnes",
+      "word": "appel",
       "count": 6
     },
     {
-      "word": "face",
+      "word": "depardieu",
       "count": 5
     },
     {
-      "word": "francophonie",
-      "count": 5
-    },
-    {
-      "word": "gouvernement",
+      "word": "film",
       "count": 5
     },
     {
@@ -46,71 +42,31 @@
       "count": 5
     },
     {
-      "word": "jusqu",
+      "word": "pays",
       "count": 5
     },
     {
-      "word": "macron",
+      "word": "procès",
       "count": 5
     },
     {
-      "word": "nouveau",
+      "word": "russie",
       "count": 5
     },
     {
-      "word": "première",
-      "count": 5
-    },
-    {
-      "word": "présidentielle",
-      "count": 5
-    },
-    {
-      "word": "anneaux",
+      "word": "agressions",
       "count": 4
     },
     {
-      "word": "appelle",
+      "word": "autour",
       "count": 4
     },
     {
-      "word": "bas",
+      "word": "direct",
       "count": 4
     },
     {
-      "word": "bfm",
-      "count": 4
-    },
-    {
-      "word": "emmanuel",
-      "count": 4
-    },
-    {
-      "word": "euros",
-      "count": 4
-    },
-    {
-      "word": "film",
-      "count": 4
-    },
-    {
-      "word": "fois",
-      "count": 4
-    },
-    {
-      "word": "garde",
-      "count": 4
-    },
-    {
-      "word": "gta",
-      "count": 4
-    },
-    {
-      "word": "michel",
-      "count": 4
-    },
-    {
-      "word": "millions",
+      "word": "lycées",
       "count": 4
     },
     {
@@ -118,16 +74,60 @@
       "count": 4
     },
     {
-      "word": "saison",
+      "word": "oif",
       "count": 4
     },
     {
-      "word": "site",
+      "word": "philippe",
       "count": 4
     },
     {
-      "word": "ukraine",
+      "word": "retour",
       "count": 4
+    },
+    {
+      "word": "sexuelles",
+      "count": 4
+    },
+    {
+      "word": "sommet",
+      "count": 4
+    },
+    {
+      "word": "élection",
+      "count": 4
+    },
+    {
+      "word": "appelle",
+      "count": 3
+    },
+    {
+      "word": "assume",
+      "count": 3
+    },
+    {
+      "word": "comment",
+      "count": 3
+    },
+    {
+      "word": "contre",
+      "count": 3
+    },
+    {
+      "word": "crimée",
+      "count": 3
+    },
+    {
+      "word": "droite",
+      "count": 3
+    },
+    {
+      "word": "drones",
+      "count": 3
+    },
+    {
+      "word": "décès",
+      "count": 3
     }
   ]
 }
