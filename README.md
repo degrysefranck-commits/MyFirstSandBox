@@ -35,6 +35,11 @@ veille, consolidées sur 6 sources : Google Trends FR (recherches), Google News
 FR, France 24, France Info, Le Monde (à la une) et le top des consultations
 Wikipédia FR. `trends.json` est régénéré chaque jour par le même workflow.
 
+Chaque mot du nuage ouvre la recherche correspondante sur le **moteur choisi** :
+un sélecteur au-dessus du nuage propose en priorité Brave, Bing, DuckDuckGo,
+Google, Qwant, Ecosia, Perplexity et Yahoo (dans cet ordre). Le choix est
+mémorisé dans le navigateur (`localStorage`) ou dans le compte Supabase.
+
 ## Gestion dynamique des thèmes
 
 Le bouton **⚙️** à la fin du menu des thèmes ouvre une modale de gestion :
