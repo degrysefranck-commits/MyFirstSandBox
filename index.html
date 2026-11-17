@@ -67,6 +67,7 @@
                 </div>
                 <p class="updated" id="trends-updated"></p>
             </div>
+            <div class="engine-bar" id="engine-bar" role="group" aria-label="Moteur de recherche des tendances"></div>
             <div class="trend-cloud" id="trend-cloud">
                 <p class="loading">Chargement des tendances…</p>
             </div>
@@ -462,6 +463,51 @@
                 listEl.innerHTML = '<p class="loading">Actualités indisponibles pour le moment.</p>';
             });
 
+        const SEARCH_ENGINES = [
+            { id: "brave", label: "Brave", url: "https://search.brave.com/search?q=" },
+            { id: "bing", label: "Bing", url: "https://www.bing.com/search?q=" },
+            { id: "duckduckgo", label: "DuckDuckGo", url: "https://duckduckgo.com/?q=" },
+            { id: "google", label: "Google", url: "https://www.google.com/search?q=" },
+            { id: "qwant", label: "Qwant", url: "https://www.qwant.com/?q=" },
+            { id: "ecosia", label: "Ecosia", url: "https://www.ecosia.org/search?q=" },
+            { id: "perplexity", label: "Perplexity", url: "https://www.perplexity.ai/search?q=" },
+            { id: "yahoo", label: "Yahoo", url: "https://fr.search.yahoo.com/search?p=" },
+        ];
+        const ENGINE_KEY = "mfsb_search_engine";
+        let currentEngine = SEARCH_ENGINES.find((e) => e.id === prefGet(ENGINE_KEY)) || SEARCH_ENGINES[0];
+
+        function searchUrl(word) {
+            return currentEngine.url + encodeURIComponent(word);
+        }
+
+        function updateTrendLinks() {
+            document.querySelectorAll("#trend-cloud .trend-word").forEach((a) => {
+                a.href = searchUrl(a.textContent);
+            });
+        }
+
+        function renderEngineBar() {
+            const bar = document.getElementById("engine-bar");
+            bar.innerHTML = "";
+            SEARCH_ENGINES.forEach((e) => {
+                const b = document.createElement("button");
+                b.type = "button";
+                b.className = "engine-btn" + (e.id === currentEngine.id ? " active" : "");
+                b.textContent = e.label;
+                b.title = "Rechercher sur " + e.label;
+                b.setAttribute("aria-pressed", e.id === currentEngine.id ? "true" : "false");
+                b.addEventListener("click", () => {
+                    currentEngine = e;
+                    prefSet(ENGINE_KEY, e.id);
+                    renderEngineBar();
+                    updateTrendLinks();
+                });
+                bar.appendChild(b);
+            });
+        }
+
+        renderEngineBar();
+
         let lastTrendWords = null;
         let lastTrendMax = 1;
 
@@ -473,7 +519,7 @@
             const items = words.map((w, i) => {
                 const a = document.createElement("a");
                 a.className = "trend-word" + (i < 3 ? " trend-top" : "");
-                a.href = "https://www.google.com/search?q=" + encodeURIComponent(w.word);
+                a.href = searchUrl(w.word);
                 a.target = "_blank";
                 a.rel = "noopener";
                 a.textContent = w.word;
