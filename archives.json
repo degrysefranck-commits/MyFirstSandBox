@@ -1,5 +1,288 @@
 {
   "days": {
+    "2026-11-17": {
+      "updated_at": "2026-11-17T15:01:07Z",
+      "themes": {
+        "art": {
+          "label": "🎨 Art",
+          "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
+          "items": [
+            {
+              "title": "Il passionne les artistes, des surréalistes à JR : sur France 5, un documentaire célèbre 100 ans de Photomaton",
+              "link": "https://www.beauxarts.com/lifestyle/il-passionne-les-artistes-des-surrealistes-a-jr-sur-france-5-un-documentaire-celebre-100-ans-de-photomaton/",
+              "published": "Tue, 17 Nov 2026 13:52:52 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/unephotomaton-la-grande-histoire-de-la-petite-photo-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Le ministère de la Culture publie un guide pour aider les artistes en situation de handicap à faire valoir leurs droits",
+              "link": "https://www.beauxarts.com/grand-format/le-ministere-de-la-culture-publie-un-guide-pour-aider-les-artistes-en-situation-de-handicap-a-faire-valoir-leurs-droits/",
+              "published": "Tue, 17 Nov 2026 12:15:21 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/unebb331606bebf-000_323l23m8ok-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "109 ans après sa mort, les ​​​​​​​6 audaces de Rodin qui ont bouleversé la sculpture moderne",
+              "link": "https://www.connaissancedesarts.com/artistes/auguste-rodin/109-ans-apres-sa-mort-les-6-audaces-de-rodin-qui-ont-bouleverse-la-sculpture-moderne-11218527/",
+              "published": "Tue, 17 Nov 2026 12:00:50 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_rodin_6_audaces_platre-tt-width-653-height-661-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            }
+          ]
+        },
+        "auto": {
+          "label": "🚗 Auto",
+          "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Moto"
+          ],
+          "items": [
+            {
+              "title": "Le célèbre joueur de tennis Daniil Medvedev s’offre un des modèles les plus rares de chez Koenigseff : 1600 chevaux sous le capot",
+              "link": "https://www.auto-moto.com/insolite/le-celebre-joueur-de-tennis-daniil-medvedev-soffre-un-des-modeles-les-plus-rares-de-chez-koenigseff-1600-chevaux-sous-le-capot-86141",
+              "published": "Tue, 17 Nov 2026 15:02:00 +0100",
+              "image": "https://photos.auto-moto.com/32/2026/11/photo_article/86141/393315/1200-L-le-clbre-joueur-de-tennis-daniil-medvedev-soffre-un-des-modles-les-plus-rares-de-chez-koenigseff-1600-chevaux-sous-le-capot.jpg",
+              "source": "Auto Moto"
+            },
+            {
+              "title": "WRC : la FIA envisage plusieurs changements majeurs pour la saison 2027",
+              "link": "https://sports.auto-moto.com/wrc/wrc-la-fia-envisage-plusieurs-changements-majeurs-pour-la-saison-2027-41905",
+              "published": "Tue, 17 Nov 2026 15:00:00 +0100",
+              "image": null,
+              "source": "Auto Moto"
+            },
+            {
+              "title": "Ducati : Pedro Acosta affiche ses ambitions, mais écarte déjà une possibilité",
+              "link": "https://sports.auto-moto.com/moto-gp/ducati-pedro-acosta-affiche-ses-ambitions-mais-ecarte-deja-une-possibilite-41887",
+              "published": "Tue, 17 Nov 2026 15:00:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/41887/393313/1200-L-ducati-pedro-acosta-affiche-ses-ambitions-mais-carte-dj-une-possibilit.jpg",
+              "source": "Auto Moto"
+            }
+          ]
+        },
+        "culture": {
+          "label": "🎭 Culture",
+          "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture"
+          ],
+          "items": [
+            {
+              "title": "Sur scène, Guillaume Meurice se fait professeur d’histoire des révolutions",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/17/sur-scene-guillaume-meurice-se-fait-professeur-d-histoire-des-revolutions_6812913_3246.html",
+              "published": "Tue, 17 Nov 2026 07:00:04 +0100",
+              "image": "https://img.lemde.fr/2026/11/16/1908/0/6048/3024/644/322/60/0/9569c35_upload-1-wpyxxizdv3g5-photo-residence-liffre-09.jpeg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Bruxelles, une ville à « l’histoire en mille morceaux »",
+              "link": "https://www.lemonde.fr/international/article/2026/11/17/bruxelles-une-ville-a-l-histoire-en-mille-morceaux_6812888_3210.html",
+              "published": "Tue, 17 Nov 2026 05:00:08 +0100",
+              "image": "https://img.lemde.fr/2026/11/16/263/0/3090/1545/644/322/60/0/cbbaaa7_upload-1-5ykufprbtdeo-capture-d-e-cran-2026-11-16-a-3-29-47-pm.png",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Les séries de la semaine : « La Comtesse de Monte-Cristo », « Beforeigners », « The Greatest » et « Les Anneaux de pouvoir »",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/17/les-series-de-la-semaine-la-comtesse-de-monte-cristo-beforeigners-the-greatest-et-les-anneaux-de-pouvoir_6812821_3246.html",
+              "published": "Tue, 17 Nov 2026 04:30:03 +0100",
+              "image": "https://img.lemde.fr/2026/11/16/135/0/1619/809/644/322/60/0/b849c97_upload-1-5p9wvb1oef2k-4677541.jpg",
+              "source": "Le Monde Culture"
+            }
+          ]
+        },
+        "high-tech": {
+          "label": "💻 High-tech",
+          "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
+          "items": [
+            {
+              "title": "Amazon éclate le prix de la manette DualSense PS5, à vos joysticks !  🎮",
+              "link": "https://www.01net.com/bons-plans/amazon-deglingue-le-prix-de-la-manette-dualsense-ps5-a-vos-joysticks.html",
+              "published": "Tue, 17 Nov 2026 14:59:52 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/manette-DualSense-PS5-Nova-Pink-1344x896.jpeg",
+              "source": "01net"
+            },
+            {
+              "title": "SFR lance la Box 10 : le Wi-Fi 7 n’est plus réservé à son offre haut de gamme",
+              "link": "https://www.01net.com/actualites/sfr-lance-la-box-10-le-wi-fi-7-nest-plus-reserve-a-son-offre-haut-de-gamme.html",
+              "published": "Tue, 17 Nov 2026 14:58:44 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/SFR-box10-telecommande-decodeur-1344x896.jpg",
+              "source": "01net"
+            },
+            {
+              "title": "Heure pleine/creuse : les horaires ont changé, 15 millions de foyers sont concernés",
+              "link": "https://www.presse-citron.net/heure-pleine-creuse-les-horaires-ont-change-15-millions-de-foyers-sont-concernes/",
+              "published": "Tue, 17 Nov 2026 14:52:01 +0000",
+              "image": "https://www.presse-citron.net/app/uploads/2025/06/EDF-880x587.jpg",
+              "source": "Presse Citron"
+            }
+          ]
+        },
+        "ia": {
+          "label": "🤖 IA",
+          "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
+          "items": [
+            {
+              "title": "Après sa démission de Nvidia, des alliés de Jensen Huang montent une war room pour le faire revenir",
+              "link": "https://www.numerama.com/tech/2375527-apres-sa-demission-de-nvidia-des-allies-de-jensen-huang-montent-une-war-room-pour-le-faire-revenir.html",
+              "published": "Tue, 17 Nov 2026 13:05:32 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/nvidia-jensen-huang.jpg?resize=1200,675&key=0bd59610",
+              "source": "Numerama IA"
+            },
+            {
+              "title": "Modèles d'IA : le tarif baisse, la tâche coûte plus cher",
+              "link": "https://www.actuia.com/actualite/modeles-dia-le-tarif-baisse-la-tache-coute-plus-cher/",
+              "published": "Tue, 17 Nov 2026 13:00:00 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11554-xq6swq3e-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "Remanence lève 30 millions de dollars pour entraîner des modèles sur les traces d'agents",
+              "link": "https://www.actuia.com/actualite/remanence-leve-30-millions-de-dollars-pour-entrainer-des-modeles-sur-les-traces-dagents/",
+              "published": "Tue, 17 Nov 2026 11:14:57 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11577-9libnyt2-1200.jpg",
+              "source": "ActuIA"
+            }
+          ]
+        },
+        "monde": {
+          "label": "🌍 Monde",
+          "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "Le Monde International"
+          ],
+          "items": [
+            {
+              "title": "En Pologne, auprès d’un exercice militaire inédit de la coalition des volontaires, dirigé par la France et le Royaume-Uni",
+              "link": "https://www.lemonde.fr/international/article/2026/11/17/en-pologne-aupres-d-un-exercice-militaire-inedit-de-la-coalition-des-volontaires-dirige-par-la-france-et-le-royaume-uni_6812990_3210.html",
+              "published": "Tue, 17 Nov 2026 16:00:18 +0100",
+              "image": "https://img.lemde.fr/2026/11/17/227/0/8256/4128/644/322/60/0/ff5e3b5_upload-1-snhfb6724huf-exercice-militaire-koalicja-elias-faye-15-nov-2026-4.jpg",
+              "source": "Le Monde International"
+            },
+            {
+              "title": "« Inside Deutsche Bank » : les documents secrets qui lient Donald Trump à l’argent sale azerbaïdjanais",
+              "link": "https://www.lemonde.fr/les-decodeurs/article/2026/11/17/inside-deutsche-bank-les-documents-secrets-qui-lient-donald-trump-a-l-argent-sale-azerbaidjanais_6812989_4355770.html",
+              "published": "Tue, 17 Nov 2026 16:00:11 +0100",
+              "image": "https://img.lemde.fr/2026/11/16/53/0/3000/1500/644/322/60/0/72c5e69_upload-1-ziuppevw5n5s-db-02-trump.jpg",
+              "source": "Le Monde International"
+            },
+            {
+              "title": "De Fela Kuti à Burna Boy, les radios de « GTA » racontent l’ascension des musiques nigérianes et sud-africaines",
+              "link": "https://www.lemonde.fr/afrique/article/2026/11/17/de-fela-kuti-a-burna-boy-les-radios-de-gta-racontent-l-ascension-des-musiques-nigerianes-et-sud-africaines_6812987_3212.html",
+              "published": "Tue, 17 Nov 2026 16:00:06 +0100",
+              "image": "https://img.lemde.fr/2026/11/10/549/0/6583/3291/644/322/60/0/4dd595f_upload-1-acg3vluf5xzc-000-36242h7.jpg",
+              "source": "Le Monde International"
+            }
+          ]
+        },
+        "nature": {
+          "label": "🌿 Nature",
+          "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
+          "items": [
+            {
+              "title": "Visible depuis l’espace, un ruban brun de 8 850 km traverse l’Atlantique et bat un nouveau record",
+              "link": "https://www.futura-sciences.com/planete/actualites/ocean-visible-depuis-espace-ruban-brun-8-850-km-traverse-atlantique-bat-nouveau-record-g6r7-139326/#xtor%3DRSS-8",
+              "published": "Tue, 17 Nov 2026 16:00:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/9/e/e/9ee5b5a5ba_50237007_ruban-atlantique.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Cet aspirateur-balai Shark spécial prisé perd 120 € sur son prix avant le Black Friday avec cette remise de 38 %",
+              "link": "https://www.futura-sciences.com/conso/bons-plans/guides-entretien-sols-cet-aspirateur-balai-shark-special-prise-perd-120-son-prix-avant-black-friday-cette-remise-38-11862/#xtor%3DRSS-8",
+              "published": "Tue, 17 Nov 2026 16:00:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/b/d/0/bd030b8284_50263447_shark-powerclean.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Une explosion nucléaire pourrait neutraliser 99 % des satellites en orbite basse",
+              "link": "https://sciencepost.fr/une-explosion-nucleaire-pourrait-neutraliser-99-des-satellites-en-orbite-basse/",
+              "published": "Tue, 17 Nov 2026 11:32:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/satellites-en-orbite-basse-une-seule-explosion-en-altitude-pourrait-presque-tous-les-neutraliser-fea-1794473853.png",
+              "source": "SciencePost"
+            }
+          ]
+        },
+        "sante": {
+          "label": "🏥 Santé",
+          "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
+          "items": [
+            {
+              "title": "Arthrose cervicale : quelle position adopter pour dormir ?",
+              "link": "https://www.santemagazine.fr/sante/maladies/maladies-des-os-et-des-articulations/arthrose-cervicale-quelle-position-adopter-pour-dormir-1161557",
+              "published": "Tue, 17 Nov 2026 12:47:01 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/17/comment_dormir_avec_arthrose_cervicale.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Unicef alerte sur la santé mentale des jeunes",
+              "link": "https://www.sciencesetavenir.fr/sante/violences-precarite-isolement-l-environnement-pese-sur-la-sante-mentale-des-enfants_196170?xtor=RSS-16",
+              "published": "Tue, 17 Nov 2026 11:11:21 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/17/cover-r4x3w1200-6afc2fb227a92-fille.jpg",
+              "source": "Sciences et Avenir"
+            },
+            {
+              "title": "La cocaïne se démocratise et bouleverse les circuits du trafic en France",
+              "link": "https://www.sciencesetavenir.fr/sante/cocaine-une-consommation-qui-s-etend-a-tous-les-territoires-et-milieux-sociaux_196151?xtor=RSS-16",
+              "published": "Tue, 17 Nov 2026 11:06:42 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/16/cover-r4x3w1200-6afaf313f11b8-31074fb92fbdac76534c12fa961b473be5ea9c01-jpg.jpg",
+              "source": "Sciences et Avenir"
+            }
+          ]
+        },
+        "sport": {
+          "label": "⚽ Sport",
+          "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
+          "items": [
+            {
+              "title": "« Complice du “système Infantino”, Arsène Wenger a néanmoins été vu comme un recours crédible pour présider la FIFA »",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/17/complice-du-systeme-infantino-arsene-wenger-a-neanmoins-ete-vu-comme-un-recours-credible-pour-presider-la-fifa_6812974_3242.html",
+              "published": "Tue, 17 Nov 2026 14:30:10 +0100",
+              "image": "https://img.lemde.fr/2026/11/16/234/0/4335/2167/644/322/60/0/be8f883_upload-1-8ehfnct125pp-000-6748694.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Philippe Diallo, un candidat « peu connu » pour diriger la FIFA, qui devra « fissurer le bloc » autour de Gianni Infantino, selon la presse internationale",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/17/avec-la-candidature-de-philippe-diallo-a-la-tete-de-la-fifa-la-presse-internationale-decouvre-un-candidat-peu-connu-qui-devra-fissurer-le-bloc-autour-de-gianni-infantino_6812953_3242.html",
+              "published": "Tue, 17 Nov 2026 11:27:27 +0100",
+              "image": "https://img.lemde.fr/2026/11/17/450/0/5403/2701/644/322/60/0/124d8ab_upload-1-ptxldchtejx6-000-b68d3g4.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
+            }
+          ]
+        }
+      }
+    },
     "2026-11-16": {
       "updated_at": "2026-11-16T14:08:06Z",
       "themes": {

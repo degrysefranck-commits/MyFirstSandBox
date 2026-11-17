@@ -1,133 +1,131 @@
 {
-  "updated_at": "2026-11-16T14:08:07Z",
+  "updated_at": "2026-11-17T15:01:08Z",
   "sources": [
     "Google Trends FR (recherches)",
-    "Google News FR (une)",
-    "France 24 (une)",
     "France Info (une)",
     "Le Monde (une)",
     "Wikipedia FR (top consultations)"
   ],
   "words": [
     {
-      "word": "france",
-      "count": 10
-    },
-    {
-      "word": "ukraine",
-      "count": 8
-    },
-    {
-      "word": "monde",
-      "count": 7
-    },
-    {
-      "word": "présidentielle",
-      "count": 7
-    },
-    {
-      "word": "appel",
+      "word": "jean",
       "count": 6
     },
     {
-      "word": "depardieu",
+      "word": "france",
       "count": 5
     },
     {
-      "word": "film",
-      "count": 5
-    },
-    {
-      "word": "jean",
-      "count": 5
-    },
-    {
-      "word": "pays",
-      "count": 5
-    },
-    {
-      "word": "procès",
-      "count": 5
-    },
-    {
-      "word": "russie",
-      "count": 5
-    },
-    {
-      "word": "agressions",
+      "word": "novembre",
       "count": 4
     },
     {
-      "word": "autour",
+      "word": "présidentielle",
       "count": 4
     },
     {
-      "word": "direct",
+      "word": "série",
       "count": 4
-    },
-    {
-      "word": "lycées",
-      "count": 4
-    },
-    {
-      "word": "nations",
-      "count": 4
-    },
-    {
-      "word": "oif",
-      "count": 4
-    },
-    {
-      "word": "philippe",
-      "count": 4
-    },
-    {
-      "word": "retour",
-      "count": 4
-    },
-    {
-      "word": "sexuelles",
-      "count": 4
-    },
-    {
-      "word": "sommet",
-      "count": 4
-    },
-    {
-      "word": "élection",
-      "count": 4
-    },
-    {
-      "word": "appelle",
-      "count": 3
-    },
-    {
-      "word": "assume",
-      "count": 3
-    },
-    {
-      "word": "comment",
-      "count": 3
     },
     {
       "word": "contre",
       "count": 3
     },
     {
-      "word": "crimée",
+      "word": "français",
       "count": 3
     },
     {
-      "word": "droite",
+      "word": "guerre",
       "count": 3
     },
     {
-      "word": "drones",
+      "word": "liste",
       "count": 3
     },
     {
-      "word": "décès",
+      "word": "luc",
       "count": 3
+    },
+    {
+      "word": "manifestations",
+      "count": 3
+    },
+    {
+      "word": "pouvoir",
+      "count": 3
+    },
+    {
+      "word": "russie",
+      "count": 3
+    },
+    {
+      "word": "système",
+      "count": 3
+    },
+    {
+      "word": "ukraine",
+      "count": 3
+    },
+    {
+      "word": "achat",
+      "count": 2
+    },
+    {
+      "word": "anneaux",
+      "count": 2
+    },
+    {
+      "word": "auto",
+      "count": 2
+    },
+    {
+      "word": "baisse",
+      "count": 2
+    },
+    {
+      "word": "bank",
+      "count": 2
+    },
+    {
+      "word": "bond",
+      "count": 2
+    },
+    {
+      "word": "capitalisation",
+      "count": 2
+    },
+    {
+      "word": "chercheurs",
+      "count": 2
+    },
+    {
+      "word": "cnews",
+      "count": 2
+    },
+    {
+      "word": "collins",
+      "count": 2
+    },
+    {
+      "word": "conflit",
+      "count": 2
+    },
+    {
+      "word": "cortège",
+      "count": 2
+    },
+    {
+      "word": "cristo",
+      "count": 2
+    },
+    {
+      "word": "denis",
+      "count": 2
+    },
+    {
+      "word": "deutsche",
+      "count": 2
     }
   ]
 }
