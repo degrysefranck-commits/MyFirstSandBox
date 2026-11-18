@@ -1,22 +1,104 @@
 {
-  "updated_at": "2026-11-17T15:01:08Z",
+  "updated_at": "2026-11-18T14:42:17Z",
   "sources": [
     "Google Trends FR (recherches)",
+    "Google News FR (une)",
+    "France 24 (une)",
     "France Info (une)",
     "Le Monde (une)",
     "Wikipedia FR (top consultations)"
   ],
   "words": [
     {
+      "word": "france",
+      "count": 8
+    },
+    {
       "word": "jean",
+      "count": 7
+    },
+    {
+      "word": "philippe",
+      "count": 7
+    },
+    {
+      "word": "trump",
+      "count": 7
+    },
+    {
+      "word": "contre",
       "count": 6
     },
     {
-      "word": "france",
+      "word": "nouveau",
+      "count": 6
+    },
+    {
+      "word": "poutine",
+      "count": 6
+    },
+    {
+      "word": "chine",
       "count": 5
     },
     {
-      "word": "novembre",
+      "word": "film",
+      "count": 5
+    },
+    {
+      "word": "français",
+      "count": 5
+    },
+    {
+      "word": "iran",
+      "count": 5
+    },
+    {
+      "word": "unis",
+      "count": 5
+    },
+    {
+      "word": "élection",
+      "count": 5
+    },
+    {
+      "word": "bond",
+      "count": 4
+    },
+    {
+      "word": "deux",
+      "count": 4
+    },
+    {
+      "word": "enquête",
+      "count": 4
+    },
+    {
+      "word": "euros",
+      "count": 4
+    },
+    {
+      "word": "games",
+      "count": 4
+    },
+    {
+      "word": "gta",
+      "count": 4
+    },
+    {
+      "word": "james",
+      "count": 4
+    },
+    {
+      "word": "monde",
+      "count": 4
+    },
+    {
+      "word": "nations",
+      "count": 4
+    },
+    {
+      "word": "ordre",
       "count": 4
     },
     {
@@ -24,108 +106,28 @@
       "count": 4
     },
     {
-      "word": "série",
+      "word": "ukraine",
       "count": 4
     },
     {
-      "word": "contre",
+      "word": "île",
+      "count": 4
+    },
+    {
+      "word": "afrique",
       "count": 3
     },
     {
-      "word": "français",
+      "word": "agressions",
       "count": 3
     },
     {
-      "word": "guerre",
+      "word": "américain",
       "count": 3
     },
     {
-      "word": "liste",
+      "word": "anciennes",
       "count": 3
-    },
-    {
-      "word": "luc",
-      "count": 3
-    },
-    {
-      "word": "manifestations",
-      "count": 3
-    },
-    {
-      "word": "pouvoir",
-      "count": 3
-    },
-    {
-      "word": "russie",
-      "count": 3
-    },
-    {
-      "word": "système",
-      "count": 3
-    },
-    {
-      "word": "ukraine",
-      "count": 3
-    },
-    {
-      "word": "achat",
-      "count": 2
-    },
-    {
-      "word": "anneaux",
-      "count": 2
-    },
-    {
-      "word": "auto",
-      "count": 2
-    },
-    {
-      "word": "baisse",
-      "count": 2
-    },
-    {
-      "word": "bank",
-      "count": 2
-    },
-    {
-      "word": "bond",
-      "count": 2
-    },
-    {
-      "word": "capitalisation",
-      "count": 2
-    },
-    {
-      "word": "chercheurs",
-      "count": 2
-    },
-    {
-      "word": "cnews",
-      "count": 2
-    },
-    {
-      "word": "collins",
-      "count": 2
-    },
-    {
-      "word": "conflit",
-      "count": 2
-    },
-    {
-      "word": "cortège",
-      "count": 2
-    },
-    {
-      "word": "cristo",
-      "count": 2
-    },
-    {
-      "word": "denis",
-      "count": 2
-    },
-    {
-      "word": "deutsche",
-      "count": 2
     }
   ]
 }
