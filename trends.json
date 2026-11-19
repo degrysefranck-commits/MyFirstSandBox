@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T14:42:17Z",
+  "updated_at": "2026-11-19T14:49:16Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,11 +10,23 @@
   ],
   "words": [
     {
-      "word": "france",
-      "count": 8
+      "word": "poutine",
+      "count": 11
     },
     {
-      "word": "jean",
+      "word": "trump",
+      "count": 10
+    },
+    {
+      "word": "film",
+      "count": 9
+    },
+    {
+      "word": "france",
+      "count": 9
+    },
+    {
+      "word": "monde",
       "count": 7
     },
     {
@@ -22,112 +34,100 @@
       "count": 7
     },
     {
-      "word": "trump",
+      "word": "présidentielle",
       "count": 7
     },
     {
-      "word": "contre",
+      "word": "vladimir",
+      "count": 7
+    },
+    {
+      "word": "donald",
       "count": 6
-    },
-    {
-      "word": "nouveau",
-      "count": 6
-    },
-    {
-      "word": "poutine",
-      "count": 6
-    },
-    {
-      "word": "chine",
-      "count": 5
-    },
-    {
-      "word": "film",
-      "count": 5
-    },
-    {
-      "word": "français",
-      "count": 5
-    },
-    {
-      "word": "iran",
-      "count": 5
-    },
-    {
-      "word": "unis",
-      "count": 5
-    },
-    {
-      "word": "élection",
-      "count": 5
-    },
-    {
-      "word": "bond",
-      "count": 4
-    },
-    {
-      "word": "deux",
-      "count": 4
-    },
-    {
-      "word": "enquête",
-      "count": 4
-    },
-    {
-      "word": "euros",
-      "count": 4
-    },
-    {
-      "word": "games",
-      "count": 4
     },
     {
       "word": "gta",
+      "count": 6
+    },
+    {
+      "word": "internationale",
+      "count": 6
+    },
+    {
+      "word": "sommet",
+      "count": 6
+    },
+    {
+      "word": "anthropic",
+      "count": 5
+    },
+    {
+      "word": "contre",
+      "count": 5
+    },
+    {
+      "word": "deux",
+      "count": 5
+    },
+    {
+      "word": "direct",
+      "count": 5
+    },
+    {
+      "word": "européenne",
+      "count": 5
+    },
+    {
+      "word": "games",
+      "count": 5
+    },
+    {
+      "word": "inédit",
+      "count": 5
+    },
+    {
+      "word": "jinping",
+      "count": 5
+    },
+    {
+      "word": "rencontre",
+      "count": 5
+    },
+    {
+      "word": "alerte",
       "count": 4
     },
     {
-      "word": "james",
+      "word": "birmanie",
       "count": 4
     },
     {
-      "word": "monde",
+      "word": "bourse",
       "count": 4
     },
     {
-      "word": "nations",
+      "word": "cour",
       "count": 4
     },
     {
-      "word": "ordre",
+      "word": "diallo",
       "count": 4
     },
     {
-      "word": "présidentielle",
+      "word": "encontre",
       "count": 4
     },
     {
-      "word": "ukraine",
+      "word": "faut",
       "count": 4
     },
     {
-      "word": "île",
+      "word": "fifa",
       "count": 4
     },
     {
-      "word": "afrique",
-      "count": 3
-    },
-    {
-      "word": "agressions",
-      "count": 3
-    },
-    {
-      "word": "américain",
-      "count": 3
-    },
-    {
-      "word": "anciennes",
-      "count": 3
+      "word": "guerre",
+      "count": 4
     }
   ]
 }

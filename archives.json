@@ -1,5 +1,291 @@
 {
   "days": {
+    "2026-11-19": {
+      "updated_at": "2026-11-19T14:49:14Z",
+      "themes": {
+        "art": {
+          "label": "🎨 Art",
+          "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
+          "items": [
+            {
+              "title": "La grotte de Seokguram, merveille millénaire coréenne, se révèle entre rituel et art contemporain dans une expo gratuite à Paris",
+              "link": "https://www.beauxarts.com/grand-format/la-grotte-de-seokguram-merveille-millenaire-coreenne-se-revele-entre-rituel-et-art-contemporain-dans-une-expo-gratuite-a-paris/",
+              "published": "Thu, 19 Nov 2026 13:49:38 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/vue-interieure-de-la-grotte-de-seokguram-depuis-le-vestibule-2000.--han-seokhong-national-research-institute-of-cultural-heritage1-1300x950.jpeg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Dans une expo gratuite à l’Institut suédois, sept photographes émergents dialoguent en mêlant intime et collectif",
+              "link": "https://www.beauxarts.com/expos/dans-une-expo-gratuite-a-linstitut-suedois-sept-photographes-emergents-dialoguent-en-melant-intime-et-collectif/",
+              "published": "Thu, 19 Nov 2026 12:26:33 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/uneelias.-tom-hallgren-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Miyazaki et le Studio Ghibli : à Aubusson, la plus grande tenture du XXIe siècle attend sa dernière tapisserie",
+              "link": "https://www.connaissancedesarts.com/metiers_art/miyazaki-et-le-studio-ghibli-a-aubusson-la-plus-grande-tenture-du-xxie-siecle-attend-sa-derniere-tapisserie-11218625/",
+              "published": "Thu, 19 Nov 2026 11:30:00 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_nausicaa_aubusson_ashitaka-tt-width-653-height-1160-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            }
+          ]
+        },
+        "auto": {
+          "label": "🚗 Auto",
+          "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Plus",
+            "Auto Moto"
+          ],
+          "items": [
+            {
+              "title": "Toyota rend hommage à Paul Walker avec une ultime Supra conduite par son frère",
+              "link": "https://www.autoplus.fr/actualite/insolite/toyota-rend-hommage-a-paul-walker-avec-une-ultime-supra-conduite-par-son-frere-1477867.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Thu, 19 Nov 2026 14:43:44 +0000",
+              "image": "https://www.youtube.com/watch?v=VEOaCv1VPCE&t=1s",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "Les électriques évitent déjà 1,2 million de barils de pétrole par jour",
+              "link": "https://www.autoplus.fr/environnement/voiture-electrique/les-electriques-evitent-deja-12-million-de-barils-de-petrole-par-jour-1477871.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Thu, 19 Nov 2026 14:35:11 +0000",
+              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/shutterstock_2631329227-1.jpg",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "MG4 Urban Design Edition : la compacte électrique soigne son look, mais pas son prix",
+              "link": "https://www.auto-moto.com/electrique/mg4-urban-design-edition-86332",
+              "published": "Thu, 19 Nov 2026 15:09:00 +0100",
+              "image": "https://photos.auto-moto.com/32/2026/11/photo_article/86332/393358/1200-L-mg4-urban-design-edition-la-compacte-lectrique-soigne-son-look-mais-pas-son-prix.jpg",
+              "source": "Auto Moto"
+            }
+          ]
+        },
+        "culture": {
+          "label": "🎭 Culture",
+          "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture",
+            "France 24 Culture"
+          ],
+          "items": [
+            {
+              "title": "Françoise Lebrun, actrice emblématique de « La Maman et la Putain », de Mai 68 au mouvement des lycéens de 2026",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/19/francoise-lebrun-actrice-emblematique-de-la-maman-et-la-putain-de-mai-68-au-mouvement-des-lyceens-de-2026_6813304_3246.html",
+              "published": "Thu, 19 Nov 2026 14:00:16 +0100",
+              "image": "https://img.lemde.fr/2026/11/19/242/0/3036/1518/644/322/60/0/d849c02_upload-1-1poabgmxl2p2-020-2281417736.jpg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Victoria Ivleva, la photographe russe qui regarde la guerre du côté ukrainien",
+              "link": "https://www.lemonde.fr/m-le-mag/article/2026/11/19/victoria-ivleva-la-photographe-russe-qui-regarde-la-guerre-du-cote-ukrainien_6813301_4500055.html",
+              "published": "Thu, 19 Nov 2026 14:00:04 +0100",
+              "image": "https://img.lemde.fr/2026/11/17/1580/0/3016/1508/644/322/60/0/6d531ee_upload-1-hoko6h4dpgxw-007.jpeg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Le Black Maria, premier studio de cinéma de l'histoire",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261119-le-black-maria-premier-studio-de-cin%C3%A9ma-de-l-histoire",
+              "published": "Thu, 19 Nov 2026 09:48:33 GMT",
+              "image": "https://s.france24.com/media/display/3a3d5f1c-e3fe-11f1-b43e-1ba7ddfab527/w:1024/p:16x9/Vignette-Black-Maria-site.jpg",
+              "source": "France 24 Culture"
+            }
+          ]
+        },
+        "high-tech": {
+          "label": "💻 High-tech",
+          "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
+          "items": [
+            {
+              "title": "Un mois après le chaos PHP2Shell, que vaut vraiment la nouvelle alerte critique de PHP ?",
+              "link": "https://www.numerama.com/cyberguerre/2378991-un-mois-apres-le-chaos-php2shell-que-vaut-vraiment-la-nouvelle-alerte-critique-de-php.html",
+              "published": "Thu, 19 Nov 2026 14:47:06 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/10/php-faille.jpg?resize=1200,675&key=35febc41",
+              "source": "Numerama"
+            },
+            {
+              "title": "Cette Smart TV OLED Samsung 55″ tombe à -40% : l’affaire est immanquable 🔥",
+              "link": "https://www.01net.com/bons-plans/cette-smart-tv-oled-samsung-55-tombe-a-40-laffaire-est-immanquable.html",
+              "published": "Thu, 19 Nov 2026 14:43:21 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/samsung-s85h-1344x896.jpg",
+              "source": "01net"
+            },
+            {
+              "title": "🔴 Urgence : c’est quoi le « plan Orsec », activé par la France dans le Pas-de-Calais ?",
+              "link": "https://www.presse-citron.net/%f0%9f%94%b4-urgence-cest-quoi-le-plan-orsec-active-par-la-france-dans-le-pas-de-calais/",
+              "published": "Thu, 19 Nov 2026 14:34:24 +0000",
+              "image": "https://www.presse-citron.net/app/uploads/2024/04/France-drapeau-880x587.jpg",
+              "source": "Presse Citron"
+            }
+          ]
+        },
+        "ia": {
+          "label": "🤖 IA",
+          "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
+          "items": [
+            {
+              "title": "Anthropic entre en Bourse et bat le record historique de SpaceX",
+              "link": "https://www.01net.com/actualites/anthropic-entre-en-bourse-et-bat-le-record-historique-de-spacex.html",
+              "published": "Thu, 19 Nov 2026 13:01:23 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/08/Anthropic-1344x896.jpg",
+              "source": "01net IA"
+            },
+            {
+              "title": "Cohere s'appuie sur HCLTech pour son IA souveraine en Allemagne",
+              "link": "https://www.actuia.com/actualite/cohere-sappuie-sur-hcltech-pour-son-ia-souveraine-en-allemagne/",
+              "published": "Thu, 19 Nov 2026 12:30:00 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11596-kjsomdlm-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "Anthropic fixe son prix d'introduction à 83 dollars et grossit son offre",
+              "link": "https://www.actuia.com/actualite/anthropic-fixe-son-prix-dintroduction-a-83-dollars-et-grossit-son-offre/",
+              "published": "Thu, 19 Nov 2026 10:42:47 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11601-2usvxzok-1200.jpg",
+              "source": "ActuIA"
+            }
+          ]
+        },
+        "monde": {
+          "label": "🌍 Monde",
+          "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "France 24 Monde",
+            "Le Monde International"
+          ],
+          "items": [
+            {
+              "title": "Football : Infantino, Diallo et Tashima candidats à la présidence de la FIFA",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261119-football-infantino-diallo-et-tashima-candidats-%C3%A0-la-pr%C3%A9sidence-de-la-fifa",
+              "published": "Thu, 19 Nov 2026 14:38:13 GMT",
+              "image": "https://s.france24.com/media/display/bfa2170c-e425-11f1-b3c3-ebb478925cf0/w:1024/p:16x9/FR-20261119-142238-142746-CS.jpg",
+              "source": "France 24 Monde"
+            },
+            {
+              "title": "🔴Anthropic entre en Bourse : la plus grande levée de fonds de l’Histoire commence",
+              "link": "https://www.france24.com/fr/%C3%A9co-tech/20261119-anthropic-entr%C3%A9e-bourse-historique-propuls%C3%A9e-par-tr%C3%A8s-forte-demande",
+              "published": "Thu, 19 Nov 2026 14:32:11 GMT",
+              "image": null,
+              "source": "France 24 Monde"
+            },
+            {
+              "title": "Au Japon, un influenceur complotiste au service de la politique de défense du gouvernement",
+              "link": "https://www.lemonde.fr/international/article/2026/11/19/au-japon-un-influenceur-complotiste-au-service-de-la-politique-de-defense-du-gouvernement_6813315_3210.html",
+              "published": "Thu, 19 Nov 2026 15:30:10 +0100",
+              "image": "https://img.lemde.fr/2026/11/19/111/33/1647/824/644/322/60/0/41a37cc_upload-1-0inkvb9cf5bs-capture-d-e-cran-2026-11-19-a-11-33-12.jpg",
+              "source": "Le Monde International"
+            }
+          ]
+        },
+        "nature": {
+          "label": "🌿 Nature",
+          "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
+          "items": [
+            {
+              "title": "En Norvège, les revenus et fortunes sont publics, mais les curieux pourraient bien avoir une mauvaise surprise",
+              "link": "https://sciencepost.fr/en-norvege-les-revenus-et-fortunes-sont-publics-mais-les-curieux-pourraient-bien-avoir-une-mauvaise-surprise/",
+              "published": "Thu, 19 Nov 2026 14:30:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/en-norvege-les-revenus-et-fortunes-sont-publics-mais-les-curieux-pourraient-bien-avoir-une-mauvaise-1794484415.png",
+              "source": "SciencePost"
+            },
+            {
+              "title": "Des drones transformés en modems volants : comment l'Ukraine s'est passée de Starlink pour frapper le pont de Crimée",
+              "link": "https://www.futura-sciences.com/tech/actualites/guerre-futur-drones-transformes-modems-volants-ukraine-passee-starlink-frapper-pont-crimee-139475/#xtor%3DRSS-8",
+              "published": "Thu, 19 Nov 2026 15:02:06 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/1/4/4/144688b6ec_50263603_kertech.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Black Friday : cet aspirateur laveur Tineco prisé passe à moins de 170 € sur Amazon",
+              "link": "https://www.futura-sciences.com/conso/bons-plans/guides-entretien-sols-black-friday-cet-aspirateur-laveur-tineco-prise-passe-moins-170-amazon-11888/#xtor%3DRSS-8",
+              "published": "Thu, 19 Nov 2026 15:00:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/b/2/1/b212612519_50263567_tinecofloorone.jpg",
+              "source": "Futura Sciences"
+            }
+          ]
+        },
+        "sante": {
+          "label": "🏥 Santé",
+          "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
+          "items": [
+            {
+              "title": "Quelles huiles essentielles sont efficaces contre le rhume ?",
+              "link": "https://www.santemagazine.fr/medecines-alternatives/approches-naturelles/huiles-essentielles/quelles-huiles-essentielles-sont-efficaces-contre-le-rhume-1161771",
+              "published": "Thu, 19 Nov 2026 14:59:39 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/19/he_rhume.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Déjà deux régions de l’Hexagone en pré-épidémie de grippe : quand se faire vacciner ?",
+              "link": "https://www.santemagazine.fr/actualites/actualites-sante/deja-deux-regions-en-pre-epidemie-de-grippe-quand-se-faire-vacciner-1161707",
+              "published": "Thu, 19 Nov 2026 14:24:00 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/19/grippe.jpeg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Tabagisme : l'Europe toujours accro à la cigarette",
+              "link": "https://www.sciencesetavenir.fr/sante/en-europe-les-fumeurs-ont-plus-de-mal-a-arreter-que-dans-le-reste-du-monde-selon-l-oms_196175?xtor=RSS-16",
+              "published": "Thu, 19 Nov 2026 10:36:41 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/17/cover-r4x3w1200-6afc38dc587d9-943352b66a84754d92c2af7ddbe4c6434d7e7268-jpg.jpg",
+              "source": "Sciences et Avenir"
+            }
+          ]
+        },
+        "sport": {
+          "label": "⚽ Sport",
+          "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
+          "items": [
+            {
+              "title": "Qui sont les trois candidats officiels à la présidence de la FIFA",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/19/qui-sont-les-trois-candidats-officiels-a-la-presidence-de-la-fifa_6813308_3242.html",
+              "published": "Thu, 19 Nov 2026 14:30:08 +0100",
+              "image": "https://img.lemde.fr/2026/10/24/191/0/3813/1906/644/322/60/0/0b77281_ftp-1-kmxs0dwm0alw-2026-10-24t113025z-192948810-rc2s8oaoqfe4-rtrmadp-3-soccer-fifa.JPG",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Le soutien stratégique d’Emmanuel Macron à la candidature de Philippe Diallo pour la présidence de la FIFA",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/19/le-soutien-strategique-d-emmanuel-macron-a-la-candidature-de-philippe-diallo-pour-la-presidence-de-la-fifa_6813300_3242.html",
+              "published": "Thu, 19 Nov 2026 13:51:09 +0100",
+              "image": "https://img.lemde.fr/2026/11/19/321/0/3850/1925/644/322/60/0/4d19753_upload-1-qqnlt1jp5wof-000-b3rt8le.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
+            }
+          ]
+        }
+      }
+    },
     "2026-11-18": {
       "updated_at": "2026-11-18T14:42:16Z",
       "themes": {
