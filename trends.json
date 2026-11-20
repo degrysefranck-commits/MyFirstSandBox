@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T14:49:16Z",
+  "updated_at": "2026-11-20T14:29:41Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,55 +10,51 @@
   ],
   "words": [
     {
-      "word": "poutine",
-      "count": 11
+      "word": "france",
+      "count": 16
     },
     {
-      "word": "trump",
+      "word": "présidentielle",
       "count": 10
     },
     {
-      "word": "film",
-      "count": 9
+      "word": "grand",
+      "count": 8
     },
     {
-      "word": "france",
-      "count": 9
+      "word": "auto",
+      "count": 7
+    },
+    {
+      "word": "dominique",
+      "count": 7
     },
     {
       "word": "monde",
       "count": 7
     },
     {
-      "word": "philippe",
+      "word": "theft",
       "count": 7
     },
     {
-      "word": "présidentielle",
+      "word": "villepin",
       "count": 7
     },
     {
-      "word": "vladimir",
-      "count": 7
-    },
-    {
-      "word": "donald",
+      "word": "candidature",
       "count": 6
     },
     {
-      "word": "gta",
+      "word": "jean",
       "count": 6
     },
     {
-      "word": "internationale",
+      "word": "ukraine",
       "count": 6
     },
     {
-      "word": "sommet",
-      "count": 6
-    },
-    {
-      "word": "anthropic",
+      "word": "annonce",
       "count": 5
     },
     {
@@ -66,67 +62,71 @@
       "count": 5
     },
     {
-      "word": "deux",
+      "word": "cop",
       "count": 5
     },
     {
-      "word": "direct",
+      "word": "royaume",
       "count": 5
     },
     {
-      "word": "européenne",
+      "word": "uni",
       "count": 5
+    },
+    {
+      "word": "élection",
+      "count": 5
+    },
+    {
+      "word": "comment",
+      "count": 4
+    },
+    {
+      "word": "film",
+      "count": 4
+    },
+    {
+      "word": "finale",
+      "count": 4
+    },
+    {
+      "word": "française",
+      "count": 4
     },
     {
       "word": "games",
-      "count": 5
-    },
-    {
-      "word": "inédit",
-      "count": 5
-    },
-    {
-      "word": "jinping",
-      "count": 5
-    },
-    {
-      "word": "rencontre",
-      "count": 5
-    },
-    {
-      "word": "alerte",
       "count": 4
     },
     {
-      "word": "birmanie",
+      "word": "michel",
       "count": 4
     },
     {
-      "word": "bourse",
+      "word": "missiles",
       "count": 4
     },
     {
-      "word": "cour",
+      "word": "nouvelle",
       "count": 4
     },
     {
-      "word": "diallo",
+      "word": "ouest",
       "count": 4
     },
     {
-      "word": "encontre",
+      "word": "paris",
       "count": 4
     },
     {
-      "word": "faut",
+      "word": "russes",
       "count": 4
     },
     {
-      "word": "fifa",
+      "word": "réunion",
       "count": 4
     },
     {
-      "word": "guerre",
+      "word": "sommet",
       "count": 4
     }
   ]
