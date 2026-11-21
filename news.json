@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T14:29:40Z",
+  "updated_at": "2026-11-21T13:48:53Z",
   "themes": {
     "art": {
       "label": "🎨 Art",
@@ -10,25 +10,25 @@
       ],
       "items": [
         {
-          "title": "À Anvers, l’œuvre rare de la peintre de la Renaissance flamande Catharina van Hemessen se révèle aux côtés de son père",
-          "link": "https://www.beauxarts.com/expos/a-anvers-loeuvre-rare-de-la-peintre-de-la-renaissance-flamande-catharina-van-hemessen-se-revele-aux-cotes-de-son-pere/",
-          "published": "Fri, 20 Nov 2026 12:00:31 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/unecatharina-van-hemessen-autoportrait-au-chevalet-1548--kunstmuseum-bale-martin-p.-buhler-1300x975.jpg",
-          "source": "Beaux Arts"
-        },
-        {
-          "title": "« On n’a jamais assez de Lalanne » : estimés jusqu’à 5 millions de dollars, trois Moutons rarissimes font escale à Paris dans une exposition gratuite",
-          "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/on-na-jamais-assez-de-lalanne-estimes-jusqua-5-millions-de-dollars-trois-moutons-rarissimes-font-escale-a-paris-dans-une-exposition-gratuite-11218687/",
-          "published": "Fri, 20 Nov 2026 11:30:03 +0000",
-          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_vente_lalanne_moutons_chiristies-tt-width-653-height-1022-fill-0-crop-0-bgcolor-eeeeee.jpg",
+          "title": "Au musée du Louvre, le plus ancien musée de sculpture d’Espagne dévoile ses trésors",
+          "link": "https://www.connaissancedesarts.com/arts-expositions/au-musee-du-louvre-le-plus-ancien-musee-de-sculpture-despagne-devoile-ses-tresors-11218649/",
+          "published": "Sat, 21 Nov 2026 12:00:29 +0000",
+          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_valladolid_2-tt-width-653-height-983-fill-0-crop-0-bgcolor-eeeeee.jpg",
           "source": "Connaissance des Arts"
         },
         {
-          "title": "En vidéo : Au musée des Arts décoratifs, un défilé grandiose pour célébrer 40 ans de mode en ses murs",
-          "link": "https://www.beauxarts.com/videos/en-video-au-musee-des-arts-decoratifs-un-defile-grandiose-pour-celebrer-40-ans-de-mode-en-ses-murs/",
-          "published": "Fri, 20 Nov 2026 11:15:33 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/capture-decran-2026-11-19-a-18.05.30-1300x732.png",
+          "title": "Où trouver les plus belles mosaïques d’Invader à Paris ? Nos 10 conseils d’expert pour chasser les space invaders dans la capitale",
+          "link": "https://www.beauxarts.com/lifestyle/ou-trouver-les-plus-belles-mosaiques-dinvader-a-paris-nos-10-conseils-dexpert-pour-chasser-les-space-invaders-dans-la-capitale/",
+          "published": "Sat, 21 Nov 2026 09:00:50 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/une-pa_1432-hemis_2x4cbfg-1300x975.jpg",
           "source": "Beaux Arts"
+        },
+        {
+          "title": "Un extraordinaire tableau miniature de Monet vendu plus de 10 fois son estimation aux enchères",
+          "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/un-extraordinaire-tableau-miniature-de-monet-vendu-plus-de-10-fois-son-estimation-aux-encheres-11218736/",
+          "published": "Sat, 21 Nov 2026 08:00:23 +0000",
+          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_claude_monet_la_barque_christie_s-tt-width-653-height-511-fill-0-crop-0-bgcolor-eeeeee.jpg",
+          "source": "Connaissance des Arts"
         }
       ]
     },
@@ -36,29 +36,28 @@
       "label": "🚗 Auto",
       "source": "https://www.autoplus.fr/rss",
       "sources": [
-        "Auto Plus",
         "Auto Moto"
       ],
       "items": [
         {
-          "title": "Sur GTA VI, même les voitures électriques doivent passer à la borne",
-          "link": "https://www.autoplus.fr/environnement/sur-gta-vi-meme-les-voitures-electriques-doivent-passer-a-la-borne-1478041.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-          "published": "Fri, 20 Nov 2026 14:14:34 +0000",
-          "image": "https://sf2.autoplus.fr/wp-content/uploads/autoplus/2026/11/gta-vi-le-novita-per-chi-ama-le-auto.jpg",
-          "source": "Auto Plus"
+          "title": "Grand Prix de Las Vegas : Norris révèle le problème majeur qui empêche McLaren de rivaliser avec Mercedes",
+          "link": "https://sports.auto-moto.com/f1/actualite/grand-prix-de-las-vegas-norris-revele-le-probleme-majeur-qui-empeche-mclaren-de-rivaliser-avec-mercedes-42274",
+          "published": "Sat, 21 Nov 2026 13:00:00 +0100",
+          "image": "https://static.wui.fr/28/2026/11/photo_article/42274/393407/1200-L-grand-prix-de-las-vegas-norris-rvle-le-problme-majeur-qui-empche-mclaren-de-rivaliser-avec-mercedes.jpg",
+          "source": "Auto Moto"
         },
         {
-          "title": "E85 : cette voiture est le modèle le plus souvent converti au Superéthanol",
-          "link": "https://www.autoplus.fr/actualite/e85-cette-voiture-est-le-modele-le-plus-souvent-converti-au-superethanol-1477972.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-          "published": "Fri, 20 Nov 2026 14:00:26 +0000",
-          "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2024/01/5-1.jpg",
-          "source": "Auto Plus"
+          "title": "Ils veulent jouer à GTA 6, volent un bus et finissent dans un fossé : la mission tourne court",
+          "link": "https://www.auto-moto.com/insolite/ils-veulent-jouer-a-gta-6-volent-un-bus-et-finissent-dans-un-fosse-la-mission-tourne-court-86524",
+          "published": "Sat, 21 Nov 2026 13:00:00 +0100",
+          "image": "https://photos.auto-moto.com/32/2026/11/photo_article/86524/393405/1200-L-ils-veulent-jouer-gta-6-volent-un-bus-et-finissent-dans-un-foss-la-mission-tourne-court.jpg",
+          "source": "Auto Moto"
         },
         {
-          "title": "Ducati : Marc Márquez prend exemple sur Tadej Pogacar pour rester focus dans la course au titre",
-          "link": "https://sports.auto-moto.com/moto-gp/ducati-marc-marquez-prend-exemple-sur-tadej-pogacar-pour-rester-focus-dans-la-course-au-titre-42159",
-          "published": "Fri, 20 Nov 2026 14:22:00 +0100",
-          "image": "https://static.wui.fr/28/2026/11/photo_article/42159/393380/1200-L-ducati-marc-mrquez-prend-exemple-sur-tadej-pogacar-pour-rester-focus-dans-la-course-au-titre.jpg",
+          "title": "Grand Prix du Portugal : Bezzecchi bat le record du circuit et s'offre la pole à Portimão, découvrez la grille de départ du Grand Prix du Portugal",
+          "link": "https://sports.auto-moto.com/moto-gp/grand-prix-du-portugal-bezzecchi-bat-le-record-du-circuit-et-soffre-la-pole-a-portimao-decouvrez-la-grille-de-depart-du-grand-prix-du-portugal-42289",
+          "published": "Sat, 21 Nov 2026 12:47:00 +0100",
+          "image": "https://static.wui.fr/28/2026/11/photo_article/42289/393410/1200-L-grand-prix-du-portugal-bezzecchi-bat-le-record-du-circuit-et-s-offre-la-pole-portimo-dcouvrez-la-grille-de-dpart-du-grand-prix-du-portugal.jpg",
           "source": "Auto Moto"
         }
       ]
@@ -72,24 +71,24 @@
       ],
       "items": [
         {
-          "title": "Adèle Castillon, visage de la nouvelle scène musicale féminine",
-          "link": "https://www.lemonde.fr/m-le-mag/article/2026/11/20/adele-castillon-visage-de-la-nouvelle-scene-musicale-feminine_6813627_4500055.html",
-          "published": "Fri, 20 Nov 2026 12:00:09 +0100",
-          "image": "https://img.lemde.fr/2026/11/02/287/0/1201/600/644/322/60/0/21119a6_ftp-1-u6nscdav8vxs-450478-3529254.jpg",
+          "title": "Florian Sitbon, adjoint à la culture au maire de Paris, veut « mettre l’artiste au cœur de la ville »",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/21/florian-sitbon-adjoint-a-la-culture-au-maire-de-paris-veut-mettre-l-artiste-au-c-ur-de-la-ville_6814019_3246.html",
+          "published": "Sat, 21 Nov 2026 14:00:19 +0100",
+          "image": "https://img.lemde.fr/2026/11/17/390/0/5935/2967/644/322/60/0/6f797fb_upload-1-rv3qgjhx6mxx-fs-portraithd.jpg",
           "source": "Le Monde Culture"
         },
         {
-          "title": "Au festival Entrevues de Belfort, l’univers ludique et acidulé de la Hongkongaise Ka Ki Wong",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/20/au-festival-entrevues-de-belfort-l-univers-ludique-et-acidule-de-la-hongkongaise-ka-ki-wong_6813626_3246.html",
-          "published": "Fri, 20 Nov 2026 12:00:06 +0100",
-          "image": "https://img.lemde.fr/2026/11/18/120/0/3840/1920/644/322/60/0/5023b39_upload-1-qmddbbwnv19r-i-heard-that-still003.jpg",
+          "title": "Alexandre Smia, réalisateur de « Jupiter », spécialiste des histoires à haute tension",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/21/alexandre-smia-realisateur-de-jupiter-specialiste-des-histoires-a-haute-tension_6814011_3246.html",
+          "published": "Sat, 21 Nov 2026 13:00:09 +0100",
+          "image": "https://img.lemde.fr/2026/11/06/41/0/2274/1137/644/322/60/0/4e0a207_upload-1-achyzyooatyv-capture-d-e-cran-2026-11-06-a-17-04-56.jpg",
           "source": "Le Monde Culture"
         },
         {
-          "title": "Le Paris des Arts avec Mariam Doumbia et Zaho",
-          "link": "https://www.france24.com/fr/%C3%A9missions/le-paris-des-arts/20261120-le-paris-des-arts-avec-mariam-doumbia-et-zaho",
-          "published": "Fri, 20 Nov 2026 10:51:34 GMT",
-          "image": "https://s.france24.com/media/display/b07cb1f2-e429-11f1-9e1b-6b451f569414/w:1024/p:16x9/MARIAM-ZAHO-PANACLOC-213426-2026-10-15-F24.jpg",
+          "title": "Camille Lellouche, 360 degrés de talents",
+          "link": "https://www.france24.com/fr/%C3%A9missions/l%C3%A9gendes-urbaines/20261120-camille-lellouche-360-degr%C3%A9s-de-talents",
+          "published": "Fri, 20 Nov 2026 18:00:23 GMT",
+          "image": "https://s.france24.com/media/display/d686a4a0-e4d0-11f1-8f43-13439ca2fe89/w:1024/p:16x9/CAMILLE-LELLOUCHE-MINIATURE-YT.jpg",
           "source": "France 24 Culture"
         }
       ]
@@ -104,24 +103,24 @@
       ],
       "items": [
         {
-          "title": "Tablet Amazon Alexa 12 Pro : à peine sortie, elle perd déjà 110 € sur la note du Black Friday 📉",
-          "link": "https://www.01net.com/bons-plans/tablet-amazon-alexa-12-pro-a-peine-sortie-elle-perd-deja-110-e-sur-la-note-du-black-friday.html",
-          "published": "Fri, 20 Nov 2026 14:28:06 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/11/Tablet-Amazon-Alexa-12-Pro-design-1344x896.jpg",
-          "source": "01net"
-        },
-        {
-          "title": "En plein GTA 6, le monument français du jeu vidéo Ubisoft lance « Motherbrain » et supprime 166 postes",
-          "link": "https://www.presse-citron.net/en-plein-gta-6-le-monument-francais-du-jeu-video-ubisoft-lance-motherbrain-et-supprime-166-postes/",
-          "published": "Fri, 20 Nov 2026 14:21:40 +0000",
-          "image": "https://www.presse-citron.net/app/uploads/2026/11/ubisoft-studio-880x587.jpg",
+          "title": "🔴 Des rafales jusqu’à 180 km/h : une très violente tempête déferle sur la France ce dimanche",
+          "link": "https://www.presse-citron.net/%f0%9f%94%b4-des-rafales-jusqua-180-km-h-une-tres-violente-tempete-deferle-sur-la-france-ce-dimanche/",
+          "published": "Sat, 21 Nov 2026 13:14:30 +0000",
+          "image": "https://www.presse-citron.net/app/uploads/2026/10/tempete-880x587.jpg",
           "source": "Presse Citron"
         },
         {
-          "title": "Les Anneaux de pouvoir : c’est quoi le Thangorodrim, ces volcans de Tolkien où tout a mal tourné pour Galadriel",
-          "link": "https://www.numerama.com/pop-culture/2379923-les-anneaux-de-pouvoir-cest-quoi-le-thangorodrim-ces-volcans-de-tolkien-ou-tout-a-mal-tourne-pour-galadriel.html",
-          "published": "Fri, 20 Nov 2026 14:21:00 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/celeborn.avif?resize=1200,675&key=fa5e7b6b",
+          "title": "Vous passez trop de temps devant les écrans et vous vous sentez stressé ? Cette scientifique explique pourquoi la nature peut vous aider à recharger vos batteries",
+          "link": "https://www.presse-citron.net/vous-passez-trop-temps-ecrans-vous-sentez-stresse-scientifique-explique-pourquoi-nature-aider-recharger-batteries/",
+          "published": "Sat, 21 Nov 2026 13:02:36 +0000",
+          "image": "https://www.presse-citron.net/app/uploads/2026/11/Nature-880x587.jpg",
+          "source": "Presse Citron"
+        },
+        {
+          "title": "Les Anneaux de pouvoir saison 3 : les petits secrets du générique, qui délaisse les énigmes cachées",
+          "link": "https://www.numerama.com/pop-culture/2376969-les-anneaux-de-pouvoir-saison-3-les-petits-secrets-du-generique-qui-abandonne-les-enigmes-cachees.html",
+          "published": "Sat, 21 Nov 2026 13:02:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/generique-rings-of-power.jpg?resize=1200,675&key=f56605c1",
           "source": "Numerama"
         }
       ]
@@ -136,25 +135,25 @@
       ],
       "items": [
         {
-          "title": "Apple voudrait son propre agent IA autonome pour concurrencer ChatGPT, Claude et Gemini",
-          "link": "https://www.01net.com/actualites/apple-voudrait-son-propre-agent-ia-autonome-pour-concurrencer-chatgpt-claude-et-gemini.html",
-          "published": "Fri, 20 Nov 2026 14:00:12 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/11/Test-Apple-MacBook-Pro-Proled-avis-7-1344x896.jpg",
-          "source": "01net IA"
-        },
-        {
-          "title": "Anthropic : voici les principaux gagnants d’une entrée en Bourse historique",
-          "link": "https://www.01net.com/actualites/anthropic-voici-les-principaux-gagnants-dune-entree-en-bourse-historique.html",
-          "published": "Fri, 20 Nov 2026 13:00:18 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/08/Anthropic-1344x896.jpg",
-          "source": "01net IA"
-        },
-        {
-          "title": "« Coût par élimination » : à 16 ans, il convainc Y Combinator de financer ses missiles guidés par IA",
-          "link": "https://www.numerama.com/tech/2379483-cout-par-elimination-a-16-ans-il-convainc-y-combinator-de-financer-ses-missiles-guides-par-ia.html",
-          "published": "Fri, 20 Nov 2026 09:20:31 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/sans-titre-4-2.png?resize=1200,675&key=265b2a52",
+          "title": "L’humain contre-attaque sur l’hypothèse de Riemann : un chercheur aurait craqué l’énigme avant l’IA Claude",
+          "link": "https://www.numerama.com/sciences/2380525-lhumain-contre-attaque-sur-lhypothese-de-riemann-un-chercheur-aurait-craque-lenigme-avant-lia-claude.html",
+          "published": "Sat, 21 Nov 2026 09:18:08 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/gemini-generated-image-jenorwjenorwjeno-1.jpg?resize=1200,675&key=ca4e5ae5",
           "source": "Numerama IA"
+        },
+        {
+          "title": "GTA 6 : tétraplégique, il joue sans manette uniquement par la pensée",
+          "link": "https://www.numerama.com/pop-culture/2380513-gta-6-tetraplegique-il-joue-sans-manette-uniquement-par-la-pensee.html",
+          "published": "Sat, 21 Nov 2026 08:29:01 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/09/hrdjczvw0aakiou.jpeg?resize=1200,675&key=deadd6ef",
+          "source": "Numerama IA"
+        },
+        {
+          "title": "Google a trouvé la fusée idéale pour envoyer ses puces IA dans l’espace",
+          "link": "https://www.01net.com/actualites/google-a-trouve-la-fusee-ideale-pour-envoyer-ses-puces-ia-dans-lespace.html",
+          "published": "Fri, 20 Nov 2026 15:00:30 +0000",
+          "image": "https://www.01net.com/app/uploads/2026/11/image_1795163030016-1344x896.jpg",
+          "source": "01net IA"
         }
       ]
     },
@@ -167,25 +166,25 @@
       ],
       "items": [
         {
-          "title": "Un accord conclu entre le Royaume-Uni et l’Union européenne, cinq ans après la mise en œuvre du Brexit",
-          "link": "https://www.lemonde.fr/international/article/2026/11/20/un-accord-conclu-entre-le-royaume-uni-et-l-union-europeenne-cinq-ans-apres-la-mise-en-uvre-du-brexit_6813648_3210.html",
-          "published": "Fri, 20 Nov 2026 15:07:53 +0100",
-          "image": "https://img.lemde.fr/2026/11/20/36/0/2758/1379/644/322/60/0/22a568e_ftp-1-io30goafk30c-c6442c83d47d493b895ac39f12a42882-0-aed629bc13094e6d947a99fdb561dd15.jpg",
+          "title": "Au Brésil, Erika Hilton, une députée « pop » au plus haut de sa cote",
+          "link": "https://www.lemonde.fr/international/article/2026/11/21/au-bresil-erika-hilton-une-deputee-pop-au-plus-haut-de-sa-cote_6814020_3210.html",
+          "published": "Sat, 21 Nov 2026 14:30:09 +0100",
+          "image": "https://img.lemde.fr/2026/11/20/515/0/4200/2100/644/322/60/0/1a57b29_upload-1-1evatfbzshuc-2026-10-18t000000z-1693877223-mt1sipa000klw5cy-rtrmadp-3-sipa-usa.JPG",
           "source": "Le Monde International"
         },
         {
-          "title": "En Haïti, l’offensive militaire du président salvadorien Nayib Bukele renforce la lutte contre les gangs",
-          "link": "https://www.lemonde.fr/international/article/2026/11/20/en-haiti-l-offensive-militaire-du-president-salvadorien-nayib-bukele-renforce-la-lutte-contre-les-gangs_6813647_3210.html",
-          "published": "Fri, 20 Nov 2026 15:06:23 +0100",
-          "image": "https://img.lemde.fr/2026/11/19/648/0/5843/2921/644/322/60/0/7b91b5f_ftp-1-gpkp12ssew4p-7ed6880c8f0948bd8cea092318783783-4-1867dd6da0d24985b3d293a86e11ffed.jpg",
-          "source": "Le Monde International"
-        },
-        {
-          "title": "Tchad : vers une reprise de la coopération militaire avec la France ?",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261120-tchad-vers-une-reprise-de-la-coop%C3%A9ration-militaire-avec-la-france",
-          "published": "Fri, 20 Nov 2026 13:39:05 GMT",
-          "image": "https://s.france24.com/media/display/1f23975a-e4df-11f1-b5d8-6b451f569414/w:1024/p:16x9/TCHAD-FRANCE.jpg",
+          "title": "Une \"attaque de drone\" contre un cargo russe détectée dans le golfe de Finlande",
+          "link": "https://www.france24.com/fr/europe/20261121-une-attaque-de-drone-contre-un-cargo-russe-d%C3%A9tect%C3%A9e-dans-le-golfe-de-finlande",
+          "published": "Sat, 21 Nov 2026 13:13:08 GMT",
+          "image": "https://s.france24.com/media/display/d14e7d92-e5a1-11f1-ada4-e56ab3dc0809/w:1024/p:16x9/Cargo-Finland.jpg",
           "source": "France 24 Monde"
+        },
+        {
+          "title": "Au Brésil, une nouvelle génération de gauche s’apprête à faire son entrée au Parlement",
+          "link": "https://www.lemonde.fr/international/article/2026/11/21/au-bresil-une-nouvelle-generation-de-gauche-s-apprete-a-faire-son-entree-au-parlement_6814016_3210.html",
+          "published": "Sat, 21 Nov 2026 14:00:09 +0100",
+          "image": "https://img.lemde.fr/2026/11/20/422/0/4200/2100/644/322/60/0/7ec572f_upload-1-steps6lz2yzy-2026-10-24t000000z-1464115903-mt1sipa000liyaol-rtrmadp-3-sipa-usa.JPG",
+          "source": "Le Monde International"
         }
       ]
     },
@@ -198,24 +197,24 @@
       ],
       "items": [
         {
-          "title": "Parkinson : les chercheurs ont repéré un signe dans la marche jusqu'à 7 ans avant le diagnostic",
-          "link": "https://www.futura-sciences.com/sante/actualites/parkinson-parkinson-chercheurs-ont-repere-signe-marche-jusqua-7-ans-avant-diagnostic-139480/#xtor%3DRSS-8",
-          "published": "Fri, 20 Nov 2026 15:08:40 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/5/6/0/560e6ba3b9_50263685_marche-parkinson.jpg",
+          "title": "Ces gigantesques trous dans le ciel semblent se former tout seuls : saurez-vous trouver ce qui les provoque réellement ?",
+          "link": "https://www.futura-sciences.com/planete/actualites/meteo-ces-gigantesques-trous-ciel-semblent-former-tout-seuls-saurez-vous-trouver-ce-provoque-reellement-139511/#xtor%3DRSS-8",
+          "published": "Sat, 21 Nov 2026 14:39:56 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/c/e/9/ce917f0601_50187721_nature-landscape-clouds-trees-wallpaper-preview.jpg",
           "source": "Futura Sciences"
         },
         {
-          "title": "Exclusive à Amazon, cette friteuse sans huile Ninja de 10,4 L passe sous les 160 € pour le Black Friday",
-          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-petit-electromenager-exclusive-amazon-cette-friteuse-huile-ninja-104-l-passe-sous-160-black-friday-11904/#xtor%3DRSS-8",
-          "published": "Fri, 20 Nov 2026 15:00:00 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/largeoriginal/9/9/e/99e4c32260_50263669_ninja-flexdrawer.jpg",
+          "title": "Black Friday Week : -270 € sur ce tapis de course pliable plébiscité par les sportifs",
+          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-fitness-bien-etre-black-friday-week-270-ce-tapis-course-pliable-plebiscite-sportifs-11920/#xtor%3DRSS-8",
+          "published": "Sat, 21 Nov 2026 14:30:22 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/f/2/0/f200474ca9_50246780_tapis-course-pliable-ft61-img.jpg",
           "source": "Futura Sciences"
         },
         {
-          "title": "Des vagues qui grossissent sans que le vent se renforce : un phénomène qui peut surprendre en mer",
-          "link": "https://sciencepost.fr/des-vagues-qui-grossissent-sans-que-le-vent-se-renforce-un-phenomene-qui-peut-surprendre-en-mer/",
-          "published": "Fri, 20 Nov 2026 04:45:00 +0000",
-          "image": "https://sciencepost.fr/wp-content/uploads/2026/11/des-vagues-qui-grossissent-sans-que-le-vent-se-renforce-un-phenomene-qui-peut-surprendre-en-mer-feat-1794907209.jpg",
+          "title": "Chaque hiver, des collines entières virent au jaune près de Cannes : ce spectacle est une invasion",
+          "link": "https://sciencepost.fr/en-sechappant-des-jardins-de-cannes-ou-on-lavait-plante-pour-decorer-un-arbre-venu-daustralie-a-litteralement-colonise-tout-un-massif/",
+          "published": "Sat, 21 Nov 2026 12:48:00 +0000",
+          "image": "https://sciencepost.fr/wp-content/uploads/2026/10/en-sechappant-des-jardins-de-cannes-ou-on-lavait-plante-pour-decorer-un-arbre-venu-daustralie-a-litt-1792571344.jpg",
           "source": "SciencePost"
         }
       ]
@@ -229,25 +228,25 @@
       ],
       "items": [
         {
-          "title": "Polluants éternels (PFAS) : vers une interdiction de ces substances toxiques dans l’Union européenne ?",
-          "link": "https://www.santemagazine.fr/actualites/actualites-sante/polluants-eternels-vers-une-interdiction-de-ces-substances-toxiques-dans-lunion-europeenne-1161858",
-          "published": "Fri, 20 Nov 2026 14:56:00 +0100",
-          "image": "https://i-sam.unimedias.fr/2024/01/16/eau-robinet-ars-pfas-polluants-persistants.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
-          "source": "Santé Magazine"
-        },
-        {
-          "title": "Mélanome : des résultats positifs pour un vaccin anticancer sur mesure",
-          "link": "https://www.sciencesetavenir.fr/sante/melanome-la-promesse-des-vaccins-anticancer-personnalises-se-concretise_195871?xtor=RSS-16",
-          "published": "Fri, 20 Nov 2026 13:00:00 +0000",
-          "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0d33241-ar-1751849-tf-68438329-1-notext-jpg.jpg",
+          "title": "Chronothérapie : et si l’heure du traitement faisait la différence ?",
+          "link": "https://www.sciencesetavenir.fr/sante/remettre-les-gelules-a-l-heure_195959?xtor=RSS-16",
+          "published": "Sat, 21 Nov 2026 13:00:00 +0000",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/05/cover-r4x3w1200-6aec92f8ed5ba-ar-1747003-tf-68278637-1-notext-jpg.jpg",
           "source": "Sciences et Avenir"
         },
         {
-          "title": "Lait de pois : quels sont les bienfaits de cette boisson végétale ?",
-          "link": "https://www.santemagazine.fr/alimentation/aliments-et-sante/eaux-et-autres-boissons/boissons-sans-alcool/le-lait-de-pois-est-il-bon-pour-la-sante-1161522",
-          "published": "Fri, 20 Nov 2026 12:00:00 +0100",
-          "image": "https://i-sam.unimedias.fr/2025/09/27/lait_cancer_sein.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+          "title": "Peut-on faire une sieste juste après avoir mangé ?",
+          "link": "https://www.santemagazine.fr/sante/bien-dormir/sieste-apres-manger-bonne-ou-mauvaise-idee-1156014",
+          "published": "Sat, 21 Nov 2026 07:30:00 +0100",
+          "image": "https://i-sam.unimedias.fr/2026/08/19/sieste-apres-manger.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
           "source": "Santé Magazine"
+        },
+        {
+          "title": "Cancer de la vessie : vers des traitements plus efficaces et moins invasifs ?",
+          "link": "https://www.sciencesetavenir.fr/sante/cancer-de-la-vessie-de-nouvelles-armes-pour-mieux-combattre-la-maladie_195869?xtor=RSS-16",
+          "published": "Fri, 20 Nov 2026 17:00:00 +0000",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2026/10/28/cover-r4x3w1200-6ae8ac0c5a417-ar-1751845-tf-68438317-1-notext-jpg.jpg",
+          "source": "Sciences et Avenir"
         }
       ]
     },
@@ -260,17 +259,17 @@
       ],
       "items": [
         {
-          "title": "Philippe Diallo, candidat surprise à la présidence de la FIFA, va tenter de convaincre en Afrique",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/20/philippe-diallo-candidat-surprise-a-la-presidence-de-la-fifa-va-tenter-de-convaincre-en-afrique_6813646_3242.html",
-          "published": "Fri, 20 Nov 2026 15:00:04 +0100",
-          "image": "https://img.lemde.fr/2026/11/17/520/0/3184/1592/644/322/60/0/8253a53_ftp-1-gbd63c5jpaot-afp-d7qh3wf.jpg",
+          "title": "La F1, ce sport mixte sur le papier, où les femmes peinent toujours à exister",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/21/la-f1-ce-sport-mixte-sur-le-papier-ou-les-femmes-peinent-toujours-a-exister_6813981_3242.html",
+          "published": "Sat, 21 Nov 2026 11:30:15 +0100",
+          "image": "https://img.lemde.fr/2026/10/25/548/0/3947/1973/644/322/60/0/7dcf5f4_ftp-1-w1vsvi9ijou4-2301970250.jpg",
           "source": "Le Monde Sport"
         },
         {
-          "title": "Les patineurs artistiques, premiers sportifs russes affectés par le durcissement de la politique d’accès au territoire finlandais",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/20/les-patineurs-artistiques-premiers-sportifs-russes-affectes-par-le-durcissement-de-la-politique-d-acces-au-territoire-finlandais_6813609_3242.html",
-          "published": "Fri, 20 Nov 2026 10:00:17 +0100",
-          "image": "https://img.lemde.fr/2026/11/19/726/0/7843/3921/644/322/60/0/2a41767_upload-1-slmi4xw4n4dt-000-d3pu466.jpg",
+          "title": "Alexander Zverev, un numéro un mondial en mal de reconnaissance et de légitimité aux Finales ATP",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/21/alexander-zverev-un-numero-un-mondial-en-mal-de-reconnaissance-et-de-legitimite-aux-finales-atp_6813957_3242.html",
+          "published": "Sat, 21 Nov 2026 09:30:05 +0100",
+          "image": "https://img.lemde.fr/2026/11/15/1000/0/6000/3000/644/322/60/0/7809827_ftp-1-pfaqb2no74kw-afp-d7j496q.jpg",
           "source": "Le Monde Sport"
         },
         {

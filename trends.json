@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T14:29:41Z",
+  "updated_at": "2026-11-21T13:48:54Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -11,42 +11,30 @@
   "words": [
     {
       "word": "france",
-      "count": 16
+      "count": 12
     },
     {
-      "word": "présidentielle",
+      "word": "contre",
       "count": 10
-    },
-    {
-      "word": "grand",
-      "count": 8
-    },
-    {
-      "word": "auto",
-      "count": 7
-    },
-    {
-      "word": "dominique",
-      "count": 7
     },
     {
       "word": "monde",
       "count": 7
     },
     {
-      "word": "theft",
+      "word": "présidentielle",
       "count": 7
     },
     {
-      "word": "villepin",
-      "count": 7
-    },
-    {
-      "word": "candidature",
+      "word": "cargo",
       "count": 6
     },
     {
-      "word": "jean",
+      "word": "film",
+      "count": 6
+    },
+    {
+      "word": "guerre",
       "count": 6
     },
     {
@@ -54,23 +42,27 @@
       "count": 6
     },
     {
-      "word": "annonce",
+      "word": "black",
       "count": 5
     },
     {
-      "word": "contre",
+      "word": "deux",
       "count": 5
     },
     {
-      "word": "cop",
+      "word": "direct",
       "count": 5
     },
     {
-      "word": "royaume",
+      "word": "michel",
       "count": 5
     },
     {
-      "word": "uni",
+      "word": "milliards",
+      "count": 5
+    },
+    {
+      "word": "zecler",
       "count": 5
     },
     {
@@ -78,19 +70,11 @@
       "count": 5
     },
     {
-      "word": "comment",
+      "word": "attaque",
       "count": 4
     },
     {
-      "word": "film",
-      "count": 4
-    },
-    {
-      "word": "finale",
-      "count": 4
-    },
-    {
-      "word": "française",
+      "word": "figaro",
       "count": 4
     },
     {
@@ -98,36 +82,52 @@
       "count": 4
     },
     {
-      "word": "michel",
+      "word": "histoire",
       "count": 4
     },
     {
-      "word": "missiles",
+      "word": "hypothèse",
       "count": 4
     },
     {
-      "word": "nouvelle",
+      "word": "manifestation",
       "count": 4
     },
     {
-      "word": "ouest",
+      "word": "marine",
       "count": 4
     },
     {
-      "word": "paris",
+      "word": "mobilisation",
       "count": 4
     },
     {
-      "word": "russes",
+      "word": "novembre",
       "count": 4
     },
     {
-      "word": "réunion",
+      "word": "riemann",
       "count": 4
     },
     {
-      "word": "sommet",
+      "word": "trois",
       "count": 4
+    },
+    {
+      "word": "villepin",
+      "count": 4
+    },
+    {
+      "word": "affaire",
+      "count": 3
+    },
+    {
+      "word": "alain",
+      "count": 3
+    },
+    {
+      "word": "anthropic",
+      "count": 3
     }
   ]
 }
