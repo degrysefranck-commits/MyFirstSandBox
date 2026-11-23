@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T13:42:21Z",
+  "updated_at": "2026-11-23T16:40:39Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,123 +10,123 @@
   ],
   "words": [
     {
-      "word": "france",
-      "count": 11
+      "word": "affaire",
+      "count": 7
     },
     {
-      "word": "cop",
-      "count": 8
+      "word": "nvidia",
+      "count": 7
+    },
+    {
+      "word": "deux",
+      "count": 6
+    },
+    {
+      "word": "games",
+      "count": 6
+    },
+    {
+      "word": "huang",
+      "count": 6
+    },
+    {
+      "word": "hunger",
+      "count": 6
+    },
+    {
+      "word": "jensen",
+      "count": 6
     },
     {
       "word": "présidentielle",
-      "count": 8
+      "count": 6
     },
     {
-      "word": "direct",
+      "word": "russes",
       "count": 6
+    },
+    {
+      "word": "annonce",
+      "count": 5
     },
     {
       "word": "film",
-      "count": 6
-    },
-    {
-      "word": "finale",
-      "count": 6
-    },
-    {
-      "word": "guerre",
-      "count": 6
-    },
-    {
-      "word": "monde",
-      "count": 6
-    },
-    {
-      "word": "drone",
       "count": 5
     },
     {
-      "word": "enquête",
+      "word": "france",
       "count": 5
     },
     {
-      "word": "moutouh",
+      "word": "grand",
       "count": 5
     },
     {
-      "word": "préfet",
+      "word": "jean",
       "count": 5
     },
     {
-      "word": "russe",
+      "word": "macron",
       "count": 5
-    },
-    {
-      "word": "affaire",
-      "count": 4
     },
     {
       "word": "contre",
       "count": 4
     },
     {
-      "word": "décision",
+      "word": "emmanuel",
       "count": 4
     },
     {
-      "word": "eisenkot",
+      "word": "guerre",
       "count": 4
     },
     {
-      "word": "face",
+      "word": "monde",
       "count": 4
     },
     {
-      "word": "gadi",
+      "word": "navires",
       "count": 4
     },
     {
-      "word": "games",
+      "word": "nouvelle",
       "count": 4
     },
     {
-      "word": "histoire",
+      "word": "pierre",
       "count": 4
     },
     {
-      "word": "hugues",
-      "count": 4
-    },
-    {
-      "word": "immeuble",
-      "count": 4
-    },
-    {
-      "word": "jean",
-      "count": 4
-    },
-    {
-      "word": "kiev",
-      "count": 4
-    },
-    {
-      "word": "personnes",
-      "count": 4
-    },
-    {
-      "word": "près",
-      "count": 4
-    },
-    {
-      "word": "ukraine",
-      "count": 4
-    },
-    {
-      "word": "annonce",
+      "word": "aide",
       "count": 3
     },
     {
-      "word": "attaque",
+      "word": "campagne",
+      "count": 3
+    },
+    {
+      "word": "cop",
+      "count": 3
+    },
+    {
+      "word": "démocrates",
+      "count": 3
+    },
+    {
+      "word": "enquête",
+      "count": 3
+    },
+    {
+      "word": "enquêtes",
+      "count": 3
+    },
+    {
+      "word": "euros",
+      "count": 3
+    },
+    {
+      "word": "franceinfo",
       "count": 3
     }
   ]
