@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T16:40:39Z",
+  "updated_at": "2026-11-24T16:37:10Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,75 +10,91 @@
   ],
   "words": [
     {
-      "word": "affaire",
-      "count": 7
+      "word": "sénégal",
+      "count": 12
     },
     {
-      "word": "nvidia",
-      "count": 7
+      "word": "can",
+      "count": 10
     },
     {
-      "word": "deux",
-      "count": 6
+      "word": "tas",
+      "count": 9
     },
     {
-      "word": "games",
-      "count": 6
-    },
-    {
-      "word": "huang",
-      "count": 6
-    },
-    {
-      "word": "hunger",
-      "count": 6
-    },
-    {
-      "word": "jensen",
-      "count": 6
-    },
-    {
-      "word": "présidentielle",
-      "count": 6
-    },
-    {
-      "word": "russes",
-      "count": 6
-    },
-    {
-      "word": "annonce",
-      "count": 5
-    },
-    {
-      "word": "film",
-      "count": 5
+      "word": "maroc",
+      "count": 8
     },
     {
       "word": "france",
+      "count": 6
+    },
+    {
+      "word": "français",
+      "count": 6
+    },
+    {
+      "word": "affaire",
       "count": 5
     },
     {
-      "word": "grand",
+      "word": "vainqueur",
       "count": 5
+    },
+    {
+      "word": "appel",
+      "count": 4
+    },
+    {
+      "word": "bruni",
+      "count": 4
+    },
+    {
+      "word": "carla",
+      "count": 4
+    },
+    {
+      "word": "david",
+      "count": 4
+    },
+    {
+      "word": "deux",
+      "count": 4
+    },
+    {
+      "word": "dit",
+      "count": 4
+    },
+    {
+      "word": "fausse",
+      "count": 4
+    },
+    {
+      "word": "film",
+      "count": 4
     },
     {
       "word": "jean",
-      "count": 5
-    },
-    {
-      "word": "macron",
-      "count": 5
-    },
-    {
-      "word": "contre",
       "count": 4
     },
     {
-      "word": "emmanuel",
+      "word": "large",
       "count": 4
     },
     {
-      "word": "guerre",
+      "word": "laurent",
+      "count": 4
+    },
+    {
+      "word": "lisnard",
+      "count": 4
+    },
+    {
+      "word": "maires",
+      "count": 4
+    },
+    {
+      "word": "michel",
       "count": 4
     },
     {
@@ -86,48 +102,32 @@
       "count": 4
     },
     {
-      "word": "navires",
+      "word": "mort",
       "count": 4
     },
     {
-      "word": "nouvelle",
+      "word": "nicolas",
       "count": 4
     },
     {
-      "word": "pierre",
+      "word": "ont",
       "count": 4
     },
     {
-      "word": "aide",
-      "count": 3
+      "word": "paris",
+      "count": 4
     },
     {
-      "word": "campagne",
-      "count": 3
+      "word": "procès",
+      "count": 4
     },
     {
-      "word": "cop",
-      "count": 3
+      "word": "présidentielle",
+      "count": 4
     },
     {
-      "word": "démocrates",
-      "count": 3
-    },
-    {
-      "word": "enquête",
-      "count": 3
-    },
-    {
-      "word": "enquêtes",
-      "count": 3
-    },
-    {
-      "word": "euros",
-      "count": 3
-    },
-    {
-      "word": "franceinfo",
-      "count": 3
+      "word": "rétractation",
+      "count": 4
     }
   ]
 }

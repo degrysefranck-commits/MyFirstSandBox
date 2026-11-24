@@ -1,5 +1,291 @@
 {
   "days": {
+    "2026-11-24": {
+      "updated_at": "2026-11-24T16:37:09Z",
+      "themes": {
+        "art": {
+          "label": "🎨 Art",
+          "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
+          "items": [
+            {
+              "title": "Sur Arte.tv, un documentaire décrypte la présence troublante d’une poupée noire dans un tableau de James Tissot",
+              "link": "https://www.beauxarts.com/lifestyle/sur-arte-tv-un-documentaire-decrypte-la-presence-troublante-dune-poupee-noire-dans-un-tableau-de-james-tissot/",
+              "published": "Tue, 24 Nov 2026 16:22:52 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/unejames-tissot_portrait-des-quatre-enfants-demile-gaillard_huile-sur-toile_1868-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "À Bruxelles, Kanal, l’ancien garage Citroën devenu temple de l’art avec le Centre Pompidou, ouvre enfin après 10 ans d’attente",
+              "link": "https://www.connaissancedesarts.com/arts-expositions/belgique/a-bruxelles-kanal-lancien-garage-citroen-devenu-temple-de-lart-avec-le-centre-pompidou-ouvre-enfin-apres-10-ans-dattente-11218787/",
+              "published": "Tue, 24 Nov 2026 15:41:41 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_bruxelles_kanal_ouverture_2-tt-width-653-height-370-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            },
+            {
+              "title": "Équerre d’argent 2026 : les architectes Antoine et Dufour primés pour la spectaculaire rénovation du musée des Arts décoratifs et du Design de Bordeaux",
+              "link": "https://www.beauxarts.com/grand-format/equerre-dargent-2026-les-architectes-antoine-et-dufour-primes-pour-la-spectaculaire-renovation-du-musee-des-arts-decoratifs-et-du-design-de-bordeaux/",
+              "published": "Tue, 24 Nov 2026 14:23:46 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/uneada_madd_6628-1300x975.jpg",
+              "source": "Beaux Arts"
+            }
+          ]
+        },
+        "auto": {
+          "label": "🚗 Auto",
+          "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Plus",
+            "Auto Moto"
+          ],
+          "items": [
+            {
+              "title": "L'usine chinoise d'Audi tourne à moins de 10 % et perd 500 millions d'euros cette année",
+              "link": "https://www.autoplus.fr/environnement/voiture-electrique/lusine-chinoise-daudi-tourne-a-moins-de-10-et-perd-500-millions-deuros-cette-annee-1478519.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Tue, 24 Nov 2026 16:30:09 +0000",
+              "image": "https://sf2.autoplus.fr/wp-content/uploads/autoplus/2026/11/a251419_web_1440.jpg",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "WhistlinDiesel soumet une Lamborghini Huracán à un test de résistance complètement fou",
+              "link": "https://www.autoplus.fr/actualite/insolite/whistlindiesel-soumet-une-lamborghini-huracan-a-un-test-de-resistance-completement-fou-1478485.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Tue, 24 Nov 2026 16:15:27 +0000",
+              "image": "https://www.youtube.com/watch?v=tOq4MUToPlU",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "BYD subit un échec en justice, son SUV concurrent du Land Rover Defender est interdit en Europe",
+              "link": "https://www.auto-moto.com/en-bref/byd-interdit-europe-suv-86787",
+              "published": "Tue, 24 Nov 2026 17:01:00 +0100",
+              "image": "https://photos.auto-moto.com/32/2026/11/photo_article/86787/393478/1200-L-byd-subit-un-chec-en-justice-son-suv-concurrent-du-land-rover-defender-est-interdit-en-europe.jpg",
+              "source": "Auto Moto"
+            }
+          ]
+        },
+        "culture": {
+          "label": "🎭 Culture",
+          "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture",
+            "France 24 Culture"
+          ],
+          "items": [
+            {
+              "title": "« Il était une fois Gaza » sur Arte, raconté par ceux qui y vivent",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/24/il-etait-une-fois-gaza-sur-arte-raconte-par-ceux-qui-y-vivent_6814819_3246.html",
+              "published": "Tue, 24 Nov 2026 17:30:13 +0100",
+              "image": "https://img.lemde.fr/2026/11/19/60/0/1920/960/644/322/60/0/2b60d2c_upload-1-hvv9fboswp2x-il-c3a9tait-une-fois-gaza-2812f229-la-palestine-refoulc3a9ec2a0-5.jpg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "« Merci d’être venu » : les derniers coups d’éclats cinématographiques d’Alain Cavalier",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/24/merci-d-etre-venu-les-derniers-coups-d-eclats-cinematographiques-d-alain-cavalier_6814814_3246.html",
+              "published": "Tue, 24 Nov 2026 17:00:07 +0100",
+              "image": "https://img.lemde.fr/2026/11/19/0/3/1594/797/644/322/60/0/cb7acff_upload-1-fmpqtrmjqsgn-afd68da0f7c25c7a1b28430520823d5b.jpeg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Juste Shani, une voix qui s'impose",
+              "link": "https://www.france24.com/fr/%C3%A9missions/%C3%A0-l-affiche/20261124-juste-shani-une-voix-qui-s-impose",
+              "published": "Tue, 24 Nov 2026 13:36:39 GMT",
+              "image": "https://s.france24.com/media/display/8aac2e26-e7fd-11f1-a3f8-29d00e23de9a/w:1024/p:16x9/ITW-JUST-SHANI-frame-11048.jpeg",
+              "source": "France 24 Culture"
+            }
+          ]
+        },
+        "high-tech": {
+          "label": "💻 High-tech",
+          "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
+          "items": [
+            {
+              "title": "Le son compte autant que l’image ? Cette barre de son LG vous immerge comme au cinéma 🍿",
+              "link": "https://www.01net.com/bons-plans/le-son-compte-autant-que-limage-cette-barre-de-son-lg-vous-immerge-comme-au-cinema.html",
+              "published": "Tue, 24 Nov 2026 16:19:19 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/lg-barre-de-son-S90TR-pack-1344x896.jpg",
+              "source": "01net"
+            },
+            {
+              "title": "Le rachat de « 60 millions de consommateurs » par Xavier Niel est validé, mais l’avenir du média inquiète",
+              "link": "https://www.01net.com/actualites/le-rachat-de-60-millions-de-consommateurs-par-xavier-niel-est-valide-mais-lavenir-du-media-inquiete.html",
+              "published": "Tue, 24 Nov 2026 16:11:31 +0000",
+              "image": "https://www.01net.com/app/uploads/2025/12/60-millions-consommateurs-1344x896.jpg",
+              "source": "01net"
+            },
+            {
+              "title": "Coros écrase Garmin avec la Vertix 4 : 60h d’autonomie, lampe torche et 64 Go de stockage pour 300 euros de moins qu’une Fenix 9",
+              "link": "https://www.presse-citron.net/coros-ecrase-garmin-avec-la-vertix-4-60h-dautonomie-lampe-torche-et-64-go-de-stockage-pour-300-euros-de-moins-quune-fenix-9/",
+              "published": "Tue, 24 Nov 2026 16:05:33 +0000",
+              "image": "https://www.presse-citron.net/app/uploads/2026/11/coros-vertix-4-2026-montre-sport-880x587.jpg",
+              "source": "Presse Citron"
+            }
+          ]
+        },
+        "ia": {
+          "label": "🤖 IA",
+          "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
+          "items": [
+            {
+              "title": "À Choose France, les 3 milliards de centres de données datent de juillet",
+              "link": "https://www.actuia.com/actualite/a-choose-france-les-3-milliards-de-centres-de-donnees-datent-de-juillet/",
+              "published": "Tue, 24 Nov 2026 13:01:00 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11623-tcvpnkcj-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l’intelligence artificielle ?",
+              "link": "https://www.actuia.com/actualite/de-la-strategie-aux-usages-metiers-quelles-competences-pour-piloter-et-deployer-lintelligence-artificielle-1/",
+              "published": "Tue, 24 Nov 2026 12:21:25 +0000",
+              "image": "https://www.actuia.com/storage/uploads/editorial/imt-bs-2026-09/ouverture-sans-logo-978f07af5f8f-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "« C’était une blague » : le mathématicien d’Anthropic revient sur les 250 000 pages de sa preuve de Riemann",
+              "link": "https://www.numerama.com/tech/2383299-cetait-une-blague-le-mathematicien-danthropic-revient-sur-les-250-000-pages-de-sa-preuve-de-riemann.html",
+              "published": "Tue, 24 Nov 2026 10:06:39 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/superintelligence-yann-alexandr-2.png?resize=1200,675&key=6ebd36cb",
+              "source": "Numerama IA"
+            }
+          ]
+        },
+        "monde": {
+          "label": "🌍 Monde",
+          "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "France 24 Monde",
+            "Le Monde International"
+          ],
+          "items": [
+            {
+              "title": "« Il était une fois Gaza » sur Arte, raconté par ceux qui y vivent",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/24/il-etait-une-fois-gaza-sur-arte-raconte-par-ceux-qui-y-vivent_6814819_3246.html",
+              "published": "Tue, 24 Nov 2026 17:30:13 +0100",
+              "image": "https://img.lemde.fr/2026/11/19/60/0/1920/960/644/322/60/0/2b60d2c_upload-1-hvv9fboswp2x-il-c3a9tait-une-fois-gaza-2812f229-la-palestine-refoulc3a9ec2a0-5.jpg",
+              "source": "Le Monde International"
+            },
+            {
+              "title": "Suède : le centre gauche échoue à former un gouvernement",
+              "link": "https://www.lemonde.fr/international/article/2026/11/24/suede-le-centre-gauche-echoue-a-former-un-gouvernement_6814817_3210.html",
+              "published": "Tue, 24 Nov 2026 17:30:10 +0100",
+              "image": "https://img.lemde.fr/2026/11/13/96/0/5900/2950/644/322/60/0/b200b9b_ftp-1-1lvm6jhzcyb8-2026-11-13t101511z-878040256-rc2xmoahw9zb-rtrmadp-3-eu-summit.JPG",
+              "source": "Le Monde International"
+            },
+            {
+              "title": "Protection des forêts : les peuples autochtones veulent peser dans les décisions",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261124-protection-des-for%C3%AAts-les-peuples-autochtones-veulent-peser-dans-les-d%C3%A9cisions",
+              "published": "Tue, 24 Nov 2026 16:14:03 GMT",
+              "image": "https://s.france24.com/media/display/4febf7de-e821-11f1-a2bb-81da3ab2acbb/w:1024/p:16x9/FR-20261124-160735-161224-CS.jpg",
+              "source": "France 24 Monde"
+            }
+          ]
+        },
+        "nature": {
+          "label": "🌿 Nature",
+          "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
+          "items": [
+            {
+              "title": "« Un défi fou » : une peau artificielle vivante a été créée par des chercheurs français, une première mondiale !",
+              "link": "https://www.futura-sciences.com/sante/actualites/greffe-defi-fou-peau-artificielle-vivante-ete-creee-chercheurs-francais-premiere-mondiale-139598/#xtor%3DRSS-8",
+              "published": "Tue, 24 Nov 2026 16:13:29 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/7/4/d/74d62c55cf_50263823_peau-artificielle-vivante.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Envie de vous remettre à la course à pied ? Cette montre Garmin passe sous les 220 € sur AliExpress",
+              "link": "https://www.futura-sciences.com/conso/bons-plans/guides-objets-connectes-envie-vous-remettre-course-pied-cette-montre-garmin-passe-sous-220-aliexpress-11941/#xtor%3DRSS-8",
+              "published": "Tue, 24 Nov 2026 16:00:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/largeoriginal/0/e/8/0e8bf811b5_50263810_garmin-forerunner-255-exterieur.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Umuganda : le dernier samedi du mois, les Rwandais doivent une matinée de travaux collectifs, sous peine d’amende",
+              "link": "https://sciencepost.fr/umuganda-le-dernier-samedi-du-mois-les-rwandais-doivent-une-matinee-de-travaux-collectifs-sous-peine-d-amende/",
+              "published": "Tue, 24 Nov 2026 14:30:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/pourquoi-les-rwandais-doivent-3-heures-de-travaux-collectifs-le-dernier-samedi-de-chaque-mois-featur-1794559717.png",
+              "source": "SciencePost"
+            }
+          ]
+        },
+        "sante": {
+          "label": "🏥 Santé",
+          "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
+          "items": [
+            {
+              "title": "L'alcool progresse chez les mineurs et reste meurtrier sur les routes",
+              "link": "https://www.sciencesetavenir.fr/sante/l-alcool-progresse-chez-les-mineurs-et-reste-meurtrier-sur-les-routes_196379?xtor=RSS-16",
+              "published": "Tue, 24 Nov 2026 15:37:48 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/24/cover-r4x3w1200-6b0561bde9d6d-jeune-alcool.jpg",
+              "source": "Sciences et Avenir"
+            },
+            {
+              "title": "Une révolution contre le « mauvais » cholestérol ? Bientôt une injection pour remplacer les médicaments quotidiens",
+              "link": "https://www.santemagazine.fr/actualites/actualites-traitement/hypercholesterolemie-bientot-une-injection-pour-lutter-contre-le-mauvais-cholesterol-1162061",
+              "published": "Tue, 24 Nov 2026 14:32:35 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/24/cholesterol.jpeg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Quel est le mode de chauffage le plus sain pour la santé ?",
+              "link": "https://www.santemagazine.fr/sante/sante-environnementale/chauffage-et-sante-les-choses-a-savoir-avant-larrivee-du-froid-190364",
+              "published": "Tue, 24 Nov 2026 14:08:49 +0100",
+              "image": "https://i-sam.unimedias.fr/2022/10/21/chauffage-sante.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            }
+          ]
+        },
+        "sport": {
+          "label": "⚽ Sport",
+          "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
+          "items": [
+            {
+              "title": "Ligue des champions : à l’exception du PSG, les clubs de football français évoluent « dans la deuxième division européenne »",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/24/ligue-des-champions-a-l-exception-du-psg-les-clubs-de-football-francais-evoluent-dans-la-deuxieme-division-europeenne_6814803_3242.html",
+              "published": "Tue, 24 Nov 2026 16:00:12 +0100",
+              "image": "https://img.lemde.fr/2026/11/24/46/0/2763/1381/644/322/60/0/a46d76f_ftp-1-xjhweahoteis-afp-d8ft4we.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "CAN 2025 : le Tribunal arbitral du sport déclare le Sénégal champion d’Afrique de football, au détriment du Maroc",
+              "link": "https://www.lemonde.fr/football/article/2026/11/24/can-2025-le-tribunal-arbitral-du-sport-declare-le-senegal-champion-d-afrique-des-nations-au-detriment-du-maroc_6814779_1616938.html",
+              "published": "Tue, 24 Nov 2026 15:34:56 +0100",
+              "image": "https://img.lemde.fr/2026/11/24/685/0/4105/2052/644/322/60/0/07ef447_ftp-1-mapns33avgeg-afp-d8ce8zq.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
+            }
+          ]
+        }
+      }
+    },
     "2026-11-23": {
       "updated_at": "2026-11-23T16:40:38Z",
       "themes": {
