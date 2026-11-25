@@ -1,5 +1,291 @@
 {
   "days": {
+    "2026-11-25": {
+      "updated_at": "2026-11-25T16:20:02Z",
+      "themes": {
+        "art": {
+          "label": "🎨 Art",
+          "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
+          "items": [
+            {
+              "title": "Pour Noël, ces 10 très beaux livres pour enfants à offrir",
+              "link": "https://www.beauxarts.com/lifestyle/pour-noel-ces-10-tres-beaux-livres-pour-enfants-a-offrir/",
+              "published": "Wed, 25 Nov 2026 16:00:33 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/unereveries-a-lorangerie--reveries-a-lorangerie-virginie-aracil-grandpalaisrmne-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Estimé jusqu’à 80 000 euros, un exceptionnel sarcophage romain fait une apparition surprise dans une vente d’argenterie et de porcelaines",
+              "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/estime-jusqua-80-000-euros-un-exceptionnel-sarcophage-romain-fait-une-apparition-surprise-dans-une-vente-dargenterie-et-de-porcelaines-11218893/",
+              "published": "Wed, 25 Nov 2026 14:54:43 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_sarcophage_tajan_exterieur-tt-width-653-height-513-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            },
+            {
+              "title": "Orné de dessins de Picasso, l’incroyable appartement parisien où Dora Maar a vécu plus d’un demi-siècle mis en vente",
+              "link": "https://www.beauxarts.com/grand-format/orne-de-dessins-de-picasso-lincroyable-appartement-parisien-ou-dora-maar-a-vecu-plus-dun-demi-siecle-mis-en-vente/",
+              "published": "Wed, 25 Nov 2026 14:30:40 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/une7cacca74d8be86c43a8bb4232ac3d447-1300x975.jpg",
+              "source": "Beaux Arts"
+            }
+          ]
+        },
+        "auto": {
+          "label": "🚗 Auto",
+          "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Plus",
+            "Auto Moto"
+          ],
+          "items": [
+            {
+              "title": "BMW X2 : faut-il privilégier les versions haut de gamme dans les annonces ?",
+              "link": "https://www.autoplus.fr/occasion/bmw-x2-faut-il-privilegier-les-versions-haut-de-gamme-dans-les-annonces-1478627.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Wed, 25 Nov 2026 16:15:48 +0000",
+              "image": "https://sf2.autoplus.fr/wp-content/uploads/autoplus/2022/10/7-9.jpeg",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "Il est impossible de programmer une clé ou un calculateur chez Nissan à cause d’une cyberattaque",
+              "link": "https://www.autoplus.fr/actualite/il-est-impossible-de-programmer-une-cle-ou-un-calculateur-chez-nissan-a-cause-dune-cyberattaque-1478720.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Wed, 25 Nov 2026 16:00:03 +0000",
+              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/nissan-x-trail-2026-1280-e5084a27a11f800f65a20f28f01d099afb.jpg",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "Lego et autres marques : tour d'horizon des miniatures en briques",
+              "link": "https://www.auto-moto.com/gaming/lego-autres-marques-tour-dhorizon-des-miniatures-en-briques-86865",
+              "published": "Wed, 25 Nov 2026 16:10:00 +0100",
+              "image": "https://photos.auto-moto.com/32/2026/11/photo_article/86865/393491/1200-L-lego-et-autres-marques-tour-d-horizon-des-miniatures-en-briques.jpg",
+              "source": "Auto Moto"
+            }
+          ]
+        },
+        "culture": {
+          "label": "🎭 Culture",
+          "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture",
+            "France 24 Culture"
+          ],
+          "items": [
+            {
+              "title": "Paul Marque, danseur étoile à l’Opéra de Paris : « J’ai envie de découverte et de défi »",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/25/paul-marque-danseur-etoile-a-l-opera-de-paris-j-ai-envie-de-decouverte-et-de-defi_6815131_3246.html",
+              "published": "Wed, 25 Nov 2026 17:00:04 +0100",
+              "image": "https://img.lemde.fr/2026/11/25/600/0/7441/3720/644/322/60/0/ab36ab2_upload-1-hfedd1lajmpo-paul-marque-credits-julien-benhamou-24-jpg.JPG",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Au Festival des 3 continents, à Nantes, la force du documentaire dans un monde fragmenté",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/25/au-festival-des-3-continents-a-nantes-la-force-du-documentaire-dans-un-monde-fragmente_6815123_3246.html",
+              "published": "Wed, 25 Nov 2026 16:30:10 +0100",
+              "image": "https://img.lemde.fr/2026/11/24/23/0/1920/960/644/322/60/0/36e5f28_upload-1-atzzrr4w5syl-202609-a-noite-e-os-dias-de-miguel-burnier-ayant-droit-2.jpg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "\"Paper Tiger\" : Scarlett Johansson et Adam Driver face à la mafia russe",
+              "link": "https://www.france24.com/fr/%C3%A9missions/%C3%A0-l-affiche/20261125-paper-tiger-scarlett-johansson-et-adam-driver-face-%C3%A0-la-mafia-russe",
+              "published": "Wed, 25 Nov 2026 14:06:25 GMT",
+              "image": "https://s.france24.com/media/display/31491cb6-e8d1-11f1-a754-1991d4929b54/w:1024/p:16x9/CINE-A-L-AFFICHE-16-9-1.jpg",
+              "source": "France 24 Culture"
+            }
+          ]
+        },
+        "high-tech": {
+          "label": "💻 High-tech",
+          "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
+          "items": [
+            {
+              "title": "Black Friday : AirPods Pro 3, MacBook Air M5, AirTag 2… les offres Apple qui valent le coup avant Noël",
+              "link": "https://www.numerama.com/tech/2384687-black-friday-airpods-pro-3-macbook-air-m5-airtag-2-les-offres-apple-qui-valent-le-coup-avant-noel.html",
+              "published": "Wed, 25 Nov 2026 16:06:45 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/apple-black-friday-1.jpg?resize=1200,675&key=3672e4a6",
+              "source": "Numerama"
+            },
+            {
+              "title": "BYD veut une nouvelle usine en France : un ancien site Mercedes en Moselle intéresse le géant chinois",
+              "link": "https://www.01net.com/actualites/byd-veut-une-nouvelle-usine-en-france-un-ancien-site-mercedes-en-moselle-interesse-le-geant-chinois.html",
+              "published": "Wed, 25 Nov 2026 16:03:43 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/06/121_BYD_DOLPHIN_G-1344x897.jpg",
+              "source": "01net"
+            },
+            {
+              "title": "À quoi ressemblerait la Terre sans aucun être vivant ? Des chercheurs viennent de la recréer virtuellement",
+              "link": "https://www.presse-citron.net/quoi-ressemblerait-terre-sans-etre-vivant-chercheurs-viennent-recreer-virtuellement/",
+              "published": "Wed, 25 Nov 2026 16:02:58 +0000",
+              "image": "https://www.presse-citron.net/app/uploads/2026/11/Terre-880x587.jpg",
+              "source": "Presse Citron"
+            }
+          ]
+        },
+        "ia": {
+          "label": "🤖 IA",
+          "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
+          "items": [
+            {
+              "title": "Bulle de l'IA : qui paiera la note si elle éclate ?",
+              "link": "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/",
+              "published": "Wed, 25 Nov 2026 14:29:54 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11632-c58cmcbl-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "La menace s’étend : le système OSINT de la CIA piraté, probablement par le même outil IA que la Commission européenne",
+              "link": "https://www.numerama.com/cyberguerre/2384431-la-menace-setend-le-systeme-osint-de-la-cia-pirate-probablement-par-le-meme-outil-ia-que-la-commission-europeenne.html",
+              "published": "Wed, 25 Nov 2026 12:10:00 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/sans-titre-25.png?resize=1200,675&key=ce03b6a2",
+              "source": "Numerama IA"
+            },
+            {
+              "title": "Ils sont les seuls à voir les IA les plus puissantes, et ils ont peur : chez OpenAI et Anthropic, les salariés tirent la sonnette d’alarme",
+              "link": "https://www.numerama.com/tech/2384181-ils-sont-les-seuls-a-voir-les-ia-les-plus-puissantes-et-ils-ont-peur-chez-openai-et-anthropic-les-salaries-tirent-la-sonnette-dalarme.html",
+              "published": "Wed, 25 Nov 2026 09:42:20 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/sans-titre-6-2.png?resize=1200,675&key=570ce3bb",
+              "source": "Numerama IA"
+            }
+          ]
+        },
+        "monde": {
+          "label": "🌍 Monde",
+          "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "France 24 Monde",
+            "Le Monde International"
+          ],
+          "items": [
+            {
+              "title": "Élection présidentielle : Philippe propose un débat à Lisnard et tente de se relancer",
+              "link": "https://www.france24.com/fr/%C3%A9missions/face-%C3%A0-face/20261125-%C3%A9lection-pr%C3%A9sidentielle-2027-philippe-propose-un-d%C3%A9bat-%C3%A0-lisnard-et-tente-de-se-relancer",
+              "published": "Wed, 25 Nov 2026 16:14:41 GMT",
+              "image": "https://s.france24.com/media/display/d86ececa-e8de-11f1-b404-81da3ab2acbb/w:1024/p:16x9/capture-6a840ab8.jpg",
+              "source": "France 24 Monde"
+            },
+            {
+              "title": "Teddy Riner critique le déploiement de soldats français en Ukraine pour des missions non combattantes : « Ce n’est pas notre guerre »",
+              "link": "https://www.lemonde.fr/politique/article/2026/11/25/teddy-riner-critique-le-deploiement-de-soldats-francais-en-ukraine-pour-des-missions-non-combattantes-ce-n-est-pas-notre-guerre_6815137_823448.html",
+              "published": "Wed, 25 Nov 2026 17:10:38 +0100",
+              "image": "https://img.lemde.fr/2026/11/25/243/290/1758/879/644/322/60/0/74ec1d2_upload-1-yzvfcwpv44gs-l1004345.jpg",
+              "source": "Le Monde International"
+            },
+            {
+              "title": "Espace : premier astronaute pakistanais à bord d'une mission spatiale chinoise",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261125-espace-premier-astronaute-pakistanais-%C3%A0-bord-d-une-mission-spatiale-chinoise",
+              "published": "Wed, 25 Nov 2026 16:01:51 GMT",
+              "image": "https://s.france24.com/media/display/0fbb70c0-e8e6-11f1-b227-29d00e23de9a/w:1024/p:16x9/minia-pakistan.jpg",
+              "source": "France 24 Monde"
+            }
+          ]
+        },
+        "nature": {
+          "label": "🌿 Nature",
+          "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
+          "items": [
+            {
+              "title": "Une lotte jaune vif, atteinte d’un xanthochromisme rarissime, capturée dans le port d’Oswego",
+              "link": "https://sciencepost.fr/une-lotte-jaune-vif-atteinte-d-un-xanthochromisme-rarissime-capturee-dans-le-port-d-oswego/",
+              "published": "Wed, 25 Nov 2026 15:15:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/pourquoi-cette-lotte-pechee-dans-letat-de-new-york-est-elle-dun-jaune-si-eclatant-featured-1794559403.webp",
+              "source": "SciencePost"
+            },
+            {
+              "title": "Des sols propres jusque sous les meubles : cet aspirateur laveur Tineco cartonne sur AliExpress pendant le Black Friday",
+              "link": "https://www.futura-sciences.com/conso/bons-plans/guides-entretien-sols-sols-propres-jusque-sous-meubles-cet-aspirateur-laveur-tineco-cartonne-aliexpress-pendant-black-friday-11954/#xtor%3DRSS-8",
+              "published": "Wed, 25 Nov 2026 16:00:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/5/4/c/54cad0422b_50263896_tineco-floor-s6-strect-lite-2.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "On se croirait dans « Don't Look Up » : ce qui vient de se produire en trois jours sur Terre devrait retenir toute notre attention",
+              "link": "https://www.futura-sciences.com/planete/actualites/climat-on-croirait-dont-look-up-ce-vient-produire-trois-jours-terre-devrait-retenir-toute-notre-attention-139632/#xtor%3DRSS-8",
+              "published": "Wed, 25 Nov 2026 15:25:41 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/f/a/2/fa247078e0_50263913_2-terre-escalade-climat.jpg",
+              "source": "Futura Sciences"
+            }
+          ]
+        },
+        "sante": {
+          "label": "🏥 Santé",
+          "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
+          "items": [
+            {
+              "title": "Alcool chez les adolescents : l’expérimentation repart à la hausse après douze ans de baisse",
+              "link": "https://www.santemagazine.fr/actualites/actualites-sante/alcool-chez-les-jeunes-pourquoi-le-rebond-des-premieres-consommations-inquiete-1162116",
+              "published": "Wed, 25 Nov 2026 16:45:44 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/25/alcool-conso.jpeg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "La banane plantain fait-elle grossir ?",
+              "link": "https://www.santemagazine.fr/alimentation/aliments-et-sante/fruits/la-banane-plantain-fait-elle-grossir-1162127",
+              "published": "Wed, 25 Nov 2026 16:12:14 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/25/banane_plantin_fait_grossir_ou_non.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "En Dordogne, l'arrivée des \"docteurs junior\" ravive la question de la pénurie de médecins",
+              "link": "https://www.sciencesetavenir.fr/sante/en-dordogne-l-arrivee-des-docteurs-junior-ravive-la-question-de-la-penurie-de-medecins_196352?xtor=RSS-16",
+              "published": "Wed, 25 Nov 2026 09:29:39 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/22/cover-r4x3w1200-6b02d188bd579-d2989370d86222b3e07160d3f5484599e11700cf-jpg.jpg",
+              "source": "Sciences et Avenir"
+            }
+          ]
+        },
+        "sport": {
+          "label": "⚽ Sport",
+          "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
+          "items": [
+            {
+              "title": "Lille - Bayern Munich : sans Harry Kane et en pleine polémique concernant Jamal Musiala, le club bavarois vacille avant son déplacement dans le Nord",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/25/lille-bayern-munich-sans-harry-kane-et-en-pleine-polemique-concernant-jamal-musiala-le-club-bavarois-vacille-avant-son-deplacement-dans-le-nord_6815134_3242.html",
+              "published": "Wed, 25 Nov 2026 17:00:14 +0100",
+              "image": "https://img.lemde.fr/2026/11/20/0/0/2933/1466/644/322/60/0/221f68d_ftp-1-vd6wrm2lxpap-afp-d87k4zq.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Leipzig-Lens : le résumé de la nouvelle défaite des Sang et Or en Ligue des champions",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/24/leipzig-lens-les-sang-et-or-une-nouvelle-fois-defaits-en-ligue-des-champions_6814868_3242.html",
+              "published": "Tue, 24 Nov 2026 23:31:21 +0100",
+              "image": "https://img.lemde.fr/2026/11/24/140/0/4517/2258/644/322/60/0/ac26941_ftp-1-yqicuuzmfz7x-6e47323f04e34ab3854fc6ba6f397365-0-a2903d485d3b483c8e4539797323b281.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
+            }
+          ]
+        }
+      }
+    },
     "2026-11-24": {
       "updated_at": "2026-11-24T16:37:09Z",
       "themes": {

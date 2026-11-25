@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T16:37:10Z",
+  "updated_at": "2026-11-25T16:20:03Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,63 +10,63 @@
   ],
   "words": [
     {
-      "word": "sénégal",
+      "word": "france",
       "count": 12
     },
     {
-      "word": "can",
-      "count": 10
-    },
-    {
-      "word": "tas",
+      "word": "présidentielle",
       "count": 9
     },
     {
-      "word": "maroc",
-      "count": 8
-    },
-    {
-      "word": "france",
-      "count": 6
-    },
-    {
-      "word": "français",
-      "count": 6
-    },
-    {
-      "word": "affaire",
-      "count": 5
-    },
-    {
-      "word": "vainqueur",
-      "count": 5
-    },
-    {
-      "word": "appel",
-      "count": 4
-    },
-    {
-      "word": "bruni",
-      "count": 4
-    },
-    {
-      "word": "carla",
-      "count": 4
+      "word": "ukraine",
+      "count": 9
     },
     {
       "word": "david",
+      "count": 8
+    },
+    {
+      "word": "guerre",
+      "count": 8
+    },
+    {
+      "word": "lisnard",
+      "count": 8
+    },
+    {
+      "word": "contre",
+      "count": 7
+    },
+    {
+      "word": "nouvelle",
+      "count": 7
+    },
+    {
+      "word": "monde",
+      "count": 6
+    },
+    {
+      "word": "chine",
+      "count": 5
+    },
+    {
+      "word": "droits",
+      "count": 5
+    },
+    {
+      "word": "justice",
+      "count": 5
+    },
+    {
+      "word": "violences",
+      "count": 5
+    },
+    {
+      "word": "budget",
       "count": 4
     },
     {
-      "word": "deux",
-      "count": 4
-    },
-    {
-      "word": "dit",
-      "count": 4
-    },
-    {
-      "word": "fausse",
+      "word": "douane",
       "count": 4
     },
     {
@@ -74,19 +74,15 @@
       "count": 4
     },
     {
-      "word": "jean",
+      "word": "football",
       "count": 4
     },
     {
-      "word": "large",
+      "word": "gta",
       "count": 4
     },
     {
-      "word": "laurent",
-      "count": 4
-    },
-    {
-      "word": "lisnard",
+      "word": "israël",
       "count": 4
     },
     {
@@ -94,40 +90,44 @@
       "count": 4
     },
     {
-      "word": "michel",
+      "word": "nations",
       "count": 4
     },
     {
-      "word": "monde",
+      "word": "nouveaux",
       "count": 4
     },
     {
-      "word": "mort",
+      "word": "riner",
       "count": 4
     },
     {
-      "word": "nicolas",
+      "word": "russes",
       "count": 4
     },
     {
-      "word": "ont",
+      "word": "teddy",
       "count": 4
     },
     {
-      "word": "paris",
+      "word": "trump",
       "count": 4
     },
     {
-      "word": "procès",
-      "count": 4
+      "word": "affaire",
+      "count": 3
     },
     {
-      "word": "présidentielle",
-      "count": 4
+      "word": "afrique",
+      "count": 3
     },
     {
-      "word": "rétractation",
-      "count": 4
+      "word": "alerte",
+      "count": 3
+    },
+    {
+      "word": "annonce",
+      "count": 3
     }
   ]
 }
