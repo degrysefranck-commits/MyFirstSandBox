@@ -1,5 +1,291 @@
 {
   "days": {
+    "2026-11-26": {
+      "updated_at": "2026-11-26T15:55:37Z",
+      "themes": {
+        "art": {
+          "label": "🎨 Art",
+          "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
+          "items": [
+            {
+              "title": "« Il a compris les Nabis avant beaucoup d’autres » : Vuillard, Bonnard, Vallotton… 500 trésors presque tous inédits aux enchères chez Christie’s à Paris",
+              "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/il-a-compris-les-nabis-avant-beaucoup-dautres-vuillard-bonnard-vallotton-500-tresors-presque-tous-inedits-aux-encheres-chez-christies-a-paris-11218894/",
+              "published": "Thu, 26 Nov 2026 15:30:23 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_hopkins_5-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            },
+            {
+              "title": "Cezanne, Zurbarán, Cassatt, Bruxelles 1900… Que valent vraiment les grandes expos du moment à Paris ?",
+              "link": "https://www.beauxarts.com/expos/gustave-fayet-mary-cassatt-warhol-tintoret-que-valent-les-grandes-expos-du-moment-a-paris/",
+              "published": "Thu, 26 Nov 2026 13:58:17 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/10/webvue-de-lexposition-cezanne-et-nous--luc-castel-pour-grandpalaisrmn-2026-5-e1795700821851.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "Dans une expo gratuite et éphémère à Paris, 5 street artistes en quête de renouveau",
+              "link": "https://www.beauxarts.com/expos/dans-une-expo-gratuite-et-ephemere-a-paris-5-street-artistes-en-quete-de-renouveau/",
+              "published": "Thu, 26 Nov 2026 12:00:37 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/une5.yseult-empress-noura-taroudant-maroc-yz-1300x975.jpg",
+              "source": "Beaux Arts"
+            }
+          ]
+        },
+        "auto": {
+          "label": "🚗 Auto",
+          "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Plus",
+            "Auto Moto"
+          ],
+          "items": [
+            {
+              "title": "Belgique : Une voiture fantôme abandonnée depuis plus d'un an sur le parking d'un centre commercial",
+              "link": "https://www.autoplus.fr/actualite/insolite/belgique-une-voiture-fantome-abandonnee-depuis-plus-dun-an-sur-le-parking-dun-centre-commercial-1478855.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Thu, 26 Nov 2026 15:45:53 +0000",
+              "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-26-a-las-16.16.03.png",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "Le permis B pourrait bientôt vous permettre de conduire des véhicules beaucoup plus lourds, voici lesquels",
+              "link": "https://www.autoplus.fr/camping-car/permis-b-pourrait-bientot-vous-permettre-conduire-vehicules-beaucoup-plus-lourds-voici-lesquels-1470070.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+              "published": "Thu, 26 Nov 2026 15:30:40 +0000",
+              "image": "https://sf2.autoplus.fr/wp-content/uploads/autoplus/2026/09/18-notin-envol-camping-car-1.jpg",
+              "source": "Auto Plus"
+            },
+            {
+              "title": "Ferrari : la demande de Vasseur à Leclerc et Hamilton pour le Grand Prix du Qatar, les pilotes ont intérêt à se gérer",
+              "link": "https://sports.auto-moto.com/f1/2023/grand-prix-du-qatar/ferrari-la-demande-de-vasseur-a-leclerc-et-hamilton-pour-le-grand-prix-du-qatar-les-pilotes-ont-interet-a-se-gerer-42682",
+              "published": "Thu, 26 Nov 2026 16:01:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/42682/393511/1200-L-ferrari-la-demande-de-vasseur-leclerc-et-hamilton-pour-le-grand-prix-du-qatar-les-pilotes-ont-intrt-se-grer.jpg",
+              "source": "Auto Moto"
+            }
+          ]
+        },
+        "culture": {
+          "label": "🎭 Culture",
+          "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture",
+            "France 24 Culture"
+          ],
+          "items": [
+            {
+              "title": "Gérard Depardieu renvoyé en procès pour une partie des viols dont l’accuse Charlotte Arnould",
+              "link": "https://www.lemonde.fr/societe/article/2026/11/26/gerard-depardieu-renvoye-en-proces-pour-une-partie-des-viols-dont-l-accuse-charlotte-arnould_6815543_3224.html",
+              "published": "Thu, 26 Nov 2026 15:13:51 +0100",
+              "image": "https://img.lemde.fr/2026/11/24/718/0/4441/2220/644/322/60/0/78c8f31_ftp-1-ckie4ub2cpgc-afp-d84z2we.jpg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Cédric Klapisch recevra un César d’honneur lors de la 52ᵉ cérémonie : « Il a donné à plusieurs générations de spectateurs le sentiment de faire partie d’une même bande »",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/26/cedric-klapisch-recevra-un-cesar-d-honneur-lors-de-la-52-ceremonie-il-a-donne-a-plusieurs-generations-de-spectateurs-le-sentiment-de-faire-partie-d-une-meme-bande_6815535_3246.html",
+              "published": "Thu, 26 Nov 2026 14:19:04 +0100",
+              "image": "https://img.lemde.fr/2026/11/26/101/0/2960/1480/644/322/60/0/4a1d46b_upload-1-csurtc0mmjc8-2025-05-23t101254z-366830838-up1el5n0sdgpp-rtrmadp-3-filmfestival-cannes.JPG",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Pourquoi les présidents américains gracient-ils des dindes pour Thanksgiving ?",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261126-pourquoi-pr%C3%A9sidents-am%C3%A9ricains-gracient-dindes-thanksgiving-%C3%A9tats-unis-tradition-animal-histoire-culture-prime",
+              "published": "Thu, 26 Nov 2026 09:26:12 GMT",
+              "image": "https://s.france24.com/media/display/6ec10ef2-e8c0-11f1-aa91-81da3ab2acbb/w:1024/p:16x9/Miniature-Dinde-Web.jpg",
+              "source": "France 24 Culture"
+            }
+          ]
+        },
+        "high-tech": {
+          "label": "💻 High-tech",
+          "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
+          "items": [
+            {
+              "title": "GTA 6 : toutes les astuces de gameplay que le jeu ne vous explique pas",
+              "link": "https://www.numerama.com/pop-culture/2385417-gta-6-toutes-les-astuces-de-gameplay-que-le-jeu-ne-vous-explique-pas.html",
+              "published": "Thu, 26 Nov 2026 15:48:24 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/gta-6-lucia-2.png?resize=1200,675&key=1b433954",
+              "source": "Numerama"
+            },
+            {
+              "title": "Le Porsche 718 Boxster passe à l’électrique, mais refuse de céder sur un point",
+              "link": "https://www.01net.com/actualites/le-porsche-718-boxster-passe-a-lelectrique-mais-refuse-de-ceder-sur-un-point.html",
+              "published": "Thu, 26 Nov 2026 15:41:21 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/341550_1920x1280-1344x756.jpg",
+              "source": "01net"
+            },
+            {
+              "title": "Le Ryzen 7 9800X3D est la superstar des CPU gaming et il s’écoule à -51% lors du Black Friday",
+              "link": "https://www.01net.com/bons-plans/amd-vide-tout-son-stock-au-black-friday-xx-a-saisir-rapidement-sur-le-ryzen-7-9800x3d.html",
+              "published": "Thu, 26 Nov 2026 15:40:04 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/10/Ryzen-7-9800X3D-1344x896.jpeg",
+              "source": "01net"
+            }
+          ]
+        },
+        "ia": {
+          "label": "🤖 IA",
+          "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
+          "items": [
+            {
+              "title": "FC 27 ressuscite un commentateur de foot décédé grâce à l’IA : sa voix est de retour",
+              "link": "https://www.numerama.com/pop-culture/2385441-fc-27-ressuscite-un-commentateur-de-foot-decede-grace-a-lia-sa-voix-est-de-retour.html",
+              "published": "Thu, 26 Nov 2026 15:23:47 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/07/3-3.jpg?resize=1200,675&key=a67b6656",
+              "source": "Numerama IA"
+            },
+            {
+              "title": "« On a fait une erreur de facturation » : OpenAI corrige le tir, et vos quotas GPT-6.2 vont fondre jusqu’à 40 % plus vite",
+              "link": "https://www.numerama.com/tech/2385489-on-a-fait-une-erreur-de-facturation-openai-corrige-le-tir-et-vos-quotas-gpt-6-2-vont-fondre-jusqua-40-plus-vite.html",
+              "published": "Thu, 26 Nov 2026 14:47:30 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/1-22.png?resize=1200,675&key=fbc965fd",
+              "source": "Numerama IA"
+            },
+            {
+              "title": "L'IA moins chère peut-elle appauvrir tout le monde ?",
+              "link": "https://www.actuia.com/actualite/si-lia-produit-moins-cher-comment-peut-elle-detruire-de-la-valeur/",
+              "published": "Thu, 26 Nov 2026 08:30:39 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11633-vvxswfl2-1200.jpg",
+              "source": "ActuIA"
+            }
+          ]
+        },
+        "monde": {
+          "label": "🌍 Monde",
+          "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "France 24 Monde",
+            "Le Monde International"
+          ],
+          "items": [
+            {
+              "title": "Madagascar : des militantes réclament la légalisation de l'avortement",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261126-madagascar-des-militantes-r%C3%A9clament-la-l%C3%A9galisation-de-l-avortement",
+              "published": "Thu, 26 Nov 2026 15:37:04 GMT",
+              "image": "https://s.france24.com/media/display/78d86aa4-e99f-11f1-899d-77d069279b82/w:1024/p:16x9/Couv-MADAGASCAR-Avortement.jpg",
+              "source": "France 24 Monde"
+            },
+            {
+              "title": "Propos antisémites : Bardella tente se dit victime de \"persécution\" par \"certains médias\"",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261126-propos-antis%C3%A9mites-bardella-tente-se-dit-victime-de-pers%C3%A9cution-par-certains-m%C3%A9dias",
+              "published": "Thu, 26 Nov 2026 15:25:11 GMT",
+              "image": "https://s.france24.com/media/display/929834f2-e9a8-11f1-ba31-77d069279b82/w:1024/p:16x9/FR-20261126-140432-141325-CS.jpg",
+              "source": "France 24 Monde"
+            },
+            {
+              "title": "Au Koweït, deux techniciens Italiens tués par des drones iraniens",
+              "link": "https://www.lemonde.fr/international/article/2026/11/26/deux-italiens-tues-par-des-drones-iraniens-au-koweit_6815554_3210.html",
+              "published": "Thu, 26 Nov 2026 16:18:43 +0100",
+              "image": "https://img.lemde.fr/2026/11/26/319/0/1160/580/644/322/60/0/d605b09_upload-1-zbkbv7c78tvn-capture-d-e-cran-2026-11-26-a-16-01-44.png",
+              "source": "Le Monde International"
+            }
+          ]
+        },
+        "nature": {
+          "label": "🌿 Nature",
+          "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
+          "items": [
+            {
+              "title": "Adobe MAX Tour : l'IA redonne du temps et du pouvoir aux créatifs",
+              "link": "https://www.futura-sciences.com/tech/actualites/tech-adobe-max-tour-ia-redonne-temps-pouvoir-creatifs-139652/#xtor%3DRSS-8",
+              "published": "Thu, 26 Nov 2026 16:30:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/c/4/8/c486d57deb_50263938_adobe-ia.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "DJI Osmo Action 6 : filmez vos aventures en 4K en profitant d'une triple remise pour le Black Friday",
+              "link": "https://www.futura-sciences.com/conso/bons-plans/guides-photos-videos-dji-osmo-action-6-filmez-vos-aventures-4k-profitant-triple-remise-black-friday-11963/#xtor%3DRSS-8",
+              "published": "Thu, 26 Nov 2026 16:00:00 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/c/2/8c2edfa478_50263951_dji-osmo-action-6.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Portail en PVC dans un village historique : quelles règles pour l’installer ?",
+              "link": "https://sciencepost.fr/portail-en-pvc-dans-un-village-historique-quelles-regles-pour-linstaller/",
+              "published": "Thu, 26 Nov 2026 11:00:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/portail-en-pvc-dans-un-village-historique-quelles-regles-pour-linstaller-featured-1795613842.jpg",
+              "source": "SciencePost"
+            }
+          ]
+        },
+        "sante": {
+          "label": "🏥 Santé",
+          "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
+          "items": [
+            {
+              "title": "Alimentation de bébé de 4 à 6 mois : comment débuter la diversification alimentaire ?",
+              "link": "https://www.santemagazine.fr/bebe/alimentation-du-bebe/alimentation-de-bebe-de-4-a-6-mois-bienvenue-dans-la-diversification-908666",
+              "published": "Thu, 26 Nov 2026 13:10:15 +0100",
+              "image": "https://i-sam.unimedias.fr/2022/02/09/istock-670900916.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Faire une sieste après le déjeuner, ça fait vraiment grossir ?",
+              "link": "https://www.santemagazine.fr/sante/bien-dormir/faire-une-sieste-apres-le-dejeuner-ca-fait-vraiment-grossir-1156019",
+              "published": "Thu, 26 Nov 2026 07:30:00 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/08/19/sieste-apres-manger-prise-de-poids.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "En Dordogne, l'arrivée des \"docteurs junior\" ravive la question de la pénurie de médecins",
+              "link": "https://www.sciencesetavenir.fr/sante/en-dordogne-l-arrivee-des-docteurs-junior-ravive-la-question-de-la-penurie-de-medecins_196352?xtor=RSS-16",
+              "published": "Wed, 25 Nov 2026 09:29:39 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/22/cover-r4x3w1200-6b02d188bd579-d2989370d86222b3e07160d3f5484599e11700cf-jpg.jpg",
+              "source": "Sciences et Avenir"
+            }
+          ]
+        },
+        "sport": {
+          "label": "⚽ Sport",
+          "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
+          "items": [
+            {
+              "title": "L’équipe de France de biathlon lance sa saison post-olympique avec un statut d’« ultraleader »",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/26/l-equipe-de-france-de-biathlon-lance-sa-saison-post-olympique-avec-un-statut-d-ultraleader_6815513_3242.html",
+              "published": "Thu, 26 Nov 2026 11:00:05 +0100",
+              "image": "https://img.lemde.fr/2026/11/24/0/0/7856/3928/644/322/60/0/da9ceb1_upload-1-qdxnc8v2acbz-000-a44a7wy.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Le PSG tenu en échec par l’AS Roma en Ligue des champions après une prestation poussive qui met en lumière l’absence de Doué et de « Kvara »",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/26/ligue-des-champions-le-psg-tenu-en-echec-par-l-as-roma-apres-une-prestation-poussive-qui-met-en-lumiere-l-absence-de-doue-et-de-kvara_6815333_3242.html",
+              "published": "Thu, 26 Nov 2026 03:07:58 +0100",
+              "image": "https://img.lemde.fr/2026/11/25/116/0/5648/2824/644/322/60/0/9d89d1e_ftp-1-somb1gyxsqy0-afp-d8mq43d.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
+            }
+          ]
+        }
+      }
+    },
     "2026-11-25": {
       "updated_at": "2026-11-25T16:20:02Z",
       "themes": {

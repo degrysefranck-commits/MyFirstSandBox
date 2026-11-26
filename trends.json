@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T16:20:03Z",
+  "updated_at": "2026-11-26T15:55:39Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -11,62 +11,74 @@
   "words": [
     {
       "word": "france",
-      "count": 12
-    },
-    {
-      "word": "présidentielle",
-      "count": 9
+      "count": 11
     },
     {
       "word": "ukraine",
       "count": 9
     },
     {
-      "word": "david",
+      "word": "bardella",
       "count": 8
+    },
+    {
+      "word": "antisémites",
+      "count": 7
+    },
+    {
+      "word": "présidentielle",
+      "count": 7
     },
     {
       "word": "guerre",
-      "count": 8
-    },
-    {
-      "word": "lisnard",
-      "count": 8
-    },
-    {
-      "word": "contre",
-      "count": 7
-    },
-    {
-      "word": "nouvelle",
-      "count": 7
-    },
-    {
-      "word": "monde",
       "count": 6
     },
     {
-      "word": "chine",
+      "word": "jordan",
+      "count": 6
+    },
+    {
+      "word": "propos",
+      "count": 6
+    },
+    {
+      "word": "arnould",
       "count": 5
     },
     {
-      "word": "droits",
+      "word": "charlotte",
       "count": 5
     },
     {
-      "word": "justice",
+      "word": "depardieu",
       "count": 5
     },
     {
-      "word": "violences",
+      "word": "gérard",
       "count": 5
     },
     {
-      "word": "budget",
+      "word": "prix",
+      "count": 5
+    },
+    {
+      "word": "procès",
+      "count": 5
+    },
+    {
+      "word": "renvoyé",
+      "count": 5
+    },
+    {
+      "word": "cos",
       "count": 4
     },
     {
-      "word": "douane",
+      "word": "david",
+      "count": 4
+    },
+    {
+      "word": "européen",
       "count": 4
     },
     {
@@ -74,23 +86,19 @@
       "count": 4
     },
     {
-      "word": "football",
-      "count": 4
-    },
-    {
-      "word": "gta",
-      "count": 4
-    },
-    {
       "word": "israël",
       "count": 4
     },
     {
-      "word": "maires",
+      "word": "lisnard",
       "count": 4
     },
     {
-      "word": "nations",
+      "word": "lycéens",
+      "count": 4
+    },
+    {
+      "word": "mort",
       "count": 4
     },
     {
@@ -98,35 +106,27 @@
       "count": 4
     },
     {
-      "word": "riner",
+      "word": "pablo",
       "count": 4
     },
     {
-      "word": "russes",
+      "word": "pays",
       "count": 4
     },
     {
-      "word": "teddy",
+      "word": "pierre",
       "count": 4
     },
     {
-      "word": "trump",
+      "word": "russie",
       "count": 4
     },
     {
-      "word": "affaire",
+      "word": "attribués",
       "count": 3
     },
     {
-      "word": "afrique",
-      "count": 3
-    },
-    {
-      "word": "alerte",
-      "count": 3
-    },
-    {
-      "word": "annonce",
+      "word": "bce",
       "count": 3
     }
   ]
