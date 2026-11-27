@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:55:37Z",
+  "updated_at": "2026-11-27T15:43:05Z",
   "themes": {
     "art": {
       "label": "🎨 Art",
@@ -10,25 +10,25 @@
       ],
       "items": [
         {
-          "title": "« Il a compris les Nabis avant beaucoup d’autres » : Vuillard, Bonnard, Vallotton… 500 trésors presque tous inédits aux enchères chez Christie’s à Paris",
-          "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/il-a-compris-les-nabis-avant-beaucoup-dautres-vuillard-bonnard-vallotton-500-tresors-presque-tous-inedits-aux-encheres-chez-christies-a-paris-11218894/",
-          "published": "Thu, 26 Nov 2026 15:30:23 +0000",
-          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_hopkins_5-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
+          "title": "Tweets sexistes, slogans machistes… Que trouve-t-on au musée du Patriarcat à Paris ?",
+          "link": "https://www.beauxarts.com/grand-format/tweets-sexistes-slogans-machistes-que-trouve-t-on-au-musee-du-patriarcat-a-paris/",
+          "published": "Fri, 27 Nov 2026 14:16:02 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/une24.10.26theoquestel-24-1300x975.jpg",
+          "source": "Beaux Arts"
+        },
+        {
+          "title": "La Provence du fauve Auguste Chabaud à acquérir sur Catawiki",
+          "link": "https://www.beauxarts.com/grand-format/la-provence-du-fauve-auguste-chabaud-a-acquerir-sur-catawiki/",
+          "published": "Fri, 27 Nov 2026 13:04:32 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/auguste-chabaud-1882-1955-mas-au-cypres-en-provence-27-11-2026-09-25-05-1300x905.jpeg",
+          "source": "Beaux Arts"
+        },
+        {
+          "title": "Adjugée 2,9 millions d’euros, la jatte téton de Marie-Antoinette devient la porcelaine de Sèvres la plus chère jamais vendue aux enchères",
+          "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/adjugee-29-millions-deuros-la-jatte-teton-de-marie-antoinette-devient-la-porcelaine-de-sevres-la-plus-chere-jamais-vendue-aux-encheres-11218993/",
+          "published": "Fri, 27 Nov 2026 12:00:55 +0000",
+          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_vente_encheres_bol_marie-antoinette_sevres_detail_3-tt-width-653-height-928-fill-0-crop-0-bgcolor-eeeeee.jpg",
           "source": "Connaissance des Arts"
-        },
-        {
-          "title": "Cezanne, Zurbarán, Cassatt, Bruxelles 1900… Que valent vraiment les grandes expos du moment à Paris ?",
-          "link": "https://www.beauxarts.com/expos/gustave-fayet-mary-cassatt-warhol-tintoret-que-valent-les-grandes-expos-du-moment-a-paris/",
-          "published": "Thu, 26 Nov 2026 13:58:17 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/10/webvue-de-lexposition-cezanne-et-nous--luc-castel-pour-grandpalaisrmn-2026-5-e1795700821851.jpg",
-          "source": "Beaux Arts"
-        },
-        {
-          "title": "Dans une expo gratuite et éphémère à Paris, 5 street artistes en quête de renouveau",
-          "link": "https://www.beauxarts.com/expos/dans-une-expo-gratuite-et-ephemere-a-paris-5-street-artistes-en-quete-de-renouveau/",
-          "published": "Thu, 26 Nov 2026 12:00:37 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/une5.yseult-empress-noura-taroudant-maroc-yz-1300x975.jpg",
-          "source": "Beaux Arts"
         }
       ]
     },
@@ -41,24 +41,24 @@
       ],
       "items": [
         {
-          "title": "Belgique : Une voiture fantôme abandonnée depuis plus d'un an sur le parking d'un centre commercial",
-          "link": "https://www.autoplus.fr/actualite/insolite/belgique-une-voiture-fantome-abandonnee-depuis-plus-dun-an-sur-le-parking-dun-centre-commercial-1478855.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-          "published": "Thu, 26 Nov 2026 15:45:53 +0000",
-          "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/11/captura-de-pantalla-2026-11-26-a-las-16.16.03.png",
+          "title": "Une Audi A6 e-tron parcourt 1 338 km sans recharge et bat un record du monde",
+          "link": "https://www.autoplus.fr/environnement/une-audi-a6-e-tron-parcourt-1338-km-sans-recharge-et-bat-record-du-monde-1468094.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+          "published": "Fri, 27 Nov 2026 15:30:04 +0000",
+          "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/09/miko-marczyk-sets-guinness-ev-range-record-in-the-audi-a6-sportback-e-tron.webp",
           "source": "Auto Plus"
         },
         {
-          "title": "Le permis B pourrait bientôt vous permettre de conduire des véhicules beaucoup plus lourds, voici lesquels",
-          "link": "https://www.autoplus.fr/camping-car/permis-b-pourrait-bientot-vous-permettre-conduire-vehicules-beaucoup-plus-lourds-voici-lesquels-1470070.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-          "published": "Thu, 26 Nov 2026 15:30:40 +0000",
-          "image": "https://sf2.autoplus.fr/wp-content/uploads/autoplus/2026/09/18-notin-envol-camping-car-1.jpg",
-          "source": "Auto Plus"
+          "title": "Grand Prix de Valence : Márquez domine les essais, les Français hors du Top 10",
+          "link": "https://sports.auto-moto.com/moto-gp/grand-prix-de-valence-marquez-domine-les-essais-les-francais-hors-du-top-10-42838",
+          "published": "Fri, 27 Nov 2026 16:08:00 +0100",
+          "image": "https://static.wui.fr/28/2026/11/photo_article/42838/393549/1200-L-grand-prix-de-valence-mrquez-domine-les-essais-les-franais-hors-du-top-10.jpg",
+          "source": "Auto Moto"
         },
         {
-          "title": "Ferrari : la demande de Vasseur à Leclerc et Hamilton pour le Grand Prix du Qatar, les pilotes ont intérêt à se gérer",
-          "link": "https://sports.auto-moto.com/f1/2023/grand-prix-du-qatar/ferrari-la-demande-de-vasseur-a-leclerc-et-hamilton-pour-le-grand-prix-du-qatar-les-pilotes-ont-interet-a-se-gerer-42682",
-          "published": "Thu, 26 Nov 2026 16:01:00 +0100",
-          "image": "https://static.wui.fr/28/2026/11/photo_article/42682/393511/1200-L-ferrari-la-demande-de-vasseur-leclerc-et-hamilton-pour-le-grand-prix-du-qatar-les-pilotes-ont-intrt-se-grer.jpg",
+          "title": "Paris révolutionne son stationnement, les voitures électriques dans le viseur",
+          "link": "https://www.auto-moto.com/en-bref/paris-stationnement-2027-87124",
+          "published": "Fri, 27 Nov 2026 16:07:00 +0100",
+          "image": "https://photos.auto-moto.com/32/2026/11/photo_article/87124/393550/1200-L-paris-rvolutionne-son-stationnement-les-voitures-lectriques-dans-le-viseur.jpg",
           "source": "Auto Moto"
         }
       ]
@@ -67,30 +67,29 @@
       "label": "🎭 Culture",
       "source": "https://www.lemonde.fr/culture/rss_full.xml",
       "sources": [
-        "Le Monde Culture",
-        "France 24 Culture"
+        "Le Monde Culture"
       ],
       "items": [
         {
-          "title": "Gérard Depardieu renvoyé en procès pour une partie des viols dont l’accuse Charlotte Arnould",
-          "link": "https://www.lemonde.fr/societe/article/2026/11/26/gerard-depardieu-renvoye-en-proces-pour-une-partie-des-viols-dont-l-accuse-charlotte-arnould_6815543_3224.html",
-          "published": "Thu, 26 Nov 2026 15:13:51 +0100",
-          "image": "https://img.lemde.fr/2026/11/24/718/0/4441/2220/644/322/60/0/78c8f31_ftp-1-ckie4ub2cpgc-afp-d84z2we.jpg",
+          "title": "Pause séries : « L’impératrice remariée » sur Disney+ ou la dot de la bande dessinée sud-coréenne à la télévision",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/27/pause-series-l-imperatrice-remariee-sur-disney-ou-la-dot-de-la-bande-dessinee-sud-coreenne-a-la-television_6815887_3246.html",
+          "published": "Fri, 27 Nov 2026 16:30:08 +0100",
+          "image": "https://img.lemde.fr/2026/11/25/528/0/4000/2000/644/322/60/0/9b9e250_upload-1-ebdhrmmnyxdv-09-jpg.jpg",
           "source": "Le Monde Culture"
         },
         {
-          "title": "Cédric Klapisch recevra un César d’honneur lors de la 52ᵉ cérémonie : « Il a donné à plusieurs générations de spectateurs le sentiment de faire partie d’une même bande »",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/26/cedric-klapisch-recevra-un-cesar-d-honneur-lors-de-la-52-ceremonie-il-a-donne-a-plusieurs-generations-de-spectateurs-le-sentiment-de-faire-partie-d-une-meme-bande_6815535_3246.html",
-          "published": "Thu, 26 Nov 2026 14:19:04 +0100",
-          "image": "https://img.lemde.fr/2026/11/26/101/0/2960/1480/644/322/60/0/4a1d46b_upload-1-csurtc0mmjc8-2025-05-23t101254z-366830838-up1el5n0sdgpp-rtrmadp-3-filmfestival-cannes.JPG",
+          "title": "« Le monde culturel attend la présidentielle, où il jouera son avenir à la roulette – se sauver ou mourir –, et il évite ainsi de se remettre en question »",
+          "link": "https://www.lemonde.fr/idees/article/2026/11/27/le-monde-culturel-attend-la-presidentielle-ou-il-jouera-son-avenir-a-la-roulette-se-sauver-ou-mourir-et-il-evite-ainsi-de-se-remettre-en-question_6815861_3232.html",
+          "published": "Fri, 27 Nov 2026 13:55:48 +0100",
+          "image": "https://img.lemde.fr/2026/03/04/1032/0/6192/3096/644/322/60/0/c427077_ftp-1-qfu0verbqfvb-5363911-01-06.jpg",
           "source": "Le Monde Culture"
         },
         {
-          "title": "Pourquoi les présidents américains gracient-ils des dindes pour Thanksgiving ?",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261126-pourquoi-pr%C3%A9sidents-am%C3%A9ricains-gracient-dindes-thanksgiving-%C3%A9tats-unis-tradition-animal-histoire-culture-prime",
-          "published": "Thu, 26 Nov 2026 09:26:12 GMT",
-          "image": "https://s.france24.com/media/display/6ec10ef2-e8c0-11f1-aa91-81da3ab2acbb/w:1024/p:16x9/Miniature-Dinde-Web.jpg",
-          "source": "France 24 Culture"
+          "title": "Jean-Claude Vannier, arrangeur indissociable de Serge Gainsbourg et père de l’album-concept « Histoire de Melody Nelson », est mort à l’âge de 83 ans",
+          "link": "https://www.lemonde.fr/disparitions/article/2026/11/27/jean-claude-vannier-arrangeur-indissociable-de-serge-gainsbourg-et-pere-de-l-album-concept-histoire-de-melody-nelson-est-mort-a-l-age-de-83-ans_6815859_3382.html",
+          "published": "Fri, 27 Nov 2026 13:45:02 +0100",
+          "image": "https://img.lemde.fr/2026/11/27/204/0/2500/1250/644/322/60/0/5011f8a_ftp-1-2tar74axvmyf-afp-d8tl6t3.jpg",
+          "source": "Le Monde Culture"
         }
       ]
     },
@@ -104,25 +103,25 @@
       ],
       "items": [
         {
-          "title": "GTA 6 : toutes les astuces de gameplay que le jeu ne vous explique pas",
-          "link": "https://www.numerama.com/pop-culture/2385417-gta-6-toutes-les-astuces-de-gameplay-que-le-jeu-ne-vous-explique-pas.html",
-          "published": "Thu, 26 Nov 2026 15:48:24 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/gta-6-lucia-2.png?resize=1200,675&key=1b433954",
+          "title": "Black Friday : Zendure casse les prix de ses kits solaires (jusqu’à -880€)",
+          "link": "https://www.01net.com/bons-plans/black-friday-zendure-casse-les-prix-de-ses-kits-solaires-jusqua-880e.html",
+          "published": "Fri, 27 Nov 2026 15:34:55 +0000",
+          "image": "https://www.01net.com/app/uploads/2026/11/black-friday-zendure-2026-1344x896.jpg",
+          "source": "01net"
+        },
+        {
+          "title": "Passer à l’IA en mode pro sans savoir coder : ce VPS Hostinger coûte moins de 5 € par mois",
+          "link": "https://www.01net.com/bons-plans/passer-a-lia-en-mode-pro-sans-savoir-coder-ce-vps-hostinger-coute-moins-de-5-e-par-mois.html",
+          "published": "Fri, 27 Nov 2026 15:33:09 +0000",
+          "image": "https://www.01net.com/app/uploads/2026/04/Hebergement-n8n-1344x896.jpg",
+          "source": "01net"
+        },
+        {
+          "title": "Un trou de la couche d’ozone record et pourtant la situation n’est pas si grave : comment est-ce possible ?",
+          "link": "https://www.numerama.com/sciences/2386087-un-trou-de-la-couche-dozone-record-et-pourtant-la-situation-nest-pas-si-grave-comment-est-ce-possible.html",
+          "published": "Fri, 27 Nov 2026 15:31:24 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2019/12/couche-dozone.jpg?resize=1200,675&key=6c480517",
           "source": "Numerama"
-        },
-        {
-          "title": "Le Porsche 718 Boxster passe à l’électrique, mais refuse de céder sur un point",
-          "link": "https://www.01net.com/actualites/le-porsche-718-boxster-passe-a-lelectrique-mais-refuse-de-ceder-sur-un-point.html",
-          "published": "Thu, 26 Nov 2026 15:41:21 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/11/341550_1920x1280-1344x756.jpg",
-          "source": "01net"
-        },
-        {
-          "title": "Le Ryzen 7 9800X3D est la superstar des CPU gaming et il s’écoule à -51% lors du Black Friday",
-          "link": "https://www.01net.com/bons-plans/amd-vide-tout-son-stock-au-black-friday-xx-a-saisir-rapidement-sur-le-ryzen-7-9800x3d.html",
-          "published": "Thu, 26 Nov 2026 15:40:04 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/10/Ryzen-7-9800X3D-1344x896.jpeg",
-          "source": "01net"
         }
       ]
     },
@@ -136,25 +135,25 @@
       ],
       "items": [
         {
-          "title": "FC 27 ressuscite un commentateur de foot décédé grâce à l’IA : sa voix est de retour",
-          "link": "https://www.numerama.com/pop-culture/2385441-fc-27-ressuscite-un-commentateur-de-foot-decede-grace-a-lia-sa-voix-est-de-retour.html",
-          "published": "Thu, 26 Nov 2026 15:23:47 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/07/3-3.jpg?resize=1200,675&key=a67b6656",
+          "title": "Einstein, mécanique quantique et trous noirs : ce physicien propose une nouvelle théorie et GPT-6 Astra y est pour quelque chose",
+          "link": "https://www.numerama.com/sciences/2385919-einstein-mecanique-quantique-et-trous-noirs-ce-physicien-propose-une-nouvelle-theorie-et-gpt-6-astra-y-est-pour-quelque-chose.html",
+          "published": "Fri, 27 Nov 2026 10:16:30 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/1-23.png?resize=1200,675&key=49bb5217",
           "source": "Numerama IA"
         },
         {
-          "title": "« On a fait une erreur de facturation » : OpenAI corrige le tir, et vos quotas GPT-6.2 vont fondre jusqu’à 40 % plus vite",
-          "link": "https://www.numerama.com/tech/2385489-on-a-fait-une-erreur-de-facturation-openai-corrige-le-tir-et-vos-quotas-gpt-6-2-vont-fondre-jusqua-40-plus-vite.html",
-          "published": "Thu, 26 Nov 2026 14:47:30 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/1-22.png?resize=1200,675&key=fbc965fd",
+          "title": "« Les mathématiques sont infinies » : face à la puissance de l’IA, le médaillé Fields Terence Tao a un plan, les maths 2.0",
+          "link": "https://www.numerama.com/tech/2385877-les-mathematiques-sont-infinies-face-a-la-puissance-de-lia-le-medaille-fields-terence-tao-a-un-plan-les-maths-2-0.html",
+          "published": "Fri, 27 Nov 2026 09:45:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/maths-20.jpg?resize=1200,675&key=a2eae290",
           "source": "Numerama IA"
         },
         {
-          "title": "L'IA moins chère peut-elle appauvrir tout le monde ?",
-          "link": "https://www.actuia.com/actualite/si-lia-produit-moins-cher-comment-peut-elle-detruire-de-la-valeur/",
-          "published": "Thu, 26 Nov 2026 08:30:39 +0000",
-          "image": "https://www.actuia.com/storage/uploads/generated/11633-vvxswfl2-1200.jpg",
-          "source": "ActuIA"
+          "title": "Vous demandez des conseils médicaux à ChatGPT ? Attention, l’IA risque de « vous mettre en danger »",
+          "link": "https://www.01net.com/actualites/vous-demandez-des-conseils-medicaux-a-chatgpt-attention-lia-risque-de-vous-mettre-en-danger.html",
+          "published": "Thu, 26 Nov 2026 17:16:26 +0000",
+          "image": "https://www.01net.com/app/uploads/2026/07/pharmacies-contrefacons-medicaments-1344x896.jpg",
+          "source": "01net IA"
         }
       ]
     },
@@ -162,29 +161,28 @@
       "label": "🌍 Monde",
       "source": "https://www.france24.com/fr/monde/rss",
       "sources": [
-        "France 24 Monde",
         "Le Monde International"
       ],
       "items": [
         {
-          "title": "Madagascar : des militantes réclament la légalisation de l'avortement",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261126-madagascar-des-militantes-r%C3%A9clament-la-l%C3%A9galisation-de-l-avortement",
-          "published": "Thu, 26 Nov 2026 15:37:04 GMT",
-          "image": "https://s.france24.com/media/display/78d86aa4-e99f-11f1-899d-77d069279b82/w:1024/p:16x9/Couv-MADAGASCAR-Avortement.jpg",
-          "source": "France 24 Monde"
+          "title": "Le suicide d’un Sri-Lankais en Eswatini jette une lumière crue sur la politique migratoire du Royaume-Uni",
+          "link": "https://www.lemonde.fr/afrique/article/2026/11/27/le-suicide-d-un-sri-lankais-en-eswatini-jette-une-lumiere-crue-sur-la-politique-migratoire-du-royaume-uni_6815886_3212.html",
+          "published": "Fri, 27 Nov 2026 16:30:09 +0100",
+          "image": "https://img.lemde.fr/2026/11/27/701/0/4200/2100/644/322/60/0/bcef7dc_upload-1-p3yr8fmihouj-afp-20230930-33x47yb-v2-highres-eswatinielectionpolitics.jpg",
+          "source": "Le Monde International"
         },
         {
-          "title": "Propos antisémites : Bardella tente se dit victime de \"persécution\" par \"certains médias\"",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20261126-propos-antis%C3%A9mites-bardella-tente-se-dit-victime-de-pers%C3%A9cution-par-certains-m%C3%A9dias",
-          "published": "Thu, 26 Nov 2026 15:25:11 GMT",
-          "image": "https://s.france24.com/media/display/929834f2-e9a8-11f1-ba31-77d069279b82/w:1024/p:16x9/FR-20261126-140432-141325-CS.jpg",
-          "source": "France 24 Monde"
+          "title": "En Serbie, un professeur de chimie, novice en politique, sera le candidat du mouvement des étudiants à l’élection présidentielle",
+          "link": "https://www.lemonde.fr/international/article/2026/11/27/en-serbie-le-mouvement-des-etudiants-choisit-l-universitaire-radomir-saicic-novice-en-politique-comme-candidat-a-l-election-presidentielle_6815883_3210.html",
+          "published": "Fri, 27 Nov 2026 16:13:16 +0100",
+          "image": "https://img.lemde.fr/2026/11/27/0/0/4553/2276/644/322/60/0/a790723_ftp-1-dzhxs85i6lav-afp-d8tn377.jpg",
+          "source": "Le Monde International"
         },
         {
-          "title": "Au Koweït, deux techniciens Italiens tués par des drones iraniens",
-          "link": "https://www.lemonde.fr/international/article/2026/11/26/deux-italiens-tues-par-des-drones-iraniens-au-koweit_6815554_3210.html",
-          "published": "Thu, 26 Nov 2026 16:18:43 +0100",
-          "image": "https://img.lemde.fr/2026/11/26/319/0/1160/580/644/322/60/0/d605b09_upload-1-zbkbv7c78tvn-capture-d-e-cran-2026-11-26-a-16-01-44.png",
+          "title": "Elections législatives en Espagne : les graphiques pour comprendre le dynamisme économique du pays et ses limites",
+          "link": "https://www.lemonde.fr/international/visuel/2026/11/27/elections-legislatives-en-espagne-les-graphiques-pour-comprendre-le-dynamisme-economique-du-pays-et-ses-limites_6815875_3210.html",
+          "published": "Fri, 27 Nov 2026 15:39:51 +0100",
+          "image": "https://img.lemde.fr/2026/11/26/375/0/1500/750/644/322/60/0/48d7440_upload-1-jdk4kagnyz7u-mediaappel-02.png",
           "source": "Le Monde International"
         }
       ]
@@ -198,24 +196,24 @@
       ],
       "items": [
         {
-          "title": "Adobe MAX Tour : l'IA redonne du temps et du pouvoir aux créatifs",
-          "link": "https://www.futura-sciences.com/tech/actualites/tech-adobe-max-tour-ia-redonne-temps-pouvoir-creatifs-139652/#xtor%3DRSS-8",
-          "published": "Thu, 26 Nov 2026 16:30:00 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/c/4/8/c486d57deb_50263938_adobe-ia.jpg",
+          "title": "Black friday Apple : iPhone 15 (128 Go) passe sous les 390 € chez Cdiscount !",
+          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-smartphones-black-friday-apple-iphone-15-128-go-passe-sous-390-chez-cdiscount-12003/#xtor%3DRSS-8",
+          "published": "Fri, 27 Nov 2026 16:15:05 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/d/8/1/d81d04be99_50264035_black-friday-iphone-15.jpg",
           "source": "Futura Sciences"
         },
         {
-          "title": "DJI Osmo Action 6 : filmez vos aventures en 4K en profitant d'une triple remise pour le Black Friday",
-          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-photos-videos-dji-osmo-action-6-filmez-vos-aventures-4k-profitant-triple-remise-black-friday-11963/#xtor%3DRSS-8",
-          "published": "Thu, 26 Nov 2026 16:00:00 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/c/2/8c2edfa478_50263951_dji-osmo-action-6.jpg",
+          "title": "En 1939, ils découvrent un navire funéraire qui réécrit l'histoire de l'Angleterre : près de 90 ans plus tard, un mystérieux « corps de sable » refait surface",
+          "link": "https://www.futura-sciences.com/sciences/actualites/histoire-1939-ils-decouvrent-navire-funeraire-reecrit-histoire-angleterre-pres-90-ans-plus-tard-mysterieux-corps-sable-refait-surface-139628/#xtor%3DRSS-8",
+          "published": "Fri, 27 Nov 2026 16:13:11 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/6/c/86cc079046_50263901_corps-sable.jpg",
           "source": "Futura Sciences"
         },
         {
-          "title": "Portail en PVC dans un village historique : quelles règles pour l’installer ?",
-          "link": "https://sciencepost.fr/portail-en-pvc-dans-un-village-historique-quelles-regles-pour-linstaller/",
-          "published": "Thu, 26 Nov 2026 11:00:00 +0000",
-          "image": "https://sciencepost.fr/wp-content/uploads/2026/11/portail-en-pvc-dans-un-village-historique-quelles-regles-pour-linstaller-featured-1795613842.jpg",
+          "title": "Long d’un mètre et presque jamais vu, le ver géant du Gippsland se trahit par un gargouillement que les fermiers australiens sont invités à signaler",
+          "link": "https://sciencepost.fr/long-d-un-metre-et-presque-jamais-vu-le-ver-geant-du-gippsland-se-trahit-par-un-gargouillement-que-les-fermiers-australiens-sont-invites-a-signaler/",
+          "published": "Fri, 27 Nov 2026 12:30:00 +0000",
+          "image": "https://sciencepost.fr/wp-content/uploads/2026/10/laustralie-a-un-ver-de-terre-qui-peut-atteindre-3-metres-ce-qui-fait-gargouiller-le-sol-quand-il-fui-1791449080.jpg",
           "source": "SciencePost"
         }
       ]
@@ -229,25 +227,25 @@
       ],
       "items": [
         {
-          "title": "Alimentation de bébé de 4 à 6 mois : comment débuter la diversification alimentaire ?",
-          "link": "https://www.santemagazine.fr/bebe/alimentation-du-bebe/alimentation-de-bebe-de-4-a-6-mois-bienvenue-dans-la-diversification-908666",
-          "published": "Thu, 26 Nov 2026 13:10:15 +0100",
-          "image": "https://i-sam.unimedias.fr/2022/02/09/istock-670900916.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+          "title": "Suicide et automutilations : les hospitalisations continuent d’augmenter, en particulier chez les jeunes femmes",
+          "link": "https://www.santemagazine.fr/actualites/actualites-sante/suicide-et-automutilations-les-jeunes-femmes-en-premiere-ligne-face-a-une-hausse-continue-des-hospitalisations-1162193",
+          "published": "Fri, 27 Nov 2026 15:57:00 +0100",
+          "image": "https://i-sam.unimedias.fr/2026/11/27/mentalhealth.jpeg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
           "source": "Santé Magazine"
         },
         {
-          "title": "Faire une sieste après le déjeuner, ça fait vraiment grossir ?",
-          "link": "https://www.santemagazine.fr/sante/bien-dormir/faire-une-sieste-apres-le-dejeuner-ca-fait-vraiment-grossir-1156019",
-          "published": "Thu, 26 Nov 2026 07:30:00 +0100",
-          "image": "https://i-sam.unimedias.fr/2026/08/19/sieste-apres-manger-prise-de-poids.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
-          "source": "Santé Magazine"
-        },
-        {
-          "title": "En Dordogne, l'arrivée des \"docteurs junior\" ravive la question de la pénurie de médecins",
-          "link": "https://www.sciencesetavenir.fr/sante/en-dordogne-l-arrivee-des-docteurs-junior-ravive-la-question-de-la-penurie-de-medecins_196352?xtor=RSS-16",
-          "published": "Wed, 25 Nov 2026 09:29:39 +0000",
-          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/22/cover-r4x3w1200-6b02d188bd579-d2989370d86222b3e07160d3f5484599e11700cf-jpg.jpg",
+          "title": "Cancer : le tournant des nouveaux traitements",
+          "link": "https://www.sciencesetavenir.fr/sante/cancer-les-lignes-bougent_196538?xtor=RSS-16",
+          "published": "Fri, 27 Nov 2026 12:20:27 +0000",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/27/cover-r4x3w1200-6b09758a9b49b-shutterstock-490263979.jpg",
           "source": "Sciences et Avenir"
+        },
+        {
+          "title": "Que manger et boire quand on a un rhume ?",
+          "link": "https://www.santemagazine.fr/alimentation/aliments-et-sante/les-aliments-a-privilegier-ou-a-eviter-en-cas-de-rhume-334220",
+          "published": "Fri, 27 Nov 2026 12:15:00 +0100",
+          "image": "https://i-sam.unimedias.fr/2026/11/27/aliment-rhume.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+          "source": "Santé Magazine"
         }
       ]
     },
@@ -260,17 +258,17 @@
       ],
       "items": [
         {
-          "title": "L’équipe de France de biathlon lance sa saison post-olympique avec un statut d’« ultraleader »",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/26/l-equipe-de-france-de-biathlon-lance-sa-saison-post-olympique-avec-un-statut-d-ultraleader_6815513_3242.html",
-          "published": "Thu, 26 Nov 2026 11:00:05 +0100",
-          "image": "https://img.lemde.fr/2026/11/24/0/0/7856/3928/644/322/60/0/da9ceb1_upload-1-qdxnc8v2acbz-000-a44a7wy.jpg",
+          "title": "Vicki Becho, l’ancienne espoir devenue l’une des principales forces offensives de l’équipe de France de football",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/27/vicki-becho-l-ancienne-espoir-devenue-l-une-des-principales-forces-offensives-de-l-equipe-de-france-de-football_6815888_3242.html",
+          "published": "Fri, 27 Nov 2026 16:30:15 +0100",
+          "image": "https://img.lemde.fr/2026/11/26/469/0/5628/2814/644/322/60/0/f125009_upload-1-waap8ldybsvh-afp-20260605-matusewicz-polandvf260605-nptdi-v1-highres-polandvfrancefifawomens.jpg",
           "source": "Le Monde Sport"
         },
         {
-          "title": "Le PSG tenu en échec par l’AS Roma en Ligue des champions après une prestation poussive qui met en lumière l’absence de Doué et de « Kvara »",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/26/ligue-des-champions-le-psg-tenu-en-echec-par-l-as-roma-apres-une-prestation-poussive-qui-met-en-lumiere-l-absence-de-doue-et-de-kvara_6815333_3242.html",
-          "published": "Thu, 26 Nov 2026 03:07:58 +0100",
-          "image": "https://img.lemde.fr/2026/11/25/116/0/5648/2824/644/322/60/0/9d89d1e_ftp-1-somb1gyxsqy0-afp-d8mq43d.jpg",
+          "title": "Marc Marquez annonce sa retraite, une semaine après son huitième sacre en MotoGP",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/27/marc-marquez-annonce-sa-retraite-une-semaine-apres-son-huitieme-sacre-en-motogp_6815878_3242.html",
+          "published": "Fri, 27 Nov 2026 15:46:32 +0100",
+          "image": "https://img.lemde.fr/2026/11/27/174/0/5312/2656/644/322/60/0/eaddceb_ftp-1-7rsmxw2c3ra0-afp-d8tn36m.jpg",
           "source": "Le Monde Sport"
         },
         {

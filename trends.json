@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:55:39Z",
+  "updated_at": "2026-11-27T15:43:06Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,83 +10,79 @@
   ],
   "words": [
     {
-      "word": "france",
-      "count": 11
-    },
-    {
-      "word": "ukraine",
+      "word": "présidentielle",
       "count": 9
     },
     {
-      "word": "bardella",
-      "count": 8
-    },
-    {
-      "word": "antisémites",
+      "word": "budget",
       "count": 7
     },
     {
-      "word": "présidentielle",
+      "word": "france",
       "count": 7
     },
     {
-      "word": "guerre",
+      "word": "marine",
+      "count": 7
+    },
+    {
+      "word": "pen",
+      "count": 7
+    },
+    {
+      "word": "jean",
       "count": 6
     },
     {
-      "word": "jordan",
+      "word": "monde",
       "count": 6
     },
     {
-      "word": "propos",
+      "word": "père",
       "count": 6
     },
     {
-      "word": "arnould",
+      "word": "beau",
       "count": 5
     },
     {
-      "word": "charlotte",
+      "word": "contre",
       "count": 5
-    },
-    {
-      "word": "depardieu",
-      "count": 5
-    },
-    {
-      "word": "gérard",
-      "count": 5
-    },
-    {
-      "word": "prix",
-      "count": 5
-    },
-    {
-      "word": "procès",
-      "count": 5
-    },
-    {
-      "word": "renvoyé",
-      "count": 5
-    },
-    {
-      "word": "cos",
-      "count": 4
     },
     {
       "word": "david",
+      "count": 5
+    },
+    {
+      "word": "figaro",
+      "count": 5
+    },
+    {
+      "word": "levski",
+      "count": 5
+    },
+    {
+      "word": "affaire",
       "count": 4
     },
     {
-      "word": "européen",
+      "word": "bardella",
       "count": 4
     },
     {
-      "word": "film",
+      "word": "black",
       "count": 4
     },
     {
-      "word": "israël",
+      "word": "cnews",
+      "count": 4
+    },
+    {
+      "word": "espagne",
+      "count": 4
+    },
+    {
+      "word": "friday",
       "count": 4
     },
     {
@@ -94,39 +90,43 @@
       "count": 4
     },
     {
-      "word": "lycéens",
+      "word": "marseille",
       "count": 4
     },
     {
-      "word": "mort",
+      "word": "procès",
       "count": 4
     },
     {
-      "word": "nouveaux",
+      "word": "quand",
       "count": 4
     },
     {
-      "word": "pablo",
+      "word": "sofia",
       "count": 4
     },
     {
-      "word": "pays",
+      "word": "sud",
       "count": 4
     },
     {
-      "word": "pierre",
+      "word": "série",
       "count": 4
     },
     {
-      "word": "russie",
-      "count": 4
-    },
-    {
-      "word": "attribués",
+      "word": "afrique",
       "count": 3
     },
     {
-      "word": "bce",
+      "word": "annonce",
+      "count": 3
+    },
+    {
+      "word": "année",
+      "count": 3
+    },
+    {
+      "word": "armée",
       "count": 3
     }
   ]
