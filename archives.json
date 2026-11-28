@@ -1,5 +1,290 @@
 {
   "days": {
+    "2026-11-28": {
+      "updated_at": "2026-11-28T14:39:22Z",
+      "themes": {
+        "art": {
+          "label": "🎨 Art",
+          "source": "https://www.beauxarts.com/feed/",
+          "sources": [
+            "Beaux Arts",
+            "Connaissance des Arts"
+          ],
+          "items": [
+            {
+              "title": "Pour les 40 ans d’Orsay, agnès b. signe une collection inspirée de deux emblèmes du musée",
+              "link": "https://www.beauxarts.com/lifestyle/pour-les-40-ans-dorsay-agnes-b-signe-une-collection-inspiree-de-deux-emblemes-du-musee/",
+              "published": "Sat, 28 Nov 2026 12:00:32 +0000",
+              "image": "https://media.beauxarts.com/uploads/2026/11/uneno-title-1-1300x975.jpg",
+              "source": "Beaux Arts"
+            },
+            {
+              "title": "À Marseille, l’exposition de Louisa Babari sonde le pouvoir des mots, de Jacques Vergès aux poésies arabes",
+              "link": "https://www.connaissancedesarts.com/arts-expositions/marseille/a-marseille-lexposition-de-louisa-babari-sonde-le-pouvoir-des-mots-de-jacques-verges-aux-poesies-arabes-11218848/",
+              "published": "Sat, 28 Nov 2026 12:00:00 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdadec26_babari_3-tt-width-653-height-946-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            },
+            {
+              "title": "Exposition à Paris : le Japon s’invite au cœur des collections du musée des Arts décoratifs, entre Renaissance et design",
+              "link": "https://www.connaissancedesarts.com/metiers_art/savoir-faire/exposition-a-paris-le-japon-sinvite-au-coeur-des-collections-du-musee-des-arts-decoratifs-entre-renaissance-et-design-11219005/",
+              "published": "Sat, 28 Nov 2026 09:00:28 +0000",
+              "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_expo_paris_mad_kyoto_paris_kyoto_nina_fradet_portrait-tt-width-653-height-817-fill-0-crop-0-bgcolor-eeeeee.jpg",
+              "source": "Connaissance des Arts"
+            }
+          ]
+        },
+        "auto": {
+          "label": "🚗 Auto",
+          "source": "https://www.autoplus.fr/rss",
+          "sources": [
+            "Auto Moto"
+          ],
+          "items": [
+            {
+              "title": "Formule 1 : un troisième manufacturier entre dans la course face à Pirelli",
+              "link": "https://sports.auto-moto.com/f1/actualite/formule-1-un-troisieme-manufacturier-entre-dans-la-course-face-a-pirelli-42925",
+              "published": "Sat, 28 Nov 2026 14:05:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/42925/393570/1200-L-formule-1-un-troisime-manufacturier-entre-dans-la-course-face-pirelli.jpg",
+              "source": "Auto Moto"
+            },
+            {
+              "title": "MotoGP : un départ majeur pour KTM après huit années de collaboration",
+              "link": "https://sports.auto-moto.com/moto-gp/motogp-un-depart-majeur-pour-ktm-apres-huit-annees-de-collaboration-42913",
+              "published": "Sat, 28 Nov 2026 13:00:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/42913/393567/1200-L-motogp-un-dpart-majeur-pour-ktm-aprs-huit-annes-de-collaboration.jpg",
+              "source": "Auto Moto"
+            },
+            {
+              "title": "Grand Prix de Valence : « Je vais demander la VAR », Márquez ironise sur le chrono de Bezzecchi",
+              "link": "https://sports.auto-moto.com/moto-gp/grand-prix-de-valence-je-vais-demander-la-var-marquez-ironise-sur-le-chrono-de-bezzecchi-42919",
+              "published": "Sat, 28 Nov 2026 12:30:00 +0100",
+              "image": "https://static.wui.fr/28/2026/11/photo_article/42919/393569/1200-L-grand-prix-de-valence-je-vais-demander-la-var-mrquez-ironise-sur-le-chrono-de-bezzecchi.jpg",
+              "source": "Auto Moto"
+            }
+          ]
+        },
+        "culture": {
+          "label": "🎭 Culture",
+          "source": "https://www.lemonde.fr/culture/rss_full.xml",
+          "sources": [
+            "Le Monde Culture",
+            "France 24 Culture"
+          ],
+          "items": [
+            {
+              "title": "James Gray, réalisateur de « Paper Tiger » : « La dimension sensorielle du cinéma est primordiale, c’est ce qui résiste le mieux au temps »",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/28/james-gray-realisateur-de-paper-tiger-la-dimension-sensorielle-du-cinema-est-primordiale-c-est-ce-qui-resiste-le-mieux-au-temps_6816108_3246.html",
+              "published": "Sat, 28 Nov 2026 14:00:18 +0100",
+              "image": "https://img.lemde.fr/2026/11/06/0/0/3194/1597/644/322/60/0/a2ad5a0_ftp-1-mekejcfbqrjy-7ecebcc1d3fd428a8e9c402fb6e90b70-0-0b40fb16d5ae43539a99632ea83d2857.jpg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Pour Alba Rohrwacher, actrice dans « Un bon petit soldat », « le jeu doit être un prolongement de la vie pour arriver au cœur de l’humain »",
+              "link": "https://www.lemonde.fr/culture/article/2026/11/28/pour-alba-rohrwacher-actrice-dans-un-bon-petit-soldat-le-jeu-doit-etre-un-prolongement-de-la-vie-pour-arriver-au-c-ur-de-l-humain_6816098_3246.html",
+              "published": "Sat, 28 Nov 2026 12:00:11 +0100",
+              "image": "https://img.lemde.fr/2026/11/20/300/0/5504/2752/644/322/60/0/f2b0407_upload-1-cmbfn7ihwfbt-000-c7u62p3.jpg",
+              "source": "Le Monde Culture"
+            },
+            {
+              "title": "Charlotte Dipanda, reine africaine",
+              "link": "https://www.france24.com/fr/%C3%A9missions/l%C3%A9gendes-urbaines/20261127-charlotte-dipanda-reine-africaine",
+              "published": "Fri, 27 Nov 2026 18:00:46 GMT",
+              "image": "https://s.france24.com/media/display/a1a81bca-ea51-11f1-8ee0-77d069279b82/w:1024/p:16x9/CHARLOTTE-DIPANDA-MINIATURE-YOUTUBE.jpg",
+              "source": "France 24 Culture"
+            }
+          ]
+        },
+        "high-tech": {
+          "label": "💻 High-tech",
+          "source": "https://www.numerama.com/feed/",
+          "sources": [
+            "Numerama",
+            "01net",
+            "Presse Citron"
+          ],
+          "items": [
+            {
+              "title": "Dernier appel : la Honor Pad 10 se vend par palettes à -49%, une aubaine ⚡️",
+              "link": "https://www.01net.com/bons-plans/dernier-appel-la-honor-pad-10-se-vend-par-palettes-a-49-une-aubaine.html",
+              "published": "Sat, 28 Nov 2026 14:21:48 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/Honor-Pad-10-1344x896.jpg",
+              "source": "01net"
+            },
+            {
+              "title": "Netflix : les meilleures séries comiques de la plateforme pour vous redonner le sourire",
+              "link": "https://www.numerama.com/pop-culture/2383695-netflix-les-meilleures-series-comiques-de-la-plateforme-pour-vous-redonner-le-sourire.html",
+              "published": "Sat, 28 Nov 2026 14:20:00 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/capture-decran-2026-11-24-a-173603.png?resize=1200,675&key=1f1a5c01",
+              "source": "Numerama"
+            },
+            {
+              "title": "Honor Magic 8 Pro : bradé à -44%, le Honor Magic 8 Pro se vend par camions (ce samedi seulement) 🚛",
+              "link": "https://www.01net.com/bons-plans/honor-magic-8-pro-avec-44-ce-honor-magic-8-pro-va-partir-aussi-vite-quil-est-arrive.html",
+              "published": "Sat, 28 Nov 2026 13:06:05 +0000",
+              "image": "https://www.01net.com/app/uploads/2026/11/honor-magic-8-pro-cyan-1344x896.jpg",
+              "source": "01net"
+            }
+          ]
+        },
+        "ia": {
+          "label": "🤖 IA",
+          "source": "https://www.actuia.com/feed/",
+          "sources": [
+            "ActuIA",
+            "Numerama IA",
+            "01net IA"
+          ],
+          "items": [
+            {
+              "title": "SAP préparerait au moins 10 000 suppressions de postes en priorité dans le développement et la vente",
+              "link": "https://www.actuia.com/actualite/sap-preparerait-au-moins-10-000-suppressions-de-postes-en-priorite-dans-le-developpement-et-la-vente/",
+              "published": "Sat, 28 Nov 2026 10:56:54 +0000",
+              "image": "https://www.actuia.com/storage/uploads/generated/11643-4czxro3n-1200.jpg",
+              "source": "ActuIA"
+            },
+            {
+              "title": "« La singularité a déjà commencé » : l’IA écrit des preuves plus vite que les mathématiciens ne peuvent les lire, et selon le cofondateur d’Anthropic ce n’est que le début",
+              "link": "https://www.numerama.com/tech/2387031-la-singularite-a-deja-commence-lia-ecrit-des-preuves-plus-vite-que-les-mathematiciens-ne-peuvent-les-lire-et-selon-le-cofondateur-danthropic-ce-nest-que-le-debut.html",
+              "published": "Sat, 28 Nov 2026 08:53:03 +0000",
+              "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/preuve-math-2.jpg?resize=1200,675&key=d06782f0",
+              "source": "Numerama IA"
+            },
+            {
+              "title": "Anthropic a trouvé le moyen de piéger un Claude désobéissant",
+              "link": "https://www.01net.com/actualites/anthropic-a-trouve-le-moyen-de-pieger-un-claude-desobeissant.html",
+              "published": "Fri, 27 Nov 2026 16:00:19 +0000",
+              "image": "https://www.01net.com/app/uploads/2025/08/Claude-IA-Anthropic-1344x896.jpg",
+              "source": "01net IA"
+            }
+          ]
+        },
+        "monde": {
+          "label": "🌍 Monde",
+          "source": "https://www.france24.com/fr/monde/rss",
+          "sources": [
+            "France 24 Monde",
+            "Le Monde International"
+          ],
+          "items": [
+            {
+              "title": "Mexique : premiers résultats positifs pour la politique sécuritaire de la présidente Claudia Sheinbaum",
+              "link": "https://www.lemonde.fr/international/article/2026/11/28/mexique-premiers-resultats-positifs-pour-la-politique-securitaire-de-la-presidente-claudia-sheinbaum_6816113_3210.html",
+              "published": "Sat, 28 Nov 2026 15:12:34 +0100",
+              "image": "https://img.lemde.fr/2026/11/22/563/0/5327/2663/644/322/60/0/56a7f94_ftp-1-8rguqpjfbjt1-2026-11-22t023856z-1842618416-rc27rba873u7-rtrmadp-3-mexico-chapoisidro.JPG",
+              "source": "Le Monde International"
+            },
+            {
+              "title": "Ukraine : Melania Trump coordonne le retour de neuf enfants",
+              "link": "https://www.france24.com/fr/vid%C3%A9o/20261128-ukraine-melania-trump-coordonne-le-retour-de-neuf-enfants",
+              "published": "Sat, 28 Nov 2026 14:04:09 GMT",
+              "image": "https://s.france24.com/media/display/3a18377a-eb18-11f1-9519-81bc2b1dcd65/w:1024/p:16x9/FR-20261128-110354-110548-CS.jpg",
+              "source": "France 24 Monde"
+            },
+            {
+              "title": "Projet pétrolier au large des îles Malouines : le tribunal international du droit de la mer rejette la demande de blocage de l’Argentine",
+              "link": "https://www.lemonde.fr/international/article/2026/11/28/projet-petrolier-au-large-des-iles-malouines-le-tribunal-international-du-droit-de-la-mer-rejette-la-demande-de-blocage-de-l-argentine_6816110_3210.html",
+              "published": "Sat, 28 Nov 2026 14:21:59 +0100",
+              "image": "https://img.lemde.fr/2026/11/28/85/0/1024/512/644/322/60/0/b1efb43_upload-1-au4g6jpgtkes-afp-20261110-2304013094-v1-midres-internationaltribunalhearsargentinasrequestto.jpg",
+              "source": "Le Monde International"
+            }
+          ]
+        },
+        "nature": {
+          "label": "🌿 Nature",
+          "source": "https://www.futura-sciences.com/rss/actualites.xml",
+          "sources": [
+            "Futura Sciences",
+            "SciencePost"
+          ],
+          "items": [
+            {
+              "title": "Prisons au Brésil : chaque livre lu retire 4 jours de peine, si un rapport de lecture est validé par la justice",
+              "link": "https://sciencepost.fr/prisons-au-bresil-chaque-livre-lu-retire-4-jours-de-peine-si-un-rapport-de-lecture-est-valide-par-la-justice/",
+              "published": "Sat, 28 Nov 2026 14:30:00 +0000",
+              "image": "https://sciencepost.fr/wp-content/uploads/2026/11/prisons-au-bresil-chaque-livre-lu-ote-4-jours-de-peine-aux-detenus-a-une-condition-featured-1794571655.png",
+              "source": "SciencePost"
+            },
+            {
+              "title": "D’étranges cheveux glacés découverts dans les bois ces jours-ci : ce n’est pas ce que vous croyez !",
+              "link": "https://www.futura-sciences.com/planete/actualites/meteorologie-etranges-cheveux-glaces-decouverts-bois-ces-jours-ci-ce-nest-pas-ce-vous-croyez-139711/#xtor%3DRSS-8",
+              "published": "Sat, 28 Nov 2026 15:08:39 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/largeoriginal/0/7/3/0731c62839_50225957_cheveux-glace.jpg",
+              "source": "Futura Sciences"
+            },
+            {
+              "title": "Nous parlons des langues différentes, mais elles partagent un ancêtre commun : l’ADN ancien éclaire cette histoire vieille de 5 000 ans",
+              "link": "https://www.futura-sciences.com/sciences/actualites/langage-nous-parlons-langues-differentes-mais-elles-partagent-ancetre-commun-adn-ancien-eclaire-cette-histoire-vieille-5-000-ans-139638/#xtor%3DRSS-8",
+              "published": "Sat, 28 Nov 2026 14:03:21 +0100",
+              "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/d/3/7/d37332ff83_50263921_pierres-ale-suede.jpg",
+              "source": "Futura Sciences"
+            }
+          ]
+        },
+        "sante": {
+          "label": "🏥 Santé",
+          "source": "https://www.sciencesetavenir.fr/sante/rss.xml",
+          "sources": [
+            "Sciences et Avenir",
+            "Santé Magazine"
+          ],
+          "items": [
+            {
+              "title": "Avec le recul de la vaccination, des maladies oubliées font un inquiétant retour",
+              "link": "https://www.sciencesetavenir.fr/sante/vaccination-l-inquietant-retour-des-maladies-oubliees_196281?xtor=RSS-16",
+              "published": "Sat, 28 Nov 2026 09:00:00 +0000",
+              "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/19/cover-r4x3w1200-6aff08195f2ca-ar-1790897-tf-70236071-1-notext-jpg.jpg",
+              "source": "Sciences et Avenir"
+            },
+            {
+              "title": "Pourquoi a-t-on envie de dormir après avoir mangé ?",
+              "link": "https://www.santemagazine.fr/sante/dossiers/physiologie/pourquoi-a-t-on-envie-de-dormir-apres-avoir-mange-1156046",
+              "published": "Sat, 28 Nov 2026 07:30:00 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/08/20/envie-de-dormir-apres-manger.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            },
+            {
+              "title": "Suicide et automutilations : les hospitalisations continuent d’augmenter, en particulier chez les jeunes femmes",
+              "link": "https://www.santemagazine.fr/actualites/actualites-sante/suicide-et-automutilations-les-jeunes-femmes-en-premiere-ligne-face-a-une-hausse-continue-des-hospitalisations-1162193",
+              "published": "Fri, 27 Nov 2026 15:57:00 +0100",
+              "image": "https://i-sam.unimedias.fr/2026/11/27/mentalhealth.jpeg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+              "source": "Santé Magazine"
+            }
+          ]
+        },
+        "sport": {
+          "label": "⚽ Sport",
+          "source": "https://www.lemonde.fr/sport/rss_full.xml",
+          "sources": [
+            "Le Monde Sport",
+            "France 24 Sport"
+          ],
+          "items": [
+            {
+              "title": "« Je veux voir grandir ma fille et gagner des courses cet hiver » : le biathlète Quentin Fillon Maillet, Français le plus médaillé aux JO et jeune papa, rêve des Jeux de 2030",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/28/je-veux-voir-grandir-ma-fille-et-gagner-des-courses-cet-hiver-le-biathlete-quentin-fillon-maillet-francais-le-plus-medaille-aux-jo-et-jeune-papa-reve-des-jeux-de-2030_6816087_3242.html",
+              "published": "Sat, 28 Nov 2026 09:18:10 +0100",
+              "image": "https://img.lemde.fr/2026/02/10/293/0/3524/1762/644/322/60/0/6a20dea_ftp-1-xejthmdxywwo-5125897-01-06.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Vicki Becho, l’ancienne espoir devenue l’une des principales forces offensives de l’équipe de France de football",
+              "link": "https://www.lemonde.fr/sport/article/2026/11/27/vicki-becho-l-ancienne-espoir-devenue-l-une-des-principales-forces-offensives-de-l-equipe-de-france-de-football_6815888_3242.html",
+              "published": "Fri, 27 Nov 2026 16:30:15 +0100",
+              "image": "https://img.lemde.fr/2026/11/26/469/0/5628/2814/644/322/60/0/f125009_upload-1-waap8ldybsvh-afp-20260605-matusewicz-polandvf260605-nptdi-v1-highres-polandvfrancefifawomens.jpg",
+              "source": "Le Monde Sport"
+            },
+            {
+              "title": "Première ligue féminine : tombeur du PSG, l'Olympique lyonnais sacré pour la 18e fois",
+              "link": "https://www.france24.com/fr/info-en-continu/20250516-premi%C3%A8re-ligue-f%C3%A9minine-vainqueur-du-psg-lyon-sacr%C3%A9-pour-la-18e-fois",
+              "published": "Fri, 16 May 2025 21:21:14 GMT",
+              "image": "https://s.france24.com/media/display/b1c71520-329b-11f0-9d00-005056a97e36/w:1024/p:16x9/9a7a369e319c11937c3612417f992c5273b80291.jpg",
+              "source": "France 24 Sport"
+            }
+          ]
+        }
+      }
+    },
     "2026-11-27": {
       "updated_at": "2026-11-27T15:43:05Z",
       "themes": {

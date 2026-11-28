@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:43:05Z",
+  "updated_at": "2026-11-28T14:39:22Z",
   "themes": {
     "art": {
       "label": "🎨 Art",
@@ -10,24 +10,24 @@
       ],
       "items": [
         {
-          "title": "Tweets sexistes, slogans machistes… Que trouve-t-on au musée du Patriarcat à Paris ?",
-          "link": "https://www.beauxarts.com/grand-format/tweets-sexistes-slogans-machistes-que-trouve-t-on-au-musee-du-patriarcat-a-paris/",
-          "published": "Fri, 27 Nov 2026 14:16:02 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/une24.10.26theoquestel-24-1300x975.jpg",
+          "title": "Pour les 40 ans d’Orsay, agnès b. signe une collection inspirée de deux emblèmes du musée",
+          "link": "https://www.beauxarts.com/lifestyle/pour-les-40-ans-dorsay-agnes-b-signe-une-collection-inspiree-de-deux-emblemes-du-musee/",
+          "published": "Sat, 28 Nov 2026 12:00:32 +0000",
+          "image": "https://media.beauxarts.com/uploads/2026/11/uneno-title-1-1300x975.jpg",
           "source": "Beaux Arts"
         },
         {
-          "title": "La Provence du fauve Auguste Chabaud à acquérir sur Catawiki",
-          "link": "https://www.beauxarts.com/grand-format/la-provence-du-fauve-auguste-chabaud-a-acquerir-sur-catawiki/",
-          "published": "Fri, 27 Nov 2026 13:04:32 +0000",
-          "image": "https://media.beauxarts.com/uploads/2026/11/auguste-chabaud-1882-1955-mas-au-cypres-en-provence-27-11-2026-09-25-05-1300x905.jpeg",
-          "source": "Beaux Arts"
+          "title": "À Marseille, l’exposition de Louisa Babari sonde le pouvoir des mots, de Jacques Vergès aux poésies arabes",
+          "link": "https://www.connaissancedesarts.com/arts-expositions/marseille/a-marseille-lexposition-de-louisa-babari-sonde-le-pouvoir-des-mots-de-jacques-verges-aux-poesies-arabes-11218848/",
+          "published": "Sat, 28 Nov 2026 12:00:00 +0000",
+          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdadec26_babari_3-tt-width-653-height-946-fill-0-crop-0-bgcolor-eeeeee.jpg",
+          "source": "Connaissance des Arts"
         },
         {
-          "title": "Adjugée 2,9 millions d’euros, la jatte téton de Marie-Antoinette devient la porcelaine de Sèvres la plus chère jamais vendue aux enchères",
-          "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/adjugee-29-millions-deuros-la-jatte-teton-de-marie-antoinette-devient-la-porcelaine-de-sevres-la-plus-chere-jamais-vendue-aux-encheres-11218993/",
-          "published": "Fri, 27 Nov 2026 12:00:55 +0000",
-          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_vente_encheres_bol_marie-antoinette_sevres_detail_3-tt-width-653-height-928-fill-0-crop-0-bgcolor-eeeeee.jpg",
+          "title": "Exposition à Paris : le Japon s’invite au cœur des collections du musée des Arts décoratifs, entre Renaissance et design",
+          "link": "https://www.connaissancedesarts.com/metiers_art/savoir-faire/exposition-a-paris-le-japon-sinvite-au-coeur-des-collections-du-musee-des-arts-decoratifs-entre-renaissance-et-design-11219005/",
+          "published": "Sat, 28 Nov 2026 09:00:28 +0000",
+          "image": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_expo_paris_mad_kyoto_paris_kyoto_nina_fradet_portrait-tt-width-653-height-817-fill-0-crop-0-bgcolor-eeeeee.jpg",
           "source": "Connaissance des Arts"
         }
       ]
@@ -36,29 +36,28 @@
       "label": "🚗 Auto",
       "source": "https://www.autoplus.fr/rss",
       "sources": [
-        "Auto Plus",
         "Auto Moto"
       ],
       "items": [
         {
-          "title": "Une Audi A6 e-tron parcourt 1 338 km sans recharge et bat un record du monde",
-          "link": "https://www.autoplus.fr/environnement/une-audi-a6-e-tron-parcourt-1338-km-sans-recharge-et-bat-record-du-monde-1468094.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-          "published": "Fri, 27 Nov 2026 15:30:04 +0000",
-          "image": "https://sf1.autoplus.fr/wp-content/uploads/autoplus/2026/09/miko-marczyk-sets-guinness-ev-range-record-in-the-audi-a6-sportback-e-tron.webp",
-          "source": "Auto Plus"
-        },
-        {
-          "title": "Grand Prix de Valence : Márquez domine les essais, les Français hors du Top 10",
-          "link": "https://sports.auto-moto.com/moto-gp/grand-prix-de-valence-marquez-domine-les-essais-les-francais-hors-du-top-10-42838",
-          "published": "Fri, 27 Nov 2026 16:08:00 +0100",
-          "image": "https://static.wui.fr/28/2026/11/photo_article/42838/393549/1200-L-grand-prix-de-valence-mrquez-domine-les-essais-les-franais-hors-du-top-10.jpg",
+          "title": "Formule 1 : un troisième manufacturier entre dans la course face à Pirelli",
+          "link": "https://sports.auto-moto.com/f1/actualite/formule-1-un-troisieme-manufacturier-entre-dans-la-course-face-a-pirelli-42925",
+          "published": "Sat, 28 Nov 2026 14:05:00 +0100",
+          "image": "https://static.wui.fr/28/2026/11/photo_article/42925/393570/1200-L-formule-1-un-troisime-manufacturier-entre-dans-la-course-face-pirelli.jpg",
           "source": "Auto Moto"
         },
         {
-          "title": "Paris révolutionne son stationnement, les voitures électriques dans le viseur",
-          "link": "https://www.auto-moto.com/en-bref/paris-stationnement-2027-87124",
-          "published": "Fri, 27 Nov 2026 16:07:00 +0100",
-          "image": "https://photos.auto-moto.com/32/2026/11/photo_article/87124/393550/1200-L-paris-rvolutionne-son-stationnement-les-voitures-lectriques-dans-le-viseur.jpg",
+          "title": "MotoGP : un départ majeur pour KTM après huit années de collaboration",
+          "link": "https://sports.auto-moto.com/moto-gp/motogp-un-depart-majeur-pour-ktm-apres-huit-annees-de-collaboration-42913",
+          "published": "Sat, 28 Nov 2026 13:00:00 +0100",
+          "image": "https://static.wui.fr/28/2026/11/photo_article/42913/393567/1200-L-motogp-un-dpart-majeur-pour-ktm-aprs-huit-annes-de-collaboration.jpg",
+          "source": "Auto Moto"
+        },
+        {
+          "title": "Grand Prix de Valence : « Je vais demander la VAR », Márquez ironise sur le chrono de Bezzecchi",
+          "link": "https://sports.auto-moto.com/moto-gp/grand-prix-de-valence-je-vais-demander-la-var-marquez-ironise-sur-le-chrono-de-bezzecchi-42919",
+          "published": "Sat, 28 Nov 2026 12:30:00 +0100",
+          "image": "https://static.wui.fr/28/2026/11/photo_article/42919/393569/1200-L-grand-prix-de-valence-je-vais-demander-la-var-mrquez-ironise-sur-le-chrono-de-bezzecchi.jpg",
           "source": "Auto Moto"
         }
       ]
@@ -67,29 +66,30 @@
       "label": "🎭 Culture",
       "source": "https://www.lemonde.fr/culture/rss_full.xml",
       "sources": [
-        "Le Monde Culture"
+        "Le Monde Culture",
+        "France 24 Culture"
       ],
       "items": [
         {
-          "title": "Pause séries : « L’impératrice remariée » sur Disney+ ou la dot de la bande dessinée sud-coréenne à la télévision",
-          "link": "https://www.lemonde.fr/culture/article/2026/11/27/pause-series-l-imperatrice-remariee-sur-disney-ou-la-dot-de-la-bande-dessinee-sud-coreenne-a-la-television_6815887_3246.html",
-          "published": "Fri, 27 Nov 2026 16:30:08 +0100",
-          "image": "https://img.lemde.fr/2026/11/25/528/0/4000/2000/644/322/60/0/9b9e250_upload-1-ebdhrmmnyxdv-09-jpg.jpg",
+          "title": "James Gray, réalisateur de « Paper Tiger » : « La dimension sensorielle du cinéma est primordiale, c’est ce qui résiste le mieux au temps »",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/28/james-gray-realisateur-de-paper-tiger-la-dimension-sensorielle-du-cinema-est-primordiale-c-est-ce-qui-resiste-le-mieux-au-temps_6816108_3246.html",
+          "published": "Sat, 28 Nov 2026 14:00:18 +0100",
+          "image": "https://img.lemde.fr/2026/11/06/0/0/3194/1597/644/322/60/0/a2ad5a0_ftp-1-mekejcfbqrjy-7ecebcc1d3fd428a8e9c402fb6e90b70-0-0b40fb16d5ae43539a99632ea83d2857.jpg",
           "source": "Le Monde Culture"
         },
         {
-          "title": "« Le monde culturel attend la présidentielle, où il jouera son avenir à la roulette – se sauver ou mourir –, et il évite ainsi de se remettre en question »",
-          "link": "https://www.lemonde.fr/idees/article/2026/11/27/le-monde-culturel-attend-la-presidentielle-ou-il-jouera-son-avenir-a-la-roulette-se-sauver-ou-mourir-et-il-evite-ainsi-de-se-remettre-en-question_6815861_3232.html",
-          "published": "Fri, 27 Nov 2026 13:55:48 +0100",
-          "image": "https://img.lemde.fr/2026/03/04/1032/0/6192/3096/644/322/60/0/c427077_ftp-1-qfu0verbqfvb-5363911-01-06.jpg",
+          "title": "Pour Alba Rohrwacher, actrice dans « Un bon petit soldat », « le jeu doit être un prolongement de la vie pour arriver au cœur de l’humain »",
+          "link": "https://www.lemonde.fr/culture/article/2026/11/28/pour-alba-rohrwacher-actrice-dans-un-bon-petit-soldat-le-jeu-doit-etre-un-prolongement-de-la-vie-pour-arriver-au-c-ur-de-l-humain_6816098_3246.html",
+          "published": "Sat, 28 Nov 2026 12:00:11 +0100",
+          "image": "https://img.lemde.fr/2026/11/20/300/0/5504/2752/644/322/60/0/f2b0407_upload-1-cmbfn7ihwfbt-000-c7u62p3.jpg",
           "source": "Le Monde Culture"
         },
         {
-          "title": "Jean-Claude Vannier, arrangeur indissociable de Serge Gainsbourg et père de l’album-concept « Histoire de Melody Nelson », est mort à l’âge de 83 ans",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/11/27/jean-claude-vannier-arrangeur-indissociable-de-serge-gainsbourg-et-pere-de-l-album-concept-histoire-de-melody-nelson-est-mort-a-l-age-de-83-ans_6815859_3382.html",
-          "published": "Fri, 27 Nov 2026 13:45:02 +0100",
-          "image": "https://img.lemde.fr/2026/11/27/204/0/2500/1250/644/322/60/0/5011f8a_ftp-1-2tar74axvmyf-afp-d8tl6t3.jpg",
-          "source": "Le Monde Culture"
+          "title": "Charlotte Dipanda, reine africaine",
+          "link": "https://www.france24.com/fr/%C3%A9missions/l%C3%A9gendes-urbaines/20261127-charlotte-dipanda-reine-africaine",
+          "published": "Fri, 27 Nov 2026 18:00:46 GMT",
+          "image": "https://s.france24.com/media/display/a1a81bca-ea51-11f1-8ee0-77d069279b82/w:1024/p:16x9/CHARLOTTE-DIPANDA-MINIATURE-YOUTUBE.jpg",
+          "source": "France 24 Culture"
         }
       ]
     },
@@ -103,25 +103,25 @@
       ],
       "items": [
         {
-          "title": "Black Friday : Zendure casse les prix de ses kits solaires (jusqu’à -880€)",
-          "link": "https://www.01net.com/bons-plans/black-friday-zendure-casse-les-prix-de-ses-kits-solaires-jusqua-880e.html",
-          "published": "Fri, 27 Nov 2026 15:34:55 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/11/black-friday-zendure-2026-1344x896.jpg",
+          "title": "Dernier appel : la Honor Pad 10 se vend par palettes à -49%, une aubaine ⚡️",
+          "link": "https://www.01net.com/bons-plans/dernier-appel-la-honor-pad-10-se-vend-par-palettes-a-49-une-aubaine.html",
+          "published": "Sat, 28 Nov 2026 14:21:48 +0000",
+          "image": "https://www.01net.com/app/uploads/2026/11/Honor-Pad-10-1344x896.jpg",
           "source": "01net"
         },
         {
-          "title": "Passer à l’IA en mode pro sans savoir coder : ce VPS Hostinger coûte moins de 5 € par mois",
-          "link": "https://www.01net.com/bons-plans/passer-a-lia-en-mode-pro-sans-savoir-coder-ce-vps-hostinger-coute-moins-de-5-e-par-mois.html",
-          "published": "Fri, 27 Nov 2026 15:33:09 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/04/Hebergement-n8n-1344x896.jpg",
-          "source": "01net"
-        },
-        {
-          "title": "Un trou de la couche d’ozone record et pourtant la situation n’est pas si grave : comment est-ce possible ?",
-          "link": "https://www.numerama.com/sciences/2386087-un-trou-de-la-couche-dozone-record-et-pourtant-la-situation-nest-pas-si-grave-comment-est-ce-possible.html",
-          "published": "Fri, 27 Nov 2026 15:31:24 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2019/12/couche-dozone.jpg?resize=1200,675&key=6c480517",
+          "title": "Netflix : les meilleures séries comiques de la plateforme pour vous redonner le sourire",
+          "link": "https://www.numerama.com/pop-culture/2383695-netflix-les-meilleures-series-comiques-de-la-plateforme-pour-vous-redonner-le-sourire.html",
+          "published": "Sat, 28 Nov 2026 14:20:00 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/capture-decran-2026-11-24-a-173603.png?resize=1200,675&key=1f1a5c01",
           "source": "Numerama"
+        },
+        {
+          "title": "Honor Magic 8 Pro : bradé à -44%, le Honor Magic 8 Pro se vend par camions (ce samedi seulement) 🚛",
+          "link": "https://www.01net.com/bons-plans/honor-magic-8-pro-avec-44-ce-honor-magic-8-pro-va-partir-aussi-vite-quil-est-arrive.html",
+          "published": "Sat, 28 Nov 2026 13:06:05 +0000",
+          "image": "https://www.01net.com/app/uploads/2026/11/honor-magic-8-pro-cyan-1344x896.jpg",
+          "source": "01net"
         }
       ]
     },
@@ -135,24 +135,24 @@
       ],
       "items": [
         {
-          "title": "Einstein, mécanique quantique et trous noirs : ce physicien propose une nouvelle théorie et GPT-6 Astra y est pour quelque chose",
-          "link": "https://www.numerama.com/sciences/2385919-einstein-mecanique-quantique-et-trous-noirs-ce-physicien-propose-une-nouvelle-theorie-et-gpt-6-astra-y-est-pour-quelque-chose.html",
-          "published": "Fri, 27 Nov 2026 10:16:30 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/1-23.png?resize=1200,675&key=49bb5217",
+          "title": "SAP préparerait au moins 10 000 suppressions de postes en priorité dans le développement et la vente",
+          "link": "https://www.actuia.com/actualite/sap-preparerait-au-moins-10-000-suppressions-de-postes-en-priorite-dans-le-developpement-et-la-vente/",
+          "published": "Sat, 28 Nov 2026 10:56:54 +0000",
+          "image": "https://www.actuia.com/storage/uploads/generated/11643-4czxro3n-1200.jpg",
+          "source": "ActuIA"
+        },
+        {
+          "title": "« La singularité a déjà commencé » : l’IA écrit des preuves plus vite que les mathématiciens ne peuvent les lire, et selon le cofondateur d’Anthropic ce n’est que le début",
+          "link": "https://www.numerama.com/tech/2387031-la-singularite-a-deja-commence-lia-ecrit-des-preuves-plus-vite-que-les-mathematiciens-ne-peuvent-les-lire-et-selon-le-cofondateur-danthropic-ce-nest-que-le-debut.html",
+          "published": "Sat, 28 Nov 2026 08:53:03 +0000",
+          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/preuve-math-2.jpg?resize=1200,675&key=d06782f0",
           "source": "Numerama IA"
         },
         {
-          "title": "« Les mathématiques sont infinies » : face à la puissance de l’IA, le médaillé Fields Terence Tao a un plan, les maths 2.0",
-          "link": "https://www.numerama.com/tech/2385877-les-mathematiques-sont-infinies-face-a-la-puissance-de-lia-le-medaille-fields-terence-tao-a-un-plan-les-maths-2-0.html",
-          "published": "Fri, 27 Nov 2026 09:45:00 +0000",
-          "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/maths-20.jpg?resize=1200,675&key=a2eae290",
-          "source": "Numerama IA"
-        },
-        {
-          "title": "Vous demandez des conseils médicaux à ChatGPT ? Attention, l’IA risque de « vous mettre en danger »",
-          "link": "https://www.01net.com/actualites/vous-demandez-des-conseils-medicaux-a-chatgpt-attention-lia-risque-de-vous-mettre-en-danger.html",
-          "published": "Thu, 26 Nov 2026 17:16:26 +0000",
-          "image": "https://www.01net.com/app/uploads/2026/07/pharmacies-contrefacons-medicaments-1344x896.jpg",
+          "title": "Anthropic a trouvé le moyen de piéger un Claude désobéissant",
+          "link": "https://www.01net.com/actualites/anthropic-a-trouve-le-moyen-de-pieger-un-claude-desobeissant.html",
+          "published": "Fri, 27 Nov 2026 16:00:19 +0000",
+          "image": "https://www.01net.com/app/uploads/2025/08/Claude-IA-Anthropic-1344x896.jpg",
           "source": "01net IA"
         }
       ]
@@ -161,28 +161,29 @@
       "label": "🌍 Monde",
       "source": "https://www.france24.com/fr/monde/rss",
       "sources": [
+        "France 24 Monde",
         "Le Monde International"
       ],
       "items": [
         {
-          "title": "Le suicide d’un Sri-Lankais en Eswatini jette une lumière crue sur la politique migratoire du Royaume-Uni",
-          "link": "https://www.lemonde.fr/afrique/article/2026/11/27/le-suicide-d-un-sri-lankais-en-eswatini-jette-une-lumiere-crue-sur-la-politique-migratoire-du-royaume-uni_6815886_3212.html",
-          "published": "Fri, 27 Nov 2026 16:30:09 +0100",
-          "image": "https://img.lemde.fr/2026/11/27/701/0/4200/2100/644/322/60/0/bcef7dc_upload-1-p3yr8fmihouj-afp-20230930-33x47yb-v2-highres-eswatinielectionpolitics.jpg",
+          "title": "Mexique : premiers résultats positifs pour la politique sécuritaire de la présidente Claudia Sheinbaum",
+          "link": "https://www.lemonde.fr/international/article/2026/11/28/mexique-premiers-resultats-positifs-pour-la-politique-securitaire-de-la-presidente-claudia-sheinbaum_6816113_3210.html",
+          "published": "Sat, 28 Nov 2026 15:12:34 +0100",
+          "image": "https://img.lemde.fr/2026/11/22/563/0/5327/2663/644/322/60/0/56a7f94_ftp-1-8rguqpjfbjt1-2026-11-22t023856z-1842618416-rc27rba873u7-rtrmadp-3-mexico-chapoisidro.JPG",
           "source": "Le Monde International"
         },
         {
-          "title": "En Serbie, un professeur de chimie, novice en politique, sera le candidat du mouvement des étudiants à l’élection présidentielle",
-          "link": "https://www.lemonde.fr/international/article/2026/11/27/en-serbie-le-mouvement-des-etudiants-choisit-l-universitaire-radomir-saicic-novice-en-politique-comme-candidat-a-l-election-presidentielle_6815883_3210.html",
-          "published": "Fri, 27 Nov 2026 16:13:16 +0100",
-          "image": "https://img.lemde.fr/2026/11/27/0/0/4553/2276/644/322/60/0/a790723_ftp-1-dzhxs85i6lav-afp-d8tn377.jpg",
-          "source": "Le Monde International"
+          "title": "Ukraine : Melania Trump coordonne le retour de neuf enfants",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20261128-ukraine-melania-trump-coordonne-le-retour-de-neuf-enfants",
+          "published": "Sat, 28 Nov 2026 14:04:09 GMT",
+          "image": "https://s.france24.com/media/display/3a18377a-eb18-11f1-9519-81bc2b1dcd65/w:1024/p:16x9/FR-20261128-110354-110548-CS.jpg",
+          "source": "France 24 Monde"
         },
         {
-          "title": "Elections législatives en Espagne : les graphiques pour comprendre le dynamisme économique du pays et ses limites",
-          "link": "https://www.lemonde.fr/international/visuel/2026/11/27/elections-legislatives-en-espagne-les-graphiques-pour-comprendre-le-dynamisme-economique-du-pays-et-ses-limites_6815875_3210.html",
-          "published": "Fri, 27 Nov 2026 15:39:51 +0100",
-          "image": "https://img.lemde.fr/2026/11/26/375/0/1500/750/644/322/60/0/48d7440_upload-1-jdk4kagnyz7u-mediaappel-02.png",
+          "title": "Projet pétrolier au large des îles Malouines : le tribunal international du droit de la mer rejette la demande de blocage de l’Argentine",
+          "link": "https://www.lemonde.fr/international/article/2026/11/28/projet-petrolier-au-large-des-iles-malouines-le-tribunal-international-du-droit-de-la-mer-rejette-la-demande-de-blocage-de-l-argentine_6816110_3210.html",
+          "published": "Sat, 28 Nov 2026 14:21:59 +0100",
+          "image": "https://img.lemde.fr/2026/11/28/85/0/1024/512/644/322/60/0/b1efb43_upload-1-au4g6jpgtkes-afp-20261110-2304013094-v1-midres-internationaltribunalhearsargentinasrequestto.jpg",
           "source": "Le Monde International"
         }
       ]
@@ -196,25 +197,25 @@
       ],
       "items": [
         {
-          "title": "Black friday Apple : iPhone 15 (128 Go) passe sous les 390 € chez Cdiscount !",
-          "link": "https://www.futura-sciences.com/conso/bons-plans/guides-smartphones-black-friday-apple-iphone-15-128-go-passe-sous-390-chez-cdiscount-12003/#xtor%3DRSS-8",
-          "published": "Fri, 27 Nov 2026 16:15:05 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/d/8/1/d81d04be99_50264035_black-friday-iphone-15.jpg",
-          "source": "Futura Sciences"
-        },
-        {
-          "title": "En 1939, ils découvrent un navire funéraire qui réécrit l'histoire de l'Angleterre : près de 90 ans plus tard, un mystérieux « corps de sable » refait surface",
-          "link": "https://www.futura-sciences.com/sciences/actualites/histoire-1939-ils-decouvrent-navire-funeraire-reecrit-histoire-angleterre-pres-90-ans-plus-tard-mysterieux-corps-sable-refait-surface-139628/#xtor%3DRSS-8",
-          "published": "Fri, 27 Nov 2026 16:13:11 +0100",
-          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/8/6/c/86cc079046_50263901_corps-sable.jpg",
-          "source": "Futura Sciences"
-        },
-        {
-          "title": "Long d’un mètre et presque jamais vu, le ver géant du Gippsland se trahit par un gargouillement que les fermiers australiens sont invités à signaler",
-          "link": "https://sciencepost.fr/long-d-un-metre-et-presque-jamais-vu-le-ver-geant-du-gippsland-se-trahit-par-un-gargouillement-que-les-fermiers-australiens-sont-invites-a-signaler/",
-          "published": "Fri, 27 Nov 2026 12:30:00 +0000",
-          "image": "https://sciencepost.fr/wp-content/uploads/2026/10/laustralie-a-un-ver-de-terre-qui-peut-atteindre-3-metres-ce-qui-fait-gargouiller-le-sol-quand-il-fui-1791449080.jpg",
+          "title": "Prisons au Brésil : chaque livre lu retire 4 jours de peine, si un rapport de lecture est validé par la justice",
+          "link": "https://sciencepost.fr/prisons-au-bresil-chaque-livre-lu-retire-4-jours-de-peine-si-un-rapport-de-lecture-est-valide-par-la-justice/",
+          "published": "Sat, 28 Nov 2026 14:30:00 +0000",
+          "image": "https://sciencepost.fr/wp-content/uploads/2026/11/prisons-au-bresil-chaque-livre-lu-ote-4-jours-de-peine-aux-detenus-a-une-condition-featured-1794571655.png",
           "source": "SciencePost"
+        },
+        {
+          "title": "D’étranges cheveux glacés découverts dans les bois ces jours-ci : ce n’est pas ce que vous croyez !",
+          "link": "https://www.futura-sciences.com/planete/actualites/meteorologie-etranges-cheveux-glaces-decouverts-bois-ces-jours-ci-ce-nest-pas-ce-vous-croyez-139711/#xtor%3DRSS-8",
+          "published": "Sat, 28 Nov 2026 15:08:39 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/largeoriginal/0/7/3/0731c62839_50225957_cheveux-glace.jpg",
+          "source": "Futura Sciences"
+        },
+        {
+          "title": "Nous parlons des langues différentes, mais elles partagent un ancêtre commun : l’ADN ancien éclaire cette histoire vieille de 5 000 ans",
+          "link": "https://www.futura-sciences.com/sciences/actualites/langage-nous-parlons-langues-differentes-mais-elles-partagent-ancetre-commun-adn-ancien-eclaire-cette-histoire-vieille-5-000-ans-139638/#xtor%3DRSS-8",
+          "published": "Sat, 28 Nov 2026 14:03:21 +0100",
+          "image": "https://cdn8.futura-sciences.com/buildsv6/images/wide1920/d/3/7/d37332ff83_50263921_pierres-ale-suede.jpg",
+          "source": "Futura Sciences"
         }
       ]
     },
@@ -227,24 +228,24 @@
       ],
       "items": [
         {
+          "title": "Avec le recul de la vaccination, des maladies oubliées font un inquiétant retour",
+          "link": "https://www.sciencesetavenir.fr/sante/vaccination-l-inquietant-retour-des-maladies-oubliees_196281?xtor=RSS-16",
+          "published": "Sat, 28 Nov 2026 09:00:00 +0000",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/19/cover-r4x3w1200-6aff08195f2ca-ar-1790897-tf-70236071-1-notext-jpg.jpg",
+          "source": "Sciences et Avenir"
+        },
+        {
+          "title": "Pourquoi a-t-on envie de dormir après avoir mangé ?",
+          "link": "https://www.santemagazine.fr/sante/dossiers/physiologie/pourquoi-a-t-on-envie-de-dormir-apres-avoir-mange-1156046",
+          "published": "Sat, 28 Nov 2026 07:30:00 +0100",
+          "image": "https://i-sam.unimedias.fr/2026/08/20/envie-de-dormir-apres-manger.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
+          "source": "Santé Magazine"
+        },
+        {
           "title": "Suicide et automutilations : les hospitalisations continuent d’augmenter, en particulier chez les jeunes femmes",
           "link": "https://www.santemagazine.fr/actualites/actualites-sante/suicide-et-automutilations-les-jeunes-femmes-en-premiere-ligne-face-a-une-hausse-continue-des-hospitalisations-1162193",
           "published": "Fri, 27 Nov 2026 15:57:00 +0100",
           "image": "https://i-sam.unimedias.fr/2026/11/27/mentalhealth.jpeg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
-          "source": "Santé Magazine"
-        },
-        {
-          "title": "Cancer : le tournant des nouveaux traitements",
-          "link": "https://www.sciencesetavenir.fr/sante/cancer-les-lignes-bougent_196538?xtor=RSS-16",
-          "published": "Fri, 27 Nov 2026 12:20:27 +0000",
-          "image": "https://www.sciencesetavenir.fr/assets/img/2026/11/27/cover-r4x3w1200-6b09758a9b49b-shutterstock-490263979.jpg",
-          "source": "Sciences et Avenir"
-        },
-        {
-          "title": "Que manger et boire quand on a un rhume ?",
-          "link": "https://www.santemagazine.fr/alimentation/aliments-et-sante/les-aliments-a-privilegier-ou-a-eviter-en-cas-de-rhume-334220",
-          "published": "Fri, 27 Nov 2026 12:15:00 +0100",
-          "image": "https://i-sam.unimedias.fr/2026/11/27/aliment-rhume.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=max&ixlib=php-4.1.0&w=1500",
           "source": "Santé Magazine"
         }
       ]
@@ -258,17 +259,17 @@
       ],
       "items": [
         {
+          "title": "« Je veux voir grandir ma fille et gagner des courses cet hiver » : le biathlète Quentin Fillon Maillet, Français le plus médaillé aux JO et jeune papa, rêve des Jeux de 2030",
+          "link": "https://www.lemonde.fr/sport/article/2026/11/28/je-veux-voir-grandir-ma-fille-et-gagner-des-courses-cet-hiver-le-biathlete-quentin-fillon-maillet-francais-le-plus-medaille-aux-jo-et-jeune-papa-reve-des-jeux-de-2030_6816087_3242.html",
+          "published": "Sat, 28 Nov 2026 09:18:10 +0100",
+          "image": "https://img.lemde.fr/2026/02/10/293/0/3524/1762/644/322/60/0/6a20dea_ftp-1-xejthmdxywwo-5125897-01-06.jpg",
+          "source": "Le Monde Sport"
+        },
+        {
           "title": "Vicki Becho, l’ancienne espoir devenue l’une des principales forces offensives de l’équipe de France de football",
           "link": "https://www.lemonde.fr/sport/article/2026/11/27/vicki-becho-l-ancienne-espoir-devenue-l-une-des-principales-forces-offensives-de-l-equipe-de-france-de-football_6815888_3242.html",
           "published": "Fri, 27 Nov 2026 16:30:15 +0100",
           "image": "https://img.lemde.fr/2026/11/26/469/0/5628/2814/644/322/60/0/f125009_upload-1-waap8ldybsvh-afp-20260605-matusewicz-polandvf260605-nptdi-v1-highres-polandvfrancefifawomens.jpg",
-          "source": "Le Monde Sport"
-        },
-        {
-          "title": "Marc Marquez annonce sa retraite, une semaine après son huitième sacre en MotoGP",
-          "link": "https://www.lemonde.fr/sport/article/2026/11/27/marc-marquez-annonce-sa-retraite-une-semaine-apres-son-huitieme-sacre-en-motogp_6815878_3242.html",
-          "published": "Fri, 27 Nov 2026 15:46:32 +0100",
-          "image": "https://img.lemde.fr/2026/11/27/174/0/5312/2656/644/322/60/0/eaddceb_ftp-1-7rsmxw2c3ra0-afp-d8tn36m.jpg",
           "source": "Le Monde Sport"
         },
         {

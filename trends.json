@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:43:06Z",
+  "updated_at": "2026-11-28T14:39:23Z",
   "sources": [
     "Google Trends FR (recherches)",
     "Google News FR (une)",
@@ -10,27 +10,19 @@
   ],
   "words": [
     {
-      "word": "présidentielle",
+      "word": "deux",
       "count": 9
     },
     {
-      "word": "budget",
-      "count": 7
+      "word": "présidentielle",
+      "count": 8
+    },
+    {
+      "word": "contre",
+      "count": 6
     },
     {
       "word": "france",
-      "count": 7
-    },
-    {
-      "word": "marine",
-      "count": 7
-    },
-    {
-      "word": "pen",
-      "count": 7
-    },
-    {
-      "word": "jean",
       "count": 6
     },
     {
@@ -38,43 +30,11 @@
       "count": 6
     },
     {
-      "word": "père",
-      "count": 6
-    },
-    {
-      "word": "beau",
+      "word": "paris",
       "count": 5
     },
     {
-      "word": "contre",
-      "count": 5
-    },
-    {
-      "word": "david",
-      "count": 5
-    },
-    {
-      "word": "figaro",
-      "count": 5
-    },
-    {
-      "word": "levski",
-      "count": 5
-    },
-    {
-      "word": "affaire",
-      "count": 4
-    },
-    {
-      "word": "bardella",
-      "count": 4
-    },
-    {
-      "word": "black",
-      "count": 4
-    },
-    {
-      "word": "cnews",
+      "word": "employés",
       "count": 4
     },
     {
@@ -82,31 +42,39 @@
       "count": 4
     },
     {
-      "word": "friday",
+      "word": "français",
       "count": 4
     },
     {
-      "word": "lisnard",
+      "word": "française",
       "count": 4
     },
     {
-      "word": "marseille",
+      "word": "frappe",
       "count": 4
     },
     {
-      "word": "procès",
+      "word": "gaza",
       "count": 4
     },
     {
-      "word": "quand",
+      "word": "grand",
       "count": 4
     },
     {
-      "word": "sofia",
+      "word": "israélienne",
       "count": 4
     },
     {
-      "word": "sud",
+      "word": "novembre",
+      "count": 4
+    },
+    {
+      "word": "recours",
+      "count": 4
+    },
+    {
+      "word": "russie",
       "count": 4
     },
     {
@@ -114,19 +82,51 @@
       "count": 4
     },
     {
-      "word": "afrique",
+      "word": "tués",
+      "count": 4
+    },
+    {
+      "word": "ukraine",
+      "count": 4
+    },
+    {
+      "word": "violences",
+      "count": 4
+    },
+    {
+      "word": "audrey",
       "count": 3
     },
     {
-      "word": "annonce",
+      "word": "banquet",
       "count": 3
     },
     {
-      "word": "année",
+      "word": "biarritz",
       "count": 3
     },
     {
-      "word": "armée",
+      "word": "black",
+      "count": 3
+    },
+    {
+      "word": "canon",
+      "count": 3
+    },
+    {
+      "word": "cinq",
+      "count": 3
+    },
+    {
+      "word": "comtesse",
+      "count": 3
+    },
+    {
+      "word": "coupe",
+      "count": 3
+    },
+    {
+      "word": "cristo",
       "count": 3
     }
   ]
